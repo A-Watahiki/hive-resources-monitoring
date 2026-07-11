@@ -1,5 +1,4 @@
 name: Monitor Hive Resource Library
-
 on:
   schedule:
     # 毎日 00:00 UTC（日本時間 09:00）に1回チェック。
