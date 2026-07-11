@@ -9,6 +9,15 @@ page given by ``NOTION_PARENT_PAGE_ID``. The translated content is rendered
 from the stored Markdown subset into structured Notion blocks (headings,
 lists, quotes, dividers, links) so the original Hive page layout is preserved.
 
+Cross-links between resources (e.g. the library index linking to its category
+pages) are rewritten to point at the corresponding translated Notion page
+instead of the original Hive URL, whenever that target has already been
+translated. Links to not-yet-translated pages are left pointing at the
+original (live, readable) Hive page as a fallback. When a page is translated
+for the first time, any already-synced page that links to it is re-rendered
+("relinked") in the same run so the cross-link gets upgraded — without
+needing to retranslate or re-detect a content change on the linking page.
+
 Environment:
     NOTION_TOKEN           required. Internal-integration secret.
     NOTION_PARENT_PAGE_ID  required. The page under which entries are created
@@ -77,10 +86,25 @@ def header_blocks(entry: dict) -> list[dict]:
     ]
 
 
-def content_blocks(entry: dict) -> list[dict]:
+def notion_page_url(page_id: str) -> str:
+    return f"https://www.notion.so/{page_id.replace('-', '')}"
+
+
+_LINK_URL_RE = re.compile(r"\]\(([^)]*)\)")
+
+
+def rewrite_markdown_links(md_text: str, url_map: dict[str, str]) -> str:
+    """Point [text](url) at the translated Notion page when url has one."""
+    if not url_map:
+        return md_text
+    return _LINK_URL_RE.sub(lambda m: f"]({url_map.get(m.group(1), m.group(1))})",
+                            md_text)
+
+
+def content_blocks(entry: dict, url_map: dict[str, str]) -> list[dict]:
     md = entry.get("translated_markdown")
     if md:
-        return mdblocks.markdown_to_notion_blocks(md)
+        return mdblocks.markdown_to_notion_blocks(rewrite_markdown_links(md, url_map))
     # Legacy fallback for entries stored before structured markdown existed.
     text = entry.get("translated_text", "")
     return [{"object": "block", "type": "paragraph",
@@ -88,8 +112,8 @@ def content_blocks(entry: dict) -> list[dict]:
             for line in text.split("\n") if line.strip()]
 
 
-def build_blocks(entry: dict) -> list[dict]:
-    return header_blocks(entry) + content_blocks(entry)
+def build_blocks(entry: dict, url_map: dict[str, str]) -> list[dict]:
+    return header_blocks(entry) + content_blocks(entry, url_map)
 
 
 class Notion:
@@ -157,6 +181,30 @@ class Notion:
         return resp.status_code == 200 and not resp.json().get("archived", False)
 
 
+def load_all_entries(files: list[Path]) -> dict[Path, dict]:
+    entries = {}
+    for path in files:
+        with open(path, "r", encoding="utf-8") as fh:
+            entries[path] = json.load(fh)
+    return entries
+
+
+def save_entry(path: Path, entry: dict) -> None:
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(entry, fh, ensure_ascii=False, indent=2, sort_keys=True)
+        fh.write("\n")
+
+
+def build_url_map(entries: dict[Path, dict]) -> dict[str, str]:
+    """url -> already-synced Notion page URL, for cross-link rewriting."""
+    url_map = {}
+    for entry in entries.values():
+        page_id = entry.get("notion", {}).get("page_id")
+        if page_id:
+            url_map[entry["url"]] = notion_page_url(page_id)
+    return url_map
+
+
 def main() -> int:
     token = os.environ.get("NOTION_TOKEN", "").strip()
     parent_raw = os.environ.get("NOTION_PARENT_PAGE_ID", "").strip()
@@ -170,20 +218,21 @@ def main() -> int:
         print("No translations to sync yet.")
         return 0
 
+    entries = load_all_entries(files)
+    url_map = build_url_map(entries)
+    newly_available: set[str] = set()
+
     notion = Notion(token)
     synced = skipped = failed = 0
 
-    for path in files:
-        with open(path, "r", encoding="utf-8") as fh:
-            entry = json.load(fh)
-
+    for path, entry in entries.items():
         ninfo = entry.setdefault("notion", {})
         if ninfo.get("synced_hash") == entry.get("content_hash"):
             skipped += 1
             continue
 
         title = entry.get("title") or entry["url"]
-        blocks = build_blocks(entry)
+        blocks = build_blocks(entry, url_map)
         try:
             page_id = ninfo.get("page_id")
             if page_id and notion.page_exists(page_id):
@@ -211,12 +260,40 @@ def main() -> int:
             "synced_at": datetime.now(timezone.utc).isoformat(),
             "synced_hash": entry["content_hash"],
         }
-        with open(path, "w", encoding="utf-8") as fh:
-            json.dump(entry, fh, ensure_ascii=False, indent=2, sort_keys=True)
-            fh.write("\n")
+        save_entry(path, entry)
         synced += 1
 
-    print(f"Notion sync: {synced} synced, {skipped} up to date, {failed} failed.")
+        if entry["url"] not in url_map:
+            newly_available.add(entry["url"])
+        url_map[entry["url"]] = notion_page_url(page_id)
+
+    # Pages that were skipped (their own content didn't change) may still
+    # link to a page that only just got a Notion page in this run — refresh
+    # their rendering so that cross-link points at the translation now.
+    relinked = 0
+    if newly_available:
+        for path, entry in entries.items():
+            ninfo = entry.get("notion", {})
+            page_id = ninfo.get("page_id")
+            if not page_id or ninfo.get("synced_hash") != entry.get("content_hash"):
+                continue  # not yet synced, or already handled above
+            md = entry.get("translated_markdown", "")
+            if not any(u in md for u in newly_available):
+                continue
+            title = entry.get("title") or entry["url"]
+            try:
+                blocks = build_blocks(entry, url_map)
+                notion.clear_children(page_id)
+                notion.append_blocks(page_id, blocks)
+            except requests.RequestException as exc:
+                print(f"  ! relink failed, will retry next run: {entry['url']} "
+                      f"-> {exc}", file=sys.stderr)
+                continue
+            print(f"  relinked: {title}")
+            relinked += 1
+
+    print(f"Notion sync: {synced} synced, {skipped} up to date, {failed} failed, "
+          f"{relinked} relinked.")
     return 0
 
 

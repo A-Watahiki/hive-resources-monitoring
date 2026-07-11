@@ -126,7 +126,25 @@ def _normalize_spans(spans: list[dict]) -> list[dict]:
     return [s for s in merged if s["text"]]
 
 
+def _anchor_span(a, base_url: str, bold: bool) -> dict | None:
+    txt = a.get_text()
+    if not txt.strip():
+        return None
+    span = {"text": txt, "bold": bold or bool(a.find(["b", "strong"]))}
+    href = a.get("href")
+    if href and not href.startswith(("javascript:", "#")):
+        span["href"] = urljoin(base_url, href)
+    return span
+
+
 def _inline_spans(el, base_url: str) -> list[dict]:
+    # A block-level walk may hand us the <a> tag itself (e.g. a whole card/
+    # list item is one anchor) rather than a container that merely contains
+    # one — recursing into its children would silently drop that href.
+    if getattr(el, "name", None) == "a":
+        span = _anchor_span(el, base_url, False)
+        return _normalize_spans([span]) if span else []
+
     spans: list[dict] = []
 
     def rec(node, bold: bool) -> None:
@@ -138,12 +156,8 @@ def _inline_spans(el, base_url: str) -> list[dict]:
             elif c.name == "br":
                 spans.append({"text": " ", "bold": bold})
             elif c.name == "a":
-                txt = c.get_text()
-                if txt.strip():
-                    span = {"text": txt, "bold": bold}
-                    href = c.get("href")
-                    if href and not href.startswith(("javascript:", "#")):
-                        span["href"] = urljoin(base_url, href)
+                span = _anchor_span(c, base_url, bold)
+                if span:
                     spans.append(span)
             elif c.name in ("strong", "b"):
                 rec(c, True)
