@@ -37,6 +37,7 @@ from pathlib import Path
 import requests
 
 import mdblocks
+import translate
 
 ROOT = Path(__file__).resolve().parent.parent
 TRANSLATIONS_DIR = ROOT / "translations" / "pages"
@@ -92,19 +93,32 @@ def notion_page_url(page_id: str) -> str:
 
 _LINK_URL_RE = re.compile(r"\]\(([^)]*)\)")
 
-
-def rewrite_markdown_links(md_text: str, url_map: dict[str, str]) -> str:
-    """Point [text](url) at the translated Notion page when url has one."""
-    if not url_map:
-        return md_text
-    return _LINK_URL_RE.sub(lambda m: f"]({url_map.get(m.group(1), m.group(1))})",
-                            md_text)
+# Appended after a link that points at a Hive resource within our translation
+# scope but hasn't been translated (and thus doesn't have a Notion page) yet.
+UNTRANSLATED_SUFFIX = "[未翻訳, 元記事へのリンク]"
 
 
-def content_blocks(entry: dict, url_map: dict[str, str]) -> list[dict]:
+def rewrite_markdown_links(md_text: str, url_map: dict[str, str],
+                           tcfg: dict) -> str:
+    """Point [text](url) at the translated Notion page when url has one;
+    otherwise, if url is a Hive resource we'd translate but haven't yet,
+    leave it pointing at the original page and flag it as untranslated."""
+    def repl(m: re.Match) -> str:
+        url = m.group(1)
+        if url in url_map:
+            return f"]({url_map[url]})"
+        if translate.url_in_scope(url, tcfg):
+            return f"]({url}) {UNTRANSLATED_SUFFIX}"
+        return m.group(0)
+
+    return _LINK_URL_RE.sub(repl, md_text)
+
+
+def content_blocks(entry: dict, url_map: dict[str, str], tcfg: dict) -> list[dict]:
     md = entry.get("translated_markdown")
     if md:
-        return mdblocks.markdown_to_notion_blocks(rewrite_markdown_links(md, url_map))
+        return mdblocks.markdown_to_notion_blocks(
+            rewrite_markdown_links(md, url_map, tcfg))
     # Legacy fallback for entries stored before structured markdown existed.
     text = entry.get("translated_text", "")
     return [{"object": "block", "type": "paragraph",
@@ -112,8 +126,8 @@ def content_blocks(entry: dict, url_map: dict[str, str]) -> list[dict]:
             for line in text.split("\n") if line.strip()]
 
 
-def build_blocks(entry: dict, url_map: dict[str, str]) -> list[dict]:
-    return header_blocks(entry) + content_blocks(entry, url_map)
+def build_blocks(entry: dict, url_map: dict[str, str], tcfg: dict) -> list[dict]:
+    return header_blocks(entry) + content_blocks(entry, url_map, tcfg)
 
 
 class Notion:
@@ -218,6 +232,7 @@ def main() -> int:
         print("No translations to sync yet.")
         return 0
 
+    tcfg = translate.load_config()
     entries = load_all_entries(files)
     url_map = build_url_map(entries)
     newly_available: set[str] = set()
@@ -232,7 +247,7 @@ def main() -> int:
             continue
 
         title = entry.get("title") or entry["url"]
-        blocks = build_blocks(entry, url_map)
+        blocks = build_blocks(entry, url_map, tcfg)
         try:
             page_id = ninfo.get("page_id")
             if page_id and notion.page_exists(page_id):
@@ -282,7 +297,7 @@ def main() -> int:
                 continue
             title = entry.get("title") or entry["url"]
             try:
-                blocks = build_blocks(entry, url_map)
+                blocks = build_blocks(entry, url_map, tcfg)
                 notion.clear_children(page_id)
                 notion.append_blocks(page_id, blocks)
             except requests.RequestException as exc:

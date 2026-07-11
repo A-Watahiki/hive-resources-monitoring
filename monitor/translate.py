@@ -85,12 +85,20 @@ def slug_for_url(url: str) -> str:
     return f"{safe}-{digest}"
 
 
-def is_eligible(url: str, page: dict, tcfg: dict) -> bool:
+def url_in_scope(url: str, tcfg: dict) -> bool:
+    """Whether url falls within the set of pages this pipeline translates
+    (regardless of whether it has actually been translated yet)."""
     if not any(url.startswith(p) for p in tcfg["include_prefixes"]):
         return False
     for pat in tcfg["exclude_url_patterns"]:
         if re.search(pat, url):
             return False
+    return True
+
+
+def is_eligible(url: str, page: dict, tcfg: dict) -> bool:
+    if not url_in_scope(url, tcfg):
+        return False
     text = page.get("text", "")
     if text.startswith("[binary resource"):
         return False
