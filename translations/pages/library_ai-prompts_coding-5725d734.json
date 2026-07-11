@@ -1,0 +1,24 @@
+{
+  "content_hash": "44d424149adf27a68d24a05c73144f2e312a429e85153acbf03d6c16fa271b8e",
+  "notion": {
+    "page_id": "39a383bb-2c1b-819d-9d1a-e69322db772b",
+    "synced_at": "2026-07-11T17:01:18.395818+00:00",
+    "synced_hash": "44d424149adf27a68d24a05c73144f2e312a429e85153acbf03d6c16fa271b8e"
+  },
+  "review": {
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
+  },
+  "schema_version": 3,
+  "source_markdown": "🧑‍💻\n\n# Coding\n\n1. Act as senior front end developer\n\n1. Create a TypeScript function that computes the implied volatility using the Black-Scholes model. Where the inputs are the underlying price, strike price, free-risk rate, and option price. Write it step by step, with an explanation for each step.\n\n1. I require UI assistance. I need three action buttons for a card component that includes a long statement, but I don’t want the buttons to always be visible. I need a good UI that functions on both desktop and mobile since if I try to show the buttons on Hoover, that logic won’t work on mobile.\n\n1. Act as a Linux Terminal\n\n1. Act as Solr Search Engine\n\n1. Act as a PHP Interpreter\n\n1. Act as a Stackoverflow post\n\n1. Act as R Programming Interpreter\n\n1. Act as a Regex generator\n\n1. Act as an IT Expert\n\n1. Act as a Full-Stack Software Developer\n\n1. Act as an SVG Designer\n\n1. Act as a machine learning engineer\n\n1. Act as a Python interpreter\n\n1. Act as a Tech Writer\n\n1. Act an IT Architect\n\n1. Act as a SQL Terminal\n\n1. Act as a software quality assurance tester\n\n1. Act as a web design consultant\n\n1. Act as a cyber security specialist\n\n1. Act as a UI/UX Developer\n\n1. Act as a Linux Terminal\n\n1. Act as a Javascript Console\n",
+  "source_text": "🧑‍💻\nCoding\nAct as senior front end developer\nCreate a TypeScript function that computes the implied volatility using the Black-Scholes model. Where the inputs are the underlying price, strike price, free-risk rate, and option price. Write it step by step, with an explanation for each step.\nI require UI assistance. I need three action buttons for a card component that includes a long statement, but I don’t want the buttons to always be visible. I need a good UI that functions on both desktop and mobile since if I try to show the buttons on Hoover, that logic won’t work on mobile.\nAct as a Linux Terminal\nAct as Solr Search Engine\nAct as a PHP Interpreter\nAct as a Stackoverflow post\nAct as R Programming Interpreter\nAct as a Regex generator\nAct as an IT Expert\nAct as a Full-Stack Software Developer\nAct as an SVG Designer\nAct as a machine learning engineer\nAct as a Python interpreter\nAct as a Tech Writer\nAct an IT Architect\nAct as a SQL Terminal\nAct as a software quality assurance tester\nAct as a web design consultant\nAct as a cyber security specialist\nAct as a UI/UX Developer\nAct as a Linux Terminal\nAct as a Javascript Console",
+  "target_lang": "JA",
+  "title": "Coding",
+  "translated_at": "2026-07-11T16:57:34.077759+00:00",
+  "translated_markdown": "🧑‍💻\n\n# コーディング\n\n1. シニアフロントエンド開発者として業務を行う\n\n1. ブラック・ショールズ・モデルを用いてインプライド・ボラティリティを計算するTypeScript関数を作成してください。入力値として、原資産価格、行使価格、無リスク金利、およびオプション価格を用います。各ステップごとに説明を加えながら、段階的に記述してください。\n\n1. UIに関するサポートをお願いします。長い説明文を含むカードコンポーネントに3つのアクションボタンを配置したいのですが、ボタンを常に表示したままにはしたくありません。デスクトップとモバイルの両方で機能する適切なUIが必要です。なぜなら、Hooverでボタンを表示しようとすると、そのロジックがモバイルでは機能しなくなるからです。\n\n1. Linuxターミナルとして動作する\n\n1. Solr検索エンジンとして機能する\n\n1. PHPインタプリタとして動作する\n\n1. Stack Overflowの投稿として扱う\n\n1. Rプログラミングのインタプリタとして動作する\n\n1. 正規表現ジェネレータとして機能する\n\n1. ITの専門家として活動する\n\n1. フルスタック・ソフトウェア開発者として業務を行う\n\n1. SVGデザイナーとして活動する\n\n1. 機械学習エンジニアとしての役割を果たす\n\n1. Pythonインタプリタとして動作する\n\n1. テクニカルライターとして活動する\n\n1. ITアーキテクトの役割を果たす\n\n1. SQLターミナルとして機能する\n\n1. ソフトウェア品質保証テスターとして業務を行う\n\n1. ウェブデザインのコンサルタントとして活動する\n\n1. サイバーセキュリティの専門家として活動する\n\n1. UI/UX開発者として活動する\n\n1. Linuxターミナルとして動作する\n\n1. JavaScriptコンソールとして機能する\n",
+  "translated_text": "🧑‍💻\nコーディング\nシニアフロントエンド開発者として業務を行う\nブラック・ショールズ・モデルを用いてインプライド・ボラティリティを計算するTypeScript関数を作成してください。入力値として、原資産価格、行使価格、無リスク金利、およびオプション価格を用います。各ステップごとに説明を加えながら、段階的に記述してください。\nUIに関するサポートをお願いします。長い説明文を含むカードコンポーネントに3つのアクションボタンを配置したいのですが、ボタンを常に表示したままにはしたくありません。デスクトップとモバイルの両方で機能する適切なUIが必要です。なぜなら、Hooverでボタンを表示しようとすると、そのロジックがモバイルでは機能しなくなるからです。\nLinuxターミナルとして動作する\nSolr検索エンジンとして機能する\nPHPインタプリタとして動作する\nStack Overflowの投稿として扱う\nRプログラミングのインタプリタとして動作する\n正規表現ジェネレータとして機能する\nITの専門家として活動する\nフルスタック・ソフトウェア開発者として業務を行う\nSVGデザイナーとして活動する\n機械学習エンジニアとしての役割を果たす\nPythonインタプリタとして動作する\nテクニカルライターとして活動する\nITアーキテクトの役割を果たす\nSQLターミナルとして機能する\nソフトウェア品質保証テスターとして業務を行う\nウェブデザインのコンサルタントとして活動する\nサイバーセキュリティの専門家として活動する\nUI/UX開発者として活動する\nLinuxターミナルとして動作する\nJavaScriptコンソールとして機能する",
+  "translator": "deepl",
+  "url": "https://resources.joinhive.org/library/ai-prompts/coding"
+}
