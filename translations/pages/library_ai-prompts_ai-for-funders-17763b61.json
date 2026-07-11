@@ -1,24 +1,24 @@
 {
   "content_hash": "856b47eb1442c0b9b3a05ac65338c4d05ad563f3800aa6e5d5c669ad6f08a016",
   "notion": {
-    "page_id": null,
-    "synced_at": null,
-    "synced_hash": null
+    "page_id": "39a383bb-2c1b-8138-a4dc-d243f8063dce",
+    "synced_at": "2026-07-11T22:31:33.409337+00:00",
+    "synced_hash": "856b47eb1442c0b9b3a05ac65338c4d05ad563f3800aa6e5d5c669ad6f08a016"
   },
   "review": {
-    "notes": "問題なし",
-    "reviewed_at": "2026-07-11T21:42:22Z",
-    "reviewer": "claude",
-    "status": "reviewed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
-  "schema_version": 3,
+  "schema_version": 4,
   "source_markdown": "💻\n\n# AI for Funders\n\nPlatform: ChatGPT Plus and the \"AskYourPDF\" plugin\n\n-Prompts courtesy of John K  **Step 1: **Upload PDF of grant proposal **Step 2: Insert Prompt:** Pretend you are an assistant philanthropic advisor, please read this grant proposal to a **\\[description of type of foundation and mission\\]** from a nonprofit organization, and list 5 questions the foundation should ask the nonprofit to ensure the project is impactful and successful.\n\n**Example Output:**\n\n1. **Sustainability**: How do you plan to sustain the \\[project\\] after the first year, considering the initial funding covers only the first year's shortfall?\n\n1. **Staffing**: You mention that the \\[project\\] will operate with current staff. How will you ensure that this additional responsibility does not overburden the current staff and affect the quality of service?\n\n1. **Demand Estimation**: How have you estimated the demand for the \\[project\\]? What strategies do you have in place to adapt if the actual demand is significantly different from your estimates?\n\n1. **Phase II Planning**: Could you provide more details about the Phase II of the project, including the estimated budget and timeline?\n\n1. **Community Impact**: How will you measure the impact of the \\[project\\] on the community's \\[impact area\\]? What key performance indicators will you use to assess the success of the project?\n",
   "source_text": "💻\nAI for Funders\nPlatform: ChatGPT Plus and the \"AskYourPDF\" plugin\n-Prompts courtesy of John K  Step 1: Upload PDF of grant proposal Step 2: Insert Prompt: Pretend you are an assistant philanthropic advisor, please read this grant proposal to a [description of type of foundation and mission] from a nonprofit organization, and list 5 questions the foundation should ask the nonprofit to ensure the project is impactful and successful.\nExample Output:\nSustainability: How do you plan to sustain the [project] after the first year, considering the initial funding covers only the first year's shortfall?\nStaffing: You mention that the [project] will operate with current staff. How will you ensure that this additional responsibility does not overburden the current staff and affect the quality of service?\nDemand Estimation: How have you estimated the demand for the [project]? What strategies do you have in place to adapt if the actual demand is significantly different from your estimates?\nPhase II Planning: Could you provide more details about the Phase II of the project, including the estimated budget and timeline?\nCommunity Impact: How will you measure the impact of the [project] on the community's [impact area]? What key performance indicators will you use to assess the success of the project?",
   "target_lang": "JA",
   "title": "AI for Funders",
-  "translated_at": "2026-07-11T10:29:44.641232+00:00",
-  "translated_markdown": "💻\n\n# 資金提供者向けAI\n\nプラットフォーム：ChatGPT Plus および「AskYourPDF」プラグイン\n\n-プロンプト提供：John K **ステップ1： **助成金申請書のPDFをアップロード **ステップ2：プロンプトを入力：**あなたが慈善活動アドバイザーのアシスタントであるとして、非営利団体から提出された**\\[財団の種類とミッションの説明\\]**への助成金申請書を読み、そのプロジェクトが影響力があり成功するものであることを確実にするために、財団が非営利団体に尋ねるべき5つの質問を挙げてください。\n\n**出力例：**\n\n1. **持続可能性**：初期資金は初年度の資金不足分を賄うのみであることを踏まえ、初年度終了後、\\[プロジェクト\\]をどのように維持していくお考えですか？\n\n1. **人員配置**：\\[プロジェクト\\]は現在のスタッフ体制で運営されるとのことですが、この追加業務によって現在のスタッフに過度な負担がかかり、サービスの質に影響が出ないよう、どのように確保するおつもりですか？\n\n1. **需要予測**：\\[プロジェクト\\]の需要をどのように予測しましたか？実際の需要が予測と大きく異なった場合、それに適応するためのどのような対策を講じていますか？\n\n1. **フェーズIIの計画**：本プロジェクトのフェーズIIについて、予算の見込みやスケジュールなど、詳細を教えていただけますか？\n\n1. **地域への影響**：\\[プロジェクト\\]が地域の\\[影響対象分野\\]に与える影響を、どのように測定する予定ですか？プロジェクトの成功を評価するために、どのような主要業績評価指標（KPI）を使用する予定ですか？\n",
-  "translated_text": "💻\n資金提供者向けAI\nプラットフォーム：ChatGPT Plus および「AskYourPDF」プラグイン\n-プロンプト提供：John K ステップ1： 助成金申請書のPDFをアップロード ステップ2：プロンプトを入力：あなたが慈善活動アドバイザーのアシスタントであるとして、非営利団体から提出された[財団の種類とミッションの説明]への助成金申請書を読み、そのプロジェクトが影響力があり成功するものであることを確実にするために、財団が非営利団体に尋ねるべき5つの質問を挙げてください。\n出力例：\n持続可能性：初期資金は初年度の資金不足分を賄うのみであることを踏まえ、初年度終了後、[プロジェクト]をどのように維持していくお考えですか？\n人員配置：[プロジェクト]は現在のスタッフ体制で運営されるとのことですが、この追加業務によって現在のスタッフに過度な負担がかかり、サービスの質に影響が出ないよう、どのように確保するおつもりですか？\n需要予測：[プロジェクト]の需要をどのように予測しましたか？実際の需要が予測と大きく異なった場合、それに適応するためのどのような対策を講じていますか？\nフェーズIIの計画：本プロジェクトのフェーズIIについて、予算の見込みやスケジュールなど、詳細を教えていただけますか？\n地域への影響：[プロジェクト]が地域の[影響対象分野]に与える影響を、どのように測定する予定ですか？プロジェクトの成功を評価するために、どのような主要業績評価指標（KPI）を使用する予定ですか？",
+  "translated_at": "2026-07-11T22:31:08.436778+00:00",
+  "translated_markdown": "💻\n\n# 資金提供者向けAI\n\nプラットフォーム：ChatGPT Plus および「AskYourPDF」プラグイン\n\n-プロンプト提供：John K **ステップ1： **助成金申請書のPDFをアップロードしてください。 **ステップ2：プロンプトを入力：**あなたが慈善活動アドバイザーのアシスタントであるとして、非営利団体から提出された**\\[財団の種類とミッションの説明\\]**への助成金申請書を読み、そのプロジェクトがインパクトがあり成功するよう、財団が非営利団体に尋ねるべき5つの質問を挙げてください。\n\n**出力例：**\n\n1. **持続可能性**：初期資金は初年度の資金不足分を賄うのみであることを踏まえ、初年度終了後、\\[プロジェクト\\]をどのように維持していくお考えですか？\n\n1. **人員配置**：\\[プロジェクト\\]は現在のスタッフ体制で運営されるとのことですが、この追加業務によって現在のスタッフに過度な負担がかかり、サービスの質に影響が出ないよう、どのように確保するおつもりですか？\n\n1. **需要予測**：\\[プロジェクト\\]の需要をどのように予測しましたか？実際の需要が予測と大きく異なった場合、それに適応するためのどのような対策を講じていますか？\n\n1. **フェーズIIの計画**：本プロジェクトのフェーズIIについて、予算の見込みやスケジュールなど、詳細を教えていただけますか？\n\n1. **地域への影響**：\\[プロジェクト\\]が地域の\\[影響対象分野\\]に与える影響を、どのように測定する予定ですか？プロジェクトの成功を評価するために、どのような主要業績評価指標（KPI）を用いる予定ですか？\n",
+  "translated_text": "💻\n資金提供者向けAI\nプラットフォーム：ChatGPT Plus および「AskYourPDF」プラグイン\n-プロンプト提供：John K ステップ1： 助成金申請書のPDFをアップロードしてください。 ステップ2：プロンプトを入力：あなたが慈善活動アドバイザーのアシスタントであるとして、非営利団体から提出された[財団の種類とミッションの説明]への助成金申請書を読み、そのプロジェクトがインパクトがあり成功するよう、財団が非営利団体に尋ねるべき5つの質問を挙げてください。\n出力例：\n持続可能性：初期資金は初年度の資金不足分を賄うのみであることを踏まえ、初年度終了後、[プロジェクト]をどのように維持していくお考えですか？\n人員配置：[プロジェクト]は現在のスタッフ体制で運営されるとのことですが、この追加業務によって現在のスタッフに過度な負担がかかり、サービスの質に影響が出ないよう、どのように確保するおつもりですか？\n需要予測：[プロジェクト]の需要をどのように予測しましたか？実際の需要が予測と大きく異なった場合、それに適応するためのどのような対策を講じていますか？\nフェーズIIの計画：本プロジェクトのフェーズIIについて、予算の見込みやスケジュールなど、詳細を教えていただけますか？\n地域への影響：[プロジェクト]が地域の[影響対象分野]に与える影響を、どのように測定する予定ですか？プロジェクトの成功を評価するために、どのような主要業績評価指標（KPI）を用いる予定ですか？",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/ai-prompts/ai-for-funders"
 }
