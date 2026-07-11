@@ -4,10 +4,19 @@ Sync Japanese translations to a personal Notion page.
 
 For every JSON file under ``translations/pages/`` whose translation has not
 yet been synced (``notion.synced_hash`` differs from ``content_hash``), this
-script creates — or updates in place — a child page under the Notion parent
-page given by ``NOTION_PARENT_PAGE_ID``. The translated content is rendered
-from the stored Markdown subset into structured Notion blocks (headings,
-lists, quotes, dividers, links) so the original Hive page layout is preserved.
+script creates — or updates in place — a page under ``NOTION_PARENT_PAGE_ID``.
+The translated content is rendered from the stored Markdown subset into
+structured Notion blocks (headings, lists, quotes, dividers, links) so the
+original Hive page layout is preserved.
+
+New pages are nested as actual Notion sub-pages mirroring the Hive URL
+structure (e.g. .../library/ai-prompts/academia is created as a child of the
+already-translated .../library/ai-prompts page, which is itself a child of
+.../library), rather than all being flat siblings under the top-level parent.
+If a page's logical parent hasn't been translated yet, creation is deferred
+(retried automatically on a later run) so it doesn't end up permanently
+flat. Notion's API has no "move" operation, so this nesting is only decided
+at creation time — pages that already exist keep their current parent.
 
 Cross-links between resources (e.g. the library index linking to its category
 pages) are rewritten to point at the corresponding translated Notion page
@@ -219,6 +228,27 @@ def build_url_map(entries: dict[Path, dict]) -> dict[str, str]:
     return url_map
 
 
+def build_page_id_map(entries: dict[Path, dict]) -> dict[str, str]:
+    """url -> already-synced Notion page id (raw, for use as a parent)."""
+    return {entry["url"]: entry["notion"]["page_id"]
+            for entry in entries.values() if entry.get("notion", {}).get("page_id")}
+
+
+def parent_url_of(url: str, tcfg: dict) -> str | None:
+    """The logical parent resource URL (one path segment up within our
+    translation scope), or None if url is already top-level."""
+    scheme_host, _, path = url.partition("://")
+    if not path:
+        return None
+    host, _, p = path.partition("/")
+    p = "/" + p.rstrip("/")
+    parent_path = p.rsplit("/", 1)[0]
+    if not parent_path or parent_path == p:
+        return None
+    parent = f"{scheme_host}://{host}{parent_path}"
+    return parent if translate.url_in_scope(parent, tcfg) else None
+
+
 def main() -> int:
     token = os.environ.get("NOTION_TOKEN", "").strip()
     parent_raw = os.environ.get("NOTION_PARENT_PAGE_ID", "").strip()
@@ -235,10 +265,11 @@ def main() -> int:
     tcfg = translate.load_config()
     entries = load_all_entries(files)
     url_map = build_url_map(entries)
+    page_id_map = build_page_id_map(entries)
     newly_available: set[str] = set()
 
     notion = Notion(token)
-    synced = skipped = failed = 0
+    synced = skipped = failed = deferred = 0
 
     for path, entry in entries.items():
         ninfo = entry.setdefault("notion", {})
@@ -247,9 +278,22 @@ def main() -> int:
             continue
 
         title = entry.get("title") or entry["url"]
+        page_id = ninfo.get("page_id")
+
+        # Only decided at creation time — Notion has no API to move an
+        # existing page, so once created its parent is fixed.
+        target_parent = parent_id
+        if not page_id:
+            logical_parent = parent_url_of(entry["url"], tcfg)
+            if logical_parent is not None:
+                target_parent = page_id_map.get(logical_parent)
+                if target_parent is None:
+                    print(f"  deferring (parent not translated yet): {title}")
+                    deferred += 1
+                    continue
+
         blocks = build_blocks(entry, url_map, tcfg)
         try:
-            page_id = ninfo.get("page_id")
             if page_id and notion.page_exists(page_id):
                 print(f"  updating: {title}")
                 notion.set_title(page_id, title)
@@ -257,7 +301,7 @@ def main() -> int:
                 notion.append_blocks(page_id, blocks)
             else:
                 print(f"  creating: {title}")
-                page_id = notion.create_page(parent_id, title, blocks)
+                page_id = notion.create_page(target_parent, title, blocks)
         except requests.RequestException as exc:
             status = getattr(exc.response, "status_code", None)
             if status in (401, 403):
@@ -278,6 +322,7 @@ def main() -> int:
         save_entry(path, entry)
         synced += 1
 
+        page_id_map[entry["url"]] = page_id
         if entry["url"] not in url_map:
             newly_available.add(entry["url"])
         url_map[entry["url"]] = notion_page_url(page_id)
@@ -308,7 +353,7 @@ def main() -> int:
             relinked += 1
 
     print(f"Notion sync: {synced} synced, {skipped} up to date, {failed} failed, "
-          f"{relinked} relinked.")
+          f"{relinked} relinked, {deferred} deferred (parent pending).")
     return 0
 
 
