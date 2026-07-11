@@ -49,7 +49,7 @@ STATE_PATH = ROOT / "snapshots" / "state.json"
 TRANSLATIONS_DIR = ROOT / "translations" / "pages"
 
 # Bump when the stored JSON shape changes so old entries get re-translated.
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 
 # DeepL: max number of `text` params per request.
 DEEPL_BATCH = 40
