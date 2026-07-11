@@ -1,0 +1,46 @@
+# Hive Resource Library monitor configuration.
+#
+# These control WHAT gets crawled. Email credentials are NOT here — they are
+# provided as environment variables / GitHub Secrets (see README).
+
+# Pages the crawl starts from.
+start_urls:
+  - "https://resources.joinhive.org/library"
+
+# Only URLs beginning with one of these prefixes are crawled / monitored.
+# Keep this tight so the crawler stays within the Hive resource library and
+# doesn't wander onto the wider marketing site or external domains.
+allowed_prefixes:
+  - "https://resources.joinhive.org/"
+
+# How many link-hops away from the start URLs to follow.
+#   0 = only the start URLs themselves
+#   1 = start URLs + pages they link to
+#   2 = also pages linked from those (recommended for a library index -> detail)
+max_depth: 2
+
+# Hard cap on the number of pages fetched in one run (safety valve).
+max_pages: 300
+
+# Optional: sitemap.xml URLs to seed additional pages from. Leave empty if the
+# site has no sitemap.
+sitemap_urls: []
+#   - "https://resources.joinhive.org/sitemap.xml"
+
+# Regex patterns; any matching URL is skipped (e.g. search, tag filters,
+# pagination that would create noisy false-positive diffs).
+ignore_url_patterns: []
+#   - "\\?"          # skip any URL with query parameters
+#   - "/tag/"
+
+# Politeness: seconds to wait between requests.
+crawl_delay_seconds: 1.0
+
+# Per-request timeout in seconds.
+request_timeout: 30
+
+# Max number of diff lines to include per changed page in the email.
+max_diff_lines: 200
+
+# User-Agent sent with requests.
+user_agent: "Mozilla/5.0 (compatible; HiveResourceMonitor/1.0; +https://github.com/a-watahiki/hive-resources-monitoring)"
