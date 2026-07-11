@@ -6,10 +6,10 @@
     "synced_hash": "4a71ae11db22743e25f68b5afed2e15af2998735f4ef45452487d66d83a59d84"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "notes": "問題なし",
+    "reviewed_at": "2026-07-11T21:42:22Z",
+    "reviewer": "claude",
+    "status": "reviewed"
   },
   "schema_version": 3,
   "source_markdown": "# Advertisements\n\n1. Visit a Farm Sanctuary\n\n1. Donate to the Cause\n\n1. Watch a Video\n\n1. Find Out How to Help Animals\n\n1. Join a Volunteer Program\n\n1. Sign a Petition\n\n1. Attend a Fundraising Event\n\n1. Share Our Content\n\n1. Buy Merchandise to Support the Cause\n",
