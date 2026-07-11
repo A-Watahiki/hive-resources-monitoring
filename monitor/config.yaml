@@ -42,5 +42,31 @@ request_timeout: 30
 # Max number of diff lines to include per changed page in the email.
 max_diff_lines: 200
 
+# ---------------------------------------------------------------------------
+# Translation (translate.py) — DeepL machine translation of crawled pages.
+# Requires the DEEPL_API_KEY secret; without it the translate step is skipped.
+translation:
+  # Only pages whose URL starts with one of these prefixes are translated.
+  # Default: the library itself (the crawl also reaches other site pages).
+  include_prefixes:
+    - "https://resources.joinhive.org/library"
+
+  # Regex patterns; matching URLs are never translated.
+  exclude_url_patterns: []
+
+  # DeepL target language.
+  target_lang: "JA"
+
+  # Source characters translated per run. Keeps each daily run within the
+  # DeepL free tier (500,000 chars/month); the backlog is worked through
+  # gradually. Raise this (or pass char_budget on a manual run) to go faster.
+  char_budget_per_run: 40000
+
+  # Pages with less text than this are skipped (nav stubs, redirects).
+  min_text_length: 40
+
+  # Seconds between DeepL API requests.
+  request_interval_seconds: 0.5
+
 # User-Agent sent with requests.
 user_agent: "Mozilla/5.0 (compatible; HiveResourceMonitor/1.0; +https://github.com/a-watahiki/hive-resources-monitoring)"

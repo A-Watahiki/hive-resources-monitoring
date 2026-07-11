@@ -3,6 +3,10 @@
 [Hive Resource Library](https://resources.joinhive.org/library) とその配下ページを
 定期的に監視し、**更新があればメールで通知**するシステムです。
 
+さらに、取得したページを **DeepL で日本語に自動翻訳**して原文とセットで保存し、
+**Notion の個人ページに反映**する翻訳パイプラインを備えています
+（→ [翻訳・Notion同期](#翻訳notion同期)）。
+
 ## 特徴
 
 - **Claude / LLM のトークンを一切消費しません。** 監視処理は純粋な Python スクリプトで、
@@ -88,6 +92,66 @@ pip install -r monitor/requirements.txt
 DRY_RUN=true python monitor/monitor.py
 ```
 
+## 翻訳・Notion同期
+
+`monitor.py` が取得したページを DeepL API で日本語に翻訳し、原文・訳文をセットで
+リポジトリに保存、さらに Notion の個人ページに反映します。**翻訳・同期とも純粋な
+Python スクリプトで、Claude のトークンは消費しません。**
+
+```
+GitHub Actions (毎日 01:00 UTC = JST 10:00)
+   └─ translate.py   : snapshots/state.json の新規・変更ページを DeepL で翻訳
+   │                    → translations/pages/<ページ>.json に原文+訳文を保存
+   └─ notion_sync.py : 未同期の訳文を Notion 親ページ配下に 1ページ=1リソースで作成/更新
+```
+
+### 保存形式（translations/pages/*.json）
+
+1ページ 1 JSON ファイル。フィールド:
+
+| フィールド | 内容 |
+|---|---|
+| `url` / `title` / `content_hash` | 元ページの情報（ハッシュが変わると再翻訳） |
+| `source_text` | クロールした原文テキスト |
+| `translated_text` | DeepL による日本語訳（レビューで修正可） |
+| `review.status` | `unreviewed` → `reviewed` / `fixed`（Claudeレビューで更新） |
+| `notion.page_id` ほか | Notion 同期の管理情報 |
+
+### 必要な Secrets（追加分）
+
+| Secret 名 | 値 | 説明 |
+|---|---|---|
+| `DEEPL_API_KEY` | DeepL API キー | [DeepL API Free](https://www.deepl.com/pro-api) で無料登録（50万字/月）。キー末尾が `:fx` なら Free 用エンドポイントを自動選択 |
+| `NOTION_TOKEN` | `ntn_...` | [notion.so/my-integrations](https://www.notion.so/my-integrations) で内部インテグレーションを作成して取得 |
+| `NOTION_PARENT_PAGE_ID` | ページID または ページURL | 訳文ページの作成先となる親ページ。**そのページの「⋯ → コネクト」でインテグレーションを追加**（共有）しておくこと |
+
+`DEEPL_API_KEY` 未設定なら翻訳はスキップ、`NOTION_TOKEN` 未設定なら Notion 同期は
+スキップされます（エラーにはなりません）。
+
+### 文字数バジェット（DeepL 無料枠対策）
+
+全ページを一度に翻訳すると DeepL 無料枠（50万字/月）を超え得るため、1回の実行で
+翻訳する原文文字数に上限を設けています（`config.yaml` の
+`translation.char_budget_per_run`、デフォルト 40,000字）。未翻訳分は日次実行で
+少しずつ消化されます。手動実行（Run workflow）の `char_budget` 入力で一時的に
+引き上げることもできます。翻訳対象はデフォルトで `/library` 配下のみです
+（`translation.include_prefixes` で変更可）。
+
+### 翻訳レビュー（Claude ルーチン）
+
+DeepL 訳の品質チェックは、リポジトリ同梱の Claude Code スキル
+**`/review-translations`** で行います。1回の呼び出しで数ページのみ
+（デフォルト3、`/review-translations 5` のように指定可）を原文と対照チェックし、
+`review.status` を更新してコミットします。少しずつ実行することでトークン消費を
+抑えられます。進捗確認は:
+
+```bash
+python monitor/translation_status.py                  # サマリ
+python monitor/translation_status.py --list-unreviewed 5   # 次のレビュー対象
+```
+
+レビューで訳文を修正すると、次回の Notion 同期で修正後の内容がページに反映されます。
+
 ## 注意事項
 
 - **JavaScript で描画されるサイトの場合**: `monitor.py` は静的 HTML を取得します。もし取得した
@@ -103,11 +167,20 @@ DRY_RUN=true python monitor/monitor.py
 
 ```
 .
-├── .github/workflows/monitor.yml   # cron スケジュール & 実行ワークフロー
+├── .github/workflows/
+│   ├── monitor.yml                 # 監視: 毎日 00:00 UTC（クロール・差分・メール）
+│   └── translate.yml               # 翻訳: 毎日 01:00 UTC（DeepL → Notion 同期）
+├── .claude/skills/
+│   └── review-translations/        # Claude 翻訳レビュー・ルーチン（/review-translations）
 ├── monitor/
 │   ├── monitor.py                  # 監視本体（クロール・差分・メール送信）
-│   ├── config.yaml                 # 監視対象・クロール設定
+│   ├── translate.py                # DeepL 翻訳（原文+訳文を JSON 保存）
+│   ├── notion_sync.py              # 訳文を Notion 親ページ配下に作成/更新
+│   ├── translation_status.py       # 翻訳・レビュー進捗の表示
+│   ├── config.yaml                 # 監視対象・クロール・翻訳設定
 │   └── requirements.txt            # Python 依存パッケージ
-└── snapshots/
-    └── state.json                  # 前回取得したスナップショット（Actions が自動更新）
+├── snapshots/
+│   └── state.json                  # 前回取得したスナップショット（Actions が自動更新）
+└── translations/
+    └── pages/*.json                # ページ毎の原文+日本語訳+レビュー状態（Actions が自動更新）
 ```

@@ -1,0 +1,66 @@
+name: Translate & Sync to Notion
+
+on:
+  schedule:
+    # 毎日 01:00 UTC（日本時間 10:00）。monitor（00:00 UTC）の後に実行し、
+    # 最新スナップショットの新規・変更ページを翻訳 → Notion に反映する。
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+    inputs:
+      char_budget:
+        description: "この実行で翻訳する原文文字数の上限（未指定なら config.yaml の値）"
+        required: false
+        default: ""
+      skip_notion:
+        description: "Notion同期をスキップする (true/false)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hive-translate
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r monitor/requirements.txt
+
+      - name: Translate new/changed pages (DeepL)
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+          TRANSLATE_CHAR_BUDGET: ${{ github.event.inputs.char_budget }}
+        run: python monitor/translate.py
+
+      - name: Sync translations to Notion
+        if: ${{ github.event.inputs.skip_notion != 'true' }}
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_PARENT_PAGE_ID: ${{ secrets.NOTION_PARENT_PAGE_ID }}
+        run: python monitor/notion_sync.py
+
+      - name: Commit translations
+        run: |
+          if [[ -n "$(git status --porcelain translations/)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add translations/
+            git commit -m "chore: update translations"
+            git pull --rebase
+            git push
+          else
+            echo "No translation changes to commit."
+          fi
