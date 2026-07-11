@@ -49,7 +49,7 @@ STATE_PATH = ROOT / "snapshots" / "state.json"
 TRANSLATIONS_DIR = ROOT / "translations" / "pages"
 
 # Bump when the stored JSON shape changes so old entries get re-translated.
-SCHEMA_VERSION = 3
+SCHEMA_VERSION = 4
 
 # DeepL: max number of `text` params per request.
 DEEPL_BATCH = 40
@@ -192,46 +192,50 @@ def html_to_blocks(html: str, base_url: str) -> list[dict]:
 
 def _walk(node, base_url: str, blocks: list[dict]) -> None:
     for child in node.find_all(recursive=False):
-        name = child.name
-        if name in SKIP_TAGS or child.get("role") == "navigation":
-            continue
-        if name in ("h1", "h2", "h3", "h4", "h5", "h6"):
-            spans = _inline_spans(child, base_url)
-            if spans:
-                blocks.append({"type": "heading", "level": min(int(name[1]), 3),
-                               "spans": spans})
-        elif name in ("ul", "ol"):
-            kind = "numbered" if name == "ol" else "bulleted"
-            for li in child.find_all("li", recursive=False):
-                spans = _inline_spans(li, base_url)
+        _emit(child, base_url, blocks)
+
+
+def _emit(child, base_url: str, blocks: list[dict]) -> None:
+    name = child.name
+    if not name or name in SKIP_TAGS or child.get("role") == "navigation":
+        return
+    if name in ("h1", "h2", "h3", "h4", "h5", "h6"):
+        spans = _inline_spans(child, base_url)
+        if spans:
+            blocks.append({"type": "heading", "level": min(int(name[1]), 3),
+                           "spans": spans})
+    elif name in ("ul", "ol"):
+        kind = "numbered" if name == "ol" else "bulleted"
+        for c in child.find_all(recursive=False):
+            if c.name == "li":
+                spans = _inline_spans(c, base_url)
                 if spans:
                     blocks.append({"type": kind, "spans": spans})
-                for sub in li.find_all(("ul", "ol"), recursive=False):
-                    _walk_list(sub, base_url, blocks)
-        elif name == "blockquote":
-            spans = _inline_spans(child, base_url)
-            if spans:
-                blocks.append({"type": "quote", "spans": spans})
-        elif name == "hr":
-            blocks.append({"type": "divider"})
-        elif name == "p":
-            spans = _inline_spans(child, base_url)
-            if spans:
-                blocks.append({"type": "paragraph", "spans": spans})
-        elif _has_block_children(child):
-            _walk(child, base_url, blocks)
-        else:
-            spans = _inline_spans(child, base_url)
-            if spans:
-                blocks.append({"type": "paragraph", "spans": spans})
-
-
-def _walk_list(node, base_url: str, blocks: list[dict]) -> None:
-    kind = "numbered" if node.name == "ol" else "bulleted"
-    for li in node.find_all("li", recursive=False):
-        spans = _inline_spans(li, base_url)
+                # Nested lists render as their own items.
+                for sub in c.find_all(("ul", "ol"), recursive=False):
+                    _emit(sub, base_url, blocks)
+            else:
+                # Some Notion renderers put a list item's body content (e.g. a
+                # prompt paragraph) as a SIBLING of the <li> inside the list,
+                # not inside it. Emit those as their own blocks instead of
+                # dropping them.
+                _emit(c, base_url, blocks)
+    elif name == "blockquote":
+        spans = _inline_spans(child, base_url)
         if spans:
-            blocks.append({"type": kind, "spans": spans})
+            blocks.append({"type": "quote", "spans": spans})
+    elif name == "hr":
+        blocks.append({"type": "divider"})
+    elif name == "p":
+        spans = _inline_spans(child, base_url)
+        if spans:
+            blocks.append({"type": "paragraph", "spans": spans})
+    elif _has_block_children(child):
+        _walk(child, base_url, blocks)
+    else:
+        spans = _inline_spans(child, base_url)
+        if spans:
+            blocks.append({"type": "paragraph", "spans": spans})
 
 
 def _dedupe(blocks: list[dict]) -> list[dict]:

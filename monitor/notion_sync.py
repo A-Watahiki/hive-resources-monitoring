@@ -209,6 +209,46 @@ class Notion:
         resp = self.request("GET", f"/pages/{page_id}")
         return resp.status_code == 200 and not resp.json().get("archived", False)
 
+    def list_children(self, page_id: str) -> list[dict]:
+        cursor = None
+        out: list[dict] = []
+        while True:
+            params = {"page_size": 100}
+            if cursor:
+                params["start_cursor"] = cursor
+            resp = self.request("GET", f"/blocks/{page_id}/children", params=params)
+            resp.raise_for_status()
+            data = resp.json()
+            out.extend(data["results"])
+            if not data.get("has_more"):
+                break
+            cursor = data["next_cursor"]
+        return out
+
+    def update_content_in_place(self, page_id: str, blocks: list[dict]) -> bool:
+        """Rewrite content by PATCHing existing blocks in place, leaving every
+        block (including child_page blocks and their position) where it is.
+        Used for relinking: the block structure is unchanged, only some link
+        URLs differ, so this avoids the clear+re-append that would shove real
+        sub-pages to the top. Returns False if the live structure doesn't line
+        up 1:1 with `blocks` (caller then falls back to clear+append)."""
+        live = self.list_children(page_id)
+        live_content = [b for b in live
+                        if b["type"] not in ("child_page", "child_database")]
+        if len(live_content) != len(blocks):
+            return False
+        for live_b, desired in zip(live_content, blocks):
+            if live_b["type"] != desired["type"]:
+                return False
+        for live_b, desired in zip(live_content, blocks):
+            t = desired["type"]
+            if t == "divider" or "rich_text" not in desired.get(t, {}):
+                continue
+            resp = self.request("PATCH", f"/blocks/{live_b['id']}",
+                                json={t: desired[t]})
+            resp.raise_for_status()
+        return True
+
 
 def load_all_entries(files: list[Path]) -> dict[Path, dict]:
     entries = {}
@@ -349,8 +389,11 @@ def main() -> int:
             title = entry.get("title") or entry["url"]
             try:
                 blocks = build_blocks(entry, url_map, tcfg)
-                notion.clear_children(page_id)
-                notion.append_blocks(page_id, blocks)
+                # Update in place so real sub-pages keep their position; only
+                # fall back to clear+append if the structure no longer lines up.
+                if not notion.update_content_in_place(page_id, blocks):
+                    notion.clear_children(page_id)
+                    notion.append_blocks(page_id, blocks)
             except requests.RequestException as exc:
                 print(f"  ! relink failed, will retry next run: {entry['url']} "
                       f"-> {exc}", file=sys.stderr)
