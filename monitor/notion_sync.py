@@ -183,6 +183,11 @@ class Notion:
         resp.raise_for_status()
 
     def clear_children(self, page_id: str) -> None:
+        """Delete this page's content blocks — but NEVER child_page /
+        child_database blocks. Those aren't inline content we rendered;
+        each one *is* an actual nested sub-page, and deleting that block
+        via the API archives the real page it represents. Skipping them
+        means true Notion sub-pages survive a parent's content re-render."""
         cursor = None
         ids: list[str] = []
         while True:
@@ -192,7 +197,8 @@ class Notion:
             resp = self.request("GET", f"/blocks/{page_id}/children", params=params)
             resp.raise_for_status()
             data = resp.json()
-            ids.extend(b["id"] for b in data["results"])
+            ids.extend(b["id"] for b in data["results"]
+                      if b["type"] not in ("child_page", "child_database"))
             if not data.get("has_more"):
                 break
             cursor = data["next_cursor"]
