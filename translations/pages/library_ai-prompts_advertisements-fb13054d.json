@@ -1,0 +1,24 @@
+{
+  "content_hash": "4a71ae11db22743e25f68b5afed2e15af2998735f4ef45452487d66d83a59d84",
+  "notion": {
+    "page_id": "39a383bb-2c1b-81c0-aeda-d7565f3e60cc",
+    "synced_at": "2026-07-11T09:43:05.237651+00:00",
+    "synced_hash": "4a71ae11db22743e25f68b5afed2e15af2998735f4ef45452487d66d83a59d84"
+  },
+  "review": {
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
+  },
+  "schema_version": 2,
+  "source_markdown": "# Advertisements\n\n1. Visit a Farm Sanctuary\n\n1. Donate to the Cause\n\n1. Watch a Video\n\n1. Find Out How to Help Animals\n\n1. Join a Volunteer Program\n\n1. Sign a Petition\n\n1. Attend a Fundraising Event\n\n1. Share Our Content\n\n1. Buy Merchandise to Support the Cause\n",
+  "source_text": "Advertisements\nVisit a Farm Sanctuary\nDonate to the Cause\nWatch a Video\nFind Out How to Help Animals\nJoin a Volunteer Program\nSign a Petition\nAttend a Fundraising Event\nShare Our Content\nBuy Merchandise to Support the Cause",
+  "target_lang": "JA",
+  "title": "Advertisements",
+  "translated_at": "2026-07-11T09:42:28.818918+00:00",
+  "translated_markdown": "# 広告\n\n1. ファーム・サンクチュアリを訪れてみよう\n\n1. この活動への寄付\n\n1. 動画を見る\n\n1. 動物を助ける方法を知ろう\n\n1. ボランティアプログラムに参加する\n\n1. 請願書に署名する\n\n1. 募金イベントに参加する\n\n1. コンテンツをシェアする\n\n1. この活動を支援するためにグッズを購入しましょう\n",
+  "translated_text": "広告\nファーム・サンクチュアリを訪れてみよう\nこの活動への寄付\n動画を見る\n動物を助ける方法を知ろう\nボランティアプログラムに参加する\n請願書に署名する\n募金イベントに参加する\nコンテンツをシェアする\nこの活動を支援するためにグッズを購入しましょう",
+  "translator": "deepl",
+  "url": "https://resources.joinhive.org/library/ai-prompts/advertisements"
+}
