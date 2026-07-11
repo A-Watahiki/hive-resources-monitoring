@@ -100,10 +100,19 @@ Python スクリプトで、Claude のトークンは消費しません。**
 
 ```
 GitHub Actions (毎日 01:00 UTC = JST 10:00)
-   └─ translate.py   : snapshots/state.json の新規・変更ページを DeepL で翻訳
+   └─ translate.py   : 新規・変更ページの HTML を再取得して構造（見出し・箇条書き・
+   │                    リンク等）を保ったまま抽出 → DeepL で翻訳
    │                    → translations/pages/<ページ>.json に原文+訳文を保存
    └─ notion_sync.py : 未同期の訳文を Notion 親ページ配下に 1ページ=1リソースで作成/更新
+                       （見出し/リスト/引用/区切り/リンクを Notion ブロックとして描画）
 ```
+
+**レイアウトの保持**: 元の Hive ページ（Notion ベース）の構造を保つため、翻訳時に
+各ページの HTML を再取得し、見出し・箇条書き・番号リスト・引用・区切り線・インライン
+リンクを構造化して抽出します。翻訳は DeepL の HTML タグ処理で行うため、リンクや強調も
+訳文中で維持されます。保存・レビュー・Notion 描画は、これらを表す小さな **Markdown
+サブセット**（`#`/`##`/`###`、`- `/`1. `、`> `、`---`、`[表示](URL)`、`**太字**`）を
+唯一の正とします。
 
 ### 保存形式（translations/pages/*.json）
 
@@ -112,8 +121,10 @@ GitHub Actions (毎日 01:00 UTC = JST 10:00)
 | フィールド | 内容 |
 |---|---|
 | `url` / `title` / `content_hash` | 元ページの情報（ハッシュが変わると再翻訳） |
-| `source_text` | クロールした原文テキスト |
-| `translated_text` | DeepL による日本語訳（レビューで修正可） |
+| `source_markdown` | 構造を保った原文（Markdownサブセット） |
+| `translated_markdown` | DeepL訳（Markdownサブセット・**Notion描画の正**・レビューで修正） |
+| `source_text` / `translated_text` | プレーンテキスト版（差分・進捗確認用） |
+| `schema_version` | 保存形式のバージョン（変わると再翻訳） |
 | `review.status` | `unreviewed` → `reviewed` / `fixed`（Claudeレビューで更新） |
 | `notion.page_id` ほか | Notion 同期の管理情報 |
 

@@ -5,14 +5,9 @@ Sync Japanese translations to a personal Notion page.
 For every JSON file under ``translations/pages/`` whose translation has not
 yet been synced (``notion.synced_hash`` differs from ``content_hash``), this
 script creates — or updates in place — a child page under the Notion parent
-page given by ``NOTION_PARENT_PAGE_ID``. The Notion page id is written back
-into the JSON file so subsequent runs update the same page.
-
-Page layout:
-    [callout]   review status / translated-at / machine-translation notice
-    [paragraph] link to the original page
-    [divider]
-    [paragraphs] translated text
+page given by ``NOTION_PARENT_PAGE_ID``. The translated content is rendered
+from the stored Markdown subset into structured Notion blocks (headings,
+lists, quotes, dividers, links) so the original Hive page layout is preserved.
 
 Environment:
     NOTION_TOKEN           required. Internal-integration secret.
@@ -32,15 +27,14 @@ from pathlib import Path
 
 import requests
 
+import mdblocks
+
 ROOT = Path(__file__).resolve().parent.parent
 TRANSLATIONS_DIR = ROOT / "translations" / "pages"
 
 NOTION_API = "https://api.notion.com/v1"
 NOTION_VERSION = "2022-06-28"
-# Notion caps rich_text content at 2000 chars; stay under it.
-BLOCK_CHARS = 1900
-# Notion rate limit is ~3 requests/second.
-REQUEST_INTERVAL = 0.35
+REQUEST_INTERVAL = 0.35  # Notion allows ~3 requests/second.
 
 REVIEW_LABELS = {
     "unreviewed": "未レビュー（DeepL自動翻訳のまま）",
@@ -50,12 +44,7 @@ REVIEW_LABELS = {
 
 
 def normalize_page_id(raw: str) -> str:
-    """Accept a bare 32-hex id, a dashed UUID, or a full Notion URL.
-
-    In a Notion URL the id is the trailing hex of the last path segment, and
-    title slugs can themselves contain hex characters (e.g. "...-Page-<id>"),
-    so take the last 32 chars of the final hex run, ignoring the query string.
-    """
+    """Accept a bare 32-hex id, a dashed UUID, or a full Notion URL."""
     base = raw.split("?", 1)[0]
     runs = re.findall(r"[0-9a-f]{32,}", base.replace("-", "").lower())
     if not runs:
@@ -71,46 +60,13 @@ def rich_text(content: str, link: str | None = None) -> dict:
     return {"type": "text", "text": text}
 
 
-def paragraph_blocks(text: str) -> list[dict]:
-    """Split translated text into paragraph blocks within Notion's limits."""
-    blocks: list[dict] = []
-    buf: list[str] = []
-    size = 0
-
-    def flush() -> None:
-        nonlocal buf, size
-        if buf:
-            blocks.append({
-                "object": "block",
-                "type": "paragraph",
-                "paragraph": {"rich_text": [rich_text("\n".join(buf))]},
-            })
-            buf, size = [], 0
-
-    for line in text.split("\n"):
-        while len(line) > BLOCK_CHARS:
-            flush()
-            blocks.append({
-                "object": "block",
-                "type": "paragraph",
-                "paragraph": {"rich_text": [rich_text(line[:BLOCK_CHARS])]},
-            })
-            line = line[BLOCK_CHARS:]
-        if size + len(line) + 1 > BLOCK_CHARS:
-            flush()
-        buf.append(line)
-        size += len(line) + 1
-    flush()
-    return blocks
-
-
-def build_blocks(entry: dict) -> list[dict]:
+def header_blocks(entry: dict) -> list[dict]:
     status = entry.get("review", {}).get("status", "unreviewed")
     label = REVIEW_LABELS.get(status, status)
     translated_at = entry.get("translated_at", "")
     header = (f"ステータス: {label} ／ 翻訳日時: {translated_at} ／ "
               "この本文はDeepLによる機械翻訳です")
-    blocks: list[dict] = [
+    return [
         {"object": "block", "type": "callout",
          "callout": {"icon": {"type": "emoji", "emoji": "🌐"},
                      "rich_text": [rich_text(header)]}},
@@ -119,8 +75,21 @@ def build_blocks(entry: dict) -> list[dict]:
                                      rich_text(entry["url"], entry["url"])]}},
         {"object": "block", "type": "divider", "divider": {}},
     ]
-    blocks.extend(paragraph_blocks(entry.get("translated_text", "")))
-    return blocks
+
+
+def content_blocks(entry: dict) -> list[dict]:
+    md = entry.get("translated_markdown")
+    if md:
+        return mdblocks.markdown_to_notion_blocks(md)
+    # Legacy fallback for entries stored before structured markdown existed.
+    text = entry.get("translated_text", "")
+    return [{"object": "block", "type": "paragraph",
+             "paragraph": {"rich_text": [rich_text(line)]}}
+            for line in text.split("\n") if line.strip()]
+
+
+def build_blocks(entry: dict) -> list[dict]:
+    return header_blocks(entry) + content_blocks(entry)
 
 
 class Notion:
@@ -137,15 +106,13 @@ class Notion:
                                     timeout=60, **kwargs)
         time.sleep(REQUEST_INTERVAL)
         if resp.status_code == 429:
-            wait = float(resp.headers.get("Retry-After", "2"))
-            time.sleep(wait)
+            time.sleep(float(resp.headers.get("Retry-After", "2")))
             resp = self.session.request(method, f"{NOTION_API}{path}",
                                         timeout=60, **kwargs)
             time.sleep(REQUEST_INTERVAL)
         return resp
 
-    def create_page(self, parent_id: str, title: str,
-                    blocks: list[dict]) -> str:
+    def create_page(self, parent_id: str, title: str, blocks: list[dict]) -> str:
         resp = self.request("POST", "/pages", json={
             "parent": {"page_id": parent_id},
             "properties": {"title": {"title": [rich_text(title)]}},
@@ -175,8 +142,7 @@ class Notion:
             params = {"page_size": 100}
             if cursor:
                 params["start_cursor"] = cursor
-            resp = self.request("GET", f"/blocks/{page_id}/children",
-                                params=params)
+            resp = self.request("GET", f"/blocks/{page_id}/children", params=params)
             resp.raise_for_status()
             data = resp.json()
             ids.extend(b["id"] for b in data["results"])
@@ -195,8 +161,7 @@ def main() -> int:
     token = os.environ.get("NOTION_TOKEN", "").strip()
     parent_raw = os.environ.get("NOTION_PARENT_PAGE_ID", "").strip()
     if not token or not parent_raw:
-        print("NOTION_TOKEN / NOTION_PARENT_PAGE_ID not set — "
-              "skipping Notion sync.")
+        print("NOTION_TOKEN / NOTION_PARENT_PAGE_ID not set — skipping Notion sync.")
         return 0
     parent_id = normalize_page_id(parent_raw)
 
@@ -236,8 +201,8 @@ def main() -> int:
                       "that the parent page is shared with the integration.",
                       file=sys.stderr)
                 return 1
-            print(f"  ! sync failed, will retry next run: {entry['url']} "
-                  f"-> {exc}", file=sys.stderr)
+            print(f"  ! sync failed, will retry next run: {entry['url']} -> {exc}",
+                  file=sys.stderr)
             failed += 1
             continue
 
@@ -251,8 +216,7 @@ def main() -> int:
             fh.write("\n")
         synced += 1
 
-    print(f"Notion sync: {synced} synced, {skipped} up to date, "
-          f"{failed} failed.")
+    print(f"Notion sync: {synced} synced, {skipped} up to date, {failed} failed.")
     return 0
 
 
