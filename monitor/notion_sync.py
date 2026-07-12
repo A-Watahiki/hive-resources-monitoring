@@ -593,8 +593,14 @@ class Notion:
             time.sleep(REQUEST_INTERVAL)
         return resp
 
-    def create_page(self, parent_id: str, title: str, blocks: list[dict],
+    def create_page(self, parent_id: str, title: str,
                     icon: str | None = None, cover: str | None = None) -> str:
+        """Create an empty page and return its id — does NOT append content.
+        Kept separate from filling in the content so a caller can persist
+        the returned id before risking a failure in that (much more
+        error-prone) step; otherwise a mid-append failure leaves a real,
+        untracked page behind that the next run can't find and will
+        recreate, producing an orphaned duplicate under the parent."""
         payload = {
             "parent": {"page_id": parent_id},
             "properties": {"title": {"title": [rich_text(title)]}},
@@ -605,9 +611,7 @@ class Notion:
             payload["cover"] = {"type": "external", "external": {"url": cover}}
         resp = self.request("POST", "/pages", json=payload)
         resp.raise_for_status()
-        page_id = resp.json()["id"]
-        self.append_blocks(page_id, blocks)
-        return page_id
+        return resp.json()["id"]
 
     def append_blocks(self, parent_id: str, blocks: list[dict],
                       after: str | None = None) -> None:
@@ -854,14 +858,28 @@ def main() -> int:
 
         title, icon, cover, blocks = build_blocks(entry, url_map, page_id_map, tcfg)
         try:
-            if page_id and notion.page_exists(page_id):
+            if page_id and not notion.page_exists(page_id):
+                page_id = None  # was deleted in Notion; recreate below
+            if not page_id:
+                print(f"  creating: {title}")
+                page_id = notion.create_page(target_parent, title, icon, cover)
+                # Persist the id immediately: if appending content below
+                # fails partway, the next run must find this (now real,
+                # but still empty) page via page_id and finish it, rather
+                # than creating a second page and leaving this one behind
+                # as an orphaned duplicate under the parent.
+                entry["notion"] = {
+                    "page_id": page_id,
+                    "synced_at": datetime.now(timezone.utc).isoformat(),
+                    "synced_hash": None,
+                    "render_version": RENDER_VERSION,
+                }
+                save_entry(path, entry)
+                page_id_map[entry["url"]] = page_id
+            else:
                 print(f"  updating: {title}")
                 notion.set_title(page_id, title, icon, cover)
-                notion.replace_content_before_children(page_id, blocks)
-            else:
-                print(f"  creating: {title}")
-                page_id = notion.create_page(target_parent, title, blocks,
-                                             icon, cover)
+            notion.replace_content_before_children(page_id, blocks)
         except requests.RequestException as exc:
             status = getattr(exc.response, "status_code", None)
             if status in (401, 403):
