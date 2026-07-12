@@ -49,7 +49,7 @@ STATE_PATH = ROOT / "snapshots" / "state.json"
 TRANSLATIONS_DIR = ROOT / "translations" / "pages"
 
 # Bump when the stored JSON shape changes so old entries get re-translated.
-SCHEMA_VERSION = 4
+SCHEMA_VERSION = 5
 
 # DeepL: max number of `text` params per request.
 DEEPL_BATCH = 40
@@ -206,20 +206,30 @@ def _emit(child, base_url: str, blocks: list[dict]) -> None:
                            "spans": spans})
     elif name in ("ul", "ol"):
         kind = "numbered" if name == "ol" else "bulleted"
+        last_item: dict | None = None
         for c in child.find_all(recursive=False):
             if c.name == "li":
                 spans = _inline_spans(c, base_url)
                 if spans:
-                    blocks.append({"type": kind, "spans": spans})
-                # Nested lists render as their own items.
+                    item = {"type": kind, "spans": spans}
+                    blocks.append(item)
+                    last_item = item
+                else:
+                    last_item = None
+                # Nested lists are genuinely part of this item.
                 for sub in c.find_all(("ul", "ol"), recursive=False):
-                    _emit(sub, base_url, blocks)
+                    target = (last_item.setdefault("children", [])
+                             if last_item is not None else blocks)
+                    _emit(sub, base_url, target)
             else:
                 # Some Notion renderers put a list item's body content (e.g. a
                 # prompt paragraph) as a SIBLING of the <li> inside the list,
-                # not inside it. Emit those as their own blocks instead of
-                # dropping them.
-                _emit(c, base_url, blocks)
+                # not inside it. Nest it as a child of the preceding item so
+                # Notion keeps the numbering continuous instead of treating
+                # each title+body pair as its own one-item list.
+                target = (last_item.setdefault("children", [])
+                         if last_item is not None else blocks)
+                _emit(c, base_url, target)
     elif name == "blockquote":
         spans = _inline_spans(child, base_url)
         if spans:
@@ -323,16 +333,39 @@ def deepl_translate_html_batch(session: requests.Session, base: str,
     return results
 
 
+def _clone_block_tree(blocks: list[dict]) -> list[dict]:
+    out = []
+    for b in blocks:
+        nb = dict(b)
+        if b.get("children"):
+            nb["children"] = _clone_block_tree(b["children"])
+        out.append(nb)
+    return out
+
+
+def _collect_translatable(blocks: list[dict]) -> list[dict]:
+    """Refs (not copies) to every block in the tree — including nested
+    children, e.g. a list item's body paragraph — that has spans to send
+    through DeepL."""
+    out = []
+    for b in blocks:
+        if b["type"] != "divider" and b.get("spans"):
+            out.append(b)
+        if b.get("children"):
+            out.extend(_collect_translatable(b["children"]))
+    return out
+
+
 def translate_blocks(session: requests.Session, base: str, blocks: list[dict],
                      target_lang: str, interval: float) -> list[dict]:
-    idx = [i for i, b in enumerate(blocks) if b["type"] != "divider" and b.get("spans")]
-    fragments = [spans_to_html(blocks[i]["spans"]) for i in idx]
+    cloned = _clone_block_tree(blocks)
+    targets = _collect_translatable(cloned)
+    fragments = [spans_to_html(t["spans"]) for t in targets]
     translated = deepl_translate_html_batch(session, base, fragments,
                                             target_lang, interval)
-    out = [dict(b) for b in blocks]
-    for i, frag in zip(idx, translated):
-        out[i]["spans"] = html_to_spans(frag) or blocks[i]["spans"]
-    return out
+    for t, frag in zip(targets, translated):
+        t["spans"] = html_to_spans(frag) or t["spans"]
+    return cloned
 
 
 # --------------------------------------------------------------------------- #
@@ -355,11 +388,14 @@ def save_entry(path: Path, entry: dict) -> None:
 def blocks_plaintext(blocks: list[dict], span_key: str = "spans") -> str:
     lines = []
     for b in blocks:
-        if b["type"] == "divider":
-            continue
-        text = "".join(s.get("text", "") for s in b.get(span_key, []))
-        if text.strip():
-            lines.append(text)
+        if b["type"] != "divider":
+            text = "".join(s.get("text", "") for s in b.get(span_key, []))
+            if text.strip():
+                lines.append(text)
+        if b.get("children"):
+            nested = blocks_plaintext(b["children"], span_key)
+            if nested:
+                lines.append(nested)
     return "\n".join(lines)
 
 

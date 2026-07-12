@@ -15,7 +15,12 @@ is stable and fully testable offline:
     (anything else) paragraph
 
 Inline: **bold** and [text](url) links. One block per line; blocks are
-separated by blank lines.
+separated by blank lines. A block may have "children" (e.g. a numbered/
+bulleted item's body paragraph) — those are serialized indented two spaces
+per nesting level, and re-associated with their parent on parse by indent
+depth. This keeps consecutive list items adjacent Notion blocks (so Notion's
+auto-numbering stays continuous) while still carrying a body along with its
+item.
 """
 
 from __future__ import annotations
@@ -77,28 +82,38 @@ _PREFIX = {
 def blocks_to_markdown(blocks: list[dict], span_key: str) -> str:
     """Serialize block dicts to the markdown subset.
 
-    Each block: {"type": ..., "level"?: int, span_key: [...spans...]}.
-    Falls back to the block's "spans" if span_key is missing (e.g. an
-    untranslated block).
+    Each block: {"type": ..., "level"?: int, span_key: [...spans...],
+    "children"?: [...nested blocks...]}. Falls back to the block's "spans"
+    if span_key is missing (e.g. an untranslated block).
     """
+    lines = _serialize_blocks(blocks, span_key, 0)
+    return "\n".join(lines).strip() + "\n"
+
+
+def _serialize_blocks(blocks: list[dict], span_key: str, level: int) -> list[str]:
+    indent = "  " * level
     lines: list[str] = []
     for b in blocks:
         btype = b["type"]
+        children = b.get("children") or []
         if btype == "divider":
-            lines.append("---")
+            lines.append(indent + "---")
             lines.append("")
             continue
         spans = b.get(span_key) or b.get("spans") or []
         text = inline_to_markdown(spans)
-        if not text.strip():
+        if not text.strip() and not children:
             continue
-        if btype == "heading":
-            level = min(int(b.get("level", 1)), 3)
-            lines.append("#" * level + " " + text)
-        else:
-            lines.append(_PREFIX.get(btype, "") + text)
-        lines.append("")
-    return "\n".join(lines).strip() + "\n"
+        if text.strip():
+            if btype == "heading":
+                lvl = min(int(b.get("level", 1)), 3)
+                lines.append(indent + "#" * lvl + " " + text)
+            else:
+                lines.append(indent + _PREFIX.get(btype, "") + text)
+            lines.append("")
+        if children:
+            lines.extend(_serialize_blocks(children, span_key, level + 1))
+    return lines
 
 
 # --------------------------------------------------------------------------- #
@@ -152,32 +167,53 @@ def _block(kind: str, spans: list[dict]) -> dict:
     return {"object": "block", "type": kind, kind: {"rich_text": _rich_text(spans)}}
 
 
+def _parse_one_line(line: str) -> dict:
+    if line.strip() == "---":
+        return {"object": "block", "type": "divider", "divider": {}}
+    m = _HEADING_RE.match(line)
+    if m:
+        return _block(f"heading_{len(m.group(1))}", parse_inline_markdown(m.group(2)))
+    m = _BULLET_RE.match(line)
+    if m:
+        return _block("bulleted_list_item", parse_inline_markdown(m.group(1)))
+    m = _NUMBERED_RE.match(line)
+    if m:
+        return _block("numbered_list_item", parse_inline_markdown(m.group(1)))
+    m = _QUOTE_RE.match(line)
+    if m:
+        return _block("quote", parse_inline_markdown(m.group(1)))
+    return _block("paragraph", parse_inline_markdown(line))
+
+
+def _drop_empty_children(blocks: list[dict]) -> None:
+    for b in blocks:
+        children = b.get("children")
+        if children:
+            _drop_empty_children(children)
+        else:
+            b.pop("children", None)
+
+
 def markdown_to_notion_blocks(md: str) -> list[dict]:
-    """Parse the markdown subset into Notion block objects."""
-    blocks: list[dict] = []
+    """Parse the markdown subset into Notion block objects.
+
+    A line indented two spaces deeper than the preceding block becomes a
+    child of it (nested under that block's "children"), matching how
+    blocks_to_markdown serializes nested content.
+    """
+    root: list[dict] = []
+    stack: list[tuple[int, list[dict]]] = [(-1, root)]
     for raw in md.split("\n"):
-        line = raw.rstrip()
-        if not line.strip():
+        if not raw.strip():
             continue
-        if line.strip() == "---":
-            blocks.append({"object": "block", "type": "divider", "divider": {}})
-            continue
-        m = _HEADING_RE.match(line)
-        if m:
-            level = len(m.group(1))
-            blocks.append(_block(f"heading_{level}", parse_inline_markdown(m.group(2))))
-            continue
-        m = _BULLET_RE.match(line)
-        if m:
-            blocks.append(_block("bulleted_list_item", parse_inline_markdown(m.group(1))))
-            continue
-        m = _NUMBERED_RE.match(line)
-        if m:
-            blocks.append(_block("numbered_list_item", parse_inline_markdown(m.group(1))))
-            continue
-        m = _QUOTE_RE.match(line)
-        if m:
-            blocks.append(_block("quote", parse_inline_markdown(m.group(1))))
-            continue
-        blocks.append(_block("paragraph", parse_inline_markdown(line)))
-    return blocks
+        stripped = raw.lstrip(" ")
+        indent = (len(raw) - len(stripped)) // 2
+        line = stripped.rstrip()
+        while len(stack) > 1 and stack[-1][0] >= indent:
+            stack.pop()
+        block = _parse_one_line(line)
+        block["children"] = []
+        stack[-1][1].append(block)
+        stack.append((indent, block["children"]))
+    _drop_empty_children(root)
+    return root

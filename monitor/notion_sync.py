@@ -123,11 +123,46 @@ def rewrite_markdown_links(md_text: str, url_map: dict[str, str],
     return _LINK_URL_RE.sub(repl, md_text)
 
 
-def content_blocks(entry: dict, url_map: dict[str, str], tcfg: dict) -> list[dict]:
+_NON_CONTENT_BLOCK_TYPES = ("divider", "child_page", "child_database",
+                           "link_to_page")
+
+
+def linkify_sole_links(blocks: list[dict],
+                       page_id_by_notion_url: dict[str, str]) -> list[dict]:
+    """Replace a block whose ENTIRE content is a single link to an
+    already-translated resource with a native link_to_page block — the same
+    "sub-page card" Notion renders for a real child page — instead of a
+    plain-text hyperlink. Recurses into children. A block that mixes the
+    link with other text (e.g. the "[未翻訳...]" suffix) is left as-is."""
+    out: list[dict] = []
+    for b in blocks:
+        btype = b.get("type")
+        if btype not in _NON_CONTENT_BLOCK_TYPES and btype in b:
+            rich = b[btype].get("rich_text") or []
+            if (len(rich) == 1 and rich[0].get("type") == "text"
+                    and rich[0]["text"].get("link")):
+                page_id = page_id_by_notion_url.get(rich[0]["text"]["link"]["url"])
+                if page_id:
+                    out.append({"object": "block", "type": "link_to_page",
+                               "link_to_page": {"type": "page_id",
+                                                "page_id": page_id}})
+                    continue
+        nb = dict(b)
+        if b.get("children"):
+            nb["children"] = linkify_sole_links(b["children"], page_id_by_notion_url)
+        out.append(nb)
+    return out
+
+
+def content_blocks(entry: dict, url_map: dict[str, str],
+                   page_id_map: dict[str, str], tcfg: dict) -> list[dict]:
     md = entry.get("translated_markdown")
     if md:
-        return mdblocks.markdown_to_notion_blocks(
+        blocks = mdblocks.markdown_to_notion_blocks(
             rewrite_markdown_links(md, url_map, tcfg))
+        page_id_by_notion_url = {notion_page_url(pid): pid
+                                 for pid in page_id_map.values()}
+        return linkify_sole_links(blocks, page_id_by_notion_url)
     # Legacy fallback for entries stored before structured markdown existed.
     text = entry.get("translated_text", "")
     return [{"object": "block", "type": "paragraph",
@@ -135,8 +170,9 @@ def content_blocks(entry: dict, url_map: dict[str, str], tcfg: dict) -> list[dic
             for line in text.split("\n") if line.strip()]
 
 
-def build_blocks(entry: dict, url_map: dict[str, str], tcfg: dict) -> list[dict]:
-    return header_blocks(entry) + content_blocks(entry, url_map, tcfg)
+def build_blocks(entry: dict, url_map: dict[str, str], page_id_map: dict[str, str],
+                 tcfg: dict) -> list[dict]:
+    return header_blocks(entry) + content_blocks(entry, url_map, page_id_map, tcfg)
 
 
 class Notion:
@@ -203,6 +239,40 @@ class Notion:
                 break
             cursor = data["next_cursor"]
         for block_id in ids:
+            self.request("DELETE", f"/blocks/{block_id}").raise_for_status()
+
+    def replace_content_before_children(self, page_id: str,
+                                        blocks: list[dict]) -> None:
+        """Replace this page's own content, keeping it positioned BEFORE any
+        real sub-pages (child_page/child_database blocks), which must stay
+        last. clear-then-append would leave content stranded after those
+        sub-pages: deleting the old content first collapses the child blocks
+        to the top of the list, and a plain append then lands new content
+        AFTER them. Instead, insert the new blocks at the old content's
+        position first (immediately before the first child block), then
+        delete the old content — so the final order is [content][children]
+        regardless of API append-at-end behavior."""
+        live = self.list_children(page_id)
+        is_child = lambda b: b["type"] in ("child_page", "child_database")
+        old_content_ids = [b["id"] for b in live if not is_child(b)]
+        first_child_idx = next((i for i, b in enumerate(live) if is_child(b)), None)
+
+        if first_child_idx is None:
+            self.append_blocks(page_id, blocks)
+        else:
+            anchor = live[first_child_idx - 1]["id"] if first_child_idx > 0 else None
+            for i in range(0, len(blocks), 100):
+                payload = {"children": blocks[i:i + 100]}
+                if anchor:
+                    payload["after"] = anchor
+                resp = self.request("PATCH", f"/blocks/{page_id}/children",
+                                    json=payload)
+                resp.raise_for_status()
+                results = resp.json().get("results") or []
+                if results:
+                    anchor = results[-1]["id"]
+
+        for block_id in old_content_ids:
             self.request("DELETE", f"/blocks/{block_id}").raise_for_status()
 
     def page_exists(self, page_id: str) -> bool:
@@ -338,13 +408,12 @@ def main() -> int:
                     deferred += 1
                     continue
 
-        blocks = build_blocks(entry, url_map, tcfg)
+        blocks = build_blocks(entry, url_map, page_id_map, tcfg)
         try:
             if page_id and notion.page_exists(page_id):
                 print(f"  updating: {title}")
                 notion.set_title(page_id, title)
-                notion.clear_children(page_id)
-                notion.append_blocks(page_id, blocks)
+                notion.replace_content_before_children(page_id, blocks)
             else:
                 print(f"  creating: {title}")
                 page_id = notion.create_page(target_parent, title, blocks)
@@ -388,12 +457,12 @@ def main() -> int:
                 continue
             title = entry.get("title") or entry["url"]
             try:
-                blocks = build_blocks(entry, url_map, tcfg)
+                blocks = build_blocks(entry, url_map, page_id_map, tcfg)
                 # Update in place so real sub-pages keep their position; only
-                # fall back to clear+append if the structure no longer lines up.
+                # fall back to a positional replace if the structure no
+                # longer lines up.
                 if not notion.update_content_in_place(page_id, blocks):
-                    notion.clear_children(page_id)
-                    notion.append_blocks(page_id, blocks)
+                    notion.replace_content_before_children(page_id, blocks)
             except requests.RequestException as exc:
                 print(f"  ! relink failed, will retry next run: {entry['url']} "
                       f"-> {exc}", file=sys.stderr)
