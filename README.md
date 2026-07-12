@@ -198,6 +198,31 @@ python monitor/translation_status.py --list-unreviewed 5   # next pages to revie
 
 Fixes made during review are picked up by the next Notion sync.
 
+### Fixing a translation directly in Notion
+
+You don't have to edit the repo to fix a mistranslation — editing the text
+directly on the Notion page works too. Before pushing anything, every
+`notion_sync.py` run first checks each already-synced page for edits: if
+the live Notion content differs from what the repo has, the edit is pulled
+back into that page's `translations/pages/<page>.json`
+(`translated_markdown` / `translated_text`), and its `review` status is set
+to `fixed` (`reviewer: "notion-manual-edit"`) — all committed and pushed to
+GitHub automatically. This keeps the repo authoritative, so the next sync
+won't overwrite your fix with the old text.
+
+This only auto-pulls **content-only edits** — retyping/correcting the text
+of an existing block. It's skipped (left for you to fix in
+`translated_markdown` directly instead) when:
+- Blocks were added, deleted, or reordered by hand (the live structure no
+  longer matches what this pipeline would render), or
+- The page has any native sub-page cards (the `link_to_page` blocks used
+  for the "linked resources" lists — e.g. a library index page) — these
+  can't be round-tripped back into Markdown, so pages containing them are
+  skipped entirely, even for edits elsewhere on the same page.
+
+If in doubt, editing `translated_markdown` in the repo is always the more
+reliable path — the Notion edit path is a convenience for quick fixes.
+
 ## Localization
 
 Everything in this pipeline is language-agnostic except a handful of

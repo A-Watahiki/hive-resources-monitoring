@@ -27,6 +27,13 @@ for the first time, any already-synced page that links to it is re-rendered
 ("relinked") in the same run so the cross-link gets upgraded — without
 needing to retranslate or re-detect a content change on the linking page.
 
+Before pushing anything, this also pulls the other direction: for each
+already-synced page, it checks whether the live Notion content still
+matches what the repo has, and if a human edited the translation directly
+in the Notion UI, that edit is written back into the corresponding
+translations/pages/<page>.json (see pull_manual_edits()) so the repo stays
+the source of truth and the push below doesn't clobber it.
+
 Environment:
     NOTION_TOKEN           required. Internal-integration secret.
     NOTION_PARENT_PAGE_ID  required. The page under which entries are created
@@ -226,6 +233,168 @@ def build_blocks(entry: dict, url_map: dict[str, str], page_id_map: dict[str, st
     return title, icon, header_blocks(entry, tcfg.get("language")) + content
 
 
+# --------------------------------------------------------------------------- #
+# Pulling manual edits made directly in the Notion UI back into the repo
+# --------------------------------------------------------------------------- #
+_LIVE_TYPE_MAP = {
+    "heading_1": ("heading", 1),
+    "heading_2": ("heading", 2),
+    "heading_3": ("heading", 3),
+    "bulleted_list_item": ("bulleted", None),
+    "numbered_list_item": ("numbered", None),
+    "quote": ("quote", None),
+    "paragraph": ("paragraph", None),
+}
+
+
+def _rich_text_to_spans(rich_text: list[dict]) -> list[dict]:
+    spans = []
+    for r in rich_text:
+        if r.get("type") != "text":
+            continue
+        text_obj = r.get("text", {})
+        span = {"text": text_obj.get("content", "")}
+        link = text_obj.get("link")
+        if link and link.get("url"):
+            span["href"] = link["url"]
+        if r.get("annotations", {}).get("bold"):
+            span["bold"] = True
+        spans.append(span)
+    return spans
+
+
+def _live_block_to_internal(block: dict) -> dict | None:
+    """The inverse of markdown_to_notion_blocks() + linkify_sole_links(), for
+    a single live Notion block. Returns None for a block type this pipeline
+    doesn't itself produce (e.g. link_to_page, image — anything a human
+    could only have added by hand), which signals "can't safely round-trip
+    this page" to the caller."""
+    btype = block.get("type")
+    if btype == "divider":
+        return {"type": "divider"}
+    if btype not in _LIVE_TYPE_MAP:
+        return None
+    kind, level = _LIVE_TYPE_MAP[btype]
+    out: dict = {"type": kind,
+                "spans": _rich_text_to_spans((block.get(btype) or {}).get("rich_text") or [])}
+    if level:
+        out["level"] = level
+    kids = block.get("children") or []
+    if kids:
+        inner = [_live_block_to_internal(c) for c in kids]
+        if any(c is None for c in inner):
+            return None
+        out["children"] = inner
+    return out
+
+
+def _strip_header(blocks: list[dict]) -> list[dict]:
+    """Remove the leading callout/link/divider header header_blocks() always
+    prepends, matched by type so a page still round-trips even if a human
+    reordered content after it."""
+    i = 0
+    if i < len(blocks) and blocks[i]["type"] == "callout":
+        i += 1
+    if i < len(blocks) and blocks[i]["type"] == "paragraph":
+        i += 1
+    if i < len(blocks) and blocks[i]["type"] == "divider":
+        i += 1
+    return blocks[i:]
+
+
+def _blocks_structurally_match(a: list[dict], b: list[dict]) -> bool:
+    if len(a) != len(b):
+        return False
+    for x, y in zip(a, b):
+        if x["type"] != y["type"] or x.get("level") != y.get("level"):
+            return False
+        if not _blocks_structurally_match(x.get("children") or [],
+                                          y.get("children") or []):
+            return False
+    return True
+
+
+def _spans_differ(a: list[dict], b: list[dict]) -> bool:
+    norm = lambda spans: [(s.get("text", ""), s.get("href"), bool(s.get("bold")))
+                          for s in spans]
+    return norm(a) != norm(b)
+
+
+def _blocks_content_differs(a: list[dict], b: list[dict]) -> bool:
+    """a and b are assumed structurally matching (see above); True if any
+    block's text/link/bold content differs anywhere in the tree."""
+    for x, y in zip(a, b):
+        if x["type"] != "divider" and _spans_differ(x.get("spans", []), y.get("spans", [])):
+            return True
+        if _blocks_content_differs(x.get("children") or [], y.get("children") or []):
+            return True
+    return False
+
+
+def pull_manual_edits(notion: "Notion", entries: dict[Path, dict],
+                      url_map: dict[str, str], page_id_map: dict[str, str],
+                      tcfg: dict) -> int:
+    """Detect translations that were hand-edited directly on the Notion page
+    (fixing a mistranslation there instead of in the repo) and pull that
+    edit back into the corresponding translations/pages/<page>.json, so the
+    repo stays the source of truth and the next sync doesn't clobber it.
+
+    Only content-only edits are auto-pulled: the live page's block structure
+    must exactly match what this pipeline would currently render (same
+    block types/nesting, just different text) — anything else (blocks
+    added/removed/reordered by hand, or a category-link page whose
+    link_to_page cards can't be round-tripped) is left alone; edit
+    translated_markdown in the repo directly for those instead."""
+    pulled = 0
+    for path, entry in entries.items():
+        ninfo = entry.get("notion", {})
+        page_id = ninfo.get("page_id")
+        if not page_id or ninfo.get("synced_hash") != entry.get("content_hash"):
+            continue  # nothing pushed yet this generation, or a push is pending
+        icon, title, regenerated = split_title_icon(
+            content_blocks(entry, url_map, page_id_map, tcfg))
+        # regenerated is already in Notion API block shape (content_blocks()
+        # built it that way) — normalize it through the same conversion as
+        # the live page so the two sides are comparable.
+        regenerated_internal = [_live_block_to_internal(b) for b in regenerated]
+        if any(b is None for b in regenerated_internal):
+            continue  # e.g. a category-link page (link_to_page) — skip
+        try:
+            live = notion.list_children_recursive(page_id)
+        except requests.RequestException as exc:
+            print(f"  ! pull check failed: {entry['url']} -> {exc}", file=sys.stderr)
+            continue
+        live = [b for b in _strip_header(live)
+               if b["type"] not in ("child_page", "child_database")]
+        live_internal = [_live_block_to_internal(b) for b in live]
+        if any(b is None for b in live_internal):
+            continue  # contains a block type we can't round-trip — skip
+        regenerated = regenerated_internal
+        if not _blocks_structurally_match(regenerated, live_internal):
+            continue  # structure changed in Notion — needs a manual repo-side fix
+        if not _blocks_content_differs(regenerated, live_internal):
+            continue  # nothing to pull
+
+        lead: list[dict] = []
+        if icon:
+            lead.append({"type": "paragraph", "spans": [{"text": icon}]})
+        if title:
+            lead.append({"type": "heading", "level": 1, "spans": [{"text": title}]})
+        merged = lead + live_internal
+        entry["translated_markdown"] = mdblocks.blocks_to_markdown(merged, "spans")
+        entry["translated_text"] = translate.blocks_plaintext(merged)
+        entry["review"] = {
+            "status": "fixed",
+            "reviewed_at": datetime.now(timezone.utc).isoformat(),
+            "reviewer": "notion-manual-edit",
+            "notes": "Pulled a manual edit made directly on the Notion page.",
+        }
+        save_entry(path, entry)
+        pulled += 1
+        print(f"  pulled manual edit: {entry.get('title') or entry['url']}")
+    return pulled
+
+
 class Notion:
     def __init__(self, token: str):
         self.session = requests.Session()
@@ -371,6 +540,17 @@ class Notion:
             cursor = data["next_cursor"]
         return out
 
+    def list_children_recursive(self, block_id: str) -> list[dict]:
+        """list_children, but also fetches (and attaches as "children") the
+        descendants of any block that has some, mirroring the nesting shape
+        append_blocks() builds. Used to read back a page's live content for
+        pull_manual_edits()."""
+        blocks = self.list_children(block_id)
+        for b in blocks:
+            if b.get("has_children"):
+                b["children"] = self.list_children_recursive(b["id"])
+        return blocks
+
     def update_content_in_place(self, page_id: str, blocks: list[dict]) -> bool:
         """Rewrite content by PATCHing existing blocks in place, leaving every
         block (including child_page blocks and their position) where it is.
@@ -461,6 +641,8 @@ def main() -> int:
     newly_available: set[str] = set()
 
     notion = Notion(token)
+    pulled = pull_manual_edits(notion, entries, url_map, page_id_map, tcfg)
+
     synced = skipped = failed = deferred = 0
 
     for path, entry in entries.items():
@@ -549,8 +731,9 @@ def main() -> int:
             print(f"  relinked: {title}")
             relinked += 1
 
-    print(f"Notion sync: {synced} synced, {skipped} up to date, {failed} failed, "
-          f"{relinked} relinked, {deferred} deferred (parent pending).")
+    print(f"Notion sync: {pulled} pulled from Notion, {synced} synced, "
+          f"{skipped} up to date, {failed} failed, {relinked} relinked, "
+          f"{deferred} deferred (parent pending).")
     return 0
 
 

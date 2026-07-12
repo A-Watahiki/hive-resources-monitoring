@@ -24,6 +24,9 @@ LOCALES: dict[str, dict[str, str]] = {
         "email_removed": "Removed page(s) ({n})",
         "email_changed": "Changed page(s) ({n})",
         "email_diff_truncated": "  … ({n} more line(s) omitted)",
+        "email_translation_pending": "  → This page is translated; the "
+                                     "translation will be updated to match "
+                                     "on the next DeepL translation run.",
         "email_footer": "This email was sent automatically by "
                         "hive-resources-monitoring (GitHub Actions).",
         "review_unreviewed": "unreviewed (raw DeepL machine translation)",
@@ -42,6 +45,9 @@ LOCALES: dict[str, dict[str, str]] = {
         "email_removed": "削除されたページ（{n}件）",
         "email_changed": "内容が変更されたページ（{n}件）",
         "email_diff_truncated": "  … （差分が長いため {n} 行を省略）",
+        "email_translation_pending": "  → このページは翻訳対象です。次回のDeepL翻訳"
+                                     "実行時に、修正を反映した翻訳に自動的に更新され"
+                                     "ます。",
         "email_footer": "このメールは hive-resources-monitoring（GitHub Actions）"
                         "から自動送信されました。",
         "review_unreviewed": "未レビュー（DeepL自動翻訳のまま）",

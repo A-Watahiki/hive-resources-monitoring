@@ -39,6 +39,7 @@ import requests
 import yaml
 from bs4 import BeautifulSoup
 
+import translate
 from locales import get_locale
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -240,7 +241,7 @@ def has_changes(diff: dict) -> bool:
 # Email
 # --------------------------------------------------------------------------- #
 def build_email_body(diff: dict, new_pages: dict, max_diff_lines: int,
-                     language: str = "en") -> str:
+                     language: str = "en", tcfg: dict | None = None) -> str:
     msg = get_locale(language)
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     parts = [msg["email_intro"].format(now=now), ""]
@@ -269,6 +270,8 @@ def build_email_body(diff: dict, new_pages: dict, max_diff_lines: int,
                         n=len(diff_lines) - max_diff_lines)
                 ]
             parts.append("  " + "\n  ".join(diff_lines))
+            if tcfg is not None and translate.url_in_scope(item["url"], tcfg):
+                parts.append(msg["email_translation_pending"])
         parts.append("")
 
     parts.append("---")
@@ -332,8 +335,9 @@ def main() -> int:
     n = len(diff["added"]) + len(diff["removed"]) + len(diff["changed"])
     msg = get_locale(cfg["language"])
     subject = msg["email_subject"].format(n=n)
+    tcfg = translate.load_config()
     body = build_email_body(diff, new_pages, cfg.get("max_diff_lines", 200),
-                            cfg["language"])
+                            cfg["language"], tcfg)
 
     print("Changes detected:")
     print(f"  added={len(diff['added'])} removed={len(diff['removed'])} "
