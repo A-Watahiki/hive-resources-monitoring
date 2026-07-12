@@ -248,16 +248,28 @@ _LIVE_TYPE_MAP = {
 
 
 def _rich_text_to_spans(rich_text: list[dict]) -> list[dict]:
-    spans = []
+    """Notion silently merges adjacent same-style text runs when it stores a
+    block (e.g. a dropped mailto: link leaves two plain-text runs on either
+    side of what was a link, which come back as one on the next read), so
+    this merges same-(href, bold) neighbors too — otherwise every such spot
+    would look like a content difference to pull_manual_edits() even when
+    nothing was actually edited."""
+    spans: list[dict] = []
     for r in rich_text:
         if r.get("type") != "text":
             continue
         text_obj = r.get("text", {})
-        span = {"text": text_obj.get("content", "")}
+        text = text_obj.get("content", "")
         link = text_obj.get("link")
-        if link and link.get("url"):
-            span["href"] = link["url"]
-        if r.get("annotations", {}).get("bold"):
+        href = link["url"] if link and link.get("url") else None
+        bold = bool(r.get("annotations", {}).get("bold"))
+        if spans and spans[-1].get("href") == href and bool(spans[-1].get("bold")) == bold:
+            spans[-1]["text"] += text
+            continue
+        span = {"text": text}
+        if href:
+            span["href"] = href
+        if bold:
             span["bold"] = True
         spans.append(span)
     return spans
