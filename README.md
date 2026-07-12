@@ -123,12 +123,23 @@ GitHub Actions (daily at 01:00 UTC)
 
 **Layout preservation**: to keep the structure of the original Hive page (it's
 itself Notion-based), each page's HTML is re-fetched at translation time and
-its headings, bulleted/numbered lists, quotes, dividers, and inline links are
-extracted as structured blocks. Translation goes through DeepL's HTML tag
-handling, so links and bold text survive. Storage, review, and Notion
-rendering all treat a small **Markdown subset**
-(`#`/`##`/`###`, `- `/`1. `, `> `, `---`, `[text](URL)`, `**bold**`) as the
-single source of truth.
+its headings, toggles (plain and heading toggles), callouts (with icon and
+background color), bulleted/numbered lists, quotes, dividers, tables, column
+layouts, images, page covers, and inline links are extracted as structured
+blocks. Translation goes through DeepL's HTML tag handling, so links and bold
+text survive. Storage, review, and Notion rendering all treat a small
+**Markdown subset** (documented at the top of
+[`monitor/mdblocks.py`](monitor/mdblocks.py): `#`/`##`/`###`, `#>`/`>>>`
+toggles, `!!!(icon|color)` callouts, `- `/`1. `, `> `, `---`, `| a | b |`
+tables, `|||`/`||` columns, `![alt](url)` images, `[text](URL)`, `**bold**`)
+as the single source of truth.
+
+**Translation reuse**: when a schema change re-extracts pages, previously
+translated text is reused from the stored source/translation pairs instead of
+being re-sent to DeepL, so layout upgrades cost little or no quota. If the
+monthly DeepL quota runs out mid-page, the untranslated fragments temporarily
+keep their source language, the entry is marked `translation_incomplete`, and
+the page is retried on later runs until the quota allows it to finish.
 
 **Cross-resource link rewriting**: links between resources (e.g. the library
 index linking to its category pages) are automatically rewritten to point at

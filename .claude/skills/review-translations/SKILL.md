@@ -38,8 +38,11 @@ picked up gradually on later invocations.
 
 3. Only if a fix is needed, edit `translated_markdown` with Edit. Don't
    rewrite the whole thing — make a targeted fix at the problem spot only.
-   **Preserve the Markdown syntax**: heading `#`/`##`/`###`, list markers
-   `- `/`1. `, quote `> `, divider `---`, links `[text](URL)`, bold
+   **Preserve the Markdown syntax** (the full subset is documented at the
+   top of `monitor/mdblocks.py`): heading `#`/`##`/`###`, toggle markers
+   `#>`/`##>`/`###>`/`>>>`, callout `!!!(icon|color)`, list markers
+   `- `/`1. `, quote `> `, divider `---`, table rows `| a | b |`, column
+   markers `|||`/`||`, images `![alt](url)`, links `[text](URL)`, bold
    `**text**` — these drive how the page renders as Notion blocks, so don't
    break them. Don't change link URLs. It's good practice to also fix
    `translated_text` (the plain-text copy) to match, but Notion rendering

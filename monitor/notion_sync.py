@@ -137,7 +137,8 @@ def rewrite_markdown_links(md_text: str, url_map: dict[str, str],
 
 
 _NON_CONTENT_BLOCK_TYPES = ("divider", "child_page", "child_database",
-                           "link_to_page")
+                           "link_to_page", "image", "table", "table_row",
+                           "column_list", "column", "toggle", "callout")
 
 
 def linkify_sole_links(blocks: list[dict],
@@ -145,8 +146,9 @@ def linkify_sole_links(blocks: list[dict],
     """Replace a block whose ENTIRE content is a single link to an
     already-translated resource with a native link_to_page block — the same
     "sub-page card" Notion renders for a real child page — instead of a
-    plain-text hyperlink. Recurses into children. A block that mixes the
-    link with other text (e.g. the "not yet translated" suffix) is left as-is."""
+    plain-text hyperlink. Recurses into children (including the blocks
+    inside a column layout). A block that mixes the link with other text
+    (e.g. the "not yet translated" suffix) is left as-is."""
     out: list[dict] = []
     for b in blocks:
         btype = b.get("type")
@@ -163,6 +165,12 @@ def linkify_sole_links(blocks: list[dict],
         nb = dict(b)
         if b.get("children"):
             nb["children"] = linkify_sole_links(b["children"], page_id_by_notion_url)
+        if btype == "column_list" and b.get("column_list", {}).get("children"):
+            nb["column_list"] = {"children": [
+                dict(col, column={"children": linkify_sole_links(
+                    col.get("column", {}).get("children") or [],
+                    page_id_by_notion_url)})
+                for col in b["column_list"]["children"]]}
         out.append(nb)
     return out
 
@@ -223,14 +231,17 @@ def split_title_icon(blocks: list[dict]) -> tuple[str | None, str | None, list[d
 
 
 def build_blocks(entry: dict, url_map: dict[str, str], page_id_map: dict[str, str],
-                 tcfg: dict) -> tuple[str, str | None, list[dict]]:
-    """Returns (title, icon_emoji_or_None, blocks). The title/icon come from
-    the translated content's own leading icon + heading when present,
-    falling back to the (untranslated) title captured at crawl time."""
+                 tcfg: dict) -> tuple[str, str | None, str | None, list[dict]]:
+    """Returns (title, icon_emoji_or_None, cover_url_or_None, blocks). The
+    title/icon come from the translated content's own leading icon + heading
+    when present, falling back to the (untranslated) title captured at crawl
+    time; the cover is the original page's cover image, captured at
+    translation time."""
     icon, translated_title, content = split_title_icon(
         content_blocks(entry, url_map, page_id_map, tcfg))
     title = translated_title or entry.get("title") or entry["url"]
-    return title, icon, header_blocks(entry, tcfg.get("language")) + content
+    return (title, icon, entry.get("cover_url"),
+            header_blocks(entry, tcfg.get("language")) + content)
 
 
 # --------------------------------------------------------------------------- #
@@ -278,19 +289,32 @@ def _rich_text_to_spans(rich_text: list[dict]) -> list[dict]:
 def _live_block_to_internal(block: dict) -> dict | None:
     """The inverse of markdown_to_notion_blocks() + linkify_sole_links(), for
     a single live Notion block. Returns None for a block type this pipeline
-    doesn't itself produce (e.g. link_to_page, image — anything a human
-    could only have added by hand), which signals "can't safely round-trip
-    this page" to the caller."""
+    can't round-trip back to its markdown form (link_to_page, image, table,
+    column layouts), which signals "skip this page" to the caller."""
     btype = block.get("type")
     if btype == "divider":
         return {"type": "divider"}
-    if btype not in _LIVE_TYPE_MAP:
+    if btype == "toggle":
+        out: dict = {"type": "toggle",
+                     "spans": _rich_text_to_spans(
+                         (block.get("toggle") or {}).get("rich_text") or [])}
+    elif btype == "callout":
+        payload = block.get("callout") or {}
+        icon = (payload.get("icon") or {}).get("emoji")
+        out = {"type": "callout", "icon": icon,
+               "color": payload.get("color") or "default",
+               "spans": _rich_text_to_spans(payload.get("rich_text") or [])}
+    elif btype in _LIVE_TYPE_MAP:
+        kind, level = _LIVE_TYPE_MAP[btype]
+        payload = block.get(btype) or {}
+        out = {"type": kind,
+               "spans": _rich_text_to_spans(payload.get("rich_text") or [])}
+        if level:
+            out["level"] = level
+        if payload.get("is_toggleable"):
+            out["toggle"] = True
+    else:
         return None
-    kind, level = _LIVE_TYPE_MAP[btype]
-    out: dict = {"type": kind,
-                "spans": _rich_text_to_spans((block.get(btype) or {}).get("rich_text") or [])}
-    if level:
-        out["level"] = level
     kids = block.get("children") or []
     if kids:
         inner = [_live_block_to_internal(c) for c in kids]
@@ -428,13 +452,15 @@ class Notion:
         return resp
 
     def create_page(self, parent_id: str, title: str, blocks: list[dict],
-                    icon: str | None = None) -> str:
+                    icon: str | None = None, cover: str | None = None) -> str:
         payload = {
             "parent": {"page_id": parent_id},
             "properties": {"title": {"title": [rich_text(title)]}},
         }
         if icon:
             payload["icon"] = {"type": "emoji", "emoji": icon}
+        if cover:
+            payload["cover"] = {"type": "external", "external": {"url": cover}}
         resp = self.request("POST", "/pages", json=payload)
         resp.raise_for_status()
         page_id = resp.json()["id"]
@@ -477,10 +503,13 @@ class Notion:
             if kids:
                 self.append_blocks(block_id, kids)
 
-    def set_title(self, page_id: str, title: str, icon: str | None = None) -> None:
+    def set_title(self, page_id: str, title: str, icon: str | None = None,
+                  cover: str | None = None) -> None:
         payload = {"properties": {"title": {"title": [rich_text(title)]}}}
         if icon:
             payload["icon"] = {"type": "emoji", "emoji": icon}
+        if cover:
+            payload["cover"] = {"type": "external", "external": {"url": cover}}
         resp = self.request("PATCH", f"/pages/{page_id}", json=payload)
         resp.raise_for_status()
 
@@ -679,15 +708,16 @@ def main() -> int:
                     deferred += 1
                     continue
 
-        title, icon, blocks = build_blocks(entry, url_map, page_id_map, tcfg)
+        title, icon, cover, blocks = build_blocks(entry, url_map, page_id_map, tcfg)
         try:
             if page_id and notion.page_exists(page_id):
                 print(f"  updating: {title}")
-                notion.set_title(page_id, title, icon)
+                notion.set_title(page_id, title, icon, cover)
                 notion.replace_content_before_children(page_id, blocks)
             else:
                 print(f"  creating: {title}")
-                page_id = notion.create_page(target_parent, title, blocks, icon)
+                page_id = notion.create_page(target_parent, title, blocks,
+                                             icon, cover)
         except requests.RequestException as exc:
             status = getattr(exc.response, "status_code", None)
             if status in (401, 403):
@@ -729,7 +759,8 @@ def main() -> int:
             if not any(u in md for u in newly_available):
                 continue
             try:
-                title, _icon, blocks = build_blocks(entry, url_map, page_id_map, tcfg)
+                title, _icon, _cover, blocks = build_blocks(entry, url_map,
+                                                            page_id_map, tcfg)
                 # Update in place so real sub-pages keep their position; only
                 # fall back to a positional replace if the structure no
                 # longer lines up.
