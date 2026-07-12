@@ -75,6 +75,7 @@ def load_config() -> tuple[dict, dict]:
     tcfg.setdefault("request_interval_seconds", 0.5)
     tcfg.setdefault("user_agent", cfg.get("user_agent", "HiveResourceMonitor/1.0"))
     tcfg.setdefault("request_timeout", cfg.get("request_timeout", 30))
+    tcfg.setdefault("language", cfg.get("language", "en"))
     return tcfg
 
 

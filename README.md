@@ -1,211 +1,254 @@
 # hive-resources-monitoring
 
-[Hive Resource Library](https://resources.joinhive.org/library) とその配下ページを
-定期的に監視し、**更新があればメールで通知**するシステムです。
+Periodically monitors the [Hive Resource Library](https://resources.joinhive.org/library)
+and the pages under it, and **emails you when something is added, removed, or
+changed**.
 
-さらに、取得したページを **DeepL で日本語に自動翻訳**して原文とセットで保存し、
-**Notion の個人ページに反映**する翻訳パイプラインを備えています
-（→ [翻訳・Notion同期](#翻訳notion同期)）。
+It also includes an optional translation pipeline: fetched pages can be
+**machine-translated via DeepL** and saved alongside the source text, then
+**synced to a personal Notion page** (→ [Translation & Notion sync](#translation--notion-sync)).
 
-## 特徴
+## Features
 
-- **Claude / LLM のトークンを一切消費しません。** 監視処理は純粋な Python スクリプトで、
-  GitHub Actions の定期実行（cron）で動きます。通常運転の AI トークン消費はゼロです。
-- 追加の外部サービス不要。GitHub Actions の無料枠内で完結します。
-- 前回取得したページ内容のスナップショットをリポジトリ内（`snapshots/state.json`）に保存し、
-  次回実行時に差分を比較します。
+- **Uses zero Claude / LLM tokens.** The monitoring itself is plain Python,
+  run on a schedule (cron) by GitHub Actions. Normal operation consumes no
+  AI tokens at all.
+- No extra external services required — runs entirely within GitHub Actions'
+  free tier.
+- The previous run's page snapshot is stored in the repo itself
+  (`snapshots/state.json`) and diffed against on the next run.
 
-## 仕組み
+## How it works
 
 ```
-GitHub Actions (毎日1回 cron)
+GitHub Actions (cron, once a day)
    └─ monitor/monitor.py
-        1. ライブラリページと配下ページをクロールして本文を取得
-        2. 各ページの本文ハッシュを計算
-        3. snapshots/state.json（前回分）と比較
-        4. 追加/削除/変更があれば → メール送信
-        5. スナップショットを更新して自動コミット
+        1. Crawl the library and its sub-pages, extracting page text
+        2. Hash each page's content
+        3. Compare against snapshots/state.json (the previous run)
+        4. If anything was added / removed / changed → send an email
+        5. Update the snapshot and commit it automatically
 ```
 
-検出する変更:
+Changes it detects:
 
-- **追加されたページ**（新しいリソースが公開された等）
-- **削除されたページ**
-- **既存ページの内容変更**（本文の差分を unified diff 形式でメールに記載）
+- **Pages added** (e.g. a new resource published)
+- **Pages removed**
+- **Existing pages changed** (the email includes a unified diff of the body text)
 
-## セットアップ
+## Setup
 
-### 1. メール送信用の GitHub Secrets を登録
+### 1. Register GitHub Secrets for sending email
 
-リポジトリの **Settings → Secrets and variables → Actions → New repository secret** で
-以下を登録します（Gmail SMTP を使う構成）。
+Under the repo's **Settings → Secrets and variables → Actions → New
+repository secret**, add the following (this is set up for Gmail SMTP):
 
-| Secret 名        | 値の例                          | 説明 |
-|------------------|--------------------------------|------|
-| `SMTP_USER`      | `youraddress@gmail.com`        | 送信元 Gmail アドレス |
-| `SMTP_PASS`      | `abcd efgh ijkl mnop`          | Gmail の**アプリパスワード**（後述） |
-| `EMAIL_TO`       | `amanex.watahiki@gmail.com`    | 通知先。カンマ区切りで複数指定可 |
-| `EMAIL_FROM`     | `youraddress@gmail.com`        | （任意）送信元。未設定なら `SMTP_USER` を使用 |
-| `EMAIL_FROM_NAME`| `Hive Resource Monitor`        | （任意）送信者の表示名 |
-| `SMTP_HOST`      | `smtp.gmail.com`               | （任意）未設定なら `smtp.gmail.com` |
-| `SMTP_PORT`      | `587`                          | （任意）未設定なら `587` |
+| Secret               | Example value                   | Description |
+|-----------------------|----------------------------------|--------------|
+| `SMTP_USER`           | `youraddress@gmail.com`         | The sending Gmail address |
+| `SMTP_PASS`           | `abcd efgh ijkl mnop`           | A Gmail **app password** (see below) |
+| `EMAIL_TO`            | `you@example.com`               | Where notifications go. Comma-separate for multiple recipients |
+| `EMAIL_FROM`          | `youraddress@gmail.com`         | (optional) Sender address; defaults to `SMTP_USER` |
+| `EMAIL_FROM_NAME`     | `Hive Resource Monitor`         | (optional) Sender display name |
+| `SMTP_HOST`           | `smtp.gmail.com`                | (optional) Defaults to `smtp.gmail.com` |
+| `SMTP_PORT`           | `587`                           | (optional) Defaults to `587` |
 
-#### Gmail アプリパスワードの取得方法
+#### Getting a Gmail app password
 
-1. Google アカウントで **2 段階認証を有効化**（アプリパスワードには必須）。
-2. <https://myaccount.google.com/apppasswords> にアクセス。
-3. 任意の名前（例: `hive-monitor`）でアプリパスワードを生成。
-4. 表示された 16 桁の文字列を `SMTP_PASS` に登録（スペースはあってもなくても可）。
+1. **Enable 2-Step Verification** on your Google account (required for app
+   passwords).
+2. Go to <https://myaccount.google.com/apppasswords>.
+3. Generate an app password under any name (e.g. `hive-monitor`).
+4. Copy the 16-character string into `SMTP_PASS` (spaces are fine either
+   way).
 
-> 通常の Gmail ログインパスワードは SMTP では使えません。必ずアプリパスワードを使ってください。
+> Your normal Gmail login password won't work over SMTP — you must use an
+> app password.
 
-Gmail 以外の SMTP サーバや SendGrid などを使いたい場合は、`SMTP_HOST` / `SMTP_PORT` /
-`SMTP_USER` / `SMTP_PASS` をそのサービスの値に差し替えてください（SMTP 対応サービスなら
-そのまま動きます）。
+To use a different SMTP provider (another mailbox, SendGrid, etc.), just
+point `SMTP_HOST` / `SMTP_PORT` / `SMTP_USER` / `SMTP_PASS` at that
+service's values — anything that speaks SMTP works as-is.
 
-### 2. Actions の書き込み権限を確認
+### 2. Confirm Actions has write permission
 
-スナップショットを自動コミットするため、**Settings → Actions → General → Workflow permissions**
-で **「Read and write permissions」** を有効にしてください。
+The workflow commits the updated snapshot back to the repo, so under
+**Settings → Actions → General → Workflow permissions**, enable
+**"Read and write permissions"**.
 
-### 3. 監視対象・頻度の調整（任意）
+### 3. Adjust what's monitored and how often (optional)
 
-- 監視対象・クロール深さ: [`monitor/config.yaml`](monitor/config.yaml)
-- チェック頻度: [`.github/workflows/monitor.yml`](.github/workflows/monitor.yml) の `cron` 式
-  （デフォルトは毎日 00:00 UTC = 日本時間 09:00）
+- Crawl targets / depth: [`monitor/config.yaml`](monitor/config.yaml)
+- Check frequency: the `cron` expression in
+  [`.github/workflows/monitor.yml`](.github/workflows/monitor.yml)
+  (defaults to daily at 00:00 UTC)
 
-## 動作確認
+## Verifying it works
 
-初回セットアップ後の流れ:
+After initial setup:
 
-1. **初回実行**: 差分の比較対象がないため、スナップショットを記録するだけでメールは送りません。
-2. **2 回目以降**: 前回との差分を比較し、変更があればメールを送ります。
+1. **First run**: there's nothing to diff against yet, so it just records a
+   snapshot — no email is sent.
+2. **From the second run on**: it diffs against the previous snapshot and
+   emails you if anything changed.
 
-手動で試すには、Actions 画面で **「Monitor Hive Resource Library」→ Run workflow** を実行します。
-`dry_run` に `true` を指定すると、メールを送らずに検出した差分をログに出力できます
-（Secrets 登録前の動作確認に便利）。
+To try it manually, go to the Actions tab and run **"Monitor Hive Resource
+Library" → Run workflow**. Setting `dry_run` to `true` logs the detected
+diff instead of emailing it (handy for testing before Secrets are set up).
 
-ローカルで試す場合:
+To try it locally:
 
 ```bash
 pip install -r monitor/requirements.txt
 DRY_RUN=true python monitor/monitor.py
 ```
 
-## 翻訳・Notion同期
+## Translation & Notion sync
 
-`monitor.py` が取得したページを DeepL API で日本語に翻訳し、原文・訳文をセットで
-リポジトリに保存、さらに Notion の個人ページに反映します。**翻訳・同期とも純粋な
-Python スクリプトで、Claude のトークンは消費しません。**
+`translate.py` translates the pages `monitor.py` fetched via the DeepL API,
+saves the source and translation side by side in the repo, and syncs them to
+a personal Notion page. **Both the translation and sync steps are plain
+Python — they don't use any Claude tokens either.**
 
 ```
-GitHub Actions (毎日 01:00 UTC = JST 10:00)
-   └─ translate.py   : 新規・変更ページの HTML を再取得して構造（見出し・箇条書き・
-   │                    リンク等）を保ったまま抽出 → DeepL で翻訳
-   │                    → translations/pages/<ページ>.json に原文+訳文を保存
-   └─ notion_sync.py : 未同期の訳文を Notion 親ページ配下に 1ページ=1リソースで作成/更新
-                       （見出し/リスト/引用/区切り/リンクを Notion ブロックとして描画）
+GitHub Actions (daily at 01:00 UTC)
+   └─ translate.py  : re-fetches new/changed pages' HTML, extracting
+   │                  structure (headings, lists, links, etc.) rather than
+   │                  flat text → translates via DeepL
+   │                  → saves source + translation to
+   │                    translations/pages/<page>.json
+   └─ notion_sync.py: creates/updates one Notion page per untranslated
+                       resource under a parent page (rendering headings,
+                       lists, quotes, dividers, and links as Notion blocks)
 ```
 
-**レイアウトの保持**: 元の Hive ページ（Notion ベース）の構造を保つため、翻訳時に
-各ページの HTML を再取得し、見出し・箇条書き・番号リスト・引用・区切り線・インライン
-リンクを構造化して抽出します。翻訳は DeepL の HTML タグ処理で行うため、リンクや強調も
-訳文中で維持されます。保存・レビュー・Notion 描画は、これらを表す小さな **Markdown
-サブセット**（`#`/`##`/`###`、`- `/`1. `、`> `、`---`、`[表示](URL)`、`**太字**`）を
-唯一の正とします。
+**Layout preservation**: to keep the structure of the original Hive page (it's
+itself Notion-based), each page's HTML is re-fetched at translation time and
+its headings, bulleted/numbered lists, quotes, dividers, and inline links are
+extracted as structured blocks. Translation goes through DeepL's HTML tag
+handling, so links and bold text survive. Storage, review, and Notion
+rendering all treat a small **Markdown subset**
+(`#`/`##`/`###`, `- `/`1. `, `> `, `---`, `[text](URL)`, `**bold**`) as the
+single source of truth.
 
-**リソース間リンクの張り替え**: 元ページ内のリンク（例: ライブラリ index → 各カテゴリ
-ページ）は、リンク先がすでに翻訳済みなら**作成済みの日本語版 Notion ページ**を指すよう
-自動的に張り替えられます。まだ未翻訳のリンク先は、元の Hive ページ（英語）を指す
-フォールバックのままです。あるページが初めて翻訳された時点で、それを参照している
-既存の Notion ページも同じ実行内で自動的に再描画（リレンク）され、リンクが更新されます。
+**Cross-resource link rewriting**: links between resources (e.g. the library
+index linking to its category pages) are automatically rewritten to point at
+the corresponding **translated Notion page** once that target has been
+translated. Links to not-yet-translated pages fall back to the original
+(English) Hive page. The moment a page is translated for the first time, any
+already-synced page that links to it gets its rendering refreshed
+("relinked") in the same run, so the link is upgraded without needing a
+retranslation of the linking page.
 
-**階層構造（Notion サブページ化）**: 新規に作成する Notion ページは、Hive の URL 構造
-（例: `/library/ai-prompts/academia`）に対応する形で、論理的な親ページ（`/library/ai-prompts`）
-の**実サブページ**として作成されます。これにより、Notion のサイドバーやページ内の
-子ページ一覧に、元の Hive の階層構造がそのまま反映されます。親ページがまだ翻訳されて
-いない場合はページ作成を保留し、次回以降の実行で親が翻訳され次第、自動的に正しい階層で
-作成されます（Notion API にはページの親を後から変更する手段がないため、作成時にのみ
-階層を決定する設計です）。
+**Hierarchy (real Notion sub-pages)**: newly created Notion pages are created
+as **real sub-pages** of the page matching their logical parent in the Hive
+URL structure (e.g. `/library/ai-prompts/academia` under the already-created
+`/library/ai-prompts` page). This means Notion's sidebar and child-page lists
+mirror the original Hive hierarchy. If the logical parent hasn't been
+translated yet, page creation is deferred until it has (the Notion API has no
+way to move a page's parent after creation, so this is decided once, at
+creation time).
 
-### 保存形式（translations/pages/*.json）
+### Storage format (translations/pages/*.json)
 
-1ページ 1 JSON ファイル。フィールド:
+One JSON file per page. Fields:
 
-| フィールド | 内容 |
+| Field | Contents |
 |---|---|
-| `url` / `title` / `content_hash` | 元ページの情報（ハッシュが変わると再翻訳） |
-| `source_markdown` | 構造を保った原文（Markdownサブセット） |
-| `translated_markdown` | DeepL訳（Markdownサブセット・**Notion描画の正**・レビューで修正） |
-| `source_text` / `translated_text` | プレーンテキスト版（差分・進捗確認用） |
-| `schema_version` | 保存形式のバージョン（変わると再翻訳） |
-| `review.status` | `unreviewed` → `reviewed` / `fixed`（Claudeレビューで更新） |
-| `notion.page_id` ほか | Notion 同期の管理情報 |
+| `url` / `title` / `content_hash` | Info about the source page (a changed hash triggers retranslation) |
+| `source_markdown` | The structure-preserving source (Markdown subset) |
+| `translated_markdown` | The DeepL translation (Markdown subset — the source of truth for Notion rendering; edited during review) |
+| `source_text` / `translated_text` | Plain-text copies (for diffing / progress checks) |
+| `schema_version` | Storage format version (a bump triggers retranslation) |
+| `review.status` | `unreviewed` → `reviewed` / `fixed` (updated by the Claude review routine) |
+| `notion.page_id` etc. | Notion sync bookkeeping |
 
-### 必要な Secrets（追加分）
+### Required Secrets (additional)
 
-| Secret 名 | 値 | 説明 |
+| Secret | Value | Description |
 |---|---|---|
-| `DEEPL_API_KEY` | DeepL API キー | [DeepL API Free](https://www.deepl.com/pro-api) で無料登録（50万字/月）。キー末尾が `:fx` なら Free 用エンドポイントを自動選択 |
-| `NOTION_TOKEN` | `ntn_...` | [notion.so/my-integrations](https://www.notion.so/my-integrations) で内部インテグレーションを作成して取得 |
-| `NOTION_PARENT_PAGE_ID` | ページID または ページURL | 訳文ページの作成先となる親ページ。**そのページの「⋯ → コネクト」でインテグレーションを追加**（共有）しておくこと |
+| `DEEPL_API_KEY` | A DeepL API key | Free registration at [DeepL API Free](https://www.deepl.com/pro-api) (500K chars/month). A key ending in `:fx` automatically selects the free-tier endpoint |
+| `NOTION_TOKEN` | `ntn_...` | Create an internal integration at [notion.so/my-integrations](https://www.notion.so/my-integrations) |
+| `NOTION_PARENT_PAGE_ID` | A page ID or page URL | The parent page new translated pages are created under. **Share that page with the integration** via "⋯ → Connections" first |
 
-`DEEPL_API_KEY` 未設定なら翻訳はスキップ、`NOTION_TOKEN` 未設定なら Notion 同期は
-スキップされます（エラーにはなりません）。
+If `DEEPL_API_KEY` isn't set, translation is skipped; if `NOTION_TOKEN` isn't
+set, the Notion sync is skipped — neither is treated as an error.
 
-### 文字数バジェット（DeepL 無料枠対策）
+### Character budget (staying within DeepL's free tier)
 
-全ページを一度に翻訳すると DeepL 無料枠（50万字/月）を超え得るため、1回の実行で
-翻訳する原文文字数に上限を設けています（`config.yaml` の
-`translation.char_budget_per_run`、デフォルト 40,000字）。未翻訳分は日次実行で
-少しずつ消化されます。手動実行（Run workflow）の `char_budget` 入力で一時的に
-引き上げることもできます。翻訳対象はデフォルトで `/library` 配下のみです
-（`translation.include_prefixes` で変更可）。
+Translating everything in one go could exceed DeepL's free tier (500K
+chars/month), so each run caps how much source text it translates
+(`translation.char_budget_per_run` in `config.yaml`, default 40,000 chars).
+The backlog is worked through gradually across daily runs. You can raise this
+temporarily via the `char_budget` input on a manual "Run workflow". By
+default only pages under `/library` are translated (change this with
+`translation.include_prefixes`).
 
-### 翻訳レビュー（Claude ルーチン）
+### Translation review (Claude routine)
 
-DeepL 訳の品質チェックは、リポジトリ同梱の Claude Code スキル
-**`/review-translations`** で行います。1回の呼び出しで数ページのみ
-（デフォルト3、`/review-translations 5` のように指定可）を原文と対照チェックし、
-`review.status` を更新してコミットします。少しずつ実行することでトークン消費を
-抑えられます。進捗確認は:
+Quality-checking the DeepL output is handled by the bundled Claude Code
+skill **`/review-translations`**. Each invocation checks only a handful of
+pages against their source (default 3, or e.g. `/review-translations 5`),
+updates `review.status`, and commits. Running it a little at a time keeps
+token usage low. Check progress with:
 
 ```bash
-python monitor/translation_status.py                  # サマリ
-python monitor/translation_status.py --list-unreviewed 5   # 次のレビュー対象
+python monitor/translation_status.py                       # summary
+python monitor/translation_status.py --list-unreviewed 5   # next pages to review
 ```
 
-レビューで訳文を修正すると、次回の Notion 同期で修正後の内容がページに反映されます。
+Fixes made during review are picked up by the next Notion sync.
 
-## 注意事項
+## Localization
 
-- **JavaScript で描画されるサイトの場合**: `monitor.py` は静的 HTML を取得します。もし取得した
-  ページ本文が空だったり、リンクが検出できない場合は、対象サイトが JS レンダリングの可能性が
-  あります。その際は `config.yaml` の `sitemap_urls` にサイトマップを指定するか、ヘッドレス
-  ブラウザ（Playwright）への切り替えが必要です。まずは初回実行のログで取得ページ数を確認して
-  ください。
-- **誤検知（false positive）**: 広告・日付表示・ランダムIDなど動的に変わる要素があると、実質的な
-  更新がなくても差分として検出されることがあります。その場合は `config.yaml` の
-  `ignore_url_patterns` で対象URLを除外するか、必要に応じて本文抽出ロジックを調整してください。
+Everything in this pipeline is language-agnostic except a handful of
+operator-facing strings (monitor emails, the Notion sync status callout, the
+"not yet translated" link annotation). Those live in one place —
+[`monitor/locales.py`](monitor/locales.py) — as a dict keyed by locale code,
+with `en` and `ja` (this deployment's live example) built in.
 
-## ファイル構成
+To run this for another target language:
+
+1. Set `translation.target_lang` in `monitor/config.yaml` to your target
+   DeepL language code (see
+   [DeepL's supported languages](https://developers.deepl.com/docs/getting-started/supported-languages)).
+2. Set the top-level `language` key in `monitor/config.yaml` to a locale
+   code. If it's not already in `monitor/locales.py`, copy the `en` block
+   there, translate the values, and add it under your locale code —
+   everything else in the pipeline picks it up automatically.
+3. Everything else — crawling, DeepL translation, Notion block
+   construction — needs no changes.
+
+## Caveats
+
+- **JavaScript-rendered sites**: `monitor.py` fetches static HTML. If the
+  page text it captures is empty, or links aren't detected, the target site
+  may render via JS. In that case, either point `config.yaml`'s
+  `sitemap_urls` at a sitemap, or switch to a headless browser (Playwright).
+  Check the first run's logs for the page count fetched to spot this early.
+- **False positives**: dynamic elements (ads, timestamps, random IDs) can
+  register as a diff even when nothing meaningful changed. If that happens,
+  exclude the affected URLs via `config.yaml`'s `ignore_url_patterns`, or
+  adjust the body-extraction logic as needed.
+
+## Layout
 
 ```
 .
 ├── .github/workflows/
-│   ├── monitor.yml                 # 監視: 毎日 00:00 UTC（クロール・差分・メール）
-│   └── translate.yml               # 翻訳: 毎日 01:00 UTC（DeepL → Notion 同期）
+│   ├── monitor.yml                 # Monitoring: daily at 00:00 UTC (crawl, diff, email)
+│   └── translate.yml               # Translation: daily at 01:00 UTC (DeepL → Notion sync)
 ├── .claude/skills/
-│   └── review-translations/        # Claude 翻訳レビュー・ルーチン（/review-translations）
+│   └── review-translations/        # Claude translation-review routine (/review-translations)
 ├── monitor/
-│   ├── monitor.py                  # 監視本体（クロール・差分・メール送信）
-│   ├── translate.py                # DeepL 翻訳（原文+訳文を JSON 保存）
-│   ├── notion_sync.py              # 訳文を Notion 親ページ配下に作成/更新
-│   ├── translation_status.py       # 翻訳・レビュー進捗の表示
-│   ├── config.yaml                 # 監視対象・クロール・翻訳設定
-│   └── requirements.txt            # Python 依存パッケージ
+│   ├── monitor.py                  # Monitor core (crawl, diff, send email)
+│   ├── translate.py                # DeepL translation (saves source + translation as JSON)
+│   ├── notion_sync.py              # Creates/updates translated pages under the Notion parent
+│   ├── translation_status.py       # Shows translation/review progress
+│   ├── locales.py                  # Operator-facing message templates, by locale
+│   ├── config.yaml                 # Crawl / translation / language configuration
+│   └── requirements.txt            # Python dependencies
 ├── snapshots/
-│   └── state.json                  # 前回取得したスナップショット（Actions が自動更新）
+│   └── state.json                  # The last fetched snapshot (auto-updated by Actions)
 └── translations/
-    └── pages/*.json                # ページ毎の原文+日本語訳+レビュー状態（Actions が自動更新）
+    └── pages/*.json                # Per-page source + translation + review state (auto-updated by Actions)
 ```

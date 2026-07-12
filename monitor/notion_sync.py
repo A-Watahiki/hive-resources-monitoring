@@ -47,6 +47,7 @@ import requests
 
 import mdblocks
 import translate
+from locales import get_locale
 
 ROOT = Path(__file__).resolve().parent.parent
 TRANSLATIONS_DIR = ROOT / "translations" / "pages"
@@ -61,10 +62,10 @@ REQUEST_INTERVAL = 0.35  # Notion allows ~3 requests/second.
 # a DeepL re-translation (content_hash / SCHEMA_VERSION are untouched).
 RENDER_VERSION = 2
 
-REVIEW_LABELS = {
-    "unreviewed": "未レビュー（DeepL自動翻訳のまま）",
-    "reviewed": "レビュー済み",
-    "fixed": "レビュー済み（修正あり）",
+REVIEW_LABEL_KEYS = {
+    "unreviewed": "review_unreviewed",
+    "reviewed": "review_reviewed",
+    "fixed": "review_fixed",
 }
 
 
@@ -85,18 +86,19 @@ def rich_text(content: str, link: str | None = None) -> dict:
     return {"type": "text", "text": text}
 
 
-def header_blocks(entry: dict) -> list[dict]:
+def header_blocks(entry: dict, language: str = "en") -> list[dict]:
+    msg = get_locale(language)
     status = entry.get("review", {}).get("status", "unreviewed")
-    label = REVIEW_LABELS.get(status, status)
+    label = msg.get(REVIEW_LABEL_KEYS.get(status, ""), status)
     translated_at = entry.get("translated_at", "")
-    header = (f"ステータス: {label} ／ 翻訳日時: {translated_at} ／ "
-              "この本文はDeepLによる機械翻訳です")
+    header = msg["notion_status_callout"].format(label=label,
+                                                  translated_at=translated_at)
     return [
         {"object": "block", "type": "callout",
          "callout": {"icon": {"type": "emoji", "emoji": "🌐"},
                      "rich_text": [rich_text(header)]}},
         {"object": "block", "type": "paragraph",
-         "paragraph": {"rich_text": [rich_text("原文ページ: "),
+         "paragraph": {"rich_text": [rich_text(msg["notion_source_label"]),
                                      rich_text(entry["url"], entry["url"])]}},
         {"object": "block", "type": "divider", "divider": {}},
     ]
@@ -108,22 +110,20 @@ def notion_page_url(page_id: str) -> str:
 
 _LINK_URL_RE = re.compile(r"\]\(([^)]*)\)")
 
-# Appended after a link that points at a Hive resource within our translation
-# scope but hasn't been translated (and thus doesn't have a Notion page) yet.
-UNTRANSLATED_SUFFIX = "[未翻訳, 元記事へのリンク]"
-
 
 def rewrite_markdown_links(md_text: str, url_map: dict[str, str],
                            tcfg: dict) -> str:
     """Point [text](url) at the translated Notion page when url has one;
     otherwise, if url is a Hive resource we'd translate but haven't yet,
     leave it pointing at the original page and flag it as untranslated."""
+    suffix = get_locale(tcfg.get("language"))["untranslated_suffix"]
+
     def repl(m: re.Match) -> str:
         url = m.group(1)
         if url in url_map:
             return f"]({url_map[url]})"
         if translate.url_in_scope(url, tcfg):
-            return f"]({url}) {UNTRANSLATED_SUFFIX}"
+            return f"]({url}) {suffix}"
         return m.group(0)
 
     return _LINK_URL_RE.sub(repl, md_text)
@@ -139,7 +139,7 @@ def linkify_sole_links(blocks: list[dict],
     already-translated resource with a native link_to_page block — the same
     "sub-page card" Notion renders for a real child page — instead of a
     plain-text hyperlink. Recurses into children. A block that mixes the
-    link with other text (e.g. the "[未翻訳...]" suffix) is left as-is."""
+    link with other text (e.g. the "not yet translated" suffix) is left as-is."""
     out: list[dict] = []
     for b in blocks:
         btype = b.get("type")
@@ -223,7 +223,7 @@ def build_blocks(entry: dict, url_map: dict[str, str], page_id_map: dict[str, st
     icon, translated_title, content = split_title_icon(
         content_blocks(entry, url_map, page_id_map, tcfg))
     title = translated_title or entry.get("title") or entry["url"]
-    return title, icon, header_blocks(entry) + content
+    return title, icon, header_blocks(entry, tcfg.get("language")) + content
 
 
 class Notion:

@@ -1,18 +1,19 @@
 name: Monitor Hive Resource Library
 on:
   schedule:
-    # 毎日 00:00 UTC（日本時間 09:00）に1回チェック。
-    # 時刻を変えたい場合は下の cron 式を編集してください（分 時 日 月 曜日, UTC基準）。
+    # Checks once a day at 00:00 UTC. Edit the cron expression below to
+    # change the time (minute hour day month weekday, all in UTC).
     - cron: "0 0 * * *"
   workflow_dispatch:
-    # 手動実行用。Actions 画面から「Run workflow」で即時チェックできます。
+    # Manual trigger — run this from the Actions tab with "Run workflow"
+    # for an immediate check.
     inputs:
       dry_run:
-        description: "メールを送らず差分のみログ出力する (true/false)"
+        description: "Log the detected diff without sending an email (true/false)"
         required: false
         default: "false"
 
-# state.json をコミットして push するために write 権限が必要。
+# Write access is needed to commit and push the updated state.json snapshot.
 permissions:
   contents: write
 

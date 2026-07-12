@@ -39,6 +39,8 @@ import requests
 import yaml
 from bs4 import BeautifulSoup
 
+from locales import get_locale
+
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "monitor" / "config.yaml"
 STATE_PATH = ROOT / "snapshots" / "state.json"
@@ -65,6 +67,7 @@ def load_config() -> dict:
     cfg.setdefault("user_agent", DEFAULT_USER_AGENT)
     cfg.setdefault("sitemap_urls", [])
     cfg.setdefault("ignore_url_patterns", [])
+    cfg.setdefault("language", "en")
     return cfg
 
 
@@ -236,37 +239,40 @@ def has_changes(diff: dict) -> bool:
 # --------------------------------------------------------------------------- #
 # Email
 # --------------------------------------------------------------------------- #
-def build_email_body(diff: dict, new_pages: dict, max_diff_lines: int) -> str:
+def build_email_body(diff: dict, new_pages: dict, max_diff_lines: int,
+                     language: str = "en") -> str:
+    msg = get_locale(language)
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    parts = [f"Hive Resource Library の更新を検出しました（{now}）", ""]
+    parts = [msg["email_intro"].format(now=now), ""]
 
     if diff["added"]:
-        parts.append(f"■ 追加されたページ（{len(diff['added'])}件）")
+        parts.append("■ " + msg["email_added"].format(n=len(diff["added"])))
         for url in diff["added"]:
             title = new_pages.get(url, {}).get("title", url)
             parts.append(f"  + {title}\n    {url}")
         parts.append("")
 
     if diff["removed"]:
-        parts.append(f"■ 削除されたページ（{len(diff['removed'])}件）")
+        parts.append("■ " + msg["email_removed"].format(n=len(diff["removed"])))
         for url in diff["removed"]:
             parts.append(f"  - {url}")
         parts.append("")
 
     if diff["changed"]:
-        parts.append(f"■ 内容が変更されたページ（{len(diff['changed'])}件）")
+        parts.append("■ " + msg["email_changed"].format(n=len(diff["changed"])))
         for item in diff["changed"]:
             parts.append(f"\n● {item['title']}\n  {item['url']}")
             diff_lines = item["diff"].splitlines()
             if len(diff_lines) > max_diff_lines:
                 diff_lines = diff_lines[:max_diff_lines] + [
-                    f"  … （差分が長いため {len(diff_lines) - max_diff_lines} 行を省略）"
+                    msg["email_diff_truncated"].format(
+                        n=len(diff_lines) - max_diff_lines)
                 ]
             parts.append("  " + "\n  ".join(diff_lines))
         parts.append("")
 
-    parts.append("―――")
-    parts.append("このメールは hive-resources-monitoring（GitHub Actions）から自動送信されました。")
+    parts.append("---")
+    parts.append(msg["email_footer"])
     return "\n".join(parts)
 
 
@@ -324,8 +330,10 @@ def main() -> int:
         return 0
 
     n = len(diff["added"]) + len(diff["removed"]) + len(diff["changed"])
-    subject = f"[Hive Library] 更新を検出（{n}件の変更）"
-    body = build_email_body(diff, new_pages, cfg.get("max_diff_lines", 200))
+    msg = get_locale(cfg["language"])
+    subject = msg["email_subject"].format(n=n)
+    body = build_email_body(diff, new_pages, cfg.get("max_diff_lines", 200),
+                            cfg["language"])
 
     print("Changes detected:")
     print(f"  added={len(diff['added'])} removed={len(diff['removed'])} "

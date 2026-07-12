@@ -3,6 +3,14 @@
 # These control WHAT gets crawled. Email credentials are NOT here — they are
 # provided as environment variables / GitHub Secrets (see README).
 
+# Language for operator-facing text this project produces: monitor emails,
+# the Notion sync status callout, the "not yet translated" link annotation.
+# See monitor/locales.py for the available locale codes (add your own there
+# if it's not listed — everything else in the pipeline is language-agnostic).
+# This is independent of `translation.target_lang` below, which is the
+# DeepL target language for the page content itself.
+language: "ja"
+
 # Pages the crawl starts from.
 start_urls:
   - "https://resources.joinhive.org/library"
@@ -54,7 +62,8 @@ translation:
   # Regex patterns; matching URLs are never translated.
   exclude_url_patterns: []
 
-  # DeepL target language.
+  # DeepL target language code — see the list of supported target languages
+  # at https://developers.deepl.com/docs/getting-started/supported-languages
   target_lang: "JA"
 
   # Source characters translated per run. Keeps each daily run within the

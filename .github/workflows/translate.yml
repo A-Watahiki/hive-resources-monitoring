@@ -2,17 +2,17 @@ name: Translate & Sync to Notion
 
 on:
   schedule:
-    # 毎日 01:00 UTC（日本時間 10:00）。monitor（00:00 UTC）の後に実行し、
-    # 最新スナップショットの新規・変更ページを翻訳 → Notion に反映する。
+    # Daily at 01:00 UTC, an hour after monitor.yml (00:00 UTC) — translates
+    # new/changed pages from the latest snapshot and syncs them to Notion.
     - cron: "0 1 * * *"
   workflow_dispatch:
     inputs:
       char_budget:
-        description: "この実行で翻訳する原文文字数の上限（未指定なら config.yaml の値）"
+        description: "Max source characters to translate this run (blank = use config.yaml's value)"
         required: false
         default: ""
       skip_notion:
-        description: "Notion同期をスキップする (true/false)"
+        description: "Skip the Notion sync step (true/false)"
         required: false
         default: "false"
 
