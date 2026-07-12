@@ -251,21 +251,50 @@ class Notion:
         payload = {
             "parent": {"page_id": parent_id},
             "properties": {"title": {"title": [rich_text(title)]}},
-            "children": blocks[:100],
         }
         if icon:
             payload["icon"] = {"type": "emoji", "emoji": icon}
         resp = self.request("POST", "/pages", json=payload)
         resp.raise_for_status()
         page_id = resp.json()["id"]
-        self.append_blocks(page_id, blocks[100:])
+        self.append_blocks(page_id, blocks)
         return page_id
 
-    def append_blocks(self, page_id: str, blocks: list[dict]) -> None:
-        for i in range(0, len(blocks), 100):
-            resp = self.request("PATCH", f"/blocks/{page_id}/children",
-                                json={"children": blocks[i:i + 100]})
+    def append_blocks(self, parent_id: str, blocks: list[dict],
+                      after: str | None = None) -> None:
+        """Append `blocks` as children of parent_id (a page or block id).
+
+        Notion's append endpoint rejects list items (and other block types)
+        that carry a nested "children" array inline — it 400s with a
+        validation error rather than creating the nested content. So each
+        block is appended WITHOUT its children first, and once Notion
+        returns that block's real id, its children are attached via a
+        separate recursive call — this is the supported way to build
+        nested structure through the public API.
+        """
+        flat: list[dict] = []
+        nested: list[list[dict] | None] = []
+        for b in blocks:
+            nb = dict(b)
+            nested.append(nb.pop("children", None))
+            flat.append(nb)
+
+        created_ids: list[str] = []
+        for i in range(0, len(flat), 100):
+            payload = {"children": flat[i:i + 100]}
+            if after:
+                payload["after"] = after
+            resp = self.request("PATCH", f"/blocks/{parent_id}/children",
+                                json=payload)
             resp.raise_for_status()
+            results = resp.json().get("results") or []
+            created_ids.extend(r["id"] for r in results)
+            if results:
+                after = results[-1]["id"]
+
+        for block_id, kids in zip(created_ids, nested):
+            if kids:
+                self.append_blocks(block_id, kids)
 
     def set_title(self, page_id: str, title: str, icon: str | None = None) -> None:
         payload = {"properties": {"title": {"title": [rich_text(title)]}}}
@@ -317,16 +346,7 @@ class Notion:
             self.append_blocks(page_id, blocks)
         else:
             anchor = live[first_child_idx - 1]["id"] if first_child_idx > 0 else None
-            for i in range(0, len(blocks), 100):
-                payload = {"children": blocks[i:i + 100]}
-                if anchor:
-                    payload["after"] = anchor
-                resp = self.request("PATCH", f"/blocks/{page_id}/children",
-                                    json=payload)
-                resp.raise_for_status()
-                results = resp.json().get("results") or []
-                if results:
-                    anchor = results[-1]["id"]
+            self.append_blocks(page_id, blocks, after=anchor)
 
         for block_id in old_content_ids:
             self.request("DELETE", f"/blocks/{block_id}").raise_for_status()
