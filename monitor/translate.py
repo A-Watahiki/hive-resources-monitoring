@@ -808,6 +808,13 @@ def main() -> int:
         budget_left -= sent
         spent += sent
         incomplete = untranslated > 0
+        if incomplete and entry is None:
+            # A page never translated before: don't create a Notion page
+            # that is (almost) entirely source-language — wait for quota.
+            print(f"  deferring (quota exhausted, {untranslated} fragment(s) "
+                  f"would stay untranslated): {url}")
+            deferred += 1
+            continue
         if incomplete:
             incomplete_count += 1
             print(f"  translated with {untranslated} fragment(s) left in the "
