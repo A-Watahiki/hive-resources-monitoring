@@ -9,7 +9,7 @@ on:
     # for an immediate check.
     inputs:
       dry_run:
-        description: "Log the detected diff without sending an email (true/false)"
+        description: "Log the detected diff without recording it (true/false)"
         required: false
         default: "false"
 
@@ -39,13 +39,6 @@ jobs:
 
       - name: Run monitor
         env:
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-          EMAIL_FROM_NAME: ${{ secrets.EMAIL_FROM_NAME }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
           DRY_RUN: ${{ github.event.inputs.dry_run }}
         run: python monitor/monitor.py
 

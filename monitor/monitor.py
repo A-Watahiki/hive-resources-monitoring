@@ -4,7 +4,9 @@ Hive Resource Library monitor.
 
 Crawls the Hive Resource Library (and pages under it), stores a snapshot of
 each page's visible text, compares against the previously stored snapshot, and
-sends an email when anything is added, removed, or changed.
+records anything added, removed, or changed in ``snapshots/updates.json`` —
+the update history that notion_sync.py then renders as an "updates" section
+on the Notion top page. No email (and no SMTP credentials) involved.
 
 Design goals
 ------------
@@ -14,8 +16,7 @@ Design goals
   committed back to the repository by the GitHub Actions workflow, so each run
   can diff against the last one.
 
-Configuration comes from ``monitor/config.yaml`` (crawl targets) and from
-environment variables / GitHub Secrets (email credentials).
+Configuration comes from ``monitor/config.yaml`` (crawl targets).
 """
 
 from __future__ import annotations
@@ -25,13 +26,10 @@ import hashlib
 import json
 import os
 import re
-import smtplib
 import sys
 import time
 from collections import deque
 from datetime import datetime, timezone
-from email.mime.text import MIMEText
-from email.utils import formataddr
 from pathlib import Path
 from urllib.parse import urldefrag, urljoin, urlparse
 
@@ -45,6 +43,7 @@ from locales import get_locale
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "monitor" / "config.yaml"
 STATE_PATH = ROOT / "snapshots" / "state.json"
+UPDATES_PATH = ROOT / "snapshots" / "updates.json"
 
 DEFAULT_USER_AGENT = (
     "Mozilla/5.0 (compatible; HiveResourceMonitor/1.0; "
@@ -69,6 +68,7 @@ def load_config() -> dict:
     cfg.setdefault("sitemap_urls", [])
     cfg.setdefault("ignore_url_patterns", [])
     cfg.setdefault("language", "en")
+    cfg.setdefault("updates_keep", 10)
     return cfg
 
 
@@ -238,66 +238,69 @@ def has_changes(diff: dict) -> bool:
 
 
 # --------------------------------------------------------------------------- #
-# Email
+# Update history (rendered onto the Notion top page by notion_sync.py)
 # --------------------------------------------------------------------------- #
-def build_email_body(diff: dict, new_pages: dict, max_diff_lines: int,
-                     language: str = "en", tcfg: dict | None = None) -> str:
+def load_updates() -> list[dict]:
+    if UPDATES_PATH.exists():
+        with open(UPDATES_PATH, "r", encoding="utf-8") as fh:
+            return json.load(fh).get("entries", [])
+    return []
+
+
+def save_updates(entries: list[dict], keep: int) -> None:
+    UPDATES_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(UPDATES_PATH, "w", encoding="utf-8") as fh:
+        json.dump({"entries": entries[-keep:]}, fh, ensure_ascii=False,
+                  indent=2, sort_keys=True)
+        fh.write("\n")
+
+
+def build_update_entry(diff: dict, old_pages: dict, new_pages: dict,
+                       max_diff_lines: int, tcfg: dict) -> dict:
+    """One updates.json entry for this run's diff. Diff text is capped at
+    max_diff_lines per changed page (the omitted count is kept so the
+    rendering can say so)."""
+    entry: dict = {
+        "detected_at": datetime.now(timezone.utc).isoformat(),
+        "added": [{"url": u, "title": new_pages.get(u, {}).get("title", u)}
+                  for u in diff["added"]],
+        "removed": [{"url": u, "title": old_pages.get(u, {}).get("title", u)}
+                    for u in diff["removed"]],
+        "changed": [],
+    }
+    for item in diff["changed"]:
+        lines = item["diff"].splitlines()
+        entry["changed"].append({
+            "url": item["url"],
+            "title": item["title"],
+            "diff": "\n".join(lines[:max_diff_lines]),
+            "diff_lines_omitted": max(0, len(lines) - max_diff_lines),
+            "translation_pending": translate.url_in_scope(item["url"], tcfg),
+        })
+    return entry
+
+
+def format_update_entry(entry: dict, language: str = "en") -> str:
+    """Plain-text rendering of an update entry for the run log."""
     msg = get_locale(language)
-    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    parts = [msg["email_intro"].format(now=now), ""]
-
-    if diff["added"]:
-        parts.append("■ " + msg["email_added"].format(n=len(diff["added"])))
-        for url in diff["added"]:
-            title = new_pages.get(url, {}).get("title", url)
-            parts.append(f"  + {title}\n    {url}")
-        parts.append("")
-
-    if diff["removed"]:
-        parts.append("■ " + msg["email_removed"].format(n=len(diff["removed"])))
-        for url in diff["removed"]:
-            parts.append(f"  - {url}")
-        parts.append("")
-
-    if diff["changed"]:
-        parts.append("■ " + msg["email_changed"].format(n=len(diff["changed"])))
-        for item in diff["changed"]:
-            parts.append(f"\n● {item['title']}\n  {item['url']}")
-            diff_lines = item["diff"].splitlines()
-            if len(diff_lines) > max_diff_lines:
-                diff_lines = diff_lines[:max_diff_lines] + [
-                    msg["email_diff_truncated"].format(
-                        n=len(diff_lines) - max_diff_lines)
-                ]
-            parts.append("  " + "\n  ".join(diff_lines))
-            if tcfg is not None and translate.url_in_scope(item["url"], tcfg):
-                parts.append(msg["email_translation_pending"])
-        parts.append("")
-
-    parts.append("---")
-    parts.append(msg["email_footer"])
+    parts: list[str] = []
+    if entry["added"]:
+        parts.append("■ " + msg["updates_added"].format(n=len(entry["added"])))
+        parts += [f"  + {p['title']}\n    {p['url']}" for p in entry["added"]]
+    if entry["removed"]:
+        parts.append("■ " + msg["updates_removed"].format(n=len(entry["removed"])))
+        parts += [f"  - {p['url']}" for p in entry["removed"]]
+    if entry["changed"]:
+        parts.append("■ " + msg["updates_changed"].format(n=len(entry["changed"])))
+        for p in entry["changed"]:
+            parts.append(f"\n● {p['title']}\n  {p['url']}")
+            parts.append("  " + p["diff"].replace("\n", "\n  "))
+            if p["diff_lines_omitted"]:
+                parts.append("  " + msg["updates_diff_truncated"].format(
+                    n=p["diff_lines_omitted"]))
+            if p["translation_pending"]:
+                parts.append("  " + msg["updates_translation_pending"])
     return "\n".join(parts)
-
-
-def send_email(subject: str, body: str) -> None:
-    host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
-    port = int(os.environ.get("SMTP_PORT", "587"))
-    user = os.environ["SMTP_USER"]
-    password = os.environ["SMTP_PASS"]
-    email_from = os.environ.get("EMAIL_FROM", user)
-    email_to = [a.strip() for a in os.environ["EMAIL_TO"].split(",") if a.strip()]
-    from_name = os.environ.get("EMAIL_FROM_NAME", "Hive Resource Monitor")
-
-    msg = MIMEText(body, "plain", "utf-8")
-    msg["Subject"] = subject
-    msg["From"] = formataddr((from_name, email_from))
-    msg["To"] = ", ".join(email_to)
-
-    with smtplib.SMTP(host, port, timeout=60) as server:
-        server.starttls()
-        server.login(user, password)
-        server.sendmail(email_from, email_to, msg.as_string())
-    print(f"  email sent to {', '.join(email_to)}")
 
 
 # --------------------------------------------------------------------------- #
@@ -323,7 +326,7 @@ def main() -> int:
     diff = diff_pages(old_pages, new_pages)
 
     if first_run:
-        print("First run: recording baseline snapshot, no email sent.")
+        print("First run: recording baseline snapshot, no update recorded.")
         save_state(new_pages)
         return 0
 
@@ -332,24 +335,23 @@ def main() -> int:
         save_state(new_pages)  # refresh generated_at timestamp
         return 0
 
-    n = len(diff["added"]) + len(diff["removed"]) + len(diff["changed"])
-    msg = get_locale(cfg["language"])
-    subject = msg["email_subject"].format(n=n)
     tcfg = translate.load_config()
-    body = build_email_body(diff, new_pages, cfg.get("max_diff_lines", 200),
-                            cfg["language"], tcfg)
+    entry = build_update_entry(diff, old_pages, new_pages,
+                               cfg.get("max_diff_lines", 200), tcfg)
 
     print("Changes detected:")
     print(f"  added={len(diff['added'])} removed={len(diff['removed'])} "
           f"changed={len(diff['changed'])}")
+    print(format_update_entry(entry, cfg["language"]))
 
     if dry_run:
-        print("--- DRY_RUN: email not sent, state not saved ---")
-        print(body)
+        print("--- DRY_RUN: update not recorded, state not saved ---")
         return 0
 
-    send_email(subject, body)
+    save_updates(load_updates() + [entry], cfg["updates_keep"])
     save_state(new_pages)
+    print(f"Update recorded in {UPDATES_PATH.relative_to(ROOT)}; it will "
+          "appear on the Notion top page on the next sync.")
     return 0
 
 

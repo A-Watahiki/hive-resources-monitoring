@@ -1,12 +1,14 @@
 # hive-resources-monitoring
 
 Periodically monitors the [Hive Resource Library](https://resources.joinhive.org/library)
-and the pages under it, and **emails you when something is added, removed, or
-changed**.
+and the pages under it, and **shows what was added, removed, or changed in an
+"updates" box on your Notion top page**. There is no email involved, so no
+SMTP credentials or Gmail app-password setup are needed — which also makes
+spinning up another-language fork one step simpler.
 
-It also includes an optional translation pipeline: fetched pages can be
-**machine-translated via DeepL** and saved alongside the source text, then
-**synced to a personal Notion page** (→ [Translation & Notion sync](#translation--notion-sync)).
+It also includes the translation pipeline that feeds that Notion page:
+fetched pages are **machine-translated via DeepL** and saved alongside the
+source text, then **synced to a personal Notion page** (→ [Translation & Notion sync](#translation--notion-sync)).
 
 ## Features
 
@@ -14,9 +16,10 @@ It also includes an optional translation pipeline: fetched pages can be
   run on a schedule (cron) by GitHub Actions. Normal operation consumes no
   AI tokens at all.
 - No extra external services required — runs entirely within GitHub Actions'
-  free tier.
+  free tier. No email/SMTP configuration at all.
 - The previous run's page snapshot is stored in the repo itself
-  (`snapshots/state.json`) and diffed against on the next run.
+  (`snapshots/state.json`) and diffed against on the next run; detected
+  changes accumulate as a history in `snapshots/updates.json`.
 
 ## How it works
 
@@ -26,56 +29,29 @@ GitHub Actions (cron, once a day)
         1. Crawl the library and its sub-pages, extracting page text
         2. Hash each page's content
         3. Compare against snapshots/state.json (the previous run)
-        4. If anything was added / removed / changed → send an email
+        4. If anything was added / removed / changed → record it in
+           snapshots/updates.json (the update history)
         5. Update the snapshot and commit it automatically
+   └─ an hour later, notion_sync.py renders that update history as a
+      📢 "updates" callout box on the Notion top page (see below)
 ```
 
 Changes it detects:
 
 - **Pages added** (e.g. a new resource published)
 - **Pages removed**
-- **Existing pages changed** (the email includes a unified diff of the body text)
+- **Existing pages changed** (the update entry keeps a unified diff of the
+  body text, shown in a collapsed "show diff" toggle)
 
 ## Setup
 
-### 1. Register GitHub Secrets for sending email
-
-Under the repo's **Settings → Secrets and variables → Actions → New
-repository secret**, add the following (this is set up for Gmail SMTP):
-
-| Secret               | Example value                   | Description |
-|-----------------------|----------------------------------|--------------|
-| `SMTP_USER`           | `youraddress@gmail.com`         | The sending Gmail address |
-| `SMTP_PASS`           | `abcd efgh ijkl mnop`           | A Gmail **app password** (see below) |
-| `EMAIL_TO`            | `you@example.com`               | Where notifications go. Comma-separate for multiple recipients |
-| `EMAIL_FROM`          | `youraddress@gmail.com`         | (optional) Sender address; defaults to `SMTP_USER` |
-| `EMAIL_FROM_NAME`     | `Hive Resource Monitor`         | (optional) Sender display name |
-| `SMTP_HOST`           | `smtp.gmail.com`                | (optional) Defaults to `smtp.gmail.com` |
-| `SMTP_PORT`           | `587`                           | (optional) Defaults to `587` |
-
-#### Getting a Gmail app password
-
-1. **Enable 2-Step Verification** on your Google account (required for app
-   passwords).
-2. Go to <https://myaccount.google.com/apppasswords>.
-3. Generate an app password under any name (e.g. `hive-monitor`).
-4. Copy the 16-character string into `SMTP_PASS` (spaces are fine either
-   way).
-
-> Your normal Gmail login password won't work over SMTP — you must use an
-> app password.
-
-To use a different SMTP provider (another mailbox, SendGrid, etc.), just
-point `SMTP_HOST` / `SMTP_PORT` / `SMTP_USER` / `SMTP_PASS` at that
-service's values — anything that speaks SMTP works as-is.
-
-### 2. Confirm Actions has write permission
+### 1. Confirm Actions has write permission
 
 The workflow commits the updated snapshot back to the repo, so under
 **Settings → Actions → General → Workflow permissions**, enable
 **"Read and write permissions"**.
 
-### 3. Adjust what's monitored and how often (optional)
+### 2. Adjust what's monitored and how often (optional)
 
 - Crawl targets / depth: [`monitor/config.yaml`](monitor/config.yaml)
 - Check frequency: the `cron` expression in
@@ -87,13 +63,15 @@ The workflow commits the updated snapshot back to the repo, so under
 After initial setup:
 
 1. **First run**: there's nothing to diff against yet, so it just records a
-   snapshot — no email is sent.
-2. **From the second run on**: it diffs against the previous snapshot and
-   emails you if anything changed.
+   snapshot — no update entry is recorded.
+2. **From the second run on**: it diffs against the previous snapshot and,
+   if anything changed, appends an entry to `snapshots/updates.json`; the
+   next Notion sync (the translate workflow, an hour later) shows it in the
+   updates box on the top page.
 
 To try it manually, go to the Actions tab and run **"Monitor Hive Resource
 Library" → Run workflow**. Setting `dry_run` to `true` logs the detected
-diff instead of emailing it (handy for testing before Secrets are set up).
+diff without recording it or updating the snapshot.
 
 To try it locally:
 
@@ -118,8 +96,21 @@ GitHub Actions (daily at 01:00 UTC)
    │                    translations/pages/<page>.json
    └─ notion_sync.py: creates/updates one Notion page per untranslated
                        resource under a parent page (rendering headings,
-                       lists, quotes, dividers, and links as Notion blocks)
+                       lists, quotes, dividers, and links as Notion blocks),
+                       and refreshes the 📢 updates box on that parent page
 ```
+
+**The updates box**: `notion_sync.py` renders the update history recorded by
+the monitor (`snapshots/updates.json`) as a 📢 callout box on the top
+(parent) page. Each monitoring run that found changes becomes one collapsed
+toggle (`2026-07-12: 3 change(s)`) listing the added / removed / changed
+pages; titles link to the translated Notion page when one exists (falling
+back to the original page), and changed pages carry their text diff in a
+nested "show diff" toggle. The box is created automatically on first sync —
+you can drag it anywhere on the page afterwards; later runs only refresh its
+contents (it's found again by its 📢 icon). `updates_keep` in
+[`monitor/config.yaml`](monitor/config.yaml) controls how many runs of
+history are kept.
 
 **Layout preservation**: to keep the structure of the original Hive page (it's
 itself Notion-based), each page's HTML is re-fetched at translation time and
@@ -237,8 +228,9 @@ reliable path — the Notion edit path is a convenience for quick fixes.
 ## Localization
 
 Everything in this pipeline is language-agnostic except a handful of
-operator-facing strings (monitor emails, the Notion sync status callout, the
-"not yet translated" link annotation). Those live in one place —
+operator-facing strings (the updates box on the Notion top page, the sync
+status callout, the "not yet translated" link annotation). Those live in one
+place —
 [`monitor/locales.py`](monitor/locales.py) — as a dict keyed by locale code,
 with `en` and `ja` (this deployment's live example) built in.
 
@@ -252,7 +244,8 @@ To run this for another target language:
    there, translate the values, and add it under your locale code —
    everything else in the pipeline picks it up automatically.
 3. Everything else — crawling, DeepL translation, Notion block
-   construction — needs no changes.
+   construction — needs no changes. (There is no email step, so no
+   SMTP/Gmail credentials to obtain or register.)
 
 ## Caveats
 
@@ -271,12 +264,12 @@ To run this for another target language:
 ```
 .
 ├── .github/workflows/
-│   ├── monitor.yml                 # Monitoring: daily at 00:00 UTC (crawl, diff, email)
+│   ├── monitor.yml                 # Monitoring: daily at 00:00 UTC (crawl, diff, record updates)
 │   └── translate.yml               # Translation: daily at 01:00 UTC (DeepL → Notion sync)
 ├── .claude/skills/
 │   └── review-translations/        # Claude translation-review routine (/review-translations)
 ├── monitor/
-│   ├── monitor.py                  # Monitor core (crawl, diff, send email)
+│   ├── monitor.py                  # Monitor core (crawl, diff, record update history)
 │   ├── translate.py                # DeepL translation (saves source + translation as JSON)
 │   ├── notion_sync.py              # Creates/updates translated pages under the Notion parent
 │   ├── translation_status.py       # Shows translation/review progress
@@ -284,7 +277,8 @@ To run this for another target language:
 │   ├── config.yaml                 # Crawl / translation / language configuration
 │   └── requirements.txt            # Python dependencies
 ├── snapshots/
-│   └── state.json                  # The last fetched snapshot (auto-updated by Actions)
+│   ├── state.json                  # The last fetched snapshot (auto-updated by Actions)
+│   └── updates.json                # Update history shown in the Notion updates box (auto-updated)
 └── translations/
     └── pages/*.json                # Per-page source + translation + review state (auto-updated by Actions)
 ```

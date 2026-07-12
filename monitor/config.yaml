@@ -1,10 +1,10 @@
 # Hive Resource Library monitor configuration.
 #
-# These control WHAT gets crawled. Email credentials are NOT here — they are
-# provided as environment variables / GitHub Secrets (see README).
+# These control WHAT gets crawled and how updates are recorded.
 
-# Language for operator-facing text this project produces: monitor emails,
-# the Notion sync status callout, the "not yet translated" link annotation.
+# Language for operator-facing text this project produces: the updates
+# section on the Notion top page, the sync status callout, the "not yet
+# translated" link annotation.
 # See monitor/locales.py for the available locale codes (add your own there
 # if it's not listed — everything else in the pipeline is language-agnostic).
 # This is independent of `translation.target_lang` below, which is the
@@ -47,8 +47,13 @@ crawl_delay_seconds: 1.0
 # Per-request timeout in seconds.
 request_timeout: 30
 
-# Max number of diff lines to include per changed page in the email.
+# Max number of diff lines to record per changed page in the update history
+# (snapshots/updates.json, shown in the updates box on the Notion top page).
 max_diff_lines: 200
+
+# How many monitoring runs' worth of update entries to keep (and show in the
+# updates box on the Notion top page). Older entries are dropped.
+updates_keep: 10
 
 # ---------------------------------------------------------------------------
 # Translation (translate.py) — DeepL machine translation of crawled pages.

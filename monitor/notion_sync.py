@@ -34,6 +34,11 @@ in the Notion UI, that edit is written back into the corresponding
 translations/pages/<page>.json (see pull_manual_edits()) so the repo stays
 the source of truth and the push below doesn't clobber it.
 
+The top (parent) page also gets an "updates" callout box rendered from
+``snapshots/updates.json`` (written by monitor.py), listing what was added,
+removed, or changed on the original site per monitoring run — the
+replacement for the old email notification (see sync_updates_section()).
+
 Environment:
     NOTION_TOKEN           required. Internal-integration secret.
     NOTION_PARENT_PAGE_ID  required. The page under which entries are created
@@ -58,6 +63,11 @@ from locales import get_locale
 
 ROOT = Path(__file__).resolve().parent.parent
 TRANSLATIONS_DIR = ROOT / "translations" / "pages"
+UPDATES_PATH = ROOT / "snapshots" / "updates.json"
+
+# The updates box on the top page is identified by this callout icon, so a
+# re-run finds and refreshes the existing box instead of adding another.
+UPDATES_ICON = "📢"
 
 NOTION_API = "https://api.notion.com/v1"
 NOTION_VERSION = "2022-06-28"
@@ -242,6 +252,138 @@ def build_blocks(entry: dict, url_map: dict[str, str], page_id_map: dict[str, st
     title = translated_title or entry.get("title") or entry["url"]
     return (title, icon, entry.get("cover_url"),
             header_blocks(entry, tcfg.get("language")) + content)
+
+
+# --------------------------------------------------------------------------- #
+# The updates section on the top page (replaces the old email notification)
+# --------------------------------------------------------------------------- #
+def _bold_text(content: str, link: str | None = None) -> dict:
+    item = rich_text(content, link)
+    item["annotations"] = {"bold": True}
+    return item
+
+
+def _chunked_rich_text(text: str) -> list[dict]:
+    """Split text into 2000-char rich_text items (Notion's per-item cap)."""
+    return ([rich_text(text[i:i + mdblocks.RICH_TEXT_LIMIT])
+             for i in range(0, len(text), mdblocks.RICH_TEXT_LIMIT)]
+            or [rich_text("")])
+
+
+def _updates_entry_title(entry: dict, msg: dict) -> str:
+    n = len(entry["added"]) + len(entry["removed"]) + len(entry["changed"])
+    return msg["updates_entry"].format(date=(entry.get("detected_at") or "")[:10],
+                                       n=n)
+
+
+def build_updates_children(entries: list[dict], url_map: dict[str, str],
+                           msg: dict) -> list[dict]:
+    """Blocks inside the updates callout: one collapsed toggle per monitor
+    run that found changes (newest first), each listing the added / removed /
+    changed pages. Page titles link to the translated Notion page when one
+    exists, falling back to the original URL. A changed page also carries
+    its (capped) text diff inside a nested "show diff" toggle."""
+    def label(text: str) -> dict:
+        return {"object": "block", "type": "paragraph",
+                "paragraph": {"rich_text": [_bold_text(text)]}}
+
+    def bullet(rich: list[dict], children: list[dict] | None = None) -> dict:
+        b: dict = {"object": "block", "type": "bulleted_list_item",
+                   "bulleted_list_item": {"rich_text": rich}}
+        if children:
+            b["children"] = children
+        return b
+
+    out: list[dict] = []
+    for entry in reversed(entries):  # newest first
+        kids: list[dict] = []
+        if entry.get("added"):
+            kids.append(label(msg["updates_added"].format(n=len(entry["added"]))))
+            for p in entry["added"]:
+                kids.append(bullet([rich_text(p["title"],
+                                              url_map.get(p["url"], p["url"]))]))
+        if entry.get("removed"):
+            kids.append(label(msg["updates_removed"].format(n=len(entry["removed"]))))
+            for p in entry["removed"]:
+                kids.append(bullet([rich_text(p.get("title") or p["url"])]))
+        if entry.get("changed"):
+            kids.append(label(msg["updates_changed"].format(n=len(entry["changed"]))))
+            for p in entry["changed"]:
+                inner: list[dict] = []
+                diff_text = p.get("diff") or ""
+                if p.get("diff_lines_omitted"):
+                    diff_text += "\n" + msg["updates_diff_truncated"].format(
+                        n=p["diff_lines_omitted"])
+                if diff_text.strip():
+                    inner.append({"object": "block", "type": "toggle",
+                                  "toggle": {"rich_text":
+                                             [rich_text(msg["updates_diff"])]},
+                                  "children": [{"object": "block",
+                                                "type": "paragraph",
+                                                "paragraph": {"rich_text":
+                                                              _chunked_rich_text(diff_text)}}]})
+                if p.get("translation_pending"):
+                    inner.append({"object": "block", "type": "paragraph",
+                                  "paragraph": {"rich_text": [rich_text(
+                                      msg["updates_translation_pending"])]}})
+                kids.append(bullet([rich_text(p["title"],
+                                              url_map.get(p["url"], p["url"]))],
+                                   inner or None))
+        out.append({"object": "block", "type": "toggle",
+                    "toggle": {"rich_text": [_bold_text(_updates_entry_title(entry, msg))]},
+                    "children": kids})
+    return out
+
+
+def sync_updates_section(notion: "Notion", parent_id: str,
+                         url_map: dict[str, str], tcfg: dict,
+                         refresh_links: bool = False) -> None:
+    """Create or refresh the "updates" callout box on the top (parent) page
+    from snapshots/updates.json — the replacement for the old email
+    notification. The box is found again on later runs by its 📢 icon, so
+    the user can drag it anywhere on the page; only its contents are
+    replaced. When nothing changed since the last render (and no link
+    upgrades are pending via refresh_links), the box is left untouched."""
+    if not UPDATES_PATH.exists():
+        return
+    with open(UPDATES_PATH, "r", encoding="utf-8") as fh:
+        entries = json.load(fh).get("entries", [])
+    if not entries:
+        return
+    msg = get_locale(tcfg.get("language"))
+    children = build_updates_children(entries, url_map, msg)
+
+    try:
+        box = next((b for b in notion.list_children(parent_id)
+                    if b.get("type") == "callout"
+                    and (b["callout"].get("icon") or {}).get("emoji") == UPDATES_ICON),
+                   None)
+        if box is None:
+            notion.append_blocks(parent_id, [{
+                "object": "block", "type": "callout",
+                "callout": {"icon": {"type": "emoji", "emoji": UPDATES_ICON},
+                            "color": "gray_background",
+                            "rich_text": [_bold_text(msg["updates_heading"])]},
+                "children": children}])
+            print(f"  updates box created on the top page "
+                  f"({len(entries)} entr{'y' if len(entries) == 1 else 'ies'}).")
+            return
+        live_kids = notion.list_children(box["id"])
+        up_to_date = (len(live_kids) == len(children)
+                      and live_kids
+                      and live_kids[0].get("type") == "toggle"
+                      and _block_plain_text(live_kids[0])
+                      == _updates_entry_title(entries[-1], msg))
+        if up_to_date and not refresh_links:
+            return
+        for b in live_kids:
+            notion.request("DELETE", f"/blocks/{b['id']}").raise_for_status()
+        notion.append_blocks(box["id"], children)
+        print("  updates box refreshed on the top page.")
+    except requests.RequestException as exc:
+        body = getattr(exc.response, "text", "")[:300]
+        print(f"  ! updates box sync failed, will retry next run: {exc} "
+              f"| body: {body}", file=sys.stderr)
 
 
 # --------------------------------------------------------------------------- #
@@ -671,10 +813,6 @@ def main() -> int:
     parent_id = normalize_page_id(parent_raw)
 
     files = sorted(TRANSLATIONS_DIR.glob("*.json"))
-    if not files:
-        print("No translations to sync yet.")
-        return 0
-
     tcfg = translate.load_config()
     entries = load_all_entries(files)
     url_map = build_url_map(entries)
@@ -682,6 +820,12 @@ def main() -> int:
     newly_available: set[str] = set()
 
     notion = Notion(token)
+
+    if not files:
+        print("No translations to sync yet.")
+        sync_updates_section(notion, parent_id, url_map, tcfg)
+        return 0
+
     pulled = pull_manual_edits(notion, entries, url_map, page_id_map, tcfg)
 
     synced = skipped = failed = deferred = 0
@@ -773,6 +917,9 @@ def main() -> int:
                 continue
             print(f"  relinked: {title}")
             relinked += 1
+
+    sync_updates_section(notion, parent_id, url_map, tcfg,
+                         refresh_links=bool(newly_available))
 
     print(f"Notion sync: {pulled} pulled from Notion, {synced} synced, "
           f"{skipped} up to date, {failed} failed, {relinked} relinked, "
