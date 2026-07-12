@@ -3,7 +3,7 @@
   "notion": {
     "page_id": "39b383bb-2c1b-8175-8141-fc240c58a872",
     "render_version": 2,
-    "synced_at": "2026-07-12T04:22:54.133477+00:00",
+    "synced_at": "2026-07-12T13:13:43.216914+00:00",
     "synced_hash": "1c8deca1c01b167077b58b8669564d6a16e9f9a24d98b84e3411f8f0badc38c9"
   },
   "review": {
@@ -12,12 +12,12 @@
     "reviewer": null,
     "status": "unreviewed"
   },
-  "schema_version": 5,
+  "schema_version": 6,
   "source_markdown": "💼\n\n# Job Posting\n\n1. Create a job posting for **\\[Job role\\]** that requires **\\[skills\\]**. Make it look professional, simple & concise Company Name = **\\[Insert here\\]** Job role = **\\[Insert here\\] **Job details = **\\[Insert salary, direct report, team, location, hours, etc here\\]** Skills = **\\[Insert here\\]**\n",
   "source_text": "💼\nJob Posting\nCreate a job posting for [Job role] that requires [skills]. Make it look professional, simple & concise Company Name = [Insert here] Job role = [Insert here] Job details = [Insert salary, direct report, team, location, hours, etc here] Skills = [Insert here]",
   "target_lang": "JA",
   "title": "Job Posting",
-  "translated_at": "2026-07-12T03:21:00.883565+00:00",
+  "translated_at": "2026-07-12T13:01:49.159383+00:00",
   "translated_markdown": "💼\n\n# 求人情報\n\n1. **\\[職種\\]**で、**\\[スキル\\]**を必要とする求人情報を作成してください。プロフェッショナルで、シンプルかつ簡潔な内容にしてください。 会社名 = **\\[ここに記入\\]** 職種 = **\\[ここに記入\\] **職務内容 = **\\[給与、直属の上司、チーム、勤務地、勤務時間などをここに記入\\]** スキル = **\\[ここに記入\\]**\n",
   "translated_text": "💼\n求人情報\n[職種]で、[スキル]を必要とする求人情報を作成してください。プロフェッショナルで、シンプルかつ簡潔な内容にしてください。 会社名 = [ここに記入] 職種 = [ここに記入] 職務内容 = [給与、直属の上司、チーム、勤務地、勤務時間などをここに記入] スキル = [ここに記入]",
   "translator": "deepl",

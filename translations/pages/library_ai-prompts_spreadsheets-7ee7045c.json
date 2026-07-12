@@ -3,7 +3,7 @@
   "notion": {
     "page_id": "39b383bb-2c1b-8194-aaec-e59d770ebea0",
     "render_version": 2,
-    "synced_at": "2026-07-12T04:28:11.066687+00:00",
+    "synced_at": "2026-07-12T13:19:08.384304+00:00",
     "synced_hash": "84db1d39a761ad719d37c4010cc29d96097ba0d7b483165e659886693406a0ed"
   },
   "review": {
@@ -12,12 +12,12 @@
     "reviewer": null,
     "status": "unreviewed"
   },
-  "schema_version": 5,
+  "schema_version": 6,
   "source_markdown": "📊\n\n# Spreadsheets\n\n$Please provide me with an (Google Sheet/Excel/Airtable) formula for the following (insert description of formula e.g. password of 8 strings with a combination of letters, numbers and symbols). Please explain how the formula works and how to add it to (Google Sheet/Excel/Airtable)./$\n",
   "source_text": "📊\nSpreadsheets\n$Please provide me with an (Google Sheet/Excel/Airtable) formula for the following (insert description of formula e.g. password of 8 strings with a combination of letters, numbers and symbols). Please explain how the formula works and how to add it to (Google Sheet/Excel/Airtable)./$",
   "target_lang": "JA",
   "title": "Spreadsheets",
-  "translated_at": "2026-07-12T03:21:00.883565+00:00",
+  "translated_at": "2026-07-12T13:01:49.159383+00:00",
   "translated_markdown": "📊\n\n# スプレッドシート\n\n$以下の（Google スプレッドシート／Excel／Airtable）の数式を教えてください（数式の説明をここに挿入してください。例：英字、数字、記号を組み合わせた8文字のパスワード）。また、その数式の仕組みと、（Google スプレッドシート／Excel／Airtable）に追加する方法についても説明してください。/$\n",
   "translated_text": "📊\nスプレッドシート\n$以下の（Google スプレッドシート／Excel／Airtable）の数式を教えてください（数式の説明をここに挿入してください。例：英字、数字、記号を組み合わせた8文字のパスワード）。また、その数式の仕組みと、（Google スプレッドシート／Excel／Airtable）に追加する方法についても説明してください。/$",
   "translator": "deepl",
