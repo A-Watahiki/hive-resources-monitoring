@@ -1,0 +1,18 @@
+{
+  "entries": [
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -16,2 +16,4 @@\n URL\n https://impactfulanimal.slack.com/archives/C05KQ0JST6D/p1695896871519029\n+URL\n+https://join-hive.slack.com/archives/C05KQ0JST6D/p1695896871519029",
+          "diff_lines_omitted": 0,
+          "title": "AMA with Rick Holland (on the Hive Slack)",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/ama-with-rick-holland-on-the-hive-slack"
+        }
+      ],
+      "detected_at": "2026-07-12T21:54:30.059347+00:00",
+      "removed": []
+    }
+  ]
+}
