@@ -481,8 +481,9 @@ def main() -> int:
                       "that the parent page is shared with the integration.",
                       file=sys.stderr)
                 return 1
-            print(f"  ! sync failed, will retry next run: {entry['url']} -> {exc}",
-                  file=sys.stderr)
+            body = getattr(exc.response, "text", "")[:500]
+            print(f"  ! sync failed, will retry next run: {entry['url']} -> {exc} "
+                  f"| body: {body}", file=sys.stderr)
             failed += 1
             continue
 
@@ -521,8 +522,9 @@ def main() -> int:
                 if not notion.update_content_in_place(page_id, blocks):
                     notion.replace_content_before_children(page_id, blocks)
             except requests.RequestException as exc:
+                body = getattr(exc.response, "text", "")[:500]
                 print(f"  ! relink failed, will retry next run: {entry['url']} "
-                      f"-> {exc}", file=sys.stderr)
+                      f"-> {exc} | body: {body}", file=sys.stderr)
                 continue
             print(f"  relinked: {title}")
             relinked += 1
