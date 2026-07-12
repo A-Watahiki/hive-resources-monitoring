@@ -55,6 +55,12 @@ NOTION_API = "https://api.notion.com/v1"
 NOTION_VERSION = "2022-06-28"
 REQUEST_INTERVAL = 0.35  # Notion allows ~3 requests/second.
 
+# Bump when how a page is *rendered* changes (title/icon derivation, block
+# construction) even though the stored translation content didn't — forces
+# every already-synced page to be re-pushed to Notion once, without needing
+# a DeepL re-translation (content_hash / SCHEMA_VERSION are untouched).
+RENDER_VERSION = 2
+
 REVIEW_LABELS = {
     "unreviewed": "未レビュー（DeepL自動翻訳のまま）",
     "reviewed": "レビュー済み",
@@ -170,9 +176,54 @@ def content_blocks(entry: dict, url_map: dict[str, str],
             for line in text.split("\n") if line.strip()]
 
 
+_WORD_RE = re.compile(r"\w", re.UNICODE)
+
+
+def _block_plain_text(block: dict) -> str:
+    btype = block.get("type")
+    rich = (block.get(btype) or {}).get("rich_text") or []
+    return "".join(r.get("text", {}).get("content", "")
+                   for r in rich if r.get("type") == "text")
+
+
+def _looks_like_page_icon(text: str) -> bool:
+    """True for a short, word-free string like an emoji or emoji sequence —
+    the Hive site's per-page icon, which shows up as its own leading
+    paragraph ahead of the page's H1 in the extracted content."""
+    t = text.strip()
+    return (bool(t) and len(t) <= 8 and not _WORD_RE.search(t)
+            and any(ord(c) >= 0x2000 for c in t))
+
+
+def split_title_icon(blocks: list[dict]) -> tuple[str | None, str | None, list[dict]]:
+    """Pull a leading "icon paragraph" + "# Title" heading pair off the
+    front of the content blocks so the Hive page's own icon/title become
+    the Notion page's icon/title instead of being duplicated in the body."""
+    remaining = list(blocks)
+    icon = None
+    if remaining and remaining[0].get("type") == "paragraph":
+        text = _block_plain_text(remaining[0])
+        if _looks_like_page_icon(text):
+            icon = text
+            remaining = remaining[1:]
+    title = None
+    if remaining and remaining[0].get("type") == "heading_1":
+        text = _block_plain_text(remaining[0]).strip()
+        if text:
+            title = text
+            remaining = remaining[1:]
+    return icon, title, remaining
+
+
 def build_blocks(entry: dict, url_map: dict[str, str], page_id_map: dict[str, str],
-                 tcfg: dict) -> list[dict]:
-    return header_blocks(entry) + content_blocks(entry, url_map, page_id_map, tcfg)
+                 tcfg: dict) -> tuple[str, str | None, list[dict]]:
+    """Returns (title, icon_emoji_or_None, blocks). The title/icon come from
+    the translated content's own leading icon + heading when present,
+    falling back to the (untranslated) title captured at crawl time."""
+    icon, translated_title, content = split_title_icon(
+        content_blocks(entry, url_map, page_id_map, tcfg))
+    title = translated_title or entry.get("title") or entry["url"]
+    return title, icon, header_blocks(entry) + content
 
 
 class Notion:
@@ -195,12 +246,16 @@ class Notion:
             time.sleep(REQUEST_INTERVAL)
         return resp
 
-    def create_page(self, parent_id: str, title: str, blocks: list[dict]) -> str:
-        resp = self.request("POST", "/pages", json={
+    def create_page(self, parent_id: str, title: str, blocks: list[dict],
+                    icon: str | None = None) -> str:
+        payload = {
             "parent": {"page_id": parent_id},
             "properties": {"title": {"title": [rich_text(title)]}},
             "children": blocks[:100],
-        })
+        }
+        if icon:
+            payload["icon"] = {"type": "emoji", "emoji": icon}
+        resp = self.request("POST", "/pages", json=payload)
         resp.raise_for_status()
         page_id = resp.json()["id"]
         self.append_blocks(page_id, blocks[100:])
@@ -212,10 +267,11 @@ class Notion:
                                 json={"children": blocks[i:i + 100]})
             resp.raise_for_status()
 
-    def set_title(self, page_id: str, title: str) -> None:
-        resp = self.request("PATCH", f"/pages/{page_id}", json={
-            "properties": {"title": {"title": [rich_text(title)]}},
-        })
+    def set_title(self, page_id: str, title: str, icon: str | None = None) -> None:
+        payload = {"properties": {"title": {"title": [rich_text(title)]}}}
+        if icon:
+            payload["icon"] = {"type": "emoji", "emoji": icon}
+        resp = self.request("PATCH", f"/pages/{page_id}", json=payload)
         resp.raise_for_status()
 
     def clear_children(self, page_id: str) -> None:
@@ -389,11 +445,11 @@ def main() -> int:
 
     for path, entry in entries.items():
         ninfo = entry.setdefault("notion", {})
-        if ninfo.get("synced_hash") == entry.get("content_hash"):
+        if (ninfo.get("synced_hash") == entry.get("content_hash")
+                and ninfo.get("render_version") == RENDER_VERSION):
             skipped += 1
             continue
 
-        title = entry.get("title") or entry["url"]
         page_id = ninfo.get("page_id")
 
         # Only decided at creation time — Notion has no API to move an
@@ -404,19 +460,20 @@ def main() -> int:
             if logical_parent is not None:
                 target_parent = page_id_map.get(logical_parent)
                 if target_parent is None:
+                    title = entry.get("title") or entry["url"]
                     print(f"  deferring (parent not translated yet): {title}")
                     deferred += 1
                     continue
 
-        blocks = build_blocks(entry, url_map, page_id_map, tcfg)
+        title, icon, blocks = build_blocks(entry, url_map, page_id_map, tcfg)
         try:
             if page_id and notion.page_exists(page_id):
                 print(f"  updating: {title}")
-                notion.set_title(page_id, title)
+                notion.set_title(page_id, title, icon)
                 notion.replace_content_before_children(page_id, blocks)
             else:
                 print(f"  creating: {title}")
-                page_id = notion.create_page(target_parent, title, blocks)
+                page_id = notion.create_page(target_parent, title, blocks, icon)
         except requests.RequestException as exc:
             status = getattr(exc.response, "status_code", None)
             if status in (401, 403):
@@ -433,6 +490,7 @@ def main() -> int:
             "page_id": page_id,
             "synced_at": datetime.now(timezone.utc).isoformat(),
             "synced_hash": entry["content_hash"],
+            "render_version": RENDER_VERSION,
         }
         save_entry(path, entry)
         synced += 1
@@ -455,9 +513,8 @@ def main() -> int:
             md = entry.get("translated_markdown", "")
             if not any(u in md for u in newly_available):
                 continue
-            title = entry.get("title") or entry["url"]
             try:
-                blocks = build_blocks(entry, url_map, page_id_map, tcfg)
+                title, _icon, blocks = build_blocks(entry, url_map, page_id_map, tcfg)
                 # Update in place so real sub-pages keep their position; only
                 # fall back to a positional replace if the structure no
                 # longer lines up.
