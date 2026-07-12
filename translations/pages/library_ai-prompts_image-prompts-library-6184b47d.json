@@ -4,7 +4,7 @@
   "notion": {
     "page_id": "39b383bb-2c1b-81a4-a7fa-ce0e712c6f99",
     "render_version": 2,
-    "synced_at": "2026-07-12T13:13:33.875930+00:00",
+    "synced_at": "2026-07-12T22:03:34.948093+00:00",
     "synced_hash": "dca92602169d6cf6cd11d9bec6b451ef836335423b319898db58293065a349b2"
   },
   "review": {
@@ -18,10 +18,9 @@
   "source_text": "🎨\nImage Prompts Library\nAnimal Advocacy Prompts\nPrompt Text | Tags | Image | Creator\nChicken making powerpoint presentation with a graph --ar 4:1 | facebook cover photo |  | Constance Li",
   "target_lang": "JA",
   "title": "Image Prompts Library",
-  "translated_at": "2026-07-12T13:01:49.159383+00:00",
+  "translated_at": "2026-07-12T22:00:14.507107+00:00",
   "translated_markdown": "🎨\n\n# 画像プロンプトライブラリ\n\n### 動物保護に関するヒント\n\n| Prompt Text | Tags | Image | Creator |\n| --- | --- | --- | --- |\n| [グラフを使った鶏肉に関するパワーポイントのプレゼンテーションの作成 -- 縦横比 4:1](https://resources.joinhive.org/library/ai-prompts/image-prompts-library/chicken-making-powerpoint-presentation-with-a-graph-ar-41) | Facebookのカバー写真 |  | コンスタンス・リー |\n|  |  |  |  |\n|  |  |  |  |\n",
   "translated_text": "🎨\n画像プロンプトライブラリ\n動物保護に関するヒント\nPrompt Text | Tags | Image | Creator\nグラフを使った鶏肉に関するパワーポイントのプレゼンテーションの作成 -- 縦横比 4:1 | Facebookのカバー写真 |  | コンスタンス・リー",
-  "translation_incomplete": true,
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/ai-prompts/image-prompts-library"
 }
