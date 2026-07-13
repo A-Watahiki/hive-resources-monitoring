@@ -61,6 +61,22 @@ processing time).
    here on, it runs automatically every day (crawl at 00:00 UTC, translate
    at 01:00 UTC — edit the `cron` schedule in `.github/workflows/*.yml` to
    change the timing).
+9. **(Optional) Automate translation quality review with Claude**
+   Machine translation isn't perfect. This repo includes a Claude Code
+   skill, `/review-translations`
+   ([`.claude/skills/review-translations/SKILL.md`](.claude/skills/review-translations/SKILL.md)),
+   that checks a handful of translated pages against their source each time
+   it runs, fixes anything it finds, and commits the result — so quality
+   improves gradually without you checking every page by hand. Unlike the
+   rest of the pipeline, this step does use Claude/AI usage.
+   - Go to [claude.ai/code](https://claude.ai/code) (Claude Code on the
+     web) and connect your forked repository as a source.
+   - Start a session in that repo and ask Claude to set it up for you, e.g.:
+     *"Set up a daily routine that runs `/review-translations 3` in this
+     repo."* Claude will create the recurring schedule (a "Routine") for you.
+   - Each run only checks a few pages (3 by default) to keep usage low; the
+     backlog is worked through gradually across runs. Check progress
+     anytime with `python monitor/translation_status.py`.
 
 That's it. Everything below is reference material for how it works and how
 to customize it further.
