@@ -1,284 +1,233 @@
 # hive-resources-monitoring
 
-Periodically monitors the [Hive Resource Library](https://resources.joinhive.org/library)
-and the pages under it, and **shows what was added, removed, or changed in an
-"updates" box on your Notion top page**. There is no email involved, so no
-SMTP credentials or Gmail app-password setup are needed — which also makes
-spinning up another-language fork one step simpler.
+[Hive Resource Library](https://resources.joinhive.org/library) を定期監視し、
+更新内容を Notion 上の「更新情報」ボックスに表示します。DeepL による自動翻訳を
+経て、翻訳版ページとして個人の Notion に同期する機能も含みます。すべて
+GitHub Actions 上で動く Python スクリプトで完結し、AIトークンは消費しません。
 
-It also includes the translation pipeline that feeds that Notion page:
-fetched pages are **machine-translated via DeepL** and saved alongside the
-source text, then **synced to a personal Notion page** (→ [Translation & Notion sync](#translation--notion-sync)).
+## 🔰 プログラミング未経験でもできるクイックスタート
+
+**ターミナルやコマンドライン、プログラミングの知識は一切不要です。** すべて
+ブラウザ上の操作だけで、あなたの言語版の翻訳ページが作れます（所要時間の目安：
+15分＋自動処理待ち）。
+
+1. **このリポジトリをフォークする**
+   ページ右上の **Fork** ボタンを押し、自分のGitHubアカウントにコピーを作成します。
+2. **DeepL APIキーを取得する**（無料）
+   [DeepL API Free](https://www.deepl.com/pro-api) に登録し、APIキーをコピーして
+   おきます（`:fx` で終わるキーが無料枠です）。
+3. **Notion側を準備する**
+   - [notion.so/my-integrations](https://www.notion.so/my-integrations) で
+     「New integration」を作成し、表示された **トークン**（`ntn_...`）をコピー。
+   - 翻訳ページの置き場所にしたい Notion ページを1つ用意し、右上の **⋯ →
+     Connections** から、今作ったインテグレーションを追加（共有）します。
+   - そのページを開いた状態のブラウザURLをコピーしておきます（ページIDとして使います）。
+4. **フォークしたリポジトリにキーを登録する**
+   自分のリポジトリの **Settings → Secrets and variables → Actions → New
+   repository secret** から、以下の3つを1つずつ登録します。
+
+   | Secret名 | 値 |
+   |---|---|
+   | `DEEPL_API_KEY` | 手順2でコピーしたDeepLのAPIキー |
+   | `NOTION_TOKEN` | 手順3でコピーしたNotionのトークン |
+   | `NOTION_PARENT_PAGE_ID` | 手順3でコピーしたNotionページのURL |
+5. **Actionsに書き込み権限を与える**
+   **Settings → Actions → General → Workflow permissions** で
+   **「Read and write permissions」** を選び、保存します。
+6. **翻訳先の言語を設定する**
+   リポジトリ内の `monitor/config.yaml` をブラウザ上で開き、鉛筆アイコン（Edit
+   this file）で直接編集します。
+   - `language:` を自分の言語のロケールコード（例: `"ko"`、`"fr"`）に変更
+   - `translation.target_lang:` を [DeepLの対応言語コード](https://developers.deepl.com/docs/getting-started/supported-languages)
+     （例: `"KO"`、`"FR"`）に変更
+   - 画面下部の「Commit changes」で保存
+
+   > `en` と `ja` 以外の言語を選んだ場合は、追加でもう1ファイル
+   > （`monitor/locales.py`）に短い定型文の翻訳を数行足す必要があります。
+   > 詳しくは末尾の「[多言語対応](#多言語対応)」を参照してください（AIアシスタント
+   > に頼んでやってもらうのも手軽です）。
+7. **手動で一度動かして確認する**
+   **Actions** タブを開き、まず **「Monitor Hive Resource Library」→ Run
+   workflow** を実行。数分後に完了したら、続けて **「Translate & Sync to
+   Notion」→ Run workflow** を実行します（初回は数十分かかることがあります）。
+8. **Notionを確認する**
+   手順3で用意したNotionページを開き、翻訳されたページが増えていくのを確認します。
+   以降は自動的に毎日実行されます（クロール: 毎日00:00 UTC、翻訳: 01:00
+   UTC。変更したい場合は `.github/workflows/*.yml` の `cron` を編集）。
+
+これで完了です。ここから先は、より詳しい仕組みや細かいカスタマイズ方法の
+リファレンスです。
+
+## 使い方の概要
+
+```
+GitHub Actions（毎日 00:00 UTC）
+   └─ monitor.py    : ライブラリをクロールし、前回スナップショットと比較。
+                       変更があれば snapshots/updates.json に記録
+GitHub Actions（毎日 01:00 UTC、1時間後）
+   └─ translate.py   : 新規・変更ページをDeepLで翻訳し、
+                        translations/pages/*.json に保存
+   └─ notion_sync.py : 翻訳をNotionページへ反映し、
+                        📢 更新情報ボックスも更新
+```
+
+検出される変更：ページの**追加**・**削除**・**内容変更**（変更ページは本文の
+差分を保持し、更新情報ボックスの「差分を表示」トグルで確認できます）。
 
 ## Features
 
-- **Uses zero Claude / LLM tokens.** The monitoring itself is plain Python,
-  run on a schedule (cron) by GitHub Actions. Normal operation consumes no
-  AI tokens at all.
-- No extra external services required — runs entirely within GitHub Actions'
-  free tier. No email/SMTP configuration at all.
-- The previous run's page snapshot is stored in the repo itself
-  (`snapshots/state.json`) and diffed against on the next run; detected
-  changes accumulate as a history in `snapshots/updates.json`.
+- **AIトークンを消費しません。** 監視・翻訳・Notion同期はすべて素のPython。
+- GitHub Actionsの無料枠内で完結（メール送信なし、外部サービス不要）。
+- 直前のスナップショットは `snapshots/state.json` にリポジトリ内で保持され、
+  次回実行時の差分検出に使われます。
 
-## How it works
-
-```
-GitHub Actions (cron, once a day)
-   └─ monitor/monitor.py
-        1. Crawl the library and its sub-pages, extracting page text
-        2. Hash each page's content
-        3. Compare against snapshots/state.json (the previous run)
-        4. If anything was added / removed / changed → record it in
-           snapshots/updates.json (the update history)
-        5. Update the snapshot and commit it automatically
-   └─ an hour later, notion_sync.py renders that update history as a
-      📢 "updates" callout box on the Notion top page (see below)
-```
-
-Changes it detects:
-
-- **Pages added** (e.g. a new resource published)
-- **Pages removed**
-- **Existing pages changed** (the update entry keeps a unified diff of the
-  body text, shown in a collapsed "show diff" toggle)
-
-## Setup
-
-### 1. Confirm Actions has write permission
-
-The workflow commits the updated snapshot back to the repo, so under
-**Settings → Actions → General → Workflow permissions**, enable
-**"Read and write permissions"**.
-
-### 2. Adjust what's monitored and how often (optional)
-
-- Crawl targets / depth: [`monitor/config.yaml`](monitor/config.yaml)
-- Check frequency: the `cron` expression in
-  [`.github/workflows/monitor.yml`](.github/workflows/monitor.yml)
-  (defaults to daily at 00:00 UTC)
-
-## Verifying it works
-
-After initial setup:
-
-1. **First run**: there's nothing to diff against yet, so it just records a
-   snapshot — no update entry is recorded.
-2. **From the second run on**: it diffs against the previous snapshot and,
-   if anything changed, appends an entry to `snapshots/updates.json`; the
-   next Notion sync (the translate workflow, an hour later) shows it in the
-   updates box on the top page.
-
-To try it manually, go to the Actions tab and run **"Monitor Hive Resource
-Library" → Run workflow**. Setting `dry_run` to `true` logs the detected
-diff without recording it or updating the snapshot.
-
-To try it locally:
+## ローカルで試す（任意）
 
 ```bash
 pip install -r monitor/requirements.txt
 DRY_RUN=true python monitor/monitor.py
 ```
 
-## Translation & Notion sync
+`DRY_RUN=true` は検出した差分をログ出力するだけで、スナップショットも更新
+情報も書き換えません。
 
-`translate.py` translates the pages `monitor.py` fetched via the DeepL API,
-saves the source and translation side by side in the repo, and syncs them to
-a personal Notion page. **Both the translation and sync steps are plain
-Python — they don't use any Claude tokens either.**
+## Translation & Notion sync の詳細
 
-```
-GitHub Actions (daily at 01:00 UTC)
-   └─ translate.py  : re-fetches new/changed pages' HTML, extracting
-   │                  structure (headings, lists, links, etc.) rather than
-   │                  flat text → translates via DeepL
-   │                  → saves source + translation to
-   │                    translations/pages/<page>.json
-   └─ notion_sync.py: creates/updates one Notion page per untranslated
-                       resource under a parent page (rendering headings,
-                       lists, quotes, dividers, and links as Notion blocks),
-                       and refreshes the 📢 updates box on that parent page
-```
+**更新情報ボックス**：`notion_sync.py` が `snapshots/updates.json` の履歴を
+Notionの親ページ上に 📢 コールアウトとして描画します。変更があった実行ごとに
+1つの折りたたみトグル（例：`2026-07-12：3件の変更`）にまとまり、タイトルは
+翻訳済みNotionページ（未翻訳なら元ページ）にリンクします。ボックスは初回同期時
+に自動作成され、ページ内の好きな位置に移動しても構いません（📢アイコンで再度
+発見されます）。保持する実行回数は `config.yaml` の `updates_keep` で調整できます。
 
-**The updates box**: `notion_sync.py` renders the update history recorded by
-the monitor (`snapshots/updates.json`) as a 📢 callout box on the top
-(parent) page. Each monitoring run that found changes becomes one collapsed
-toggle (`2026-07-12: 3 change(s)`) listing the added / removed / changed
-pages; titles link to the translated Notion page when one exists (falling
-back to the original page), and changed pages carry their text diff in a
-nested "show diff" toggle. The box is created automatically on first sync —
-you can drag it anywhere on the page afterwards; later runs only refresh its
-contents (it's found again by its 📢 icon). `updates_keep` in
-[`monitor/config.yaml`](monitor/config.yaml) controls how many runs of
-history are kept.
+**レイアウト保持**：元のHiveページ（Notionベース）の構造を保つため、翻訳時に
+HTMLを再取得し、見出し・トグル・コールアウト（アイコン・背景色付き）・
+箇条書き/番号付きリスト・引用・区切り線・テーブル・カラムレイアウト・画像・
+カバー画像・インラインリンクを構造化ブロックとして抽出します。保存・レビュー・
+Notion描画はすべて小さな **Markdownサブセット**
+（[`monitor/mdblocks.py`](monitor/mdblocks.py) 冒頭に仕様あり）を単一の
+ソース・オブ・トゥルースとして扱います。
 
-**Layout preservation**: to keep the structure of the original Hive page (it's
-itself Notion-based), each page's HTML is re-fetched at translation time and
-its headings, toggles (plain and heading toggles), callouts (with icon and
-background color), bulleted/numbered lists, quotes, dividers, tables, column
-layouts, images, page covers, and inline links are extracted as structured
-blocks. Translation goes through DeepL's HTML tag handling, so links and bold
-text survive. Storage, review, and Notion rendering all treat a small
-**Markdown subset** (documented at the top of
-[`monitor/mdblocks.py`](monitor/mdblocks.py): `#`/`##`/`###`, `#>`/`>>>`
-toggles, `!!!(icon|color)` callouts, `- `/`1. `, `> `, `---`, `| a | b |`
-tables, `|||`/`||` columns, `![alt](url)` images, `[text](URL)`, `**bold**`)
-as the single source of truth.
+**翻訳の再利用**：スキーマ変更で再抽出が走っても、既存の翻訳ペアから
+テキストを再利用し、DeepLへの再送信を避けます。月間クォータを使い切った
+場合は、未翻訳の断片だけ元言語のまま残り `translation_incomplete` としてマーク
+され、クォータが回復し次第、後続の実行で再試行されます。
 
-**Translation reuse**: when a schema change re-extracts pages, previously
-translated text is reused from the stored source/translation pairs instead of
-being re-sent to DeepL, so layout upgrades cost little or no quota. If the
-monthly DeepL quota runs out mid-page, the untranslated fragments temporarily
-keep their source language, the entry is marked `translation_incomplete`, and
-the page is retried on later runs until the quota allows it to finish.
+**サイト内リンクの自動付け替え**：リソース間のリンク（例：ライブラリ索引から
+各カテゴリページへのリンク）は、リンク先が翻訳済みなら翻訳版Notionページへ、
+未翻訳ならHiveの原文ページへ自動的に向けられます。あるページが初めて翻訳
+された瞬間、それにリンクしている既存の同期済みページも同じ実行内で
+再描画（リンクの付け替え）されます。
 
-**Cross-resource link rewriting**: links between resources (e.g. the library
-index linking to its category pages) are automatically rewritten to point at
-the corresponding **translated Notion page** once that target has been
-translated. Links to not-yet-translated pages fall back to the original
-(English) Hive page. The moment a page is translated for the first time, any
-already-synced page that links to it gets its rendering refreshed
-("relinked") in the same run, so the link is upgraded without needing a
-retranslation of the linking page.
+**階層構造（実際のNotionサブページ）**：新規作成ページは、Hive URLの階層に
+対応する実際のNotionサブページとして作成されます（サイドバーが元サイトの
+構造を反映）。論理上の親がまだ翻訳されていない場合、作成は後の実行まで
+保留されます（Notion APIには作成後に親を変更する方法がないため）。
 
-**Hierarchy (real Notion sub-pages)**: newly created Notion pages are created
-as **real sub-pages** of the page matching their logical parent in the Hive
-URL structure (e.g. `/library/ai-prompts/academia` under the already-created
-`/library/ai-prompts` page). This means Notion's sidebar and child-page lists
-mirror the original Hive hierarchy. If the logical parent hasn't been
-translated yet, page creation is deferred until it has (the Notion API has no
-way to move a page's parent after creation, so this is decided once, at
-creation time).
+### ストレージ形式（translations/pages/*.json）
 
-### Storage format (translations/pages/*.json)
-
-One JSON file per page. Fields:
-
-| Field | Contents |
+| フィールド | 内容 |
 |---|---|
-| `url` / `title` / `content_hash` | Info about the source page (a changed hash triggers retranslation) |
-| `source_markdown` | The structure-preserving source (Markdown subset) |
-| `translated_markdown` | The DeepL translation (Markdown subset — the source of truth for Notion rendering; edited during review) |
-| `source_text` / `translated_text` | Plain-text copies (for diffing / progress checks) |
-| `schema_version` | Storage format version (a bump triggers retranslation) |
-| `review.status` | `unreviewed` → `reviewed` / `fixed` (updated by the Claude review routine) |
-| `notion.page_id` etc. | Notion sync bookkeeping |
+| `url` / `title` / `content_hash` | 原文ページの情報（ハッシュ変更で再翻訳） |
+| `source_markdown` | 構造を保持した原文（Markdownサブセット） |
+| `translated_markdown` | DeepL翻訳結果（Notion描画のソース・オブ・トゥルース） |
+| `source_text` / `translated_text` | プレーンテキスト版（差分確認用） |
+| `schema_version` | ストレージ形式のバージョン（変更で再翻訳） |
+| `review.status` | `unreviewed` → `reviewed` / `fixed` |
+| `notion.page_id` 等 | Notion同期の管理情報 |
 
-### Required Secrets (additional)
+### 必要なSecrets
 
-| Secret | Value | Description |
+| Secret | 値 | 説明 |
 |---|---|---|
-| `DEEPL_API_KEY` | A DeepL API key | Free registration at [DeepL API Free](https://www.deepl.com/pro-api) (500K chars/month). A key ending in `:fx` automatically selects the free-tier endpoint |
-| `NOTION_TOKEN` | `ntn_...` | Create an internal integration at [notion.so/my-integrations](https://www.notion.so/my-integrations) |
-| `NOTION_PARENT_PAGE_ID` | A page ID or page URL | The parent page new translated pages are created under. **Share that page with the integration** via "⋯ → Connections" first |
+| `DEEPL_API_KEY` | DeepLのAPIキー | [DeepL API Free](https://www.deepl.com/pro-api)（月50万文字まで無料）。`:fx` 終わりのキーは自動的に無料枠エンドポイントを使用 |
+| `NOTION_TOKEN` | `ntn_...` | [notion.so/my-integrations](https://www.notion.so/my-integrations) で作成 |
+| `NOTION_PARENT_PAGE_ID` | ページIDまたはURL | 翻訳ページの作成先。事前に「⋯ → Connections」でインテグレーションと共有すること |
 
-If `DEEPL_API_KEY` isn't set, translation is skipped; if `NOTION_TOKEN` isn't
-set, the Notion sync is skipped — neither is treated as an error.
+未設定の場合、該当ステップ（翻訳またはNotion同期）はエラーにせずスキップされます。
 
-### Character budget (staying within DeepL's free tier)
+### DeepL文字数の予算管理
 
-Translating everything in one go could exceed DeepL's free tier (500K
-chars/month), so each run caps how much source text it translates
-(`translation.char_budget_per_run` in `config.yaml`, default 40,000 chars).
-The backlog is worked through gradually across daily runs. You can raise this
-temporarily via the `char_budget` input on a manual "Run workflow". By
-default only pages under `/library` are translated (change this with
-`translation.include_prefixes`).
+無制限に翻訳するとDeepLの無料枠（月50万文字）を超える可能性があるため、
+1回の実行あたりの翻訳量は `config.yaml` の `translation.char_budget_per_run`
+（既定40,000文字）で制限されています。残りは日々の実行で少しずつ処理されます。
+手動実行時は `char_budget` 入力で一時的に引き上げ可能です。翻訳対象は既定で
+`/library` 配下のみです（`translation.include_prefixes` で変更）。
 
-### Translation review (Claude routine)
+### 翻訳レビュー（Claudeルーチン）
 
-Quality-checking the DeepL output is handled by the bundled Claude Code
-skill **`/review-translations`**. Each invocation checks only a handful of
-pages against their source (default 3, or e.g. `/review-translations 5`),
-updates `review.status`, and commits. Running it a little at a time keeps
-token usage low. Check progress with:
+DeepL訳の品質チェックは付属のClaude Codeスキル **`/review-translations`**
+が担当します。1回の実行につき数ページのみ（既定3、`/review-translations 5`
+のように指定可）を原文と照合し、`review.status` を更新してコミットします。
+進捗確認：
 
 ```bash
-python monitor/translation_status.py                       # summary
-python monitor/translation_status.py --list-unreviewed 5   # next pages to review
+python monitor/translation_status.py                       # サマリー
+python monitor/translation_status.py --list-unreviewed 5   # 次にレビューすべきページ
 ```
 
-Fixes made during review are picked up by the next Notion sync.
+レビューでの修正は次回のNotion同期で反映されます。
 
-### Fixing a translation directly in Notion
+### Notion上で直接翻訳を修正する
 
-You don't have to edit the repo to fix a mistranslation — editing the text
-directly on the Notion page works too. Before pushing anything, every
-`notion_sync.py` run first checks each already-synced page for edits: if
-the live Notion content differs from what the repo has, the edit is pulled
-back into that page's `translations/pages/<page>.json`
-(`translated_markdown` / `translated_text`), and its `review` status is set
-to `fixed` (`reviewer: "notion-manual-edit"`) — all committed and pushed to
-GitHub automatically. This keeps the repo authoritative, so the next sync
-won't overwrite your fix with the old text.
+リポジトリを編集しなくても、Notionページ上で直接テキストを直せます。
+`notion_sync.py` は毎回、同期済みページの内容が生きているNotionと食い違って
+いないか先にチェックし、食い違いがあれば修正内容を `translations/pages/<page>.json`
+に取り込んでコミット・プッシュします（`review.reviewer` は
+`"notion-manual-edit"` に）。
 
-This only auto-pulls **content-only edits** — retyping/correcting the text
-of an existing block. It's skipped (left for you to fix in
-`translated_markdown` directly instead) when:
-- Blocks were added, deleted, or reordered by hand (the live structure no
-  longer matches what this pipeline would render), or
-- The page has any native sub-page cards (the `link_to_page` blocks used
-  for the "linked resources" lists — e.g. a library index page) — these
-  can't be round-tripped back into Markdown, so pages containing them are
-  skipped entirely, even for edits elsewhere on the same page.
+自動的に取り込まれるのは**内容のみの編集**（既存ブロックのテキストの書き換え）
+です。ブロックの追加・削除・並べ替えがあった場合や、ページ内にネイティブの
+サブページカードがある場合はスキップされるため、その際は
+`translated_markdown` をリポジトリ側で直接編集してください。
 
-If in doubt, editing `translated_markdown` in the repo is always the more
-reliable path — the Notion edit path is a convenience for quick fixes.
+## 多言語対応
 
-## Localization
+このパイプラインはほぼ言語非依存ですが、更新情報ボックスや同期ステータス
+コールアウトなど、一部の運用者向け文言だけは
+[`monitor/locales.py`](monitor/locales.py) にロケールコードごとの辞書として
+まとまっています（`en` と `ja` を同梱）。
 
-Everything in this pipeline is language-agnostic except a handful of
-operator-facing strings (the updates box on the Notion top page, the sync
-status callout, the "not yet translated" link annotation). Those live in one
-place —
-[`monitor/locales.py`](monitor/locales.py) — as a dict keyed by locale code,
-with `en` and `ja` (this deployment's live example) built in.
+別の言語で動かす手順：
 
-To run this for another target language:
+1. `monitor/config.yaml` の `translation.target_lang` を目的の
+   [DeepL言語コード](https://developers.deepl.com/docs/getting-started/supported-languages)
+   に設定。
+2. `monitor/config.yaml` の `language`（ロケールコード）を設定。
+   `monitor/locales.py` に未登録なら `en` ブロックをコピーして翻訳し、
+   同じロケールコードで追加すれば、他の部分は自動で追随します。
+3. クロール・DeepL翻訳・Notionブロック構築など、それ以外の変更は不要です。
 
-1. Set `translation.target_lang` in `monitor/config.yaml` to your target
-   DeepL language code (see
-   [DeepL's supported languages](https://developers.deepl.com/docs/getting-started/supported-languages)).
-2. Set the top-level `language` key in `monitor/config.yaml` to a locale
-   code. If it's not already in `monitor/locales.py`, copy the `en` block
-   there, translate the values, and add it under your locale code —
-   everything else in the pipeline picks it up automatically.
-3. Everything else — crawling, DeepL translation, Notion block
-   construction — needs no changes. (There is no email step, so no
-   SMTP/Gmail credentials to obtain or register.)
+## 既知の制約
 
-## Caveats
+- **JavaScriptで描画されるサイト**：`monitor.py` は静的HTMLのみ取得します。
+  取得テキストが空、またはリンクが検出されない場合、対象サイトがJS描画の
+  可能性があります。その場合は `config.yaml` の `sitemap_urls` にサイトマップ
+  を指定するか、ヘッドレスブラウザ（Playwright）への切り替えを検討してください。
+- **誤検知**：広告・タイムスタンプ・ランダムIDなど動的要素が、実質的な変更が
+  なくても差分として検出されることがあります。該当URLは `config.yaml` の
+  `ignore_url_patterns` で除外してください。
 
-- **JavaScript-rendered sites**: `monitor.py` fetches static HTML. If the
-  page text it captures is empty, or links aren't detected, the target site
-  may render via JS. In that case, either point `config.yaml`'s
-  `sitemap_urls` at a sitemap, or switch to a headless browser (Playwright).
-  Check the first run's logs for the page count fetched to spot this early.
-- **False positives**: dynamic elements (ads, timestamps, random IDs) can
-  register as a diff even when nothing meaningful changed. If that happens,
-  exclude the affected URLs via `config.yaml`'s `ignore_url_patterns`, or
-  adjust the body-extraction logic as needed.
-
-## Layout
+## ディレクトリ構成
 
 ```
 .
 ├── .github/workflows/
-│   ├── monitor.yml                 # Monitoring: daily at 00:00 UTC (crawl, diff, record updates)
-│   └── translate.yml               # Translation: daily at 01:00 UTC (DeepL → Notion sync)
+│   ├── monitor.yml                 # 監視：毎日00:00 UTC（クロール・差分検出・記録）
+│   └── translate.yml               # 翻訳：毎日01:00 UTC（DeepL → Notion同期）
 ├── .claude/skills/
-│   └── review-translations/        # Claude translation-review routine (/review-translations)
+│   └── review-translations/        # Claude翻訳レビュールーチン（/review-translations）
 ├── monitor/
-│   ├── monitor.py                  # Monitor core (crawl, diff, record update history)
-│   ├── translate.py                # DeepL translation (saves source + translation as JSON)
-│   ├── notion_sync.py              # Creates/updates translated pages under the Notion parent
-│   ├── translation_status.py       # Shows translation/review progress
-│   ├── locales.py                  # Operator-facing message templates, by locale
-│   ├── config.yaml                 # Crawl / translation / language configuration
-│   └── requirements.txt            # Python dependencies
+│   ├── monitor.py                  # 監視の本体（クロール・差分・更新履歴の記録）
+│   ├── translate.py                # DeepL翻訳（原文＋訳文をJSONで保存）
+│   ├── notion_sync.py              # 翻訳ページの作成・更新、更新情報ボックスの反映
+│   ├── translation_status.py       # 翻訳・レビューの進捗表示
+│   ├── locales.py                  # ロケールごとの運用者向け文言
+│   ├── config.yaml                 # クロール／翻訳／言語の設定
+│   └── requirements.txt            # Python依存パッケージ
 ├── snapshots/
-│   ├── state.json                  # The last fetched snapshot (auto-updated by Actions)
-│   └── updates.json                # Update history shown in the Notion updates box (auto-updated)
+│   ├── state.json                  # 直前のスナップショット（Actionsが自動更新）
+│   └── updates.json                # 更新情報ボックスに表示する履歴（自動更新）
 └── translations/
-    └── pages/*.json                # Per-page source + translation + review state (auto-updated by Actions)
+    └── pages/*.json                # ページごとの原文・訳文・レビュー状態（自動更新）
 ```
