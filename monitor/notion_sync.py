@@ -77,7 +77,7 @@ REQUEST_INTERVAL = 0.35  # Notion allows ~3 requests/second.
 # construction) even though the stored translation content didn't — forces
 # every already-synced page to be re-pushed to Notion once, without needing
 # a DeepL re-translation (content_hash / SCHEMA_VERSION are untouched).
-RENDER_VERSION = 2
+RENDER_VERSION = 3
 
 REVIEW_LABEL_KEYS = {
     "unreviewed": "review_unreviewed",
@@ -240,8 +240,31 @@ def split_title_icon(blocks: list[dict]) -> tuple[str | None, str | None, list[d
     return icon, title, remaining
 
 
+def _with_subpages_label(blocks: list[dict], has_subpages: bool,
+                         tcfg: dict) -> list[dict]:
+    """Notion always renders a page's real sub-pages as cards appended after
+    our own content — the API gives no way to reposition or collapse them
+    (nesting them inside a toggle via the MCP move-page mechanism silently
+    creates an extra wrapper page instead, deepening the hierarchy, so
+    that's not used here). When has_subpages is set, a divider + a short
+    label is appended so the reader sees those cards as a distinct,
+    intentional section rather than a confusing duplicate of the links
+    already in the body. Used identically on the push side (build_blocks)
+    and the pull side (pull_manual_edits' regenerated baseline) so the two
+    stay comparable."""
+    if not has_subpages:
+        return blocks
+    msg = get_locale(tcfg.get("language"))
+    return blocks + [
+        {"object": "block", "type": "divider", "divider": {}},
+        {"object": "block", "type": "paragraph",
+         "paragraph": {"rich_text": [rich_text(msg["subpages_label"])]}},
+    ]
+
+
 def build_blocks(entry: dict, url_map: dict[str, str], page_id_map: dict[str, str],
-                 tcfg: dict) -> tuple[str, str | None, str | None, list[dict]]:
+                 tcfg: dict, has_subpages: bool = False
+                 ) -> tuple[str, str | None, str | None, list[dict]]:
     """Returns (title, icon_emoji_or_None, cover_url_or_None, blocks). The
     title/icon come from the translated content's own leading icon + heading
     when present, falling back to the (untranslated) title captured at crawl
@@ -250,8 +273,9 @@ def build_blocks(entry: dict, url_map: dict[str, str], page_id_map: dict[str, st
     icon, translated_title, content = split_title_icon(
         content_blocks(entry, url_map, page_id_map, tcfg))
     title = translated_title or entry.get("title") or entry["url"]
-    return (title, icon, entry.get("cover_url"),
-            header_blocks(entry, tcfg.get("language")) + content)
+    blocks = header_blocks(entry, tcfg.get("language")) + content
+    return title, icon, entry.get("cover_url"), _with_subpages_label(
+        blocks, has_subpages, tcfg)
 
 
 # --------------------------------------------------------------------------- #
@@ -480,6 +504,20 @@ def _strip_header(blocks: list[dict]) -> list[dict]:
     return blocks[i:]
 
 
+def _strip_subpages_label_internal(blocks: list[dict], tcfg: dict) -> list[dict]:
+    """Remove the trailing divider + label pair _with_subpages_label() adds
+    (already converted to the internal spans-based block shape), so it
+    doesn't get pulled back into translated_markdown as if it were real page
+    content (which would double it on the next render)."""
+    if len(blocks) < 2 or blocks[-2]["type"] != "divider" or blocks[-1]["type"] != "paragraph":
+        return blocks
+    msg = get_locale(tcfg.get("language"))
+    text = "".join(s.get("text", "") for s in blocks[-1].get("spans") or [])
+    if text == msg["subpages_label"]:
+        return blocks[:-2]
+    return blocks
+
+
 def _blocks_structurally_match(a: list[dict], b: list[dict]) -> bool:
     if len(a) != len(b):
         return False
@@ -511,7 +549,7 @@ def _blocks_content_differs(a: list[dict], b: list[dict]) -> bool:
 
 def pull_manual_edits(notion: "Notion", entries: dict[Path, dict],
                       url_map: dict[str, str], page_id_map: dict[str, str],
-                      tcfg: dict) -> int:
+                      tcfg: dict, parent_urls_with_children: set[str]) -> int:
     """Detect translations that were hand-edited directly on the Notion page
     (fixing a mistranslation there instead of in the repo) and pull that
     edit back into the corresponding translations/pages/<page>.json, so the
@@ -531,6 +569,8 @@ def pull_manual_edits(notion: "Notion", entries: dict[Path, dict],
             continue  # nothing pushed yet this generation, or a push is pending
         icon, title, regenerated = split_title_icon(
             content_blocks(entry, url_map, page_id_map, tcfg))
+        regenerated = _with_subpages_label(
+            regenerated, entry["url"] in parent_urls_with_children, tcfg)
         # regenerated is already in Notion API block shape (content_blocks()
         # built it that way) — normalize it through the same conversion as
         # the live page so the two sides are comparable.
@@ -558,7 +598,7 @@ def pull_manual_edits(notion: "Notion", entries: dict[Path, dict],
             lead.append({"type": "paragraph", "spans": [{"text": icon}]})
         if title:
             lead.append({"type": "heading", "level": 1, "spans": [{"text": title}]})
-        merged = lead + live_internal
+        merged = lead + _strip_subpages_label_internal(live_internal, tcfg)
         entry["translated_markdown"] = mdblocks.blocks_to_markdown(merged, "spans")
         entry["translated_text"] = translate.blocks_plaintext(merged)
         entry["review"] = {
@@ -822,6 +862,13 @@ def main() -> int:
     url_map = build_url_map(entries)
     page_id_map = build_page_id_map(entries)
     newly_available: set[str] = set()
+    # URLs that are some other entry's logical parent — these pages will
+    # end up with real Notion sub-page cards appended after our content,
+    # so build_blocks() adds a label distinguishing that section.
+    parent_urls_with_children = {
+        p for e in entries.values()
+        for p in [parent_url_of(e["url"], tcfg)] if p is not None
+    }
 
     notion = Notion(token)
 
@@ -830,7 +877,8 @@ def main() -> int:
         sync_updates_section(notion, parent_id, url_map, tcfg)
         return 0
 
-    pulled = pull_manual_edits(notion, entries, url_map, page_id_map, tcfg)
+    pulled = pull_manual_edits(notion, entries, url_map, page_id_map, tcfg,
+                               parent_urls_with_children)
 
     synced = skipped = failed = deferred = 0
 
@@ -856,7 +904,9 @@ def main() -> int:
                     deferred += 1
                     continue
 
-        title, icon, cover, blocks = build_blocks(entry, url_map, page_id_map, tcfg)
+        title, icon, cover, blocks = build_blocks(
+            entry, url_map, page_id_map, tcfg,
+            has_subpages=entry["url"] in parent_urls_with_children)
         try:
             if page_id and not notion.page_exists(page_id):
                 page_id = None  # was deleted in Notion; recreate below
@@ -921,8 +971,9 @@ def main() -> int:
             if not any(u in md for u in newly_available):
                 continue
             try:
-                title, _icon, _cover, blocks = build_blocks(entry, url_map,
-                                                            page_id_map, tcfg)
+                title, _icon, _cover, blocks = build_blocks(
+                    entry, url_map, page_id_map, tcfg,
+                    has_subpages=entry["url"] in parent_urls_with_children)
                 # Update in place so real sub-pages keep their position; only
                 # fall back to a positional replace if the structure no
                 # longer lines up.
