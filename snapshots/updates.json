@@ -57,6 +57,38 @@
           "url": "https://resources.joinhive.org/library/conferences/future-food-tech-conference"
         }
       ]
+    },
+    {
+      "added": [
+        {
+          "title": "Future Food Tech Conference",
+          "url": "https://resources.joinhive.org/library/conferences/future-food-tech-conference"
+        }
+      ],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -659,10 +659,4 @@\n Academic\n The ISAE conference focuses on how the study of ethology can strengthen our relationships with various living systems in our environment.\n-Defund Meat Conference\n-www.mpil.de\n-Heidelberg\n-Germany\n-Academic\n-This interdisciplinary conference seeks to move the meat question from the margins into the spotlight of the ongoing debates on One Health, sustainability, climate change, food security, and public health. The objective is to launch a multi-disciplinary and multi-perspective scholarly debate about meat in the Anthropocene that also contributes to the public debates in society. We seek to understand better the impacts of meat production and consumption on humans, animals, and the environment, to scrutinise traditional regulatory approaches, and to envision the future shape and instruments of a transformative meat governance.\n EA events: EA Global, EAGx, EA Summits, EA Connect\n www.effectivealtruism.org\n@@ -715,11 +709,4 @@\n Industry\n The go-to food tech industry conference bringing together start-ups, investors, ingredient innovators, technology leaders and major food brands to explore new opportunities and partnerships.\n-Good Food Conference\n-gfi.org\n-San Francisco\n-US\n-Alt Protein\n-All 2023 talks\n-Brings together innovators, scientists, policy-makers, industry leaders, philanthropists, and global champions committed to the food system transformation. Good for people interested in alt protein.\n Humane Canada’s Summit for Animals\n eventmobi.com\n@@ -737,10 +724,4 @@\n Vegan Advocacy\n Virtual conference with presentations from experts and activists on the topic of humanewashing and greenwashing as it concerns animal product marketing with misleading labeling on meat, dairy, and eggs.\n-Industrializing Cultivated Meat & Seafood Summit\n-industrializingcultivatedmeats.com\n-Boston\n-US\n-Alt Protein\n-Business\n International Animal Rights Conference\n ar-conference.org",
+          "diff_lines_omitted": 0,
+          "title": "Conferences Database: Farmed Animal Advocacy",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/conferences"
+        }
+      ],
+      "detected_at": "2026-07-17T03:01:46.090341+00:00",
+      "removed": [
+        {
+          "title": "Good Food Conference",
+          "url": "https://resources.joinhive.org/library/conferences/good-food-conference"
+        },
+        {
+          "title": "Defund Meat Conference",
+          "url": "https://resources.joinhive.org/library/conferences/pro-animal-conferences-database/defund-meat-conference"
+        },
+        {
+          "title": "Industrializing Cultivated Meat & Seafood Summit",
+          "url": "https://resources.joinhive.org/library/conferences/pro-animal-conferences-database/the-6th-industrializing-cultivated-meat-seafood-summit"
+        }
+      ]
     }
   ]
 }
