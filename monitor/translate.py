@@ -63,7 +63,7 @@ BLOCK_DESCENDANTS = ("h1", "h2", "h3", "h4", "h5", "h6", "p", "ul", "ol",
 # --------------------------------------------------------------------------- #
 # Configuration
 # --------------------------------------------------------------------------- #
-def load_config() -> tuple[dict, dict]:
+def load_config() -> dict:
     with open(CONFIG_PATH, "r", encoding="utf-8") as fh:
         cfg = yaml.safe_load(fh) or {}
     tcfg = cfg.get("translation") or {}
