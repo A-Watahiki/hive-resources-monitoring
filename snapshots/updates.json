@@ -89,6 +89,20 @@
           "url": "https://resources.joinhive.org/library/conferences/pro-animal-conferences-database/the-6th-industrializing-cultivated-meat-seafood-summit"
         }
       ]
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -32,4 +32,9 @@\n @Kevin Xia\n on Slack — it takes 30 seconds and helps keep this hub useful for everyone.\n+💡\n+Free Project Consultations\n+Hive now offers free 1:1 consult calls for advocates with an early-stage idea or an active project that's hit a wall. In one session, a Hive team member will help you identify your most useful next steps and connect you to relevant resources and people.\n+Applications take 3-6 minutes:\n+joinhive.org/project-consultation\n 💡\n A good all-rounder book on starting and running charities is",
+          "diff_lines_omitted": 0,
+          "title": "Building Organizations",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/building-organisations"
+        }
+      ],
+      "detected_at": "2026-07-18T02:53:53.402085+00:00",
+      "removed": []
     }
   ]
 }
