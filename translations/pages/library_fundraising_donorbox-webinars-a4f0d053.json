@@ -1,0 +1,24 @@
+{
+  "content_hash": "d288fbfd06265bb467258b2631aef94344de5f956fe13396d453ccd5135556ff",
+  "notion": {
+    "page_id": null,
+    "synced_at": null,
+    "synced_hash": null
+  },
+  "review": {
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
+  },
+  "schema_version": 6,
+  "source_markdown": "# Donorbox webinars\n\nFormatWebinar\n\nDetails\n\nDonorbox is an online platform that facilitates online donations.\n\nURL[https://www.youtube.com/@Donorbox/](https://www.youtube.com/@Donorbox/)\n\nURL [https://www.youtube.com/@Donorbox](https://www.youtube.com/@Donorbox)\n",
+  "source_text": "Donorbox webinars\nFormatWebinar\nDetails\nDonorbox is an online platform that facilitates online donations.\nURLhttps://www.youtube.com/@Donorbox/\nURL https://www.youtube.com/@Donorbox",
+  "target_lang": "JA",
+  "title": "Donorbox webinars",
+  "translated_at": "2026-07-18T03:57:36.772252+00:00",
+  "translated_markdown": "# Donorbox ウェビナー\n\nウェビナー形式\n\n詳細\n\nDonorboxは、オンラインでの寄付を容易にするオンラインプラットフォームです。\n\nURL[https://www.youtube.com/@Donorbox/](https://www.youtube.com/@Donorbox/)\n\nURL [https://www.youtube.com/@Donorbox](https://www.youtube.com/@Donorbox)\n",
+  "translated_text": "Donorbox ウェビナー\nウェビナー形式\n詳細\nDonorboxは、オンラインでの寄付を容易にするオンラインプラットフォームです。\nURLhttps://www.youtube.com/@Donorbox/\nURL https://www.youtube.com/@Donorbox",
+  "translator": "deepl",
+  "url": "https://resources.joinhive.org/library/fundraising/donorbox-webinars"
+}

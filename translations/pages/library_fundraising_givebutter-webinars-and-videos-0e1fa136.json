@@ -1,0 +1,24 @@
+{
+  "content_hash": "ecaa5ac8083f88dfe2c09f23e7de84efef49e3c7d4a94cc9a29fa237fa42c039",
+  "notion": {
+    "page_id": null,
+    "synced_at": null,
+    "synced_hash": null
+  },
+  "review": {
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
+  },
+  "schema_version": 6,
+  "source_markdown": "# GiveButter webinars and videos\n\nFormatWebinar\n\nDetails\n\nA giving platform that creates free resources for non-profits.\n\nURL[https://givebutter.com/freebies](https://givebutter.com/freebies)\n",
+  "source_text": "GiveButter webinars and videos\nFormatWebinar\nDetails\nA giving platform that creates free resources for non-profits.\nURLhttps://givebutter.com/freebies",
+  "target_lang": "JA",
+  "title": "GiveButter webinars and videos",
+  "translated_at": "2026-07-18T03:57:36.772252+00:00",
+  "translated_markdown": "# GiveButterのウェビナーと動画\n\nウェビナー形式\n\n詳細\n\n非営利団体のために無料のリソースを提供する寄付プラットフォーム。\n\nURL [https://givebutter.com/freebies](https://givebutter.com/freebies)\n",
+  "translated_text": "GiveButterのウェビナーと動画\nウェビナー形式\n詳細\n非営利団体のために無料のリソースを提供する寄付プラットフォーム。\nURL https://givebutter.com/freebies",
+  "translator": "deepl",
+  "url": "https://resources.joinhive.org/library/fundraising/givebutter-webinars-and-videos"
+}
