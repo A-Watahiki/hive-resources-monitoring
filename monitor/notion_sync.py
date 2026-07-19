@@ -73,11 +73,16 @@ NOTION_API = "https://api.notion.com/v1"
 NOTION_VERSION = "2022-06-28"
 REQUEST_INTERVAL = 0.35  # Notion allows ~3 requests/second.
 
+# Public Notion form for readers to report a mistranslation, linked from
+# every translated page's header. Fork-specific — point this at your own
+# form (see the inline database + form set up on the top page).
+REPORT_FORM_URL = "https://app.notion.com/p/xenamanex/1b1d86405dba4bae9546429610012555?pvs=106"
+
 # Bump when how a page is *rendered* changes (title/icon derivation, block
 # construction) even though the stored translation content didn't — forces
 # every already-synced page to be re-pushed to Notion once, without needing
 # a DeepL re-translation (content_hash / SCHEMA_VERSION are untouched).
-RENDER_VERSION = 3
+RENDER_VERSION = 4
 
 REVIEW_LABEL_KEYS = {
     "unreviewed": "review_unreviewed",
@@ -110,6 +115,7 @@ def header_blocks(entry: dict, language: str = "en") -> list[dict]:
     translated_at = entry.get("translated_at", "")
     header = msg["notion_status_callout"].format(label=label,
                                                   translated_at=translated_at)
+    report_line = msg["report_link"].format(url=REPORT_FORM_URL)
     return [
         {"object": "block", "type": "callout",
          "callout": {"icon": {"type": "emoji", "emoji": "🌐"},
@@ -117,6 +123,8 @@ def header_blocks(entry: dict, language: str = "en") -> list[dict]:
         {"object": "block", "type": "paragraph",
          "paragraph": {"rich_text": [rich_text(msg["notion_source_label"]),
                                      rich_text(entry["url"], entry["url"])]}},
+        {"object": "block", "type": "paragraph",
+         "paragraph": {"rich_text": [rich_text(report_line)]}},
         {"object": "block", "type": "divider", "divider": {}},
     ]
 
