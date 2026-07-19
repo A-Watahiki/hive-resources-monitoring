@@ -2,9 +2,9 @@
   "content_hash": "c0e07caa6868def9e2e72fedb9a95feb7f200d97d05315fb414a7f0c3eb1f4ba",
   "notion": {
     "page_id": "39a383bb-2c1b-81eb-a145-ef65b87356a1",
-    "render_version": 3,
-    "synced_at": "2026-07-13T04:40:30.351756+00:00",
-    "synced_hash": null
+    "render_version": 4,
+    "synced_at": "2026-07-19T07:24:35.228645+00:00",
+    "synced_hash": "c0e07caa6868def9e2e72fedb9a95feb7f200d97d05315fb414a7f0c3eb1f4ba"
   },
   "review": {
     "notes": "fixed speaker labels (討論A/B -> 討論者A/B)",

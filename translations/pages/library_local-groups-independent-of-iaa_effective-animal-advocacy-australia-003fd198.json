@@ -2,15 +2,15 @@
   "content_hash": "cf4238834114a3b024bcd6940d022d32aee62af133ca2578477a35f1216d5d2f",
   "notion": {
     "page_id": "3a2383bb-2c1b-8111-964a-e1a64cffbee8",
-    "render_version": 3,
-    "synced_at": "2026-07-19T04:27:46.468845+00:00",
+    "render_version": 4,
+    "synced_at": "2026-07-19T07:58:01.232535+00:00",
     "synced_hash": "cf4238834114a3b024bcd6940d022d32aee62af133ca2578477a35f1216d5d2f"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "notes": "Pulled a manual edit made directly on the Notion page.",
+    "reviewed_at": "2026-07-19T07:18:46.694785+00:00",
+    "reviewer": "notion-manual-edit",
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "🦘\n\n# Effective Animal Advocacy Australia\n\nGroup description: EAAA is focused on sharing and applying the approach of effective altruism to animal advocacy in Australia. We do this by hosting workshops, sharing resources and opportunities, and providing a space for community connection.\n\nCommunity Manager: Jordan von Eitzen\n\nSpaces:\n\nFacebook [www.facebook.com/groups/eafta/](http://www.facebook.com/groups/eafta/)\n\nSlack [https://eafta.slack.com](https://eafta.slack.com)\n\nMonthly community calls\n\nResources\n",
@@ -18,7 +18,7 @@
   "target_lang": "JA",
   "title": "Effective Animal Advocacy Australia",
   "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "🦘\n\n# オーストラリアの動物保護活動\n\nグループの概要：EAAAは、オーストラリアにおける動物保護活動において、効果的利他主義のアプローチを共有し、実践することに注力しています。そのために、ワークショップの開催、リソースや機会の共有、そしてコミュニティのつながりを深める場を提供しています。\n\nコミュニティマネージャー：ジョーダン・フォン・アイツェン\n\nスペース：\n\nFacebook [www.facebook.com/groups/eafta/](http://www.facebook.com/groups/eafta/)\n\nSlack [https://eafta.slack.com](https://eafta.slack.com)\n\n毎月のコミュニティ・コール\n\nリソース\n",
+  "translated_markdown": "🦘\n\n# オーストラリアの動物保護活動\n\nグループの概要：EAAAは、オーストラリアにおける動物保護活動において、効果的利他主義のアプローチを共有し、実践することに注力しています。そのために、ワークショップの開催、リソースや機会の共有、そしてコミュニティのつながりを深める場を提供しています。\n\nコミュニティマネージャー：ジョーダン・フォン・アイツェン\n\nスペース：\n\nFacebook [www.facebook.com/groups/eafta/](http://www.facebook.com/groups/eafta/)\n\nSlack [https://eafta.slack.com](https://eafta.slack.com/)\n\n毎月のコミュニティ・コール\n\nリソース\n",
   "translated_text": "🦘\nオーストラリアの動物保護活動\nグループの概要：EAAAは、オーストラリアにおける動物保護活動において、効果的利他主義のアプローチを共有し、実践することに注力しています。そのために、ワークショップの開催、リソースや機会の共有、そしてコミュニティのつながりを深める場を提供しています。\nコミュニティマネージャー：ジョーダン・フォン・アイツェン\nスペース：\nFacebook www.facebook.com/groups/eafta/\nSlack https://eafta.slack.com\n毎月のコミュニティ・コール\nリソース",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/local-groups-independent-of-iaa/effective-animal-advocacy-australia"
