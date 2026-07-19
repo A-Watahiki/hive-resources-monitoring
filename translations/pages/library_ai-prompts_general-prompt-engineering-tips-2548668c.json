@@ -2,15 +2,15 @@
   "content_hash": "04e7d6bb31c25c75ea7206b6336672a8b4e73e774970abfde4cf48a1bf62e05f",
   "notion": {
     "page_id": "39b383bb-2c1b-81d8-8e42-dbc7f5aa1fa6",
-    "render_version": 4,
-    "synced_at": "2026-07-19T07:26:00.732669+00:00",
+    "render_version": 5,
+    "synced_at": "2026-07-19T23:05:41.757404+00:00",
     "synced_hash": "04e7d6bb31c25c75ea7206b6336672a8b4e73e774970abfde4cf48a1bf62e05f"
   },
   "review": {
-    "status": "reviewed",
+    "notes": "no issues found",
     "reviewed_at": "2026-07-19T22:56:34.365800+00:00",
     "reviewer": "claude",
-    "notes": "no issues found"
+    "status": "reviewed"
   },
   "schema_version": 6,
   "source_markdown": "▶️\n\n# General Prompt Engineering Tips\n\n- [Overview of 26 prompt principles](https://github.com/VILA-Lab/ATLAS/blob/main/data/README.md)\n",
