@@ -36,7 +36,7 @@ LOCALES: dict[str, dict[str, str]] = {
                                  "{translated_at} / This content is a "
                                  "DeepL machine translation",
         "notion_source_label": "Original page: ",
-        "report_link": "Spot a translation issue? Report it here: 📝 {url}",
+        "report_link_intro": "Spot a translation issue? Report it here:\n📝 ",
         "untranslated_suffix": "[not yet translated, links to the original]",
         "subpages_label": "📄 Individual pages below (also reachable from the "
                           "sidebar) — the links above are a curated summary.",
@@ -59,8 +59,8 @@ LOCALES: dict[str, dict[str, str]] = {
                                  "{translated_at} ／ この本文はDeepLによる"
                                  "機械翻訳です",
         "notion_source_label": "原文ページ: ",
-        "report_link": "訳の誤りやおかしな表現に気づいた方は、こちらのフォームからお知らせ"
-                       "ください：\n📝 {url}",
+        "report_link_intro": "訳の誤りやおかしな表現に気づいた方は、こちらのフォームから"
+                             "お知らせください：\n📝 ",
         "untranslated_suffix": "[未翻訳, 元記事へのリンク]",
         "subpages_label": "📄 以下は個別ページです（左のサイドバーからもアクセスできます）"
                           "。上記のリンクは内容をまとめたものです。",
