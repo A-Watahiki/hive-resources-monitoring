@@ -7,10 +7,10 @@
     "synced_hash": "04e7d6bb31c25c75ea7206b6336672a8b4e73e774970abfde4cf48a1bf62e05f"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-07-19T22:56:34.365800+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "▶️\n\n# General Prompt Engineering Tips\n\n- [Overview of 26 prompt principles](https://github.com/VILA-Lab/ATLAS/blob/main/data/README.md)\n",
