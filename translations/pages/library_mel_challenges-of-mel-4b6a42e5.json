@@ -1,0 +1,24 @@
+{
+  "content_hash": "113ccd9d53a9f30f7a8bec520934a8113de182444046662acc63ff1b3167336a",
+  "notion": {
+    "page_id": null,
+    "synced_at": null,
+    "synced_hash": null
+  },
+  "review": {
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
+  },
+  "schema_version": 6,
+  "source_markdown": "# Challenges of MEL\n\nLink[https://analyticsinaction.co/challenges-of-monitoring-and-evaluation](https://analyticsinaction.co/challenges-of-monitoring-and-evaluation)\n\nNotes\n",
+  "source_text": "Challenges of MEL\nLinkhttps://analyticsinaction.co/challenges-of-monitoring-and-evaluation\nNotes",
+  "target_lang": "JA",
+  "title": "Challenges of MEL",
+  "translated_at": "2026-07-19T04:23:46.700581+00:00",
+  "translated_markdown": "# MELが抱える課題\n\nリンク[https://analyticsinaction.co/challenges-of-monitoring-and-evaluation](https://analyticsinaction.co/challenges-of-monitoring-and-evaluation)\n\n注記\n",
+  "translated_text": "MELが抱える課題\nリンクhttps://analyticsinaction.co/challenges-of-monitoring-and-evaluation\n注記",
+  "translator": "deepl",
+  "url": "https://resources.joinhive.org/library/mel/challenges-of-mel"
+}
