@@ -124,6 +124,20 @@
       ],
       "detected_at": "2026-07-20T03:38:20.473383+00:00",
       "removed": []
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -16,2 +16,4 @@\n URL\n https://www.google.com/url?q=https://www.philanthropy.com/&sa=D&source=docs&ust=1707361460924761&usg=AOvVaw3BSQtpwu1hsxaMdqQunMza\n+URL\n+https://www.philanthropy.com/fundraising/",
+          "diff_lines_omitted": 0,
+          "title": "Chronicle of Philanthropy",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/chronicle-of-philanthropy"
+        }
+      ],
+      "detected_at": "2026-07-21T03:19:29.153268+00:00",
+      "removed": []
     }
   ]
 }
