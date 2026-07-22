@@ -1,10 +1,10 @@
 {
-  "content_hash": "105543856db8d9187cd41c36393eeb66a52240239f04c62455229c9695e7748f",
+  "content_hash": "fe1577e249b454a428bb2dca619b52b316daddc6dba7c9ea9c633a2f117f7c47",
   "notion": {
     "page_id": "3a2383bb-2c1b-8103-965e-eb5f2f6a67ea",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:48.939878+00:00",
-    "synced_hash": "105543856db8d9187cd41c36393eeb66a52240239f04c62455229c9695e7748f"
+    "synced_at": "2026-07-22T04:25:10.914275+00:00",
+    "synced_hash": "fe1577e249b454a428bb2dca619b52b316daddc6dba7c9ea9c633a2f117f7c47"
   },
   "review": {
     "notes": "",
@@ -13,13 +13,13 @@
     "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Public narrative: Self, us, now\n\nFormatArticle\n\nDetails\n\nAn article from HBR about better storytelling.\n\nURL[https://dash.harvard.edu/bitstream/handle/1/30760283/Public-Narrative-Worksheet-Fall-2013-.pdf?sequence=1&isAllowed=y](https://dash.harvard.edu/bitstream/handle/1/30760283/Public-Narrative-Worksheet-Fall-2013-.pdf?sequence=1&isAllowed=y)\n",
-  "source_text": "Public narrative: Self, us, now\nFormatArticle\nDetails\nAn article from HBR about better storytelling.\nURLhttps://dash.harvard.edu/bitstream/handle/1/30760283/Public-Narrative-Worksheet-Fall-2013-.pdf?sequence=1&isAllowed=y",
+  "source_markdown": "# Public narrative: Self, us, now\n\nFormatArticle\n\nDetails\n\nAn article from HBR about better storytelling.\n\nURL[https://dash.harvard.edu/bitstream/handle/1/30760283/Public-Narrative-Worksheet-Fall-2013-.pdf?sequence=1&isAllowed=y](https://dash.harvard.edu/bitstream/handle/1/30760283/Public-Narrative-Worksheet-Fall-2013-.pdf?sequence=1&isAllowed=y)\n\nURL [https://dash.harvard.edu/server/api/core/bitstreams/7312037d-c817-6bd4-e053-0100007fdf3b/content](https://dash.harvard.edu/server/api/core/bitstreams/7312037d-c817-6bd4-e053-0100007fdf3b/content)\n",
+  "source_text": "Public narrative: Self, us, now\nFormatArticle\nDetails\nAn article from HBR about better storytelling.\nURLhttps://dash.harvard.edu/bitstream/handle/1/30760283/Public-Narrative-Worksheet-Fall-2013-.pdf?sequence=1&isAllowed=y\nURL https://dash.harvard.edu/server/api/core/bitstreams/7312037d-c817-6bd4-e053-0100007fdf3b/content",
   "target_lang": "JA",
   "title": "Public narrative: Self, us, now",
-  "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "# 公的な物語：自分、私たち、今\n\nFormatArticle\n\n詳細\n\nHBRに掲載された、ストーリーテリングの向上に関する記事。\n\nURL[https://dash.harvard.edu/bitstream/handle/1/30760283/Public-Narrative-Worksheet-Fall-2013-.pdf?sequence=1&isAllowed=y](https://dash.harvard.edu/bitstream/handle/1/30760283/Public-Narrative-Worksheet-Fall-2013-.pdf?sequence=1&isAllowed=y)\n",
-  "translated_text": "公的な物語：自分、私たち、今\nFormatArticle\n詳細\nHBRに掲載された、ストーリーテリングの向上に関する記事。\nURLhttps://dash.harvard.edu/bitstream/handle/1/30760283/Public-Narrative-Worksheet-Fall-2013-.pdf?sequence=1&isAllowed=y",
+  "translated_at": "2026-07-22T04:20:42.246878+00:00",
+  "translated_markdown": "# 公的な物語：自分、私たち、今\n\nFormatArticle\n\n詳細\n\nHBRに掲載された、ストーリーテリングの向上に関する記事。\n\nURL[https://dash.harvard.edu/bitstream/handle/1/30760283/Public-Narrative-Worksheet-Fall-2013-.pdf?sequence=1&isAllowed=y](https://dash.harvard.edu/bitstream/handle/1/30760283/Public-Narrative-Worksheet-Fall-2013-.pdf?sequence=1&isAllowed=y)\n\nURL [https://dash.harvard.edu/server/api/core/bitstreams/7312037d-c817-6bd4-e053-0100007fdf3b/content](https://dash.harvard.edu/server/api/core/bitstreams/7312037d-c817-6bd4-e053-0100007fdf3b/content)\n",
+  "translated_text": "公的な物語：自分、私たち、今\nFormatArticle\n詳細\nHBRに掲載された、ストーリーテリングの向上に関する記事。\nURLhttps://dash.harvard.edu/bitstream/handle/1/30760283/Public-Narrative-Worksheet-Fall-2013-.pdf?sequence=1&isAllowed=y\nURL https://dash.harvard.edu/server/api/core/bitstreams/7312037d-c817-6bd4-e053-0100007fdf3b/content",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/public-narrative-self-us-now"
 }
