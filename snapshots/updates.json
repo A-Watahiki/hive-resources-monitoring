@@ -138,6 +138,41 @@
       ],
       "detected_at": "2026-07-21T03:19:29.153268+00:00",
       "removed": []
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -14,5 +14,5 @@\n Food 4 Thought Festival\n City\n-Massachusetts\n+Stanford\n Country\n US\n@@ -29,3 +29,3 @@\n Virtual Option?\n Website\n-https://www.food4thoughtinnovations.org/food4thought-2025\n+https://www.food4thoughtinnovations.org/stanford-festival",
+          "diff_lines_omitted": 0,
+          "title": "Food 4 Thought Festival",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/conferences/pro-animal-conferences-database/food-4-thought-festival"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -16,2 +16,4 @@\n URL\n https://1drv.ms/w/s!Avsx1_U15N3ljntlRZB_-5ght432?e=haseuM\n+URL\n+https://onedrive.live.com/:w:/g/personal/E5DDE435F5D731FB/s!Avsx1_U15N3ljntlRZB_-5ght432?resid=E5DDE435F5D731FB!1915&ithint=file%2Cdocx&e=haseuM&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3cvcyFBdnN4MV9VMTVOM2xqbnRsUlpCXy01Z2h0NDMyP2U9aGFzZXVN",
+          "diff_lines_omitted": 0,
+          "title": "Fundraising guide from Chris Flood",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/fundraising-guide-from-chris-flood"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -16,2 +16,4 @@\n URL\n https://dash.harvard.edu/bitstream/handle/1/30760283/Public-Narrative-Worksheet-Fall-2013-.pdf?sequence=1&isAllowed=y\n+URL\n+https://dash.harvard.edu/server/api/core/bitstreams/7312037d-c817-6bd4-e053-0100007fdf3b/content",
+          "diff_lines_omitted": 0,
+          "title": "Public narrative: Self, us, now",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/public-narrative-self-us-now"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -13,5 +13,5 @@\n As part of our community, you’ll gain access to:\n Our\n-3,000+ person Slack community\n+5,000+ person Slack community\n , where you can connect, collaborate, and share resources with hundreds of other animal advocates from across the globe (\n check out our guide to getting the most out of Slack",
+          "diff_lines_omitted": 0,
+          "title": "WELCOME to the Hive Community!",
+          "translation_pending": false,
+          "url": "https://resources.joinhive.org/welcome"
+        }
+      ],
+      "detected_at": "2026-07-22T03:03:48.618586+00:00",
+      "removed": []
     }
   ]
 }
