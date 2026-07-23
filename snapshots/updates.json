@@ -173,6 +173,27 @@
       ],
       "detected_at": "2026-07-22T03:03:48.618586+00:00",
       "removed": []
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -15,2 +15,4 @@\n URL\n https://animainternational.org/resources/keywords/fundraising\n+URL\n+https://animainternational.org/resources/keywords/fundraising",
+          "diff_lines_omitted": 0,
+          "title": "Anima’s fundraising resources for beginners",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/animas-fundraising-resources-for-beginners"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -16,2 +16,4 @@\n URL\n https://givebutter.com/freebies\n+URL\n+https://givebutter.com/freebies",
+          "diff_lines_omitted": 0,
+          "title": "GiveButter webinars and videos",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/givebutter-webinars-and-videos"
+        }
+      ],
+      "detected_at": "2026-07-23T03:25:14.050347+00:00",
+      "removed": []
     }
   ]
 }
