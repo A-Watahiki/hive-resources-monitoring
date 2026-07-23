@@ -1,10 +1,10 @@
 {
-  "content_hash": "3871224975037d1e13077e9c71dcad89e203debaef956948c07aa47758723b6f",
+  "content_hash": "f04aa33d6fa88a347145348176c40607445614e874a3cdf5fc9543da1502e532",
   "notion": {
     "page_id": "3a2383bb-2c1b-8184-84f4-ffc78941daba",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:36:46.524280+00:00",
-    "synced_hash": "3871224975037d1e13077e9c71dcad89e203debaef956948c07aa47758723b6f"
+    "synced_at": "2026-07-23T04:22:41.017920+00:00",
+    "synced_hash": "f04aa33d6fa88a347145348176c40607445614e874a3cdf5fc9543da1502e532"
   },
   "review": {
     "notes": "",
@@ -13,13 +13,13 @@
     "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Anima’s fundraising resources for beginners\n\nFormatResource collection\n\nDetails\n\nURL[https://animainternational.org/resources/keywords/fundraising](https://animainternational.org/resources/keywords/fundraising)\n",
-  "source_text": "Anima’s fundraising resources for beginners\nFormatResource collection\nDetails\nURLhttps://animainternational.org/resources/keywords/fundraising",
+  "source_markdown": "# Anima’s fundraising resources for beginners\n\nFormatResource collection\n\nDetails\n\nURL[https://animainternational.org/resources/keywords/fundraising](https://animainternational.org/resources/keywords/fundraising)\n\nURL [https://animainternational.org/resources/keywords/fundraising](https://animainternational.org/resources/keywords/fundraising)\n",
+  "source_text": "Anima’s fundraising resources for beginners\nFormatResource collection\nDetails\nURLhttps://animainternational.org/resources/keywords/fundraising\nURL https://animainternational.org/resources/keywords/fundraising",
   "target_lang": "JA",
   "title": "Anima’s fundraising resources for beginners",
-  "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# 初心者向け「アニマ」の資金調達リソース\n\nFormatResource コレクション\n\n詳細\n\nURL[https://animainternational.org/resources/keywords/fundraising](https://animainternational.org/resources/keywords/fundraising)\n",
-  "translated_text": "初心者向け「アニマ」の資金調達リソース\nFormatResource コレクション\n詳細\nURLhttps://animainternational.org/resources/keywords/fundraising",
+  "translated_at": "2026-07-23T04:18:30.816937+00:00",
+  "translated_markdown": "# 初心者向け「アニマ」の資金調達リソース\n\nFormatResource コレクション\n\n詳細\n\nURL[https://animainternational.org/resources/keywords/fundraising](https://animainternational.org/resources/keywords/fundraising)\n\nURL [https://animainternational.org/resources/keywords/fundraising](https://animainternational.org/resources/keywords/fundraising)\n",
+  "translated_text": "初心者向け「アニマ」の資金調達リソース\nFormatResource コレクション\n詳細\nURLhttps://animainternational.org/resources/keywords/fundraising\nURL https://animainternational.org/resources/keywords/fundraising",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/animas-fundraising-resources-for-beginners"
 }
