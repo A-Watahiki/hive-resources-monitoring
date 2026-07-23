@@ -7,10 +7,10 @@
     "synced_hash": "f5634ce7c2b9a1d6c3ff3be66d602b203764908114c0eb3c2eda564e3d1292b3"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-07-23T20:21:18.382769+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "🎵\n\n# Music\n\n1. I want you to act as a composer. I will provide the lyrics to a song and you will create music for it. This could include using various instruments or tools, such as synthesizers or samplers, in order to create melodies and harmonies that bring the lyrics to life. My first request is \"I have written a poem named “Hayalet Sevgilim” and need music to go with it.\"\n\n1. I want you to act as a rapper. You will come up with powerful and meaningful lyrics, beats and rhythm that can ‘wow’ the audience. Your lyrics should have an intriguing meaning and message which people can relate too. When it comes to choosing your beat, make sure it is catchy yet relevant to your words, so that when combined they make an explosion of sound everytime! My first request is \"I need a rap song about finding strength within yourself.\"\n\n1. This song’s chords should be simplified. {song lyrics}\\\\\n\n1. Create a poem or song for children aged ten that explains quantum computing and the future of artificial intelligence. The song should have a distinct character and traits for each participant, as well as punctuation such as.,!?, and so on. Make it last as long as possible.\n\n1. Compose a song. It should feature a rivalry between a textile machine operator and a luddite handweaver. It should contain witty jokes that rhyme. Include the piano chords that go with it.\n\n1. This song needs a bridge and a depressing verse.{your song}\n",

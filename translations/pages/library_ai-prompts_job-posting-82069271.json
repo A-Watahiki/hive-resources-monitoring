@@ -7,10 +7,10 @@
     "synced_hash": "1c8deca1c01b167077b58b8669564d6a16e9f9a24d98b84e3411f8f0badc38c9"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-07-23T20:21:18.382769+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "💼\n\n# Job Posting\n\n1. Create a job posting for **\\[Job role\\]** that requires **\\[skills\\]**. Make it look professional, simple & concise Company Name = **\\[Insert here\\]** Job role = **\\[Insert here\\] **Job details = **\\[Insert salary, direct report, team, location, hours, etc here\\]** Skills = **\\[Insert here\\]**\n",
