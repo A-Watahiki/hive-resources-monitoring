@@ -4,14 +4,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-81a4-a7fa-ce0e712c6f99",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:06:36.170082+00:00",
-    "synced_hash": null
+    "synced_at": "2026-07-24T04:23:28.245286+00:00",
+    "synced_hash": "dca92602169d6cf6cd11d9bec6b451ef836335423b319898db58293065a349b2"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated an untranslated table header row; fixed \"Prompts\" mistranslated as ヒント (tips) to プロンプト for consistency with the page title",
     "reviewed_at": "2026-07-23T20:21:18.382769+00:00",
     "reviewer": "claude",
-    "notes": "translated an untranslated table header row; fixed \"Prompts\" mistranslated as ヒント (tips) to プロンプト for consistency with the page title"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "🎨\n\n# Image Prompts Library\n\n### Animal Advocacy Prompts\n\n| Prompt Text | Tags | Image | Creator |\n| --- | --- | --- | --- |\n| [Chicken making powerpoint presentation with a graph --ar 4:1](https://resources.joinhive.org/library/ai-prompts/image-prompts-library/chicken-making-powerpoint-presentation-with-a-graph-ar-41) | facebook cover photo |  | Constance Li |\n|  |  |  |  |\n|  |  |  |  |\n",
