@@ -74,7 +74,7 @@ translation:
   # Source characters translated per run. Keeps each daily run within the
   # DeepL free tier (500,000 chars/month); the backlog is worked through
   # gradually. Raise this (or pass char_budget on a manual run) to go faster.
-  char_budget_per_run: 40000
+  char_budget_per_run: 45000
 
   # Pages with less text than this are skipped (nav stubs, redirects).
   min_text_length: 40
