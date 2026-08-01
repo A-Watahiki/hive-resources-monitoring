@@ -7,10 +7,10 @@
     "synced_hash": "f13414cc98d033bc4a0ba31eb4b1b5cc66733f61972a6673c66f6c04874e876d"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-08-01T05:57:38.000718+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "🧑‍🍳\n\n# Recipes\n\n1. Act as a Personal Chef\n\n  I want you to act as my personal chef. I will tell you about my dietary preferences, allergies, available ingredients, and you will suggest recipes for me to try. You should only reply with the recipes you recommend, and nothing else. Do not write explanations. My first request is **\\[ex. I am a vegan and I am looking for healthy dinner ideas that involve carrots, lentils, celery, and oil.\\]**\n\n1. Act as a Chef\n\n  I require someone who can suggest delicious recipes that includes foods which are nutritionally beneficial but also easy & not time consuming enough therefore suitable for busy people like us among other factors such as cost effectiveness so overall dish ends up being healthy yet economical at same time! My first request – **\\[ex. Something light yet fulfilling that could be cooked quickly during lunch break and does not contain any animal products\\]**\n",
