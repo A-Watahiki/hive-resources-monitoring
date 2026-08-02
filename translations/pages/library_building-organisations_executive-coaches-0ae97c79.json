@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-8147-94ee-e74f7535f35b",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:12:18.723822+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-02T04:32:16.265251+00:00",
+    "synced_hash": "87c5cc02bfaa63fba36ca16013268e9c1660c592f8e42f21ffe41ccb6897afce"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated an untranslated table header row (Name/Specialization/Free-paid)",
     "reviewed_at": "2026-08-01T19:09:49.681408+00:00",
     "reviewer": "claude",
-    "notes": "translated an untranslated table header row (Name/Specialization/Free-paid)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Executive coaches\n\nIf you are an executive coach in the movement and would like to be added to this list, please email [angel@joinhive.org](mailto:angel@joinhive.org) with your name, a link to your website, your specialization (in a few words), and whether you offer paid or free services, or both.\n\n| Name | Specialization | Website | Free/paid |\n| --- | --- | --- | --- |\n| [Adam Tury](https://resources.joinhive.org/library/building-organisations/executive-coaches/adam-tury) | Effective altruism managers and leaders | [www.adamtury.com](https://www.adamtury.com/) | Paid |\n| [Amruza Birdie (Reveal Impact)](https://resources.joinhive.org/library/building-organisations/executive-coaches/amruza-birdie-reveal-impact) | Leadership & management coaching for all career stages | [revealimpact.com/](http://revealimpact.com/) | FreePaid |\n| [Andreas Seltzer (Know Your Elephants)](https://resources.joinhive.org/library/building-organisations/executive-coaches/andreas-seltzer-know-your-elephants) | Consulting for non-profit organizations and social impact initiatives | [www.knowyourelephants.com](https://www.knowyourelephants.com/en/) | Paid |\n| [Katie Glass](https://resources.joinhive.org/library/building-organisations/executive-coaches/katie-glass) | Women and non-binary | [www.katieglass.com](https://www.katieglass.com/) | Paid |\n| [PEPR Global](https://resources.joinhive.org/library/building-organisations/executive-coaches/pepr-global) | Leadership thought partner, consultancy | [www.peprglobal.org](https://www.peprglobal.org/) | FreePaid |\n| [Vadivu Govind (Inner Wealth)](https://resources.joinhive.org/library/building-organisations/executive-coaches/vadivu-govind-inner-wealth) | Positive, compassionate, deep-impact leadership; workplace wellbeing | [innerwealth.global](https://innerwealth.global/services/) | Paid |\n| [Ronan Kennedy](https://resources.joinhive.org/library/building-organisations/executive-coaches/ronan-kennedy) | Communication, leadership, personal branding, and confidence | [ronankennedy.ie/](http://ronankennedy.ie/) | FreePaid |\n| [Scarlet Spark](https://resources.joinhive.org/library/building-organisations/executive-coaches/scarlet-spark) | Consultancy that can include executive coaching | [www.scarletspark.org](https://www.scarletspark.org/solutions) | Free |\n| [Hayley Cooper](https://resources.joinhive.org/library/building-organisations/executive-coaches/hayley-cooper) | Holistic career clarity (affordable rates) | [www.wilddreamscoaching.com](http://www.wilddreamscoaching.com/) | Paid |\n| [Sofia Balderson](https://resources.joinhive.org/library/building-organisations/executive-coaches/sofia-balderson) | Early stage founders/leaders, new managers | [www.sofiabalderson.com](https://www.sofiabalderson.com/) | Paid |\n",

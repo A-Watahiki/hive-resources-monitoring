@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-8187-b0cb-d729c7dc1091",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:15:17.222759+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-02T04:34:21.801628+00:00",
+    "synced_hash": "539f77f96fd43334562004953da625ca13eb989128f7a5c915b44d2b8158e9b8"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed \"タイプ：記事\" (Type: Article) rendered backwards as 記事タイプ, inconsistent with sibling label:value fields on the same page",
     "reviewed_at": "2026-08-01T19:09:49.681408+00:00",
     "reviewer": "claude",
-    "notes": "fixed \"タイプ：記事\" (Type: Article) rendered backwards as 記事タイプ, inconsistent with sibling label:value fields on the same page"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# 9 ways to turn recurring events into a community\n\nTopicEvents\n\nAuthorFabian Pfortmüller\n\nComments\n\nHow to turn a series of events into a community.\n\nReading time5-10 Min\n\nSummary?\n\nYes, [here](https://resources.joinhive.org/library/community-building#block-40246a4bdf894064b14e3280b476a433)!\n\nTopic\\*Starting a community\n\nTypeArticle\n\nURL[https://medium.com/together-institute/9-ways-to-turn-recurring-events-into-a-community-410c976c276b](https://medium.com/together-institute/9-ways-to-turn-recurring-events-into-a-community-410c976c276b)\n\n- careful curation of participants creates high trust between people\n\n- provide platform for after-retreat communication that is community-centered rather than event-centered → create private Slack channel for participants and actively tend to it!\n\n- making people contribute to the event (rather than just being a consumer of it) fosters a greater sense of community\n\n- “Networks connect, communities care” 💚\n",
