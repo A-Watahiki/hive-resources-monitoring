@@ -4,13 +4,13 @@
     "page_id": "39b383bb-2c1b-8120-88ae-fb9b8da9908a",
     "render_version": 5,
     "synced_at": "2026-07-19T23:16:11.517914+00:00",
-    "synced_hash": "2bf35697dc1227395270c460db16adfdffc9eb7298fe51e52a42c84ceb2b9d00"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-02T19:04:38.281213+00:00",
+    "reviewer": "claude",
+    "notes": "unified \"Type\" label rendering (種類 -> タイプ：) to match the term used elsewhere in the corpus"
   },
   "schema_version": 6,
   "source_markdown": "# {Book Summary} The Art of Gathering\n\nTopicEvents\n\nAuthorPriya ParkerTristan Williams\n\nComments\n\nSummary of the book “The Art of Gathering: How We Meet and Why It Matters**”**\n\nReading time15-20 Min\n\nSummary?\n\nTopic\\*How to do X\n\nTypeNotes on booksEA Forum Post\n\nURL[https://forum.effectivealtruism.org/posts/dk9B82faYa3wwLYXA/book-summary-the-art-of-gathering](https://forum.effectivealtruism.org/posts/dk9B82faYa3wwLYXA/book-summary-the-art-of-gathering)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "{Book Summary} The Art of Gathering",
   "translated_at": "2026-07-12T13:01:49.159383+00:00",
-  "translated_markdown": "# {書籍概要} 『集うことの芸術』\n\nトピック・イベント\n\n著者：プリヤ・パーカー、トリスタン・ウィリアムズ\n\nコメント\n\n書籍『The Art of Gathering: How We Meet and Why It Matters**』**の概要\n\n読了時間：15～20分\n\n要約？\n\nトピック\\*Xのやり方\n\n種類 書籍に関するメモ EAフォーラムの投稿\n\nURL[https://forum.effectivealtruism.org/posts/dk9B82faYa3wwLYXA/book-summary-the-art-of-gathering](https://forum.effectivealtruism.org/posts/dk9B82faYa3wwLYXA/book-summary-the-art-of-gathering)\n",
-  "translated_text": "{書籍概要} 『集うことの芸術』\nトピック・イベント\n著者：プリヤ・パーカー、トリスタン・ウィリアムズ\nコメント\n書籍『The Art of Gathering: How We Meet and Why It Matters』の概要\n読了時間：15～20分\n要約？\nトピック*Xのやり方\n種類 書籍に関するメモ EAフォーラムの投稿\nURLhttps://forum.effectivealtruism.org/posts/dk9B82faYa3wwLYXA/book-summary-the-art-of-gathering",
+  "translated_markdown": "# {書籍概要} 『集うことの芸術』\n\nトピック・イベント\n\n著者：プリヤ・パーカー、トリスタン・ウィリアムズ\n\nコメント\n\n書籍『The Art of Gathering: How We Meet and Why It Matters**』**の概要\n\n読了時間：15～20分\n\n要約？\n\nトピック\\*Xのやり方\n\nタイプ：書籍に関するメモ、EAフォーラムの投稿\n\nURL[https://forum.effectivealtruism.org/posts/dk9B82faYa3wwLYXA/book-summary-the-art-of-gathering](https://forum.effectivealtruism.org/posts/dk9B82faYa3wwLYXA/book-summary-the-art-of-gathering)\n",
+  "translated_text": "{書籍概要} 『集うことの芸術』\nトピック・イベント\n著者：プリヤ・パーカー、トリスタン・ウィリアムズ\nコメント\n書籍『The Art of Gathering: How We Meet and Why It Matters』の概要\n読了時間：15～20分\n要約？\nトピック*Xのやり方\nタイプ：書籍に関するメモ、EAフォーラムの投稿\nURLhttps://forum.effectivealtruism.org/posts/dk9B82faYa3wwLYXA/book-summary-the-art-of-gathering",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/community-building/book-summary-the-art-of-gathering"
 }

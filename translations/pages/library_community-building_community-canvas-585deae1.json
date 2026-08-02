@@ -4,13 +4,13 @@
     "page_id": "39b383bb-2c1b-81ae-8fb5-c541e088e6b6",
     "render_version": 5,
     "synced_at": "2026-07-19T23:16:26.878337+00:00",
-    "synced_hash": "6323d575c80e6af6ba5acf857e63ba96e5e5e72ebf199b862d1108536e1be9cc"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-02T19:04:38.281213+00:00",
+    "reviewer": "claude",
+    "notes": "added colon after タイプ label for consistency with sibling label:value fields"
   },
   "schema_version": 6,
   "source_markdown": "# Community Canvas\n\nTopicStrategyCollection\n\nAuthorFabian PfortmüllerClose Knit\n\nComments\n\n“A framework to help you build meaningful communities.”\n\nReading time>30 Min\n\nSummary?\n\nTopic\\*\n\nTypeWebsiteFramework\n\nURL[https://community-canvas.org/](https://community-canvas.org/)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Community Canvas",
   "translated_at": "2026-07-12T13:01:49.159383+00:00",
-  "translated_markdown": "# コミュニティ・キャンバス\n\nトピック戦略コレクション\n\n著者：ファビアン・プフォルトミュラー 『Close Knit』\n\nコメント\n\n「有意義なコミュニティを築くためのフレームワーク。」\n\n読了時間＞30分\n\n要約？\n\nトピック\\*\n\nタイプ・Webサイト・フレームワーク\n\nURL[https://community-canvas.org/](https://community-canvas.org/)\n",
-  "translated_text": "コミュニティ・キャンバス\nトピック戦略コレクション\n著者：ファビアン・プフォルトミュラー 『Close Knit』\nコメント\n「有意義なコミュニティを築くためのフレームワーク。」\n読了時間＞30分\n要約？\nトピック*\nタイプ・Webサイト・フレームワーク\nURLhttps://community-canvas.org/",
+  "translated_markdown": "# コミュニティ・キャンバス\n\nトピック戦略コレクション\n\n著者：ファビアン・プフォルトミュラー 『Close Knit』\n\nコメント\n\n「有意義なコミュニティを築くためのフレームワーク。」\n\n読了時間＞30分\n\n要約？\n\nトピック\\*\n\nタイプ：Webサイト・フレームワーク\n\nURL[https://community-canvas.org/](https://community-canvas.org/)\n",
+  "translated_text": "コミュニティ・キャンバス\nトピック戦略コレクション\n著者：ファビアン・プフォルトミュラー 『Close Knit』\nコメント\n「有意義なコミュニティを築くためのフレームワーク。」\n読了時間＞30分\n要約？\nトピック*\nタイプ：Webサイト・フレームワーク\nURLhttps://community-canvas.org/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/community-building/community-canvas"
 }

@@ -4,13 +4,13 @@
     "page_id": "39b383bb-2c1b-81e9-9f08-d5221290d189",
     "render_version": 5,
     "synced_at": "2026-07-19T23:15:54.487366+00:00",
-    "synced_hash": "d3fa737196d11b8c5de51c983b7e2198335734db13c78d7f3743051f6f3cced2"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-02T19:04:38.281213+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated \"TypeCollection\" field"
   },
   "schema_version": 6,
   "source_markdown": "# Better Formats For Group Interaction – Beyond Lectures, Group Discussions, Panels and Mixers\n\nTopicEvents\n\nAuthorSpencer Greenberg\n\nComments\n\nList of event formats other than talks, group discussions, panels, or mixers\n\nReading time\n\nSummary?\n\nTopic\\*How to do X\n\nTypeCollection\n\nURL[https://www.spencergreenberg.com/2017/03/better-formats-for-group-interaction-going-beyond-lectures-group-discussions-panels-and-mixers/](https://www.spencergreenberg.com/2017/03/better-formats-for-group-interaction-going-beyond-lectures-group-discussions-panels-and-mixers/)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Better Formats For Group Interaction – Beyond Lectures, Group Discussions, Panels and Mixers",
   "translated_at": "2026-07-12T13:01:49.159383+00:00",
-  "translated_markdown": "# グループでの交流に適した形式――講義、グループディスカッション、パネルディスカッション、交流会を超えて\n\nトピック・イベント\n\n著者：スペンサー・グリーンバーグ\n\nコメント\n\n講演、グループディスカッション、パネルディスカッション、交流会以外のイベント形式の一覧\n\n読了時間\n\n要約？\n\nトピック\\*Xのやり方\n\nTypeCollection\n\nURL[https://www.spencergreenberg.com/2017/03/better-formats-for-group-interaction-going-beyond-lectures-group-discussions-panels-and-mixers/](https://www.spencergreenberg.com/2017/03/better-formats-for-group-interaction-going-beyond-lectures-group-discussions-panels-and-mixers/)\n",
-  "translated_text": "グループでの交流に適した形式――講義、グループディスカッション、パネルディスカッション、交流会を超えて\nトピック・イベント\n著者：スペンサー・グリーンバーグ\nコメント\n講演、グループディスカッション、パネルディスカッション、交流会以外のイベント形式の一覧\n読了時間\n要約？\nトピック*Xのやり方\nTypeCollection\nURLhttps://www.spencergreenberg.com/2017/03/better-formats-for-group-interaction-going-beyond-lectures-group-discussions-panels-and-mixers/",
+  "translated_markdown": "# グループでの交流に適した形式――講義、グループディスカッション、パネルディスカッション、交流会を超えて\n\nトピック・イベント\n\n著者：スペンサー・グリーンバーグ\n\nコメント\n\n講演、グループディスカッション、パネルディスカッション、交流会以外のイベント形式の一覧\n\n読了時間\n\n要約？\n\nトピック\\*Xのやり方\n\nタイプ：コレクション\n\nURL[https://www.spencergreenberg.com/2017/03/better-formats-for-group-interaction-going-beyond-lectures-group-discussions-panels-and-mixers/](https://www.spencergreenberg.com/2017/03/better-formats-for-group-interaction-going-beyond-lectures-group-discussions-panels-and-mixers/)\n",
+  "translated_text": "グループでの交流に適した形式――講義、グループディスカッション、パネルディスカッション、交流会を超えて\nトピック・イベント\n著者：スペンサー・グリーンバーグ\nコメント\n講演、グループディスカッション、パネルディスカッション、交流会以外のイベント形式の一覧\n読了時間\n要約？\nトピック*Xのやり方\nタイプ：コレクション\nURLhttps://www.spencergreenberg.com/2017/03/better-formats-for-group-interaction-going-beyond-lectures-group-discussions-panels-and-mixers/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/community-building/better-formats-for-group-interaction-beyond-lectures-group-discussions-panels-and-mixers"
 }
