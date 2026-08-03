@@ -4,13 +4,13 @@
     "page_id": "39b383bb-2c1b-8145-bdb9-ea05aace8231",
     "render_version": 5,
     "synced_at": "2026-07-19T23:17:29.951191+00:00",
-    "synced_hash": "a58e9070064c149a40de5cf678a310f38b1464d8813fdeb96d3b99f8aee7fcdc"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-03T19:05:14.824330+00:00",
+    "reviewer": "claude",
+    "notes": "added a separator between concatenated Type values (Webサイトコレクション -> Webサイト・コレクション)"
   },
   "schema_version": 6,
   "source_markdown": "# EA Groups Resource Centre\n\nTopicCollectionStrategyEvents\n\nAuthorCEA\n\nComments\n\nThis is a collection of resources for EA group organisers curated by the Groups Team at the [Centre for Effective Altruism](http://centreforeffectivealtruism.org/).\n\nReading time>30 Min\n\nSummary?\n\nTopic\\*How to do XStarting a communityHighlighting the importance of XGeneral Principles\n\nTypeWebsiteCollection\n\nURL[https://resources.eagroups.org/](https://resources.eagroups.org/)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "EA Groups Resource Centre",
   "translated_at": "2026-07-12T13:01:49.159383+00:00",
-  "translated_markdown": "# EAグループ リソースセンター\n\nトピック・コレクション・戦略・イベント\n\n著者：CEA\n\nコメント\n\nこれは[、効果的利他主義センター（CEA](http://centreforeffectivealtruism.org/)）のグループチームが厳選した、EAグループの運営者向けリソース集です。\n\n読了時間＞30分\n\n要約？\n\nトピック\\*Xのやり方 コミュニティの立ち上げ Xの重要性の強調 一般的な原則\n\nタイプ：Webサイトコレクション\n\nURL[https://resources.eagroups.org/](https://resources.eagroups.org/)\n",
-  "translated_text": "EAグループ リソースセンター\nトピック・コレクション・戦略・イベント\n著者：CEA\nコメント\nこれは、効果的利他主義センター（CEA）のグループチームが厳選した、EAグループの運営者向けリソース集です。\n読了時間＞30分\n要約？\nトピック*Xのやり方 コミュニティの立ち上げ Xの重要性の強調 一般的な原則\nタイプ：Webサイトコレクション\nURLhttps://resources.eagroups.org/",
+  "translated_markdown": "# EAグループ リソースセンター\n\nトピック・コレクション・戦略・イベント\n\n著者：CEA\n\nコメント\n\nこれは[、効果的利他主義センター（CEA](http://centreforeffectivealtruism.org/)）のグループチームが厳選した、EAグループの運営者向けリソース集です。\n\n読了時間＞30分\n\n要約？\n\nトピック\\*Xのやり方 コミュニティの立ち上げ Xの重要性の強調 一般的な原則\n\nタイプ：Webサイト・コレクション\n\nURL[https://resources.eagroups.org/](https://resources.eagroups.org/)\n",
+  "translated_text": "EAグループ リソースセンター\nトピック・コレクション・戦略・イベント\n著者：CEA\nコメント\nこれは、効果的利他主義センター（CEA）のグループチームが厳選した、EAグループの運営者向けリソース集です。\n読了時間＞30分\n要約？\nトピック*Xのやり方 コミュニティの立ち上げ Xの重要性の強調 一般的な原則\nタイプ：Webサイト・コレクション\nURLhttps://resources.eagroups.org/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/community-building/ea-groups-resource-centre"
 }

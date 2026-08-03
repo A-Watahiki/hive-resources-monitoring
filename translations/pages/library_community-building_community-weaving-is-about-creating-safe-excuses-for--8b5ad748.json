@@ -4,13 +4,13 @@
     "page_id": "39b383bb-2c1b-817e-b73a-e66ab6284268",
     "render_version": 5,
     "synced_at": "2026-07-19T23:17:00.071799+00:00",
-    "synced_hash": "8894b410b41ed1c96547328419f8fd2bf0a0f8ec67258860c7665f3767ae2290"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-03T19:05:14.824330+00:00",
+    "reviewer": "claude",
+    "notes": "fixed \"Type: Article\" rendered backwards as 記事タイプ, matching the タイプ： convention used elsewhere"
   },
   "schema_version": 6,
   "source_markdown": "# Community weaving is about creating (safe) excuses for people to connect\n\nTopicPhilosophy\n\nAuthorFabian Pfortmüller\n\nComments\n\nA different view on what communities are, focusing on facilitating connections without forcing them.\n\nReading time<5 Min\n\nSummary?\n\nTopic\\*Understanding \"Community\"\n\nTypeArticle\n\nURL[https://medium.com/together-institute/community-weaving-is-about-creating-safe-excuses-for-people-to-connect-4285279926f7](https://medium.com/together-institute/community-weaving-is-about-creating-safe-excuses-for-people-to-connect-4285279926f7)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Community weaving is about creating (safe) excuses for people to connect",
   "translated_at": "2026-07-12T13:01:49.159383+00:00",
-  "translated_markdown": "# コミュニティ・ウィービングとは、人々が繋がれるための（安心できる）きっかけを作り出すことなのです\n\nトピック：哲学\n\n著者：ファビアン・プフォルトミュラー\n\nコメント\n\n「コミュニティとは何か」について、つながりを強要することなく促進することに焦点を当てた、新たな視点。\n\n読了時間＜5分\n\n要約？\n\nトピック\\*「コミュニティ」の理解\n\n記事タイプ\n\nURL[https://medium.com/together-institute/community-weaving-is-about-creating-safe-excuses-for-people-to-connect-4285279926f7](https://medium.com/together-institute/community-weaving-is-about-creating-safe-excuses-for-people-to-connect-4285279926f7)\n",
-  "translated_text": "コミュニティ・ウィービングとは、人々が繋がれるための（安心できる）きっかけを作り出すことなのです\nトピック：哲学\n著者：ファビアン・プフォルトミュラー\nコメント\n「コミュニティとは何か」について、つながりを強要することなく促進することに焦点を当てた、新たな視点。\n読了時間＜5分\n要約？\nトピック*「コミュニティ」の理解\n記事タイプ\nURLhttps://medium.com/together-institute/community-weaving-is-about-creating-safe-excuses-for-people-to-connect-4285279926f7",
+  "translated_markdown": "# コミュニティ・ウィービングとは、人々が繋がれるための（安心できる）きっかけを作り出すことなのです\n\nトピック：哲学\n\n著者：ファビアン・プフォルトミュラー\n\nコメント\n\n「コミュニティとは何か」について、つながりを強要することなく促進することに焦点を当てた、新たな視点。\n\n読了時間＜5分\n\n要約？\n\nトピック\\*「コミュニティ」の理解\n\nタイプ：記事\n\nURL[https://medium.com/together-institute/community-weaving-is-about-creating-safe-excuses-for-people-to-connect-4285279926f7](https://medium.com/together-institute/community-weaving-is-about-creating-safe-excuses-for-people-to-connect-4285279926f7)\n",
+  "translated_text": "コミュニティ・ウィービングとは、人々が繋がれるための（安心できる）きっかけを作り出すことなのです\nトピック：哲学\n著者：ファビアン・プフォルトミュラー\nコメント\n「コミュニティとは何か」について、つながりを強要することなく促進することに焦点を当てた、新たな視点。\n読了時間＜5分\n要約？\nトピック*「コミュニティ」の理解\nタイプ：記事\nURLhttps://medium.com/together-institute/community-weaving-is-about-creating-safe-excuses-for-people-to-connect-4285279926f7",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/community-building/community-weaving-is-about-creating-safe-excuses-for-people-to-connect"
 }
