@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-8120-88ae-fb9b8da9908a",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:16:11.517914+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-03T04:39:29.216060+00:00",
+    "synced_hash": "2bf35697dc1227395270c460db16adfdffc9eb7298fe51e52a42c84ceb2b9d00"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified \"Type\" label rendering (種類 -> タイプ：) to match the term used elsewhere in the corpus",
     "reviewed_at": "2026-08-02T19:04:38.281213+00:00",
     "reviewer": "claude",
-    "notes": "unified \"Type\" label rendering (種類 -> タイプ：) to match the term used elsewhere in the corpus"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# {Book Summary} The Art of Gathering\n\nTopicEvents\n\nAuthorPriya ParkerTristan Williams\n\nComments\n\nSummary of the book “The Art of Gathering: How We Meet and Why It Matters**”**\n\nReading time15-20 Min\n\nSummary?\n\nTopic\\*How to do X\n\nTypeNotes on booksEA Forum Post\n\nURL[https://forum.effectivealtruism.org/posts/dk9B82faYa3wwLYXA/book-summary-the-art-of-gathering](https://forum.effectivealtruism.org/posts/dk9B82faYa3wwLYXA/book-summary-the-art-of-gathering)\n",

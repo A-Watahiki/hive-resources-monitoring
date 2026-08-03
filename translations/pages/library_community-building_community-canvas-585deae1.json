@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-81ae-8fb5-c541e088e6b6",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:16:26.878337+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-03T04:39:40.891027+00:00",
+    "synced_hash": "6323d575c80e6af6ba5acf857e63ba96e5e5e72ebf199b862d1108536e1be9cc"
   },
   "review": {
-    "status": "fixed",
+    "notes": "added colon after タイプ label for consistency with sibling label:value fields",
     "reviewed_at": "2026-08-02T19:04:38.281213+00:00",
     "reviewer": "claude",
-    "notes": "added colon after タイプ label for consistency with sibling label:value fields"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Community Canvas\n\nTopicStrategyCollection\n\nAuthorFabian PfortmüllerClose Knit\n\nComments\n\n“A framework to help you build meaningful communities.”\n\nReading time>30 Min\n\nSummary?\n\nTopic\\*\n\nTypeWebsiteFramework\n\nURL[https://community-canvas.org/](https://community-canvas.org/)\n",

@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-81e9-9f08-d5221290d189",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:15:54.487366+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-03T04:39:17.472326+00:00",
+    "synced_hash": "d3fa737196d11b8c5de51c983b7e2198335734db13c78d7f3743051f6f3cced2"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated \"TypeCollection\" field",
     "reviewed_at": "2026-08-02T19:04:38.281213+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated \"TypeCollection\" field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Better Formats For Group Interaction – Beyond Lectures, Group Discussions, Panels and Mixers\n\nTopicEvents\n\nAuthorSpencer Greenberg\n\nComments\n\nList of event formats other than talks, group discussions, panels, or mixers\n\nReading time\n\nSummary?\n\nTopic\\*How to do X\n\nTypeCollection\n\nURL[https://www.spencergreenberg.com/2017/03/better-formats-for-group-interaction-going-beyond-lectures-group-discussions-panels-and-mixers/](https://www.spencergreenberg.com/2017/03/better-formats-for-group-interaction-going-beyond-lectures-group-discussions-panels-and-mixers/)\n",

@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-810a-903e-dcd603192aab",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:15:38.197994+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-03T04:39:05.161898+00:00",
+    "synced_hash": "8a4e6e8082414c1fe6f4ebfcc481a2f30bcdb9c5010999067ba456d9915b2859"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated \"Type\" label (タイプ：), consistent with sibling label:value fields on the page",
     "reviewed_at": "2026-08-02T19:04:38.281213+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated \"Type\" label (タイプ：), consistent with sibling label:value fields on the page"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Bad Omens in Current Community Building\n\nTopicMetaStrategy\n\nAuthorTheo Hawking\n\nComments\n\nWays in which EA Community building might shy away the people EA needs most right now. Somewhat EA-specific, but with valuable learnings and things to keep in mind as you scale up.\n\nReading time20-25 Min\n\nSummary?\n\nTopic\\*Highlighting the importance of XGeneral Principles\n\nTypeEA Forum Post\n\nURL[https://forum.effectivealtruism.org/posts/xomFCNXwNBeXtLq53/bad-omens-in-current-community-building](https://forum.effectivealtruism.org/posts/xomFCNXwNBeXtLq53/bad-omens-in-current-community-building)\n",
