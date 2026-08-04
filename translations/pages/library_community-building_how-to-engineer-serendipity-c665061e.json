@@ -4,13 +4,13 @@
     "page_id": "39b383bb-2c1b-81d0-a0b2-d93d183c1422",
     "render_version": 5,
     "synced_at": "2026-07-19T23:19:40.498919+00:00",
-    "synced_hash": "8f2103e5711f0451967c51c56fab7dae863e3ab5a36f9a011689b9ea0d59b926"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-04T19:05:22.528708+00:00",
+    "reviewer": "claude",
+    "notes": "fixed \"Type: Article\" rendered backwards as 記事タイプ, matching the タイプ： convention used elsewhere"
   },
   "schema_version": 6,
   "source_markdown": "# How to Engineer Serendipity\n\nTopicStrategy\n\nAuthorDavid Spinks\n\nComments\n\nFacilitating seemingly lucky and special moments by providing a fitting frame.\n\nReading time5-10 Min\n\nSummary?\n\nTopic\\*How to do X\n\nTypeArticle\n\nURL[https://davidspinks.substack.com/p/engineer-serendipity](https://davidspinks.substack.com/p/engineer-serendipity)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "How to Engineer Serendipity",
   "translated_at": "2026-07-12T13:01:49.159383+00:00",
-  "translated_markdown": "# セレンディピティを生み出す方法\n\nトピック戦略\n\n著者：デビッド・スピンクス\n\nコメント\n\nふさわしい枠組みを提供することで、一見幸運で特別な瞬間を演出する。\n\n読了時間：5～10分\n\n要約？\n\nトピック\\*Xのやり方\n\n記事タイプ\n\nURL[https://davidspinks.substack.com/p/engineer-serendipity](https://davidspinks.substack.com/p/engineer-serendipity)\n",
-  "translated_text": "セレンディピティを生み出す方法\nトピック戦略\n著者：デビッド・スピンクス\nコメント\nふさわしい枠組みを提供することで、一見幸運で特別な瞬間を演出する。\n読了時間：5～10分\n要約？\nトピック*Xのやり方\n記事タイプ\nURLhttps://davidspinks.substack.com/p/engineer-serendipity",
+  "translated_markdown": "# セレンディピティを生み出す方法\n\nトピック戦略\n\n著者：デビッド・スピンクス\n\nコメント\n\nふさわしい枠組みを提供することで、一見幸運で特別な瞬間を演出する。\n\n読了時間：5～10分\n\n要約？\n\nトピック\\*Xのやり方\n\nタイプ：記事\n\nURL[https://davidspinks.substack.com/p/engineer-serendipity](https://davidspinks.substack.com/p/engineer-serendipity)\n",
+  "translated_text": "セレンディピティを生み出す方法\nトピック戦略\n著者：デビッド・スピンクス\nコメント\nふさわしい枠組みを提供することで、一見幸運で特別な瞬間を演出する。\n読了時間：5～10分\n要約？\nトピック*Xのやり方\nタイプ：記事\nURLhttps://davidspinks.substack.com/p/engineer-serendipity",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/community-building/how-to-engineer-serendipity"
 }

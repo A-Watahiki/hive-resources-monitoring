@@ -4,13 +4,13 @@
     "page_id": "39b383bb-2c1b-81c5-83c6-e0a8884764c3",
     "render_version": 5,
     "synced_at": "2026-07-19T23:18:20.062062+00:00",
-    "synced_hash": "0cb14fbcd77869e7b542a0e208c2ca73c4fd185d00663e3d38e2af248da343db"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-04T19:05:22.528708+00:00",
+    "reviewer": "claude",
+    "notes": "fixed \"Type: Article\" rendered backwards as 記事タイプ, matching the タイプ： convention used elsewhere"
   },
   "schema_version": 6,
   "source_markdown": "# Gathering vs. Community\n\nTopicEvents\n\nAuthorFabian Pfortmüller\n\nComments\n\nWhat distinguishes a series of gatherings from a proper communty.\n\nReading time<5 Min\n\nSummary?\n\nYes, [here](https://resources.joinhive.org/library/community-building#block-c8151319b580446bb6b3cc8324d030f9)!\n\nTopic\\*Understanding \"Community\"\n\nTypeArticle\n\nURL[https://medium.com/together-institute/gathering-community-1a2400ba5eab](https://medium.com/together-institute/gathering-community-1a2400ba5eab)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Gathering vs. Community",
   "translated_at": "2026-07-12T13:01:49.159383+00:00",
-  "translated_markdown": "# 「集まり」対「コミュニティ」\n\nトピック・イベント\n\n著者：ファビアン・プフォルトミュラー\n\nコメント\n\n一連の集まりと、真のコミュニティとを区別するものは何か。\n\n読了時間＜5分\n\n要約？\n\nはい、[ここです](https://resources.joinhive.org/library/community-building#block-c8151319b580446bb6b3cc8324d030f9)！\n\nトピック\\*「コミュニティ」の理解\n\n記事タイプ\n\nURL[https://medium.com/together-institute/gathering-community-1a2400ba5eab](https://medium.com/together-institute/gathering-community-1a2400ba5eab)\n",
-  "translated_text": "「集まり」対「コミュニティ」\nトピック・イベント\n著者：ファビアン・プフォルトミュラー\nコメント\n一連の集まりと、真のコミュニティとを区別するものは何か。\n読了時間＜5分\n要約？\nはい、ここです！\nトピック*「コミュニティ」の理解\n記事タイプ\nURLhttps://medium.com/together-institute/gathering-community-1a2400ba5eab",
+  "translated_markdown": "# 「集まり」対「コミュニティ」\n\nトピック・イベント\n\n著者：ファビアン・プフォルトミュラー\n\nコメント\n\n一連の集まりと、真のコミュニティとを区別するものは何か。\n\n読了時間＜5分\n\n要約？\n\nはい、[ここです](https://resources.joinhive.org/library/community-building#block-c8151319b580446bb6b3cc8324d030f9)！\n\nトピック\\*「コミュニティ」の理解\n\nタイプ：記事\n\nURL[https://medium.com/together-institute/gathering-community-1a2400ba5eab](https://medium.com/together-institute/gathering-community-1a2400ba5eab)\n",
+  "translated_text": "「集まり」対「コミュニティ」\nトピック・イベント\n著者：ファビアン・プフォルトミュラー\nコメント\n一連の集まりと、真のコミュニティとを区別するものは何か。\n読了時間＜5分\n要約？\nはい、ここです！\nトピック*「コミュニティ」の理解\nタイプ：記事\nURLhttps://medium.com/together-institute/gathering-community-1a2400ba5eab",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/community-building/gathering-vs-community"
 }

@@ -4,13 +4,13 @@
     "page_id": "39b383bb-2c1b-81ee-ba4d-cb57932049cc",
     "render_version": 5,
     "synced_at": "2026-07-19T23:19:07.367875+00:00",
-    "synced_hash": "f6e71dacfd65b2b9d2ebd04d2725a824ce5b824a3fda8f45ee2343841693d025"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-04T19:05:22.528708+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated \"TypeFramework\" field"
   },
   "schema_version": 6,
   "source_markdown": "# Graphic on Intentional Community Building\n\nTopic\n\nAuthorMilly Tamati\n\nComments\n\nReading time\n\nSummary?\n\nTopic\\*Starting a community\n\nTypeFramework\n\nURL[https://twitter.com/MillyTamati/status/1577238406224318464](https://twitter.com/MillyTamati/status/1577238406224318464)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Graphic on Intentional Community Building",
   "translated_at": "2026-07-12T13:01:49.159383+00:00",
-  "translated_markdown": "# 意図的なコミュニティ形成に関する図解\n\nトピック\n\n著者：ミリー・タマティ\n\nコメント\n\n読了時間\n\n要約？\n\nトピック\\*コミュニティの立ち上げ\n\nTypeFramework\n\nURL[https://twitter.com/MillyTamati/status/1577238406224318464](https://twitter.com/MillyTamati/status/1577238406224318464)\n",
-  "translated_text": "意図的なコミュニティ形成に関する図解\nトピック\n著者：ミリー・タマティ\nコメント\n読了時間\n要約？\nトピック*コミュニティの立ち上げ\nTypeFramework\nURLhttps://twitter.com/MillyTamati/status/1577238406224318464",
+  "translated_markdown": "# 意図的なコミュニティ形成に関する図解\n\nトピック\n\n著者：ミリー・タマティ\n\nコメント\n\n読了時間\n\n要約？\n\nトピック\\*コミュニティの立ち上げ\n\nタイプ：フレームワーク\n\nURL[https://twitter.com/MillyTamati/status/1577238406224318464](https://twitter.com/MillyTamati/status/1577238406224318464)\n",
+  "translated_text": "意図的なコミュニティ形成に関する図解\nトピック\n著者：ミリー・タマティ\nコメント\n読了時間\n要約？\nトピック*コミュニティの立ち上げ\nタイプ：フレームワーク\nURLhttps://twitter.com/MillyTamati/status/1577238406224318464",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/community-building/graphic-on-intentional-community-building"
 }

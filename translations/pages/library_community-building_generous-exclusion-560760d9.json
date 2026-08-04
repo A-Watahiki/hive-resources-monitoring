@@ -4,13 +4,13 @@
     "page_id": "39b383bb-2c1b-8193-9492-ee76cf0cfad8",
     "render_version": 5,
     "synced_at": "2026-07-19T23:18:37.120890+00:00",
-    "synced_hash": "6de948e6883f163817c78ca93e026bd0d785abbe30b5533ca879bda1a3ebafe1"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-04T19:05:22.528708+00:00",
+    "reviewer": "claude",
+    "notes": "unified empty \"Type\" label rendering (種類 -> タイプ) to match the term used elsewhere"
   },
   "schema_version": 6,
   "source_markdown": "# Generous exclusion\n\nTopic\n\nAuthor\n\nComments\n\nReading time<5 Min\n\nSummary?\n\nTopic\\*\n\nType\n\nURL[https://mailchi.mp/priyaparker/generous-exclusion-10156136?e=8e1e006d34](https://mailchi.mp/priyaparker/generous-exclusion-10156136?e=8e1e006d34)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Generous exclusion",
   "translated_at": "2026-07-12T13:01:49.159383+00:00",
-  "translated_markdown": "# 広範な除外\n\nトピック\n\n著者\n\nコメント\n\n読了時間＜5分\n\n要約？\n\nトピック\\*\n\n種類\n\nURL[https://mailchi.mp/priyaparker/generous-exclusion-10156136?e=8e1e006d34](https://mailchi.mp/priyaparker/generous-exclusion-10156136?e=8e1e006d34)\n",
-  "translated_text": "広範な除外\nトピック\n著者\nコメント\n読了時間＜5分\n要約？\nトピック*\n種類\nURLhttps://mailchi.mp/priyaparker/generous-exclusion-10156136?e=8e1e006d34",
+  "translated_markdown": "# 広範な除外\n\nトピック\n\n著者\n\nコメント\n\n読了時間＜5分\n\n要約？\n\nトピック\\*\n\nタイプ\n\nURL[https://mailchi.mp/priyaparker/generous-exclusion-10156136?e=8e1e006d34](https://mailchi.mp/priyaparker/generous-exclusion-10156136?e=8e1e006d34)\n",
+  "translated_text": "広範な除外\nトピック\n著者\nコメント\n読了時間＜5分\n要約？\nトピック*\nタイプ\nURLhttps://mailchi.mp/priyaparker/generous-exclusion-10156136?e=8e1e006d34",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/community-building/generous-exclusion"
 }
