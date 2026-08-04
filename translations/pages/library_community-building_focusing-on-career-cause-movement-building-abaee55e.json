@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-811c-823f-f7fe92b07cef",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:18:03.315884+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-04T04:23:45.026357+00:00",
+    "synced_hash": "a6f07d031b6e570f89a667029616539d7896bf4951f02551855d04cd66b61b1c"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated \"TopicStrategyMeta\" and \"TypeEA Forum Post\" fields",
     "reviewed_at": "2026-08-03T19:05:14.824330+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated \"TopicStrategyMeta\" and \"TypeEA Forum Post\" fields"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Focusing on Career & Cause Movement Building\n\nTopicStrategyMeta\n\nAuthorDavid Nash\n\nComments\n\nThe case for thinking beyond “local EA groups”.\n\nReading time5-10 Min\n\nSummary?\n\nSee key takeaways in the context of IAA Community building [here.](https://resources.joinhive.org/library/community-building#block-09d3b9ddef2f4ccab1cbafb81542abbe)\n\nTopic\\*Starting a community\n\nTypeEA Forum Post\n\nURL[https://forum.effectivealtruism.org/posts/HCbfyHnsebJ9pDtWS/focusing-on-career-and-cause-movement-building](https://forum.effectivealtruism.org/posts/HCbfyHnsebJ9pDtWS/focusing-on-career-and-cause-movement-building)\n",

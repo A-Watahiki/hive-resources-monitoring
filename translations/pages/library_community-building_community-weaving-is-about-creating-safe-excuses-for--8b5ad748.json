@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-817e-b73a-e66ab6284268",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:17:00.071799+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-04T04:22:43.209198+00:00",
+    "synced_hash": "8894b410b41ed1c96547328419f8fd2bf0a0f8ec67258860c7665f3767ae2290"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed \"Type: Article\" rendered backwards as 記事タイプ, matching the タイプ： convention used elsewhere",
     "reviewed_at": "2026-08-03T19:05:14.824330+00:00",
     "reviewer": "claude",
-    "notes": "fixed \"Type: Article\" rendered backwards as 記事タイプ, matching the タイプ： convention used elsewhere"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Community weaving is about creating (safe) excuses for people to connect\n\nTopicPhilosophy\n\nAuthorFabian Pfortmüller\n\nComments\n\nA different view on what communities are, focusing on facilitating connections without forcing them.\n\nReading time<5 Min\n\nSummary?\n\nTopic\\*Understanding \"Community\"\n\nTypeArticle\n\nURL[https://medium.com/together-institute/community-weaving-is-about-creating-safe-excuses-for-people-to-connect-4285279926f7](https://medium.com/together-institute/community-weaving-is-about-creating-safe-excuses-for-people-to-connect-4285279926f7)\n",
