@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-81d0-a0b2-d93d183c1422",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:19:40.498919+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-05T04:21:04.898987+00:00",
+    "synced_hash": "8f2103e5711f0451967c51c56fab7dae863e3ab5a36f9a011689b9ea0d59b926"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed \"Type: Article\" rendered backwards as 記事タイプ, matching the タイプ： convention used elsewhere",
     "reviewed_at": "2026-08-04T19:05:22.528708+00:00",
     "reviewer": "claude",
-    "notes": "fixed \"Type: Article\" rendered backwards as 記事タイプ, matching the タイプ： convention used elsewhere"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# How to Engineer Serendipity\n\nTopicStrategy\n\nAuthorDavid Spinks\n\nComments\n\nFacilitating seemingly lucky and special moments by providing a fitting frame.\n\nReading time5-10 Min\n\nSummary?\n\nTopic\\*How to do X\n\nTypeArticle\n\nURL[https://davidspinks.substack.com/p/engineer-serendipity](https://davidspinks.substack.com/p/engineer-serendipity)\n",

@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-81ee-ba4d-cb57932049cc",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:19:07.367875+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-05T04:20:32.843180+00:00",
+    "synced_hash": "f6e71dacfd65b2b9d2ebd04d2725a824ce5b824a3fda8f45ee2343841693d025"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated \"TypeFramework\" field",
     "reviewed_at": "2026-08-04T19:05:22.528708+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated \"TypeFramework\" field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Graphic on Intentional Community Building\n\nTopic\n\nAuthorMilly Tamati\n\nComments\n\nReading time\n\nSummary?\n\nTopic\\*Starting a community\n\nTypeFramework\n\nURL[https://twitter.com/MillyTamati/status/1577238406224318464](https://twitter.com/MillyTamati/status/1577238406224318464)\n",

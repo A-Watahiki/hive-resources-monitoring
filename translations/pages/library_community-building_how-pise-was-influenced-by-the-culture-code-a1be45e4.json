@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-81be-9eb4-e8830a68c37e",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:19:24.389653+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-05T04:20:48.238812+00:00",
+    "synced_hash": "9cb5acd426df5fa36bd0f716ed63562a5cb27fc1aeea8111404ffafe6d0aca16"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated \"Type\" label and added a separator between its two values",
     "reviewed_at": "2026-08-04T19:05:22.528708+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated \"Type\" label and added a separator between its two values"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# How PISE was influenced by The Culture Code\n\nTopicStrategy\n\nAuthorPISEDaniel Coyle\n\nComments\n\nLessons from the book “The Culture Code: The Secrets of Highly Succeesful Groups”.The post also links to a summary of the book, a worksheet as well as slides of a presentation about the book.\n\nReading time5-10 Min\n\nSummary?\n\nSee key takeaways in the context of IAA Community Building [here.](https://resources.joinhive.org/library/community-building#block-d34ce3211f76498e8c656ffcb078ecd1)\n\nTopic\\*Highlighting the importance of X\n\nTypeEA Forum PostNotes on books\n\nURL[https://forum.effectivealtruism.org/posts/6GcNHQW4m8xZb3rMZ/why-every-ea-group-organizer-should-read-the-culture-code](https://forum.effectivealtruism.org/posts/6GcNHQW4m8xZb3rMZ/why-every-ea-group-organizer-should-read-the-culture-code)\n",

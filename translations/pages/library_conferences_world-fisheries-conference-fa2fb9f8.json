@@ -1,25 +1,25 @@
 {
-  "content_hash": "179ad4cf6d9d4ab5c42ff2028100350794308e9448baefcabffd48149f450b99",
+  "content_hash": "3db53d33a2851fabb0f7ace052152646cf734ea59a188da244749e9e006207e0",
   "notion": {
     "page_id": "3a2383bb-2c1b-811b-80c6-ec9fc225be62",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:35:46.130516+00:00",
-    "synced_hash": "179ad4cf6d9d4ab5c42ff2028100350794308e9448baefcabffd48149f450b99"
+    "synced_at": "2026-08-05T04:21:21.773253+00:00",
+    "synced_hash": "3db53d33a2851fabb0f7ace052152646cf734ea59a188da244749e9e006207e0"
   },
   "review": {
-    "notes": "Pulled a manual edit made directly on the Notion page.",
-    "reviewed_at": "2026-07-19T07:18:46.157383+00:00",
-    "reviewer": "notion-manual-edit",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# World Fisheries Conference\n\nCitySeattle\n\nCountryWashingtonUS\n\nDate TBD\n\nDescription\n\nOrganized through the [World Council of Fisheries Societies](https://wcfs.fisheries.org/), every four years delegates from around the world meet to exchange ideas and perspectives about new research, emerging issues, scientific breakthroughs, and governance related to fisheries science, industry, conservation, and management.\n\nPast talks and takeaways\n\nTopicAquatic AnimalsIndustryResearchBusiness\n\nVirtual Option?\n\nWebsite[https://wfc2024.fisheries.org](https://wfc2024.fisheries.org)\n",
-  "source_text": "World Fisheries Conference\nCitySeattle\nCountryWashingtonUS\nDate TBD\nDescription\nOrganized through the World Council of Fisheries Societies, every four years delegates from around the world meet to exchange ideas and perspectives about new research, emerging issues, scientific breakthroughs, and governance related to fisheries science, industry, conservation, and management.\nPast talks and takeaways\nTopicAquatic AnimalsIndustryResearchBusiness\nVirtual Option?\nWebsitehttps://wfc2024.fisheries.org",
+  "source_markdown": "# World Fisheries Conference\n\nCitySeattle\n\nCountryWashingtonUS\n\nDate TBD\n\nDescription\n\nOrganized through the [World Council of Fisheries Societies](https://wcfs.fisheries.org/), every four years delegates from around the world meet to exchange ideas and perspectives about new research, emerging issues, scientific breakthroughs, and governance related to fisheries science, industry, conservation, and management.\n\nPast talks and takeaways\n\nTopicAquatic AnimalsIndustryResearchBusiness\n\nVirtual Option?\n\nWebsite[https://fishconserve.org/world-fisheries-congress/](https://fishconserve.org/world-fisheries-congress/)\n",
+  "source_text": "World Fisheries Conference\nCitySeattle\nCountryWashingtonUS\nDate TBD\nDescription\nOrganized through the World Council of Fisheries Societies, every four years delegates from around the world meet to exchange ideas and perspectives about new research, emerging issues, scientific breakthroughs, and governance related to fisheries science, industry, conservation, and management.\nPast talks and takeaways\nTopicAquatic AnimalsIndustryResearchBusiness\nVirtual Option?\nWebsitehttps://fishconserve.org/world-fisheries-congress/",
   "target_lang": "JA",
   "title": "World Fisheries Conference",
-  "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# 世界漁業会議\n\nCitySeattle\n\n国：ワシントン州（米国）\n\n日程は未定\n\n説明\n\n[世界水産学会](https://wcfs.fisheries.org/)協議会（[World Council of Fisheries Societies](https://wcfs.fisheries.org/)）の主催により、4年ごとに世界各国からの代表者が一堂に会し、水産科学、水産産業、資源保全、および管理に関する新たな研究、新たな課題、科学的進展、ガバナンスについて、意見や見解を交換しています。\n\n過去の講演と主なポイント\n\nトピック：水生動物 業界：研究 ビジネス\n\nバーチャル・オプション？\n\nウェブサイト[https://wfc2024.fisheries.org](https://wfc2024.fisheries.org/)\n",
-  "translated_text": "世界漁業会議\nCitySeattle\n国：ワシントン州（米国）\n日程は未定\n説明\n世界水産学会協議会（World Council of Fisheries Societies）の主催により、4年ごとに世界各国からの代表者が一堂に会し、水産科学、水産産業、資源保全、および管理に関する新たな研究、新たな課題、科学的進展、ガバナンスについて、意見や見解を交換しています。\n過去の講演と主なポイント\nトピック：水生動物 業界：研究 ビジネス\nバーチャル・オプション？\nウェブサイトhttps://wfc2024.fisheries.org",
+  "translated_at": "2026-08-05T04:14:32.837449+00:00",
+  "translated_markdown": "# 世界漁業会議\n\nCitySeattle\n\n国：ワシントン州（米国）\n\n日程は未定\n\n説明\n\n[世界水産学会](https://wcfs.fisheries.org/)協議会（[World Council of Fisheries Societies](https://wcfs.fisheries.org/)）の主催により、4年ごとに世界各国からの代表者が一堂に会し、水産科学、水産産業、資源保全、および管理に関する新たな研究、新たな課題、科学的進展、ガバナンスについて、意見や見解を交換しています。\n\n過去の講演と主なポイント\n\nトピック：水生動物 業界：研究 ビジネス\n\nバーチャル・オプション？\n\nウェブサイト[https://fishconserve.org/world-fisheries-congress/](https://fishconserve.org/world-fisheries-congress/)\n",
+  "translated_text": "世界漁業会議\nCitySeattle\n国：ワシントン州（米国）\n日程は未定\n説明\n世界水産学会協議会（World Council of Fisheries Societies）の主催により、4年ごとに世界各国からの代表者が一堂に会し、水産科学、水産産業、資源保全、および管理に関する新たな研究、新たな課題、科学的進展、ガバナンスについて、意見や見解を交換しています。\n過去の講演と主なポイント\nトピック：水生動物 業界：研究 ビジネス\nバーチャル・オプション？\nウェブサイトhttps://fishconserve.org/world-fisheries-congress/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/world-fisheries-conference"
 }
