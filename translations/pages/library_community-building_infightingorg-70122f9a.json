@@ -4,13 +4,13 @@
     "page_id": "39b383bb-2c1b-81a0-86db-ee1160ddeb13",
     "render_version": 5,
     "synced_at": "2026-07-19T23:20:17.534043+00:00",
-    "synced_hash": "0fd01818e5ae9ec05bdabacea278267549eb2bc7dd9fb1ebb9d4758b64de2de7"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-05T19:04:31.430543+00:00",
+    "reviewer": "claude",
+    "notes": "unified \"Type\" label rendering (種類 -> タイプ) to match the term used elsewhere"
   },
   "schema_version": 6,
   "source_markdown": "# Infighting.org\n\nTopicStrategy\n\nAuthorBeyond Carnism\n\nComments\n\nGo-to resource for preventing, managing, and ending infighting.\n\nReading time\n\nSummary?\n\nTopic\\*Highlighting the importance of XHow to do X\n\nTypeWebsite\n\nURL[https://infighting.org/](https://infighting.org/)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Infighting.org",
   "translated_at": "2026-07-12T13:01:49.159383+00:00",
-  "translated_markdown": "# Infighting.org\n\nトピック戦略\n\n著者：『カーニズムを超えて』\n\nコメント\n\n内部対立の予防、管理、解消に役立つ頼れる情報源。\n\n読了時間\n\n要約？\n\nトピック\\*Xの重要性を強調する Xのやり方\n\n種類：ウェブサイト\n\nURL[https://infighting.org/](https://infighting.org/)\n",
-  "translated_text": "Infighting.org\nトピック戦略\n著者：『カーニズムを超えて』\nコメント\n内部対立の予防、管理、解消に役立つ頼れる情報源。\n読了時間\n要約？\nトピック*Xの重要性を強調する Xのやり方\n種類：ウェブサイト\nURLhttps://infighting.org/",
+  "translated_markdown": "# Infighting.org\n\nトピック戦略\n\n著者：『カーニズムを超えて』\n\nコメント\n\n内部対立の予防、管理、解消に役立つ頼れる情報源。\n\n読了時間\n\n要約？\n\nトピック\\*Xの重要性を強調する Xのやり方\n\nタイプ：ウェブサイト\n\nURL[https://infighting.org/](https://infighting.org/)\n",
+  "translated_text": "Infighting.org\nトピック戦略\n著者：『カーニズムを超えて』\nコメント\n内部対立の予防、管理、解消に役立つ頼れる情報源。\n読了時間\n要約？\nトピック*Xの重要性を強調する Xのやり方\nタイプ：ウェブサイト\nURLhttps://infighting.org/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/community-building/infightingorg"
 }

@@ -4,13 +4,13 @@
     "page_id": "39b383bb-2c1b-816c-b4e8-c392519692ea",
     "render_version": 5,
     "synced_at": "2026-07-19T23:19:59.980049+00:00",
-    "synced_hash": "3666171056324f130fcb7e9d9cea99cba6ac770c58ae42a5c9a2040765891cef"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-05T19:04:31.430543+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated \"Type\" label (タイプ：)"
   },
   "schema_version": 6,
   "source_markdown": "# How to incubate self-driven individuals\n\nTopicStrategy\n\nAuthorPer Ivar Friborg\n\nComments\n\nIdeas to get people more autonomous and self-driven.\n\nReading time5-10 Min\n\nSummary?\n\nSee key takeaways in the context of Local IAA Community Building [here.](https://resources.joinhive.org/library/community-building#block-24f39d71903e44b285a76ddf53a56470)\n\nTopic\\*How to do X\n\nTypeEA Forum Post\n\nURL[https://forum.effectivealtruism.org/posts/BoQZhKs26BdyQHpte/how-to-incubate-self-driven-individuals-for-leaders-and](https://forum.effectivealtruism.org/posts/BoQZhKs26BdyQHpte/how-to-incubate-self-driven-individuals-for-leaders-and)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "How to incubate self-driven individuals",
   "translated_at": "2026-07-12T13:01:49.159383+00:00",
-  "translated_markdown": "# 自主性のある人材を育成する方法\n\nトピック戦略\n\n著者：ペル・イヴァル・フリボーグ\n\nコメント\n\n人々の自律性と主体性を高めるためのアイデア。\n\n読了時間：5～10分\n\n要約？\n\n「ローカルIAAコミュニティ構築」の文脈における主なポイントについては[、こちら](https://resources.joinhive.org/library/community-building#block-24f39d71903e44b285a76ddf53a56470)をご覧ください[。](https://resources.joinhive.org/library/community-building#block-24f39d71903e44b285a76ddf53a56470)\n\nトピック\\*Xのやり方\n\nTypeEA フォーラムの投稿\n\nURL[https://forum.effectivealtruism.org/posts/BoQZhKs26BdyQHpte/how-to-incubate-self-driven-individuals-for-leaders-and](https://forum.effectivealtruism.org/posts/BoQZhKs26BdyQHpte/how-to-incubate-self-driven-individuals-for-leaders-and)\n",
-  "translated_text": "自主性のある人材を育成する方法\nトピック戦略\n著者：ペル・イヴァル・フリボーグ\nコメント\n人々の自律性と主体性を高めるためのアイデア。\n読了時間：5～10分\n要約？\n「ローカルIAAコミュニティ構築」の文脈における主なポイントについては、こちらをご覧ください。\nトピック*Xのやり方\nTypeEA フォーラムの投稿\nURLhttps://forum.effectivealtruism.org/posts/BoQZhKs26BdyQHpte/how-to-incubate-self-driven-individuals-for-leaders-and",
+  "translated_markdown": "# 自主性のある人材を育成する方法\n\nトピック戦略\n\n著者：ペル・イヴァル・フリボーグ\n\nコメント\n\n人々の自律性と主体性を高めるためのアイデア。\n\n読了時間：5～10分\n\n要約？\n\n「ローカルIAAコミュニティ構築」の文脈における主なポイントについては[、こちら](https://resources.joinhive.org/library/community-building#block-24f39d71903e44b285a76ddf53a56470)をご覧ください[。](https://resources.joinhive.org/library/community-building#block-24f39d71903e44b285a76ddf53a56470)\n\nトピック\\*Xのやり方\n\nタイプ：EAフォーラムの投稿\n\nURL[https://forum.effectivealtruism.org/posts/BoQZhKs26BdyQHpte/how-to-incubate-self-driven-individuals-for-leaders-and](https://forum.effectivealtruism.org/posts/BoQZhKs26BdyQHpte/how-to-incubate-self-driven-individuals-for-leaders-and)\n",
+  "translated_text": "自主性のある人材を育成する方法\nトピック戦略\n著者：ペル・イヴァル・フリボーグ\nコメント\n人々の自律性と主体性を高めるためのアイデア。\n読了時間：5～10分\n要約？\n「ローカルIAAコミュニティ構築」の文脈における主なポイントについては、こちらをご覧ください。\nトピック*Xのやり方\nタイプ：EAフォーラムの投稿\nURLhttps://forum.effectivealtruism.org/posts/BoQZhKs26BdyQHpte/how-to-incubate-self-driven-individuals-for-leaders-and",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/community-building/how-to-incubate-self-driven-individuals"
 }

@@ -4,13 +4,13 @@
     "page_id": "39b383bb-2c1b-81b1-82ab-cfcc12ecdf28",
     "render_version": 5,
     "synced_at": "2026-07-19T23:20:32.815520+00:00",
-    "synced_hash": "c67f11f900001a3f75776121823fa4de05e41d9ffead7736627332f3c6140c87"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-05T19:04:31.430543+00:00",
+    "reviewer": "claude",
+    "notes": "fixed \"Type: Article\" rendered backwards as 記事タイプ, matching the タイプ： convention used elsewhere"
   },
   "schema_version": 6,
   "source_markdown": "# Investing in relationships before any collaboration can happen\n\nTopicCollaboration\n\nAuthorFabian Pfortmüller\n\nComments\n\nWhy it’s important to get interpersonal relationships right before you can properly collaborate and how to do so.\n\nReading time<5 Min\n\nSummary?\n\nTopic\\*Highlighting the importance of X\n\nTypeArticle\n\nURL[https://medium.com/together-institute/relationships-before-structure-an-obvious-lesson-we-keep-forgetting-c00560f892d](https://medium.com/together-institute/relationships-before-structure-an-obvious-lesson-we-keep-forgetting-c00560f892d)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Investing in relationships before any collaboration can happen",
   "translated_at": "2026-07-12T13:01:49.159383+00:00",
-  "translated_markdown": "# 協業が始まる前に、関係構築に注力する\n\nトピック・コラボレーション\n\n著者：ファビアン・プフォルトミュラー\n\nコメント\n\n適切な協働を行う前に、対人関係をしっかりと築くことがなぜ重要なのか、そしてその方法について。\n\n読了時間＜5分\n\n要約？\n\nトピック\\*Xの重要性を強調する\n\n記事タイプ\n\nURL[https://medium.com/together-institute/relationships-before-structure-an-obvious-lesson-we-keep-forgetting-c00560f892d](https://medium.com/together-institute/relationships-before-structure-an-obvious-lesson-we-keep-forgetting-c00560f892d)\n",
-  "translated_text": "協業が始まる前に、関係構築に注力する\nトピック・コラボレーション\n著者：ファビアン・プフォルトミュラー\nコメント\n適切な協働を行う前に、対人関係をしっかりと築くことがなぜ重要なのか、そしてその方法について。\n読了時間＜5分\n要約？\nトピック*Xの重要性を強調する\n記事タイプ\nURLhttps://medium.com/together-institute/relationships-before-structure-an-obvious-lesson-we-keep-forgetting-c00560f892d",
+  "translated_markdown": "# 協業が始まる前に、関係構築に注力する\n\nトピック・コラボレーション\n\n著者：ファビアン・プフォルトミュラー\n\nコメント\n\n適切な協働を行う前に、対人関係をしっかりと築くことがなぜ重要なのか、そしてその方法について。\n\n読了時間＜5分\n\n要約？\n\nトピック\\*Xの重要性を強調する\n\nタイプ：記事\n\nURL[https://medium.com/together-institute/relationships-before-structure-an-obvious-lesson-we-keep-forgetting-c00560f892d](https://medium.com/together-institute/relationships-before-structure-an-obvious-lesson-we-keep-forgetting-c00560f892d)\n",
+  "translated_text": "協業が始まる前に、関係構築に注力する\nトピック・コラボレーション\n著者：ファビアン・プフォルトミュラー\nコメント\n適切な協働を行う前に、対人関係をしっかりと築くことがなぜ重要なのか、そしてその方法について。\n読了時間＜5分\n要約？\nトピック*Xの重要性を強調する\nタイプ：記事\nURLhttps://medium.com/together-institute/relationships-before-structure-an-obvious-lesson-we-keep-forgetting-c00560f892d",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/community-building/investing-in-relationships-before-any-collaboration-can-happen"
 }

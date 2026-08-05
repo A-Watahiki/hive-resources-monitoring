@@ -4,13 +4,13 @@
     "page_id": "39b383bb-2c1b-811c-aad1-e6bed751af4a",
     "render_version": 5,
     "synced_at": "2026-07-19T23:20:48.010671+00:00",
-    "synced_hash": "f2f7000afc10deb2226023ec4d00690794a39af71455f44f7402295fef829ff3"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-05T19:04:31.430543+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated \"Type\" label (タイプ：)"
   },
   "schema_version": 6,
   "source_markdown": "# Making EA groups more welcoming\n\nTopicStrategy\n\nAuthorJulia Wise\n\nComments\n\nThis is a resource for organizers of EA groups who want to welcome great people to their groups and events, including people from groups that we're currently largely missing out on.\n\nReading time10-15 Min\n\nSummary?\n\nTopic\\*Highlighting the importance of XHow to do X\n\nTypeEA Forum Post\n\nURL[https://forum.effectivealtruism.org/posts/WAhFnueRgHkAf8KHc/making-ea-groups-more-welcoming](https://forum.effectivealtruism.org/posts/WAhFnueRgHkAf8KHc/making-ea-groups-more-welcoming)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Making EA groups more welcoming",
   "translated_at": "2026-07-12T13:01:49.159383+00:00",
-  "translated_markdown": "# EAグループをより居心地の良い場所にする\n\nトピック戦略\n\n著者：ジュリア・ワイズ\n\nコメント\n\nこれは、EAグループの運営者向けに作成されたリソースです。グループやイベントに素晴らしい人々を迎え入れたいと考えている方、特に現在、私たちの活動からほとんど取りこぼされているグループに所属する人々を歓迎したいと考えている方に向けたものです。\n\n読了時間：10～15分\n\n要約？\n\nトピック\\*Xの重要性を強調する Xのやり方\n\nTypeEA フォーラムの投稿\n\nURL[https://forum.effectivealtruism.org/posts/WAhFnueRgHkAf8KHc/making-ea-groups-more-welcoming](https://forum.effectivealtruism.org/posts/WAhFnueRgHkAf8KHc/making-ea-groups-more-welcoming)\n",
-  "translated_text": "EAグループをより居心地の良い場所にする\nトピック戦略\n著者：ジュリア・ワイズ\nコメント\nこれは、EAグループの運営者向けに作成されたリソースです。グループやイベントに素晴らしい人々を迎え入れたいと考えている方、特に現在、私たちの活動からほとんど取りこぼされているグループに所属する人々を歓迎したいと考えている方に向けたものです。\n読了時間：10～15分\n要約？\nトピック*Xの重要性を強調する Xのやり方\nTypeEA フォーラムの投稿\nURLhttps://forum.effectivealtruism.org/posts/WAhFnueRgHkAf8KHc/making-ea-groups-more-welcoming",
+  "translated_markdown": "# EAグループをより居心地の良い場所にする\n\nトピック戦略\n\n著者：ジュリア・ワイズ\n\nコメント\n\nこれは、EAグループの運営者向けに作成されたリソースです。グループやイベントに素晴らしい人々を迎え入れたいと考えている方、特に現在、私たちの活動からほとんど取りこぼされているグループに所属する人々を歓迎したいと考えている方に向けたものです。\n\n読了時間：10～15分\n\n要約？\n\nトピック\\*Xの重要性を強調する Xのやり方\n\nタイプ：EAフォーラムの投稿\n\nURL[https://forum.effectivealtruism.org/posts/WAhFnueRgHkAf8KHc/making-ea-groups-more-welcoming](https://forum.effectivealtruism.org/posts/WAhFnueRgHkAf8KHc/making-ea-groups-more-welcoming)\n",
+  "translated_text": "EAグループをより居心地の良い場所にする\nトピック戦略\n著者：ジュリア・ワイズ\nコメント\nこれは、EAグループの運営者向けに作成されたリソースです。グループやイベントに素晴らしい人々を迎え入れたいと考えている方、特に現在、私たちの活動からほとんど取りこぼされているグループに所属する人々を歓迎したいと考えている方に向けたものです。\n読了時間：10～15分\n要約？\nトピック*Xの重要性を強調する Xのやり方\nタイプ：EAフォーラムの投稿\nURLhttps://forum.effectivealtruism.org/posts/WAhFnueRgHkAf8KHc/making-ea-groups-more-welcoming",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/community-building/making-ea-groups-more-welcoming"
 }
