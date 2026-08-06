@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-81a0-86db-ee1160ddeb13",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:20:17.534043+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-06T04:22:09.026895+00:00",
+    "synced_hash": "0fd01818e5ae9ec05bdabacea278267549eb2bc7dd9fb1ebb9d4758b64de2de7"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified \"Type\" label rendering (種類 -> タイプ) to match the term used elsewhere",
     "reviewed_at": "2026-08-05T19:04:31.430543+00:00",
     "reviewer": "claude",
-    "notes": "unified \"Type\" label rendering (種類 -> タイプ) to match the term used elsewhere"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Infighting.org\n\nTopicStrategy\n\nAuthorBeyond Carnism\n\nComments\n\nGo-to resource for preventing, managing, and ending infighting.\n\nReading time\n\nSummary?\n\nTopic\\*Highlighting the importance of XHow to do X\n\nTypeWebsite\n\nURL[https://infighting.org/](https://infighting.org/)\n",

@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-811c-aad1-e6bed751af4a",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:20:48.010671+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-06T04:23:04.251039+00:00",
+    "synced_hash": "f2f7000afc10deb2226023ec4d00690794a39af71455f44f7402295fef829ff3"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated \"Type\" label (タイプ：)",
     "reviewed_at": "2026-08-05T19:04:31.430543+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated \"Type\" label (タイプ：)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Making EA groups more welcoming\n\nTopicStrategy\n\nAuthorJulia Wise\n\nComments\n\nThis is a resource for organizers of EA groups who want to welcome great people to their groups and events, including people from groups that we're currently largely missing out on.\n\nReading time10-15 Min\n\nSummary?\n\nTopic\\*Highlighting the importance of XHow to do X\n\nTypeEA Forum Post\n\nURL[https://forum.effectivealtruism.org/posts/WAhFnueRgHkAf8KHc/making-ea-groups-more-welcoming](https://forum.effectivealtruism.org/posts/WAhFnueRgHkAf8KHc/making-ea-groups-more-welcoming)\n",
