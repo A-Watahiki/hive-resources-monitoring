@@ -4,13 +4,13 @@
     "page_id": "39b383bb-2c1b-8101-9b3b-f0904f3783a7",
     "render_version": 5,
     "synced_at": "2026-07-19T23:21:45.694132+00:00",
-    "synced_hash": "c342c01c985e48e9e51bbe0d7f2046efb811dcafc2a724224b37a125b03c90a1"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-06T19:04:50.162561+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated \"Author\" label and \"TypeCollection\" field"
   },
   "schema_version": 6,
   "source_markdown": "# Network Toolkit\n\nTopicStrategy\n\nAuthorConverge Network\n\nComments\n\nCollection of tools to build impactful networks, ranging from templates to group exercises, texts, etc.\n\nReading time>30 Min\n\nSummary?\n\nTopic\\*\n\nTypeCollection\n\nURL[https://www.converge.net/trainings#toolkit](https://www.converge.net/trainings#toolkit)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Network Toolkit",
   "translated_at": "2026-07-12T13:01:49.159383+00:00",
-  "translated_markdown": "# ネットワーク・ツールキット\n\nトピック戦略\n\nAuthorConverge Network\n\nコメント\n\nテンプレートからグループ演習、テキストなど、インパクトのあるネットワークを構築するためのツールの集まり。\n\n読了時間＞30分\n\n要約？\n\nトピック\\*\n\nTypeCollection\n\nURL [https://www.converge.net/trainings#toolkit](https://www.converge.net/trainings#toolkit)\n",
-  "translated_text": "ネットワーク・ツールキット\nトピック戦略\nAuthorConverge Network\nコメント\nテンプレートからグループ演習、テキストなど、インパクトのあるネットワークを構築するためのツールの集まり。\n読了時間＞30分\n要約？\nトピック*\nTypeCollection\nURL https://www.converge.net/trainings#toolkit",
+  "translated_markdown": "# ネットワーク・ツールキット\n\nトピック戦略\n\n著者：Converge Network\n\nコメント\n\nテンプレートからグループ演習、テキストなど、インパクトのあるネットワークを構築するためのツールの集まり。\n\n読了時間＞30分\n\n要約？\n\nトピック\\*\n\nタイプ：コレクション\n\nURL [https://www.converge.net/trainings#toolkit](https://www.converge.net/trainings#toolkit)\n",
+  "translated_text": "ネットワーク・ツールキット\nトピック戦略\n著者：Converge Network\nコメント\nテンプレートからグループ演習、テキストなど、インパクトのあるネットワークを構築するためのツールの集まり。\n読了時間＞30分\n要約？\nトピック*\nタイプ：コレクション\nURL https://www.converge.net/trainings#toolkit",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/community-building/network-toolkit"
 }

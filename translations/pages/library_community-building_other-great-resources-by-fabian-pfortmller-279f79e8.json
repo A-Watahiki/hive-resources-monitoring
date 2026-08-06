@@ -4,13 +4,13 @@
     "page_id": "39b383bb-2c1b-81a3-9b91-c6de143f8ddc",
     "render_version": 5,
     "synced_at": "2026-07-19T23:22:35.983491+00:00",
-    "synced_hash": "58536c71acb96b8c20d562864bbb6db4dcdf410645452f8832bbdd27d12f6dfa"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-06T19:04:50.162561+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated \"TypeCollection\" field"
   },
   "schema_version": 6,
   "source_markdown": "# Other great resources by Fabian Pfortmüller\n\nTopic\n\nAuthorFabian Pfortmüller\n\nComments\n\nCollection of resources by Fabian Pfortmüller, co-founder of the Together Institute and co-author of the Community Canvas.\n\nReading time>30 Min\n\nSummary?\n\nTopic\\*\n\nTypeCollection\n\nURL[https://medium.com/@pforti](https://medium.com/@pforti)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Other great resources by Fabian Pfortmüller",
   "translated_at": "2026-07-12T13:01:49.159383+00:00",
-  "translated_markdown": "# ファビアン・プフォルトミュラーによるその他の優れた資料\n\nトピック\n\n著者：ファビアン・プフォルトミュラー\n\nコメント\n\nTogether Instituteの共同創設者であり、『Community Canvas』の共著者であるファビアン・プフォルトミュラー氏によるリソース集。\n\n読了時間＞30分\n\n要約？\n\nトピック\\*\n\nTypeCollection\n\nURL[https://medium.com/@pforti](https://medium.com/@pforti)\n",
-  "translated_text": "ファビアン・プフォルトミュラーによるその他の優れた資料\nトピック\n著者：ファビアン・プフォルトミュラー\nコメント\nTogether Instituteの共同創設者であり、『Community Canvas』の共著者であるファビアン・プフォルトミュラー氏によるリソース集。\n読了時間＞30分\n要約？\nトピック*\nTypeCollection\nURLhttps://medium.com/@pforti",
+  "translated_markdown": "# ファビアン・プフォルトミュラーによるその他の優れた資料\n\nトピック\n\n著者：ファビアン・プフォルトミュラー\n\nコメント\n\nTogether Instituteの共同創設者であり、『Community Canvas』の共著者であるファビアン・プフォルトミュラー氏によるリソース集。\n\n読了時間＞30分\n\n要約？\n\nトピック\\*\n\nタイプ：コレクション\n\nURL[https://medium.com/@pforti](https://medium.com/@pforti)\n",
+  "translated_text": "ファビアン・プフォルトミュラーによるその他の優れた資料\nトピック\n著者：ファビアン・プフォルトミュラー\nコメント\nTogether Instituteの共同創設者であり、『Community Canvas』の共著者であるファビアン・プフォルトミュラー氏によるリソース集。\n読了時間＞30分\n要約？\nトピック*\nタイプ：コレクション\nURLhttps://medium.com/@pforti",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/community-building/other-great-resources-by-fabian-pfortmller"
 }
