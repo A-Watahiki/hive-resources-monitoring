@@ -4,13 +4,13 @@
     "page_id": "39b383bb-2c1b-8113-8351-e20d608c4f92",
     "render_version": 5,
     "synced_at": "2026-07-19T23:24:05.963162+00:00",
-    "synced_hash": "98b3e0da68f301d1a35ddb7b4309474e0791fb7f3e37de81c41439b70540b3c3"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-07T19:05:58.254009+00:00",
+    "reviewer": "claude",
+    "notes": "added a separator between concatenated Type values (Webサイトコレクション -> Webサイト・コレクション)"
   },
   "schema_version": 6,
   "source_markdown": "# The Commsor Blog (Community)\n\nTopicStrategyCollection\n\nAuthorCommsor\n\nComments\n\nBlog with articles often focused on (and tagged with) community.\n\nReading time>30 Min\n\nSummary?\n\nTopic\\*\n\nTypeWebsiteCollection\n\nURL[https://www.commsor.com/blog](https://www.commsor.com/blog)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "The Commsor Blog (Community)",
   "translated_at": "2026-07-12T13:01:49.159383+00:00",
-  "translated_markdown": "# Commsorブログ（コミュニティ）\n\nトピック戦略コレクション\n\n著者：Commsor\n\nコメント\n\n「コミュニティ」をテーマに（またそのタグが付けられた）記事が頻繁に掲載されるブログ。\n\n読了時間＞30分\n\n要約？\n\nトピック\\*\n\nタイプ：Webサイトコレクション\n\nURL[https://www.commsor.com/blog](https://www.commsor.com/blog)\n",
-  "translated_text": "Commsorブログ（コミュニティ）\nトピック戦略コレクション\n著者：Commsor\nコメント\n「コミュニティ」をテーマに（またそのタグが付けられた）記事が頻繁に掲載されるブログ。\n読了時間＞30分\n要約？\nトピック*\nタイプ：Webサイトコレクション\nURLhttps://www.commsor.com/blog",
+  "translated_markdown": "# Commsorブログ（コミュニティ）\n\nトピック戦略コレクション\n\n著者：Commsor\n\nコメント\n\n「コミュニティ」をテーマに（またそのタグが付けられた）記事が頻繁に掲載されるブログ。\n\n読了時間＞30分\n\n要約？\n\nトピック\\*\n\nタイプ：Webサイト・コレクション\n\nURL[https://www.commsor.com/blog](https://www.commsor.com/blog)\n",
+  "translated_text": "Commsorブログ（コミュニティ）\nトピック戦略コレクション\n著者：Commsor\nコメント\n「コミュニティ」をテーマに（またそのタグが付けられた）記事が頻繁に掲載されるブログ。\n読了時間＞30分\n要約？\nトピック*\nタイプ：Webサイト・コレクション\nURLhttps://www.commsor.com/blog",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/community-building/the-commsor-blog-community"
 }

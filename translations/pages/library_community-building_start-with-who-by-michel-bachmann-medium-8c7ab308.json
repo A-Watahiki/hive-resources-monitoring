@@ -4,13 +4,13 @@
     "page_id": "39b383bb-2c1b-817c-9b5c-d95b42954fbb",
     "render_version": 5,
     "synced_at": "2026-07-19T23:23:34.723292+00:00",
-    "synced_hash": "e09088b2bf9b11ac51f145374b50fe3248d9b04361696128642aee7c5c7abac7"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-07T19:05:58.254009+00:00",
+    "reviewer": "claude",
+    "notes": "fixed \"Type: Article\" rendered backwards as 記事タイプ, matching the タイプ： convention used elsewhere"
   },
   "schema_version": 6,
   "source_markdown": "# Start with Who by Michel Bachmann | Medium\n\nTopicPhilosophyStrategy\n\nAuthorMichel Bachmann\n\nComments\n\nThe case for prioritzing “who” your community is over “why” your community exists.\n\nReading time5-10 Min\n\nSummary?\n\nTopic\\*Understanding \"Community\"\n\nTypeArticle\n\nURL[https://medium.com/@michelbachmann/start-with-who-15b8857ed718](https://medium.com/@michelbachmann/start-with-who-15b8857ed718)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Start with Who by Michel Bachmann | Medium",
   "translated_at": "2026-07-12T13:01:49.159383+00:00",
-  "translated_markdown": "# ミシェル・バッハマン著『Who』から始める | Medium\n\nトピック・哲学・戦略\n\n著者：ミシェル・バッハマン\n\nコメント\n\nコミュニティの「存在理由」よりも、そのコミュニティを構成する「誰」であるかを優先すべき理由。\n\n読了時間：5～10分\n\n要約？\n\nトピック\\*「コミュニティ」の理解\n\n記事タイプ\n\nURL[https://medium.com/@michelbachmann/start-with-who-15b8857ed718](https://medium.com/@michelbachmann/start-with-who-15b8857ed718)\n",
-  "translated_text": "ミシェル・バッハマン著『Who』から始める | Medium\nトピック・哲学・戦略\n著者：ミシェル・バッハマン\nコメント\nコミュニティの「存在理由」よりも、そのコミュニティを構成する「誰」であるかを優先すべき理由。\n読了時間：5～10分\n要約？\nトピック*「コミュニティ」の理解\n記事タイプ\nURLhttps://medium.com/@michelbachmann/start-with-who-15b8857ed718",
+  "translated_markdown": "# ミシェル・バッハマン著『Who』から始める | Medium\n\nトピック・哲学・戦略\n\n著者：ミシェル・バッハマン\n\nコメント\n\nコミュニティの「存在理由」よりも、そのコミュニティを構成する「誰」であるかを優先すべき理由。\n\n読了時間：5～10分\n\n要約？\n\nトピック\\*「コミュニティ」の理解\n\nタイプ：記事\n\nURL[https://medium.com/@michelbachmann/start-with-who-15b8857ed718](https://medium.com/@michelbachmann/start-with-who-15b8857ed718)\n",
+  "translated_text": "ミシェル・バッハマン著『Who』から始める | Medium\nトピック・哲学・戦略\n著者：ミシェル・バッハマン\nコメント\nコミュニティの「存在理由」よりも、そのコミュニティを構成する「誰」であるかを優先すべき理由。\n読了時間：5～10分\n要約？\nトピック*「コミュニティ」の理解\nタイプ：記事\nURLhttps://medium.com/@michelbachmann/start-with-who-15b8857ed718",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/community-building/start-with-who-by-michel-bachmann-medium"
 }
