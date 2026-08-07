@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-81a3-9b91-c6de143f8ddc",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:22:35.983491+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-07T03:58:19.557331+00:00",
+    "synced_hash": "58536c71acb96b8c20d562864bbb6db4dcdf410645452f8832bbdd27d12f6dfa"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated \"TypeCollection\" field",
     "reviewed_at": "2026-08-06T19:04:50.162561+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated \"TypeCollection\" field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Other great resources by Fabian Pfortmüller\n\nTopic\n\nAuthorFabian Pfortmüller\n\nComments\n\nCollection of resources by Fabian Pfortmüller, co-founder of the Together Institute and co-author of the Community Canvas.\n\nReading time>30 Min\n\nSummary?\n\nTopic\\*\n\nTypeCollection\n\nURL[https://medium.com/@pforti](https://medium.com/@pforti)\n",

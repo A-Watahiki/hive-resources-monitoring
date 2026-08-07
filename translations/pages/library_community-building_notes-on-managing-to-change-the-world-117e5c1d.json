@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-814c-bd9b-ca2c7452794f",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:22:01.953903+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-07T03:57:56.270223+00:00",
+    "synced_hash": "3893a193c49f9da31782fc33fd3467e23a35715f98683eb58a9278cefb43fc55"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated \"Type\" label and added a separator between its two values",
     "reviewed_at": "2026-08-06T19:04:50.162561+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated \"Type\" label and added a separator between its two values"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Notes on \"Managing to Change the World\"\n\nTopicStrategy\n\nAuthorPeter WildefordAlison GreenJerry Hauser\n\nComments\n\nSummary of the book “Managing to Change the World: The Nonprofit Manager's Guide to Getting Results”\n\nReading time>30 Min\n\nSummary?\n\nTopic\\*\n\nTypeEA Forum PostNotes on books\n\nURL[https://forum.effectivealtruism.org/posts/dpjCwMwKEPqK3TPnC/notes-on-managing-to-change-the-world](https://forum.effectivealtruism.org/posts/dpjCwMwKEPqK3TPnC/notes-on-managing-to-change-the-world)\n",

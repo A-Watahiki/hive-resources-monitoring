@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-8129-a3ad-d5fd4057ae4c",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:22:17.891667+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-07T03:58:08.763065+00:00",
+    "synced_hash": "a2ce32c0e99248cb48068735e7729326be4f77095330c59de30a493fdb7996ed"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified \"Type\" label rendering (種類 -> タイプ) and added a separator between its two values",
     "reviewed_at": "2026-08-06T19:04:50.162561+00:00",
     "reviewer": "claude",
-    "notes": "unified \"Type\" label rendering (種類 -> タイプ) and added a separator between its two values"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Notes on “The Art of Gathering”\n\nTopicEvents\n\nAuthorPriya ParkerDavid Nash\n\nComments\n\nSummary of the book “The Art of Gathering: How We Meet and Why It Matters**”**\n\nReading time15-20 Min\n\nSummary?\n\nTopic\\*How to do X\n\nTypeNotes on booksEA Forum Post\n\nURL[https://forum.effectivealtruism.org/posts/vfG87R86JjL4C5pSj/notes-on-the-art-of-gathering](https://forum.effectivealtruism.org/posts/vfG87R86JjL4C5pSj/notes-on-the-art-of-gathering)\n\nHere is the whole book:\n\n[9781594634925.pdf3170.7KB](https://assets.super.so/859efb58-1a88-4b95-b922-9e137bc700aa/files/1477b304-731f-4b15-bc22-cc5dd79e54c7.pdf)\n",

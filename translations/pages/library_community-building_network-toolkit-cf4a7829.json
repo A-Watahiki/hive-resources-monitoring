@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-8101-9b3b-f0904f3783a7",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:21:45.694132+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-07T03:57:43.169247+00:00",
+    "synced_hash": "c342c01c985e48e9e51bbe0d7f2046efb811dcafc2a724224b37a125b03c90a1"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated \"Author\" label and \"TypeCollection\" field",
     "reviewed_at": "2026-08-06T19:04:50.162561+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated \"Author\" label and \"TypeCollection\" field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Network Toolkit\n\nTopicStrategy\n\nAuthorConverge Network\n\nComments\n\nCollection of tools to build impactful networks, ranging from templates to group exercises, texts, etc.\n\nReading time>30 Min\n\nSummary?\n\nTopic\\*\n\nTypeCollection\n\nURL[https://www.converge.net/trainings#toolkit](https://www.converge.net/trainings#toolkit)\n",

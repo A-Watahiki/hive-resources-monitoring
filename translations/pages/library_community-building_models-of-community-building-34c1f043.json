@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-8197-a83e-dd28d8377bc7",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:21:29.717777+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-07T03:57:32.430733+00:00",
+    "synced_hash": "1d902f4d631dc278d732d22263abe8dfbb0fe633a9eac27588dfcecb9f365d46"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed \"Type: Article\" rendered backwards as 記事タイプ, matching the タイプ： convention used elsewhere",
     "reviewed_at": "2026-08-06T19:04:50.162561+00:00",
     "reviewer": "claude",
-    "notes": "fixed \"Type: Article\" rendered backwards as 記事タイプ, matching the タイプ： convention used elsewhere"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Models of Community Building\n\nTopicStrategyCollection\n\nAuthorCEA\n\nComments\n\nFour different models to understand community building that are or have been used by CEA.\n\nReading time<5 Min\n\nSummary?\n\nSee key takeaways in the context of Local IAA Community Building [here](https://resources.joinhive.org/library/community-building#block-755b02add5934b42888a97a7131c1606)!\n\nTopic\\*Understanding \"Community\"\n\nTypeArticle\n\nURL[https://www.centreforeffectivealtruism.org/models-of-community-building](https://www.centreforeffectivealtruism.org/models-of-community-building)\n",
