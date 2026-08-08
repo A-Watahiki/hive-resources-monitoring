@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-81fc-8adc-e635dd8a53bb",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:23:12.241718+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-08T03:01:24.630170+00:00",
+    "synced_hash": "70542611907a996a60df870a59ac55dcda34f03e83ae783c51cec7da2d754c64"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated \"Topic\" and \"Type\" labels",
     "reviewed_at": "2026-08-07T19:05:58.254009+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated \"Topic\" and \"Type\" labels"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Should effective altruists focus more on movement building\n\nTopicStrategyMeta\n\nAuthorAaron Bergman\n\nComments\n\nThe impact case for prioritizing community building.\n\nReading time10-15 Min\n\nSummary?\n\nTopic\\*Meta\n\nTypeEA Forum Post\n\nURL[https://forum.effectivealtruism.org/posts/4BjFtMJgfw4MCLa4z/should-effective-altruists-focus-more-on-movement-building](https://forum.effectivealtruism.org/posts/4BjFtMJgfw4MCLa4z/should-effective-altruists-focus-more-on-movement-building)\n",

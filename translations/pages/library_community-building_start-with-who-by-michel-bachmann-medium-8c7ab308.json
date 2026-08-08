@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-817c-9b5c-d95b42954fbb",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:23:34.723292+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-08T03:01:36.982654+00:00",
+    "synced_hash": "e09088b2bf9b11ac51f145374b50fe3248d9b04361696128642aee7c5c7abac7"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed \"Type: Article\" rendered backwards as 記事タイプ, matching the タイプ： convention used elsewhere",
     "reviewed_at": "2026-08-07T19:05:58.254009+00:00",
     "reviewer": "claude",
-    "notes": "fixed \"Type: Article\" rendered backwards as 記事タイプ, matching the タイプ： convention used elsewhere"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Start with Who by Michel Bachmann | Medium\n\nTopicPhilosophyStrategy\n\nAuthorMichel Bachmann\n\nComments\n\nThe case for prioritzing “who” your community is over “why” your community exists.\n\nReading time5-10 Min\n\nSummary?\n\nTopic\\*Understanding \"Community\"\n\nTypeArticle\n\nURL[https://medium.com/@michelbachmann/start-with-who-15b8857ed718](https://medium.com/@michelbachmann/start-with-who-15b8857ed718)\n",

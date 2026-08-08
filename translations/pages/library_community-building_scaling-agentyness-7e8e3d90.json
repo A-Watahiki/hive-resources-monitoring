@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-81ab-822c-ca548ba1c6c2",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:22:55.342882+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-08T03:01:10.537896+00:00",
+    "synced_hash": "cceaac7f0d37a0116f74e772241caca48d57d4a9b7a2b656f5b62497f53b89b3"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated \"Type\" label (タイプ：)",
     "reviewed_at": "2026-08-07T19:05:58.254009+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated \"Type\" label (タイプ：)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Scaling Agentyness\n\nTopicStrategy\n\nAuthorSeverin Seehrich\n\nComments\n\nThree tips to make community members more agentic.\n\nReading time5-10 Min\n\nSummary?\n\nTopic\\*How to do X\n\nTypeEA Forum Post\n\nURL[https://forum.effectivealtruism.org/posts/L8XxRjP5MwPhk5y6v/scaling-agentyness](https://forum.effectivealtruism.org/posts/L8XxRjP5MwPhk5y6v/scaling-agentyness)\n",

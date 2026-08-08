@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-81bd-9602-f9ceee505f9c",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:23:50.885586+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-08T03:01:50.631188+00:00",
+    "synced_hash": "e949593c34def2eee8e77445bc1150e235a96aaf962c94222b59791c749f9e43"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated \"TypeWebsiteGuide\" field",
     "reviewed_at": "2026-08-07T19:05:58.254009+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated \"TypeWebsiteGuide\" field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# The CMX Guide to Community-Led Events\n\nTopicStrategyCollectionEvents\n\nAuthorCMX\n\nComments\n\nResources to run (community-led) events.\n\nReading time>30 Min\n\nSummary?\n\nTopic\\*How to do X\n\nTypeWebsiteGuide\n\nURL[https://www.cmxhub.com/reports](https://www.cmxhub.com/reports)\n",
