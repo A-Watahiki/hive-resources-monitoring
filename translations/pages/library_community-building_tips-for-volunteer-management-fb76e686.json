@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-8161-a18c-dfd28c326eae",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:24:47.813633+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-09T03:09:41.257949+00:00",
+    "synced_hash": "bd1c8c75e969181f5d904b68de1b339218d875128737bcd9fa72256654cb30f0"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated \"Type\" label (タイプ：)",
     "reviewed_at": "2026-08-08T19:05:42.617906+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated \"Type\" label (タイプ：)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Tips for Volunteer Management\n\nTopicStrategy\n\nAuthorNaomi Nederlof\n\nComments\n\nTips to manage volunteers, particularly to retain volunteers.\n\nReading time5-10 Min\n\nSummary?\n\nSee key takeaways in the context of IAA Community Building [here.](https://resources.joinhive.org/library/community-building#block-915bb2c52b9d493a985537c9c2736c8c)\n\nTopic\\*How to do X\n\nTypeEA Forum Post\n\nURL[https://forum.effectivealtruism.org/posts/GkPRvW5x9XFwitYRj/tips-for-volunteer-management](https://forum.effectivealtruism.org/posts/GkPRvW5x9XFwitYRj/tips-for-volunteer-management)\n",

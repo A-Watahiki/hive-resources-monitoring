@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-8115-9743-f47b05c5aa91",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:25:02.849271+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-09T03:09:57.795632+00:00",
+    "synced_hash": "616a76671b2660d1196e569e3e572cc013f42ca1c48a29958039ea1df1636438"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated \"TypeTalk\" field",
     "reviewed_at": "2026-08-08T19:05:42.617906+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated \"TypeTalk\" field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# User-centered & volunteer-oriented community building models\n\nTopicStrategy\n\nAuthorGidon Kadosh\n\nComments\n\nThe distinction and value of user-centered (i.e., service-oriented) and volunteer-centered (i.e., co-creation oriented) communities.\n\nReading time20-25 Min\n\nSummary?\n\nTopic\\*\n\nTypeTalk\n\nURL[https://www.youtube.com/watch?v=2SJWYmapJP0](https://www.youtube.com/watch?v=2SJWYmapJP0)\n",

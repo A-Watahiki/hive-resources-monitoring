@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "39b383bb-2c1b-812c-9f23-c67f4032d4c5",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:24:31.793492+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-09T03:09:25.007849+00:00",
+    "synced_hash": "a61ceb0dc4efab41cc4f3948682ad5d42e4678502460e47f040a2844ab9519e9"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed \"Type: Article\" rendered backwards as 記事タイプ, matching the タイプ： convention used elsewhere",
     "reviewed_at": "2026-08-08T19:05:42.617906+00:00",
     "reviewer": "claude",
-    "notes": "fixed \"Type: Article\" rendered backwards as 記事タイプ, matching the タイプ： convention used elsewhere"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# The Social Architecture of Impactful Communities\n\nTopicStrategy\n\nAuthorNick deWilde\n\nComments\n\nSlightly more elaborate framework on what makes communities succesful.\n\nReading time10-15 Min\n\nSummary?\n\nYes, [here](https://resources.joinhive.org/library/community-building#block-f448db1d1b8448ec8b63c6db7e2d56d0)!\n\nTopic\\*General Principles\n\nTypeArticle\n\nURL[https://www.nickdewilde.com/the-social-architecture-of-impactful-communities/](https://www.nickdewilde.com/the-social-architecture-of-impactful-communities/)\n",
