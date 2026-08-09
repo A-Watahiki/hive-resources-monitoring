@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81ab-8ce8-da9f962df806",
     "render_version": 5,
     "synced_at": "2026-07-19T23:27:55.763082+00:00",
-    "synced_hash": "cf341fccd28a2ba48fe6685d82e322cb09072bde39ea612053b38ffc6b698e14"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-09T19:06:13.659141+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated City/Country fields"
   },
   "schema_version": 6,
   "source_markdown": "# Aquatic Life Conference\n\nCityRemote\n\nCountryRemote\n\nDate TBD\n\nDescription\n\nThis conference is open to anyone who is interested in aquatic animal protection, regardless of sector.\n\nPast talks and takeaways\n\n[All 2023 Talks](https://www.youtube.com/watch?v=m4Sv76oJeLA&list=PLy4cRpt_w-bvLVK_HNetRdGYS4w2gapuW)\n\nTopicAquatic Animals\n\nVirtual Option?\n\nWebsite[https://ali.fish/events](https://ali.fish/events)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Aquatic Life Conference",
   "translated_at": "2026-07-17T04:11:05.131467+00:00",
-  "translated_markdown": "# 水生生物会議\n\nCityRemote\n\nCountryRemote\n\n日程は未定\n\n説明\n\n本会議は、分野を問わず、水生動物の保護に関心のある方ならどなたでも参加可能です。\n\n過去の講演と主なポイント\n\n[2023年の講演一覧](https://www.youtube.com/watch?v=m4Sv76oJeLA&list=PLy4cRpt_w-bvLVK_HNetRdGYS4w2gapuW)\n\nトピック：水生動物\n\nバーチャル・オプション？\n\nウェブサイト[https://ali.fish/events](https://ali.fish/events)\n",
-  "translated_text": "水生生物会議\nCityRemote\nCountryRemote\n日程は未定\n説明\n本会議は、分野を問わず、水生動物の保護に関心のある方ならどなたでも参加可能です。\n過去の講演と主なポイント\n2023年の講演一覧\nトピック：水生動物\nバーチャル・オプション？\nウェブサイトhttps://ali.fish/events",
+  "translated_markdown": "# 水生生物会議\n\n都市：リモート\n\n国：リモート\n\n日程は未定\n\n説明\n\n本会議は、分野を問わず、水生動物の保護に関心のある方ならどなたでも参加可能です。\n\n過去の講演と主なポイント\n\n[2023年の講演一覧](https://www.youtube.com/watch?v=m4Sv76oJeLA&list=PLy4cRpt_w-bvLVK_HNetRdGYS4w2gapuW)\n\nトピック：水生動物\n\nバーチャル・オプション？\n\nウェブサイト[https://ali.fish/events](https://ali.fish/events)\n",
+  "translated_text": "水生生物会議\n都市：リモート\n国：リモート\n日程は未定\n説明\n本会議は、分野を問わず、水生動物の保護に関心のある方ならどなたでも参加可能です。\n過去の講演と主なポイント\n2023年の講演一覧\nトピック：水生動物\nバーチャル・オプション？\nウェブサイトhttps://ali.fish/events",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/aquatic-life-conference"
 }

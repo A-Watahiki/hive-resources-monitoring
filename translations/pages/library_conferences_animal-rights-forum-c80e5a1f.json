@@ -7,10 +7,10 @@
     "synced_hash": "596606c7d845bf106aa1c27e70b626c47c746823eec7b36b86deb6dc5eb888b4"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-08-09T19:06:13.659141+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Animal Rights Forum\n\nCity\n\nCountryAustralia\n\nDate TBD\n\nDescription\n\nThe Animal Rights Forum exists to promote networking between Australian animal advocates, to provide opportunities for education and training of activists, and share learned experience among activists across the geographically separated movement in Australia.\n\nPast talks and takeaways\n\nTopicAnimal AdvocacyLiberationGrassrootsLeadership\n\nVirtual Option?\n\nWebsite[https://animalrightsforum.org/](https://animalrightsforum.org/)\n",

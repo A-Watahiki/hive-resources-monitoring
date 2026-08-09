@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81ef-8fc8-d5aa2bc40b37",
     "render_version": 5,
     "synced_at": "2026-07-19T23:27:18.688022+00:00",
-    "synced_hash": "dd0b8157855726939720bd6e24ebe91a2851cc93eb6d6f754734ae98f6e117fc"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-09T19:06:13.659141+00:00",
+    "reviewer": "claude",
+    "notes": "unified the Topic field to label：value1、value2 format for consistency"
   },
   "schema_version": 6,
   "source_markdown": "# Animal Liberation Conference\n\nCity\n\nCountryUS\n\nDate TBD\n\nDescription\n\nThe Animal Liberation Conference is the flagship conference for grassroots activism, leading a global movement where ordinary people are taking a bold stand against injustice.\n\nPast talks and takeaways\n\nTopicLiberationLeadershipGrassrootsAnimal Advocacy\n\nVirtual Option?\n\nWebsite[https://www.animalliberationconference.com/](https://www.animalliberationconference.com/)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Animal Liberation Conference",
   "translated_at": "2026-07-17T04:11:05.131467+00:00",
-  "translated_markdown": "# 動物解放会議\n\n都市\n\n国：米国\n\n日程は未定\n\n説明\n\n「アニマル・リベレーション・カンファレンス」は、草の根活動における代表的な会議であり、一般の人々が不正義に対して果敢に立ち向かう世界的な運動を牽引しています。\n\n過去の講演と主なポイント\n\nトピック・解放・リーダーシップ・草の根運動・動物保護活動\n\nバーチャル・オプション？\n\nウェブサイト[https://www.animalliberationconference.com/](https://www.animalliberationconference.com/)\n",
-  "translated_text": "動物解放会議\n都市\n国：米国\n日程は未定\n説明\n「アニマル・リベレーション・カンファレンス」は、草の根活動における代表的な会議であり、一般の人々が不正義に対して果敢に立ち向かう世界的な運動を牽引しています。\n過去の講演と主なポイント\nトピック・解放・リーダーシップ・草の根運動・動物保護活動\nバーチャル・オプション？\nウェブサイトhttps://www.animalliberationconference.com/",
+  "translated_markdown": "# 動物解放会議\n\n都市\n\n国：米国\n\n日程は未定\n\n説明\n\n「アニマル・リベレーション・カンファレンス」は、草の根活動における代表的な会議であり、一般の人々が不正義に対して果敢に立ち向かう世界的な運動を牽引しています。\n\n過去の講演と主なポイント\n\nトピック：解放、リーダーシップ、草の根運動、動物保護活動\n\nバーチャル・オプション？\n\nウェブサイト[https://www.animalliberationconference.com/](https://www.animalliberationconference.com/)\n",
+  "translated_text": "動物解放会議\n都市\n国：米国\n日程は未定\n説明\n「アニマル・リベレーション・カンファレンス」は、草の根活動における代表的な会議であり、一般の人々が不正義に対して果敢に立ち向かう世界的な運動を牽引しています。\n過去の講演と主なポイント\nトピック：解放、リーダーシップ、草の根運動、動物保護活動\nバーチャル・オプション？\nウェブサイトhttps://www.animalliberationconference.com/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/animal-liberation-conference"
 }
