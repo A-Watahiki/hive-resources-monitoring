@@ -4,20 +4,6 @@
       "added": [],
       "changed": [
         {
-          "diff": "--- before\n+++ after\n@@ -263,16 +263,4 @@\n Alt Protein\n Business\n-Pakistan's 1st International Animal and Environmental Rights Conference\n-charitydoings.org\n-Lahore\n-Pakistan\n-Animal Advocacy\n-Sustainability\n-Asia\n-Pakistan’s first International Animal and Environmental Rights Conference will be co-hosted by\n-Charity Doings Foundation\n-and\n-Environmental and Animal Rights Consultants LLP Pakistan\n-. The conference aims to create a national space for animal rights dialogue with  speakers from within and outside of Pakistan.\n International Animal Rights Conference\n ar-conference.org\n@@ -284,10 +272,4 @@\n See Past IARC Talks\n A platform where representatives of all different approaches to promoting animal rights can get together and exchange their ideas\n-International Animal Rights Gathering\n-www.facebook.com\n-Izmir\n-Turkey\n-Grassroots\n-Animal Advocacy\n International Conference for Animals in Politics\n convergence-animaux-politique.fr\n@@ -298,14 +280,4 @@\n Policy & Politics\n Convene to talk about the governance of animal protection across Europe. NGO leaders and advocacy officers participate in a series of conferences and workshops to discuss effective political strategies for advancing the animal condition and encourage the emergence of new areas of transnational cooperation. NGO representatives share their respective difficulties and compare their methodologies for developing political campaigns.\n-International Conference on the Welfare of Animals at Farm & Group Level\n-www.applied-ethology.org\n-Florence\n-Italy\n-Research\n-Animal Welfare Science\n-Academic\n-Aquatic Animals\n-https://www.applied-ethology.org/ISAE_Meetings.html\n-This will be focused on the ethology of farmed animals\n International Plant-Based Nutrition Healthcare Conference\n pbnhc.com\n@@ -315,19 +287,4 @@\n Vegan Advocacy\n The nation’s premier CME-accredited medical education conference focused exclusively on the scientific research conveying the efficacy of whole food, plant-based nutrition.\n-International Symposium on\"Sustainable Aquatic Research\n-saquares.org\n-Izmir\n-Turkey\n-Research\n-Animal Welfare Science\n-Sustainability\n-Academic\n-SAquaRes2023 aims to play an important role in advancing and  understanding of aquatic sustainability. The most important aim of SAquares is “to put the research on aquatic sustainability at the focus of science. Some potential paper submission topics include environmental impacts of aquaculture, fish health and welfare, wastewater treatment.\n-Mercy For Animals 25th Anniversary Gala\n-mfagala.com\n-Los Angeles\n-US\n-Fundraising\n-Animal Advocacy\n New Food Conference\n www.new-food-conference.com\n@@ -357,12 +314,4 @@\n New Food Conference (NFC)\n . NFC is the first and largest conference in Europe devoted to alternative protein sources.\n-North American Animal Law Conference\n-thebrooksinstitute.org\n-Toronto\n-Canada\n-Legal\n-Research\n-Academic\n-The North American Animal Law Conference, in collaboration with the Canadian Animal Law Conference Scholars Track, showcases animal law and policy scholarship that is conducive to deeper thought and consideration of a particular topic. Opportunity for scholarly moderated Q&A with the speakers.\n NYU Wild Animal Summit\n sites.google.com\n@@ -451,5 +400,5 @@\n This two-day event will explore the practical applications of wildlife fertility control in Europe. Day one will be dedicated to talks about the role of wildlife fertility control for different species and contexts: examples include fertility control for native and non-native species in urban and rural areas, rewilding, and fertility control and diseases. Day two will focus on group discussions on the implementation, challenges and opportunities of wildlife fertility control. Attendees will include representatives from public and private sectors, academia, practitioners and non-government organizations.\n World Fisheries Conference\n-wfc2024.fisheries.org\n+fishconserve.org\n Seattle\n Washington",
-          "diff_lines_omitted": 0,
-          "title": "Pro-Animal Conferences Database",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/conferences/pro-animal-conferences-database?v=e807a74183814721990570dfa1ee93a1"
-        }
-      ],
-      "detected_at": "2026-07-15T02:52:37.499217+00:00",
-      "removed": []
-    },
-    {
-      "added": [],
-      "changed": [
-        {
           "diff": "--- before\n+++ after\n@@ -42,6 +42,4 @@\n 🎭\n Character Role Plays\n-🎨\n-Image Prompts Library\n Outreach\n 💻",
           "diff_lines_omitted": 0,
           "title": "AI Prompts for Animal Advocates",
@@ -221,6 +207,20 @@
         }
       ],
       "detected_at": "2026-08-05T02:55:43.857613+00:00",
+      "removed": []
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -123,6 +123,2 @@\n Amplify your impact for animals\n Sign up now at [website or contact information].\n-Feedback for Organizational Brand Guide\n-Prompt #\n-Feedback\n-Please be constructive in your feedback and let us know how we can improve the prompt. Also feel free to shout out a prompt that worked especially well for you.",
+          "diff_lines_omitted": 0,
+          "title": "Organizational Brand Guide",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/ai-prompts/organizational-brand-guide"
+        }
+      ],
+      "detected_at": "2026-08-09T02:06:58.831851+00:00",
       "removed": []
     }
   ]
