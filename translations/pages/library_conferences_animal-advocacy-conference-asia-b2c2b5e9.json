@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81bc-9bc0-d2026f624d92",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:27:03.430891+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-10T03:18:38.603131+00:00",
+    "synced_hash": "0bc3700549196bdf12f573250bc3b6e8ba075b90f79edec4815826da3b24c139"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated City/Country fields and unified the Topic label separator",
     "reviewed_at": "2026-08-09T19:06:13.659141+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated City/Country fields and unified the Topic label separator"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Animal Advocacy Conference Asia\n\nCityRemote\n\nCountryRemote\n\nDate TBD\n\nDescription\n\nAACA is a virtual platform for animal justice advocates across Asia to learn new skills, exchange ideas, and grow the movement together.\n\nPast talks and takeaways\n\n[Prior Animal Alliance Asia Videos](https://www.youtube.com/@AnimalAllianceAsia)\n\nTopicAsia\n\nVirtual Option?\n\nWebsite[https://www.animalallianceasia.org/programs](https://www.animalallianceasia.org/programs)\n",

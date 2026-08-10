@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81ab-8ce8-da9f962df806",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:27:55.763082+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-10T03:19:11.390711+00:00",
+    "synced_hash": "cf341fccd28a2ba48fe6685d82e322cb09072bde39ea612053b38ffc6b698e14"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated City/Country fields",
     "reviewed_at": "2026-08-09T19:06:13.659141+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated City/Country fields"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Aquatic Life Conference\n\nCityRemote\n\nCountryRemote\n\nDate TBD\n\nDescription\n\nThis conference is open to anyone who is interested in aquatic animal protection, regardless of sector.\n\nPast talks and takeaways\n\n[All 2023 Talks](https://www.youtube.com/watch?v=m4Sv76oJeLA&list=PLy4cRpt_w-bvLVK_HNetRdGYS4w2gapuW)\n\nTopicAquatic Animals\n\nVirtual Option?\n\nWebsite[https://ali.fish/events](https://ali.fish/events)\n",

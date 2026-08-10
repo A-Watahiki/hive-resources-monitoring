@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81ef-8fc8-d5aa2bc40b37",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:27:18.688022+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-10T03:18:53.873931+00:00",
+    "synced_hash": "dd0b8157855726939720bd6e24ebe91a2851cc93eb6d6f754734ae98f6e117fc"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified the Topic field to label：value1、value2 format for consistency",
     "reviewed_at": "2026-08-09T19:06:13.659141+00:00",
     "reviewer": "claude",
-    "notes": "unified the Topic field to label：value1、value2 format for consistency"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Animal Liberation Conference\n\nCity\n\nCountryUS\n\nDate TBD\n\nDescription\n\nThe Animal Liberation Conference is the flagship conference for grassroots activism, leading a global movement where ordinary people are taking a bold stand against injustice.\n\nPast talks and takeaways\n\nTopicLiberationLeadershipGrassrootsAnimal Advocacy\n\nVirtual Option?\n\nWebsite[https://www.animalliberationconference.com/](https://www.animalliberationconference.com/)\n",
