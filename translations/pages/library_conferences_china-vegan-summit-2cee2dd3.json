@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-810e-b072-eaf7ca71f5fe",
     "render_version": 5,
     "synced_at": "2026-07-19T23:28:38.702004+00:00",
-    "synced_hash": "9aee5758c6ffe568244aeca4da672451566bc892f6908baae2034e1c4459fc8b"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-10T19:08:06.039633+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated City field and unified the Topic label separator"
   },
   "schema_version": 6,
   "source_markdown": "# China Vegan Summit\n\nCitySuzhou\n\nCountryChina\n\nDate TBD\n\nDescription\n\nLearn and network with top Chinese and international vegan entrepreneurs, activists, chefs, authors, educators, content creators, film directors, doctors, nutritionists, and youth leaders.\n\nPast talks and takeaways\n\nTopicBusinessAsiaAlt ProteinVegan AdvocacyHealth\n\nVirtual Option?\n\nWebsite[https://www.chinavegans.org/summit](https://www.chinavegans.org/summit)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "China Vegan Summit",
   "translated_at": "2026-07-17T04:11:05.131467+00:00",
-  "translated_markdown": "# 中国ヴィーガン・サミット\n\nCitySuzhou\n\n国：中国\n\n日程は未定\n\n説明\n\n中国および世界各国のトップクラスのヴィーガン起業家、活動家、シェフ、著者、教育者、コンテンツクリエイター、映画監督、医師、栄養士、そして若者リーダーたちから学び、交流を深めましょう。\n\n過去の講演と主なポイント\n\nトピック・ビジネス・アジア・代替タンパク質・ヴィーガン推進・健康\n\nバーチャル・オプション？\n\nウェブサイト[https://www.chinavegans.org/summit](https://www.chinavegans.org/summit)\n",
-  "translated_text": "中国ヴィーガン・サミット\nCitySuzhou\n国：中国\n日程は未定\n説明\n中国および世界各国のトップクラスのヴィーガン起業家、活動家、シェフ、著者、教育者、コンテンツクリエイター、映画監督、医師、栄養士、そして若者リーダーたちから学び、交流を深めましょう。\n過去の講演と主なポイント\nトピック・ビジネス・アジア・代替タンパク質・ヴィーガン推進・健康\nバーチャル・オプション？\nウェブサイトhttps://www.chinavegans.org/summit",
+  "translated_markdown": "# 中国ヴィーガン・サミット\n\n都市：蘇州\n\n国：中国\n\n日程は未定\n\n説明\n\n中国および世界各国のトップクラスのヴィーガン起業家、活動家、シェフ、著者、教育者、コンテンツクリエイター、映画監督、医師、栄養士、そして若者リーダーたちから学び、交流を深めましょう。\n\n過去の講演と主なポイント\n\nトピック：ビジネス、アジア、代替タンパク質、ヴィーガン推進、健康\n\nバーチャル・オプション？\n\nウェブサイト[https://www.chinavegans.org/summit](https://www.chinavegans.org/summit)\n",
+  "translated_text": "中国ヴィーガン・サミット\n都市：蘇州\n国：中国\n日程は未定\n説明\n中国および世界各国のトップクラスのヴィーガン起業家、活動家、シェフ、著者、教育者、コンテンツクリエイター、映画監督、医師、栄養士、そして若者リーダーたちから学び、交流を深めましょう。\n過去の講演と主なポイント\nトピック：ビジネス、アジア、代替タンパク質、ヴィーガン推進、健康\nバーチャル・オプション？\nウェブサイトhttps://www.chinavegans.org/summit",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/china-vegan-summit"
 }

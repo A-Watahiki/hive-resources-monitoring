@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81b0-9b20-cb387b142a48",
     "render_version": 5,
     "synced_at": "2026-07-19T23:29:59.048376+00:00",
-    "synced_hash": "c47f93754554a472add617cb38e24f809b69fca864dce94b7507c13b31a9a8e7"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-10T19:08:06.039633+00:00",
+    "reviewer": "claude",
+    "notes": "unified the City field to 都市：value format and the Topic label separator"
   },
   "schema_version": 6,
   "source_markdown": "# European Animal Rights Law Conference\n\nCityCambridge\n\nCountryUK\n\nDate TBD\n\nDescription\n\nThe conference is aimed to promote research that explores and develops the key themes in animal rights law, and to make that research accessible to a broader audience. Hosted bt Cambridge Centre for Animal Rights Law, an academic centre dedicated to the study of fundamental rights for non-human animals.\n\nPast talks and takeaways\n\n[Prior talks](https://www.youtube.com/@CCARL_charity/playlists)\n\nTopicLegalResearchAcademic\n\nVirtual Option?\n\nWebsite[https://animalrightslaw.org/conferences](https://animalrightslaw.org/conferences)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "European Animal Rights Law Conference",
   "translated_at": "2026-07-17T04:11:05.131467+00:00",
-  "translated_markdown": "# 欧州動物権利法会議\n\nシティ・ケンブリッジ\n\n国：英国\n\n日程は未定\n\n説明\n\n本会議は、動物権利法における主要なテーマを探求・発展させる研究を促進し、その研究成果をより幅広い層に発信することを目的としています。主催は、非人間動物の基本的人権の研究に特化した学術機関であるケンブリッジ動物権利法センターです。\n\n過去の講演と主なポイント\n\n[これまでの協議](https://www.youtube.com/@CCARL_charity/playlists)\n\nトピック・法律・研究・学術\n\nバーチャル・オプション？\n\nウェブサイト[https://animalrightslaw.org/conferences](https://animalrightslaw.org/conferences)\n",
-  "translated_text": "欧州動物権利法会議\nシティ・ケンブリッジ\n国：英国\n日程は未定\n説明\n本会議は、動物権利法における主要なテーマを探求・発展させる研究を促進し、その研究成果をより幅広い層に発信することを目的としています。主催は、非人間動物の基本的人権の研究に特化した学術機関であるケンブリッジ動物権利法センターです。\n過去の講演と主なポイント\nこれまでの協議\nトピック・法律・研究・学術\nバーチャル・オプション？\nウェブサイトhttps://animalrightslaw.org/conferences",
+  "translated_markdown": "# 欧州動物権利法会議\n\n都市：ケンブリッジ\n\n国：英国\n\n日程は未定\n\n説明\n\n本会議は、動物権利法における主要なテーマを探求・発展させる研究を促進し、その研究成果をより幅広い層に発信することを目的としています。主催は、非人間動物の基本的人権の研究に特化した学術機関であるケンブリッジ動物権利法センターです。\n\n過去の講演と主なポイント\n\n[これまでの協議](https://www.youtube.com/@CCARL_charity/playlists)\n\nトピック：法律、研究、学術\n\nバーチャル・オプション？\n\nウェブサイト[https://animalrightslaw.org/conferences](https://animalrightslaw.org/conferences)\n",
+  "translated_text": "欧州動物権利法会議\n都市：ケンブリッジ\n国：英国\n日程は未定\n説明\n本会議は、動物権利法における主要なテーマを探求・発展させる研究を促進し、その研究成果をより幅広い層に発信することを目的としています。主催は、非人間動物の基本的人権の研究に特化した学術機関であるケンブリッジ動物権利法センターです。\n過去の講演と主なポイント\nこれまでの協議\nトピック：法律、研究、学術\nバーチャル・オプション？\nウェブサイトhttps://animalrightslaw.org/conferences",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/european-animal-rights-law-conference"
 }
