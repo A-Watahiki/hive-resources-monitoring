@@ -1,36 +1,6 @@
 {
   "entries": [
     {
-      "added": [],
-      "changed": [
-        {
-          "diff": "--- before\n+++ after\n@@ -42,6 +42,4 @@\n 🎭\n Character Role Plays\n-🎨\n-Image Prompts Library\n Outreach\n 💻",
-          "diff_lines_omitted": 0,
-          "title": "AI Prompts for Animal Advocates",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/ai-prompts"
-        },
-        {
-          "diff": "--- before\n+++ after\n@@ -261,6 +261,2 @@\n [desired action]\n .”\n-Feedback for Social Media Content Prompts\n-Prompt #\n-Feedback\n-Please be constructive in your feedback and let us know how we can improve the prompt. Also feel free to shout out a prompt that worked especially well for you.",
-          "diff_lines_omitted": 0,
-          "title": "Social Media Content",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/ai-prompts/social-media-content"
-        }
-      ],
-      "detected_at": "2026-07-16T03:01:54.136553+00:00",
-      "removed": [
-        {
-          "title": "Image Prompts Library",
-          "url": "https://resources.joinhive.org/library/ai-prompts/image-prompts-library"
-        },
-        {
-          "title": "Future Food Tech Conference",
-          "url": "https://resources.joinhive.org/library/conferences/future-food-tech-conference"
-        }
-      ]
-    },
-    {
       "added": [
         {
           "title": "Future Food Tech Conference",
@@ -221,6 +191,20 @@
         }
       ],
       "detected_at": "2026-08-09T02:06:58.831851+00:00",
+      "removed": []
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -15,2 +15,4 @@\n URL\n https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H\n+URL\n+https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H",
+          "diff_lines_omitted": 0,
+          "title": "Fundraising Training Series (multiple videos)",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/fundraising-training-series-multiple-videos"
+        }
+      ],
+      "detected_at": "2026-08-10T02:11:06.427083+00:00",
       "removed": []
     }
   ]
