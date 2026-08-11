@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-810e-b072-eaf7ca71f5fe",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:28:38.702004+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-11T03:12:52.058521+00:00",
+    "synced_hash": "9aee5758c6ffe568244aeca4da672451566bc892f6908baae2034e1c4459fc8b"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated City field and unified the Topic label separator",
     "reviewed_at": "2026-08-10T19:08:06.039633+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated City field and unified the Topic label separator"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# China Vegan Summit\n\nCitySuzhou\n\nCountryChina\n\nDate TBD\n\nDescription\n\nLearn and network with top Chinese and international vegan entrepreneurs, activists, chefs, authors, educators, content creators, film directors, doctors, nutritionists, and youth leaders.\n\nPast talks and takeaways\n\nTopicBusinessAsiaAlt ProteinVegan AdvocacyHealth\n\nVirtual Option?\n\nWebsite[https://www.chinavegans.org/summit](https://www.chinavegans.org/summit)\n",

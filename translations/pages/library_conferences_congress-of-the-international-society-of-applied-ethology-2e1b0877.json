@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8124-a1de-fd53c17b2558",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:29:40.550798+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-11T03:13:37.808204+00:00",
+    "synced_hash": "2475e0dcc37347c394ce1c2c4660ba915eb8c2f3055a3cd4875fd65a7002469c"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed the compound tag \"Animal Welfare Science\" incorrectly split into two separate tags (動物福祉・科学) and unified the Topic label separator",
     "reviewed_at": "2026-08-10T19:08:06.039633+00:00",
     "reviewer": "claude",
-    "notes": "fixed the compound tag \"Animal Welfare Science\" incorrectly split into two separate tags (動物福祉・科学) and unified the Topic label separator"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Congress of The International Society of Applied Ethology\n\nCity\n\nCountry\n\nDate TBD\n\nDescription\n\nThe ISAE conference focuses on how the study of ethology can strengthen our relationships with various living systems in our environment.\n\nPast talks and takeaways\n\nTopicResearchAnimal Welfare ScienceAcademic\n\nVirtual Option?\n\nWebsite[https://www.applied-ethology.org/Events.html](https://www.applied-ethology.org/Events.html)\n",
