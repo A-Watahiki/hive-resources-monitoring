@@ -7,10 +7,10 @@
     "synced_hash": "f04636dca82085c6876d98b0b4b3b4e610dcf572557f23e687da3e78fa797fc7"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-08-11T19:06:00.629010+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found (previous fixes retained via translation-reuse cache)"
   },
   "schema_version": 6,
   "source_markdown": "# Science for Animal Welfare events\n\nCity\n\nCountryDifferent european countries\n\nDate TBD\n\nDescription\n\nThe Universities Federation for Animal Welfare (UFAW) is an independent registered charity that works with the animal welfare science community worldwide to develop and promote improvements in the welfare of animals through scientific and educational activity.\n\nPast talks and takeaways\n\nTopicAnimal Welfare ScienceResearch\n\nVirtual Option?\n\nWebsite[https://scienceforanimalwelfare.org/events/](https://scienceforanimalwelfare.org/events/)\n",

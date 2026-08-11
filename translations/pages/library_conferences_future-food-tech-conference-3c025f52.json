@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-8129-8f4d-c4d61dd31746",
     "render_version": 5,
     "synced_at": "2026-07-19T23:30:50.778433+00:00",
-    "synced_hash": "bbd01007b60987db42fcb48ce98a62ae72201d07aeadc6670558ce072d2bbfc5"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-11T19:06:00.629010+00:00",
+    "reviewer": "claude",
+    "notes": "unified the City field format; replaced the transliteration アルト・プロテイン with the established term 代替タンパク質"
   },
   "schema_version": 6,
   "source_markdown": "# Future Food Tech Conference\n\nCitySan Francisco\n\nCountryUS\n\nDate TBD\n\nDescription\n\nThe go-to food tech industry conference bringing together start-ups, investors, ingredient innovators, technology leaders and major food brands to explore new opportunities and partnerships.\n\nPast talks and takeaways\n\nTopicAlt ProteinIndustry\n\nVirtual Option?\n\nWebsite[https://futurefoodtechsf.com/](https://futurefoodtechsf.com/)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Future Food Tech Conference",
   "translated_at": "2026-07-17T04:11:05.131467+00:00",
-  "translated_markdown": "# フューチャー・フード・テック・カンファレンス\n\nサンフランシスコ市\n\n国：米国\n\n日程は未定\n\n説明\n\nスタートアップ、投資家、食材開発のイノベーター、テクノロジーのリーダー、そして大手食品ブランドが一堂に会し、新たなビジネスチャンスや提携の可能性を探る、食品テック業界の代表的なカンファレンスです。\n\n過去の講演と主なポイント\n\nトピック：アルト・プロテイン・インダストリー\n\nバーチャル・オプション？\n\nウェブサイト[https://futurefoodtechsf.com/](https://futurefoodtechsf.com/)\n",
-  "translated_text": "フューチャー・フード・テック・カンファレンス\nサンフランシスコ市\n国：米国\n日程は未定\n説明\nスタートアップ、投資家、食材開発のイノベーター、テクノロジーのリーダー、そして大手食品ブランドが一堂に会し、新たなビジネスチャンスや提携の可能性を探る、食品テック業界の代表的なカンファレンスです。\n過去の講演と主なポイント\nトピック：アルト・プロテイン・インダストリー\nバーチャル・オプション？\nウェブサイトhttps://futurefoodtechsf.com/",
+  "translated_markdown": "# フューチャー・フード・テック・カンファレンス\n\n都市：サンフランシスコ\n\n国：米国\n\n日程は未定\n\n説明\n\nスタートアップ、投資家、食材開発のイノベーター、テクノロジーのリーダー、そして大手食品ブランドが一堂に会し、新たなビジネスチャンスや提携の可能性を探る、食品テック業界の代表的なカンファレンスです。\n\n過去の講演と主なポイント\n\nトピック：代替タンパク質、業界\n\nバーチャル・オプション？\n\nウェブサイト[https://futurefoodtechsf.com/](https://futurefoodtechsf.com/)\n",
+  "translated_text": "フューチャー・フード・テック・カンファレンス\n都市：サンフランシスコ\n国：米国\n日程は未定\n説明\nスタートアップ、投資家、食材開発のイノベーター、テクノロジーのリーダー、そして大手食品ブランドが一堂に会し、新たなビジネスチャンスや提携の可能性を探る、食品テック業界の代表的なカンファレンスです。\n過去の講演と主なポイント\nトピック：代替タンパク質、業界\nバーチャル・オプション？\nウェブサイトhttps://futurefoodtechsf.com/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/future-food-tech-conference"
 }

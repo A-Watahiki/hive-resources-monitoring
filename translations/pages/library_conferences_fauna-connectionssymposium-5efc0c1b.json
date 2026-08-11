@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-8116-b23b-c19d989a2d65",
     "render_version": 5,
     "synced_at": "2026-07-19T23:30:17.911149+00:00",
-    "synced_hash": "0bd1d2e1653d87f4ce4654fa1cbc496cc336a1dcd3de70da21c6f0aaed86c336"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-11T19:06:00.629010+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated City/Country/Topic fields"
   },
   "schema_version": 6,
   "source_markdown": "# Fauna Connections/Symposium\n\nCityRemote\n\nCountryRemote\n\nDate TBD\n\nDescription\n\nAcademics and scientists from the social and behavioral sciences and related disciplines presented original research and discussed the real-life implications and recommendations for animal advocates.\n\nPast talks and takeaways\n\nTopicResearch\n\nVirtual Option?\n\nWebsite[https://faunalytics.org/fauna-connections/](https://faunalytics.org/fauna-connections/)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Fauna Connections/Symposium",
   "translated_at": "2026-07-17T04:11:05.131467+00:00",
-  "translated_markdown": "# 「ファウナ・コネクションズ／シンポジウム」\n\nCityRemote\n\nCountryRemote\n\n日程は未定\n\n説明\n\n社会科学・行動科学および関連分野の学者や科学者たちが、独自の研究成果を発表するとともに、動物保護活動家に向けた実社会への示唆や提言について議論を交わした。\n\n過去の講演と主なポイント\n\nトピックリサーチ\n\nバーチャル・オプション？\n\nウェブサイト[https://faunalytics.org/fauna-connections/](https://faunalytics.org/fauna-connections/)\n",
-  "translated_text": "「ファウナ・コネクションズ／シンポジウム」\nCityRemote\nCountryRemote\n日程は未定\n説明\n社会科学・行動科学および関連分野の学者や科学者たちが、独自の研究成果を発表するとともに、動物保護活動家に向けた実社会への示唆や提言について議論を交わした。\n過去の講演と主なポイント\nトピックリサーチ\nバーチャル・オプション？\nウェブサイトhttps://faunalytics.org/fauna-connections/",
+  "translated_markdown": "# 「ファウナ・コネクションズ／シンポジウム」\n\n都市：リモート\n\n国：リモート\n\n日程は未定\n\n説明\n\n社会科学・行動科学および関連分野の学者や科学者たちが、独自の研究成果を発表するとともに、動物保護活動家に向けた実社会への示唆や提言について議論を交わした。\n\n過去の講演と主なポイント\n\nトピック：リサーチ\n\nバーチャル・オプション？\n\nウェブサイト[https://faunalytics.org/fauna-connections/](https://faunalytics.org/fauna-connections/)\n",
+  "translated_text": "「ファウナ・コネクションズ／シンポジウム」\n都市：リモート\n国：リモート\n日程は未定\n説明\n社会科学・行動科学および関連分野の学者や科学者たちが、独自の研究成果を発表するとともに、動物保護活動家に向けた実社会への示唆や提言について議論を交わした。\n過去の講演と主なポイント\nトピック：リサーチ\nバーチャル・オプション？\nウェブサイトhttps://faunalytics.org/fauna-connections/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/fauna-connectionssymposium"
 }
