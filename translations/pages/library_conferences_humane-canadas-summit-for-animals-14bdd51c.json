@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-8109-b352-f9378320bc24",
     "render_version": 5,
     "synced_at": "2026-07-19T23:31:29.576990+00:00",
-    "synced_hash": "acc400fd16a4a0484f18e014dd911523976e063bea71334c0c600438c7e21f8a"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-12T19:05:25.645340+00:00",
+    "reviewer": "claude",
+    "notes": "unified the City field to 都市：value format for consistency"
   },
   "schema_version": 6,
   "source_markdown": "# Humane Canada’s Summit for Animals\n\nCityOttawa\n\nCountryCanada\n\nDate TBD\n\nDescription\n\nDescribed as the biggest and boldest animal welfare conference in Canada and hosted by Humane Canada, the National Federation of Humane Societies and SPCAs. The audience is inclusive of all types of animal advocates, but seem to focus on shelter and rescue staff, veterinary professionals, advocates and volunteers, students, policymakers. There are topics about farmed and wild animals included\n\nPast talks and takeaways\n\nTopicAnimal Welfare ScienceAnimal AdvocacyCompanion Animals\n\nVirtual Option?\n\nWebsite[https://eventmobi.com/website/summitforanimals](https://eventmobi.com/website/summitforanimals)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Humane Canada’s Summit for Animals",
   "translated_at": "2026-07-17T04:11:05.131467+00:00",
-  "translated_markdown": "# ヒューメイン・カナダ主催「動物のためのサミット」\n\nオタワ市\n\n国：カナダ\n\n日程は未定\n\n説明\n\nカナダ最大かつ最も意欲的な動物福祉会議と評され、ヒューメイン・カナダ、全カナダ動物愛護協会連盟、およびSPCAが主催しています。参加者はあらゆる分野の動物保護活動家を含みますが、特にシェルターやレスキュー団体のスタッフ、獣医療専門家、活動家やボランティア、学生、政策立案者に焦点が当てられているようです。家畜や野生動物に関するトピックも取り上げられています。\n\n過去の講演と主なポイント\n\nトピック：動物福祉科学、動物の権利擁護、伴侶動物\n\nバーチャル・オプション？\n\nウェブサイト[https://eventmobi.com/website/summitforanimals](https://eventmobi.com/website/summitforanimals)\n",
-  "translated_text": "ヒューメイン・カナダ主催「動物のためのサミット」\nオタワ市\n国：カナダ\n日程は未定\n説明\nカナダ最大かつ最も意欲的な動物福祉会議と評され、ヒューメイン・カナダ、全カナダ動物愛護協会連盟、およびSPCAが主催しています。参加者はあらゆる分野の動物保護活動家を含みますが、特にシェルターやレスキュー団体のスタッフ、獣医療専門家、活動家やボランティア、学生、政策立案者に焦点が当てられているようです。家畜や野生動物に関するトピックも取り上げられています。\n過去の講演と主なポイント\nトピック：動物福祉科学、動物の権利擁護、伴侶動物\nバーチャル・オプション？\nウェブサイトhttps://eventmobi.com/website/summitforanimals",
+  "translated_markdown": "# ヒューメイン・カナダ主催「動物のためのサミット」\n\n都市：オタワ\n\n国：カナダ\n\n日程は未定\n\n説明\n\nカナダ最大かつ最も意欲的な動物福祉会議と評され、ヒューメイン・カナダ、全カナダ動物愛護協会連盟、およびSPCAが主催しています。参加者はあらゆる分野の動物保護活動家を含みますが、特にシェルターやレスキュー団体のスタッフ、獣医療専門家、活動家やボランティア、学生、政策立案者に焦点が当てられているようです。家畜や野生動物に関するトピックも取り上げられています。\n\n過去の講演と主なポイント\n\nトピック：動物福祉科学、動物の権利擁護、伴侶動物\n\nバーチャル・オプション？\n\nウェブサイト[https://eventmobi.com/website/summitforanimals](https://eventmobi.com/website/summitforanimals)\n",
+  "translated_text": "ヒューメイン・カナダ主催「動物のためのサミット」\n都市：オタワ\n国：カナダ\n日程は未定\n説明\nカナダ最大かつ最も意欲的な動物福祉会議と評され、ヒューメイン・カナダ、全カナダ動物愛護協会連盟、およびSPCAが主催しています。参加者はあらゆる分野の動物保護活動家を含みますが、特にシェルターやレスキュー団体のスタッフ、獣医療専門家、活動家やボランティア、学生、政策立案者に焦点が当てられているようです。家畜や野生動物に関するトピックも取り上げられています。\n過去の講演と主なポイント\nトピック：動物福祉科学、動物の権利擁護、伴侶動物\nバーチャル・オプション？\nウェブサイトhttps://eventmobi.com/website/summitforanimals",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/humane-canadas-summit-for-animals"
 }

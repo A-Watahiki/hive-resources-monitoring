@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81dc-bec0-e03089a0207a",
     "render_version": 5,
     "synced_at": "2026-07-19T23:31:44.728080+00:00",
-    "synced_hash": "d8177a9b5ac8980eda699b546bb7d176578ad3d966d3e897106e9f3677cc2d36"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-12T19:05:25.645340+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated Country field"
   },
   "schema_version": 6,
   "source_markdown": "# Humane Hoax Online Conference\n\nCity\n\nCountryVirtual\n\nDate TBD\n\nDescription\n\nVirtual conference with presentations from experts and activists on the topic of humanewashing and greenwashing as it concerns animal product marketing with misleading labeling on meat, dairy, and eggs.\n\nPast talks and takeaways\n\nTopicAnimal AdvocacyLiberationVegan Advocacy\n\nVirtual Option?\n\nWebsite[https://www.humanehoax.org/the-humane-hoax-online-conference](https://www.humanehoax.org/the-humane-hoax-online-conference)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Humane Hoax Online Conference",
   "translated_at": "2026-07-17T04:11:05.131467+00:00",
-  "translated_markdown": "# 「人道的なデマ」オンライン会議\n\n都市\n\nCountryVirtual\n\n日程は未定\n\n説明\n\n肉、乳製品、卵の表示に誤解を招く表記が見られる動物性製品のマーケティングに関連する「ヒューマンウォッシング」および「グリーンウォッシング」をテーマに、専門家や活動家によるプレゼンテーションが行われるオンライン会議。\n\n過去の講演と主なポイント\n\nトピック：動物の権利擁護、解放、ヴィーガン運動\n\nバーチャル・オプション？\n\nウェブサイト[https://www.humanehoax.org/the-humane-hoax-online-conference](https://www.humanehoax.org/the-humane-hoax-online-conference)\n",
-  "translated_text": "「人道的なデマ」オンライン会議\n都市\nCountryVirtual\n日程は未定\n説明\n肉、乳製品、卵の表示に誤解を招く表記が見られる動物性製品のマーケティングに関連する「ヒューマンウォッシング」および「グリーンウォッシング」をテーマに、専門家や活動家によるプレゼンテーションが行われるオンライン会議。\n過去の講演と主なポイント\nトピック：動物の権利擁護、解放、ヴィーガン運動\nバーチャル・オプション？\nウェブサイトhttps://www.humanehoax.org/the-humane-hoax-online-conference",
+  "translated_markdown": "# 「人道的なデマ」オンライン会議\n\n都市\n\n国：バーチャル\n\n日程は未定\n\n説明\n\n肉、乳製品、卵の表示に誤解を招く表記が見られる動物性製品のマーケティングに関連する「ヒューマンウォッシング」および「グリーンウォッシング」をテーマに、専門家や活動家によるプレゼンテーションが行われるオンライン会議。\n\n過去の講演と主なポイント\n\nトピック：動物の権利擁護、解放、ヴィーガン運動\n\nバーチャル・オプション？\n\nウェブサイト[https://www.humanehoax.org/the-humane-hoax-online-conference](https://www.humanehoax.org/the-humane-hoax-online-conference)\n",
+  "translated_text": "「人道的なデマ」オンライン会議\n都市\n国：バーチャル\n日程は未定\n説明\n肉、乳製品、卵の表示に誤解を招く表記が見られる動物性製品のマーケティングに関連する「ヒューマンウォッシング」および「グリーンウォッシング」をテーマに、専門家や活動家によるプレゼンテーションが行われるオンライン会議。\n過去の講演と主なポイント\nトピック：動物の権利擁護、解放、ヴィーガン運動\nバーチャル・オプション？\nウェブサイトhttps://www.humanehoax.org/the-humane-hoax-online-conference",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/humane-hoax-online-conference"
 }

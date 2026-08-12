@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81f1-925f-eb7035cd3afe",
     "render_version": 5,
     "synced_at": "2026-07-19T23:32:43.794209+00:00",
-    "synced_hash": "ea6d5f2f10353ff8e09696da8c477d752a9c0584604fe1727275c3826d8066c2"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-12T19:05:25.645340+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated City field; replaced Altタンパク質 with the established term 代替タンパク質"
   },
   "schema_version": 6,
   "source_markdown": "# New Food Conference\n\nCityBerlin\n\nCountryGermany\n\nDate TBD\n\nDescription\n\nThe New Food Conference Berlin by ProVeg invites international food professionals, scientists, and policy makers to gain an understanding of how far these developments have progressed, and where they will take us in the future. In addition to sharing valuable expertise, the event places a strong emphasis on encouraging networking and enabling personal interactions between food-industry stakeholders. Tickets for onsite attendance: €249 for students and NGOs. Tickets for online attendance: €49 for students and NGOs\n\nPast talks and takeaways\n\nTopicAlt Protein\n\nVirtual Option?\n\nWebsite[https://www.new-food-conference.com/](https://www.new-food-conference.com/)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "New Food Conference",
   "translated_at": "2026-07-17T04:11:05.131467+00:00",
-  "translated_markdown": "# 新しい食に関する会議\n\nCityBerlin\n\n国：ドイツ\n\n日程は未定\n\n説明\n\nProVegが主催する「The New Food Conference Berlin」は、世界中の食品業界の専門家、科学者、政策立案者を招き、こうした動向がどこまで進展しているのか、そして将来どのような方向へと向かうのかについて理解を深める場を提供します。このイベントでは、貴重な専門知識の共有に加え、食品業界のステークホルダー間のネットワーキングを促進し、直接的な交流の機会を創出することに重点を置いています。 会場参加チケット：学生およびNGO向け 249ユーロ。オンライン参加チケット：学生およびNGO向け 49ユーロ。\n\n過去の講演と主なポイント\n\nトピック：Altタンパク質\n\nバーチャル・オプション？\n\nウェブサイト[https://www.new-food-conference.com/](https://www.new-food-conference.com/)\n",
-  "translated_text": "新しい食に関する会議\nCityBerlin\n国：ドイツ\n日程は未定\n説明\nProVegが主催する「The New Food Conference Berlin」は、世界中の食品業界の専門家、科学者、政策立案者を招き、こうした動向がどこまで進展しているのか、そして将来どのような方向へと向かうのかについて理解を深める場を提供します。このイベントでは、貴重な専門知識の共有に加え、食品業界のステークホルダー間のネットワーキングを促進し、直接的な交流の機会を創出することに重点を置いています。 会場参加チケット：学生およびNGO向け 249ユーロ。オンライン参加チケット：学生およびNGO向け 49ユーロ。\n過去の講演と主なポイント\nトピック：Altタンパク質\nバーチャル・オプション？\nウェブサイトhttps://www.new-food-conference.com/",
+  "translated_markdown": "# 新しい食に関する会議\n\n都市：ベルリン\n\n国：ドイツ\n\n日程は未定\n\n説明\n\nProVegが主催する「The New Food Conference Berlin」は、世界中の食品業界の専門家、科学者、政策立案者を招き、こうした動向がどこまで進展しているのか、そして将来どのような方向へと向かうのかについて理解を深める場を提供します。このイベントでは、貴重な専門知識の共有に加え、食品業界のステークホルダー間のネットワーキングを促進し、直接的な交流の機会を創出することに重点を置いています。 会場参加チケット：学生およびNGO向け 249ユーロ。オンライン参加チケット：学生およびNGO向け 49ユーロ。\n\n過去の講演と主なポイント\n\nトピック：代替タンパク質\n\nバーチャル・オプション？\n\nウェブサイト[https://www.new-food-conference.com/](https://www.new-food-conference.com/)\n",
+  "translated_text": "新しい食に関する会議\n都市：ベルリン\n国：ドイツ\n日程は未定\n説明\nProVegが主催する「The New Food Conference Berlin」は、世界中の食品業界の専門家、科学者、政策立案者を招き、こうした動向がどこまで進展しているのか、そして将来どのような方向へと向かうのかについて理解を深める場を提供します。このイベントでは、貴重な専門知識の共有に加え、食品業界のステークホルダー間のネットワーキングを促進し、直接的な交流の機会を創出することに重点を置いています。 会場参加チケット：学生およびNGO向け 249ユーロ。オンライン参加チケット：学生およびNGO向け 49ユーロ。\n過去の講演と主なポイント\nトピック：代替タンパク質\nバーチャル・オプション？\nウェブサイトhttps://www.new-food-conference.com/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/new-food-conference"
 }
