@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8116-b23b-c19d989a2d65",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:30:17.911149+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-12T03:30:15.437363+00:00",
+    "synced_hash": "0bd1d2e1653d87f4ce4654fa1cbc496cc336a1dcd3de70da21c6f0aaed86c336"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated City/Country/Topic fields",
     "reviewed_at": "2026-08-11T19:06:00.629010+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated City/Country/Topic fields"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Fauna Connections/Symposium\n\nCityRemote\n\nCountryRemote\n\nDate TBD\n\nDescription\n\nAcademics and scientists from the social and behavioral sciences and related disciplines presented original research and discussed the real-life implications and recommendations for animal advocates.\n\nPast talks and takeaways\n\nTopicResearch\n\nVirtual Option?\n\nWebsite[https://faunalytics.org/fauna-connections/](https://faunalytics.org/fauna-connections/)\n",

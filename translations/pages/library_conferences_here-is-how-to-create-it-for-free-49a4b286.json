@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8116-b855-fa96f4dcc36b",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:31:13.468779+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-12T03:30:48.057597+00:00",
+    "synced_hash": "45959490e1516c0c8f10b4bf500ae16b8b49ccbca79d4d980a72ae62f62caf66"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed a mistranslation that attached \"on your phone\" to the business card instead of the QR code, reversing the article's core idea",
     "reviewed_at": "2026-08-11T19:06:00.629010+00:00",
     "reviewer": "claude",
-    "notes": "fixed a mistranslation that attached \"on your phone\" to the business card instead of the QR code, reversing the article's core idea"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Here is how to create it for free.\n\nHere is how to r**eplace business cards with a QR code on your phone at conferences** etc.\n\n**Advantages:**\n\n- saves money on business cards and never run out!\n\n- allows you to provide multiple links\n\n- your new contact can go to your links straight away\n\n- they can take a picture of it with their phone as that’s what people do with business cards anyway\n\n**How I created it:**\n\n- Created a free Link Tree website on [biosites](https://biosites.com/)\n\n- Added all my main links to the tree\n\n- Created a QR code online (e.g. [here](https://www.qr-code-generator.com/))\n\n- Created a wallpaper picture in Canva (free) and put the QR code, the shortened link to Link Tree in case people don’t have anything to scan the code with, my name, org, job title and my photo.\n\n- Changed the wallpaper to this picture, and now you have it as a lock screen, so when you want to show it to people, you don’t even need to unlock your phone. If you have an iPhone, you can actually toggle easily between lock screens, so you don’t even have to have it as your permanent lock screen.\n\nHere is my example attached, it can certainly be prettier if designed by an actual designer, but it will do for now!\n\n![image](https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/bbffea46-6691-4b2f-8b4b-17e8655f065e/IMG_7056/w=1920,quality=90,fit=scale-down)\n",

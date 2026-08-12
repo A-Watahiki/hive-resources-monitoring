@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8129-8f4d-c4d61dd31746",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:30:50.778433+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-12T03:30:30.641673+00:00",
+    "synced_hash": "bbd01007b60987db42fcb48ce98a62ae72201d07aeadc6670558ce072d2bbfc5"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified the City field format; replaced the transliteration アルト・プロテイン with the established term 代替タンパク質",
     "reviewed_at": "2026-08-11T19:06:00.629010+00:00",
     "reviewer": "claude",
-    "notes": "unified the City field format; replaced the transliteration アルト・プロテイン with the established term 代替タンパク質"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Future Food Tech Conference\n\nCitySan Francisco\n\nCountryUS\n\nDate TBD\n\nDescription\n\nThe go-to food tech industry conference bringing together start-ups, investors, ingredient innovators, technology leaders and major food brands to explore new opportunities and partnerships.\n\nPast talks and takeaways\n\nTopicAlt ProteinIndustry\n\nVirtual Option?\n\nWebsite[https://futurefoodtechsf.com/](https://futurefoodtechsf.com/)\n",
