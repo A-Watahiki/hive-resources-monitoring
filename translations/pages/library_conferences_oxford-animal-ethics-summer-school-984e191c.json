@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81d5-bb29-d40990d44c9a",
     "render_version": 5,
     "synced_at": "2026-07-19T23:33:49.348734+00:00",
-    "synced_hash": "46d74d3b15b13445d537018fd4cb85def99c114572c63c11d555c4dcd12d675c"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-13T19:10:42.368124+00:00",
+    "reviewer": "claude",
+    "notes": "unified City field format and translated the untranslated Topic field"
   },
   "schema_version": 6,
   "source_markdown": "# Oxford Animal Ethics Summer School\n\nCityOxford\n\nCountryUK\n\nDate TBD\n\nDescription\n\nThis event is for academics/intellectuals and has a different focus each year. We invite academics worldwide, including historians, biologists, social scientists, legal scholars, psychologists, theologians, philosophers, veterinarians, as well as, professional animal protectionists, to join us as we discuss this important, and, under-researched, area of moral enquiry.\n\nPast talks and takeaways\n\nTopicUKAcademic\n\nVirtual Option?\n\nWebsite[https://www.oxfordanimalethics.com/summer-school/call-for-papers/](https://www.oxfordanimalethics.com/summer-school/call-for-papers/)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Oxford Animal Ethics Summer School",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# オックスフォード動物倫理サマースクール\n\nシティ・オックスフォード\n\n国：英国\n\n日程は未定\n\n説明\n\n本イベントは学者・知識人を対象としており、毎年異なるテーマを取り上げています。 歴史学者、生物学者、社会科学者、法学者、心理学者、神学者、哲学者、獣医師をはじめ、プロの動物保護活動家など、世界中の研究者の方々を招待し、この重要でありながら研究が十分に進んでいない道徳的探求の分野について、共に議論を深めていきたいと考えています。\n\n過去の講演と主なポイント\n\nTopicUKAcademic\n\nバーチャル・オプション？\n\nウェブサイト[https://www.oxfordanimalethics.com/summer-school/call-for-papers/](https://www.oxfordanimalethics.com/summer-school/call-for-papers/)\n",
-  "translated_text": "オックスフォード動物倫理サマースクール\nシティ・オックスフォード\n国：英国\n日程は未定\n説明\n本イベントは学者・知識人を対象としており、毎年異なるテーマを取り上げています。 歴史学者、生物学者、社会科学者、法学者、心理学者、神学者、哲学者、獣医師をはじめ、プロの動物保護活動家など、世界中の研究者の方々を招待し、この重要でありながら研究が十分に進んでいない道徳的探求の分野について、共に議論を深めていきたいと考えています。\n過去の講演と主なポイント\nTopicUKAcademic\nバーチャル・オプション？\nウェブサイトhttps://www.oxfordanimalethics.com/summer-school/call-for-papers/",
+  "translated_markdown": "# オックスフォード動物倫理サマースクール\n\n都市：オックスフォード\n\n国：英国\n\n日程は未定\n\n説明\n\n本イベントは学者・知識人を対象としており、毎年異なるテーマを取り上げています。 歴史学者、生物学者、社会科学者、法学者、心理学者、神学者、哲学者、獣医師をはじめ、プロの動物保護活動家など、世界中の研究者の方々を招待し、この重要でありながら研究が十分に進んでいない道徳的探求の分野について、共に議論を深めていきたいと考えています。\n\n過去の講演と主なポイント\n\nトピック：英国、学術\n\nバーチャル・オプション？\n\nウェブサイト[https://www.oxfordanimalethics.com/summer-school/call-for-papers/](https://www.oxfordanimalethics.com/summer-school/call-for-papers/)\n",
+  "translated_text": "オックスフォード動物倫理サマースクール\n都市：オックスフォード\n国：英国\n日程は未定\n説明\n本イベントは学者・知識人を対象としており、毎年異なるテーマを取り上げています。 歴史学者、生物学者、社会科学者、法学者、心理学者、神学者、哲学者、獣医師をはじめ、プロの動物保護活動家など、世界中の研究者の方々を招待し、この重要でありながら研究が十分に進んでいない道徳的探求の分野について、共に議論を深めていきたいと考えています。\n過去の講演と主なポイント\nトピック：英国、学術\nバーチャル・オプション？\nウェブサイトhttps://www.oxfordanimalethics.com/summer-school/call-for-papers/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/oxford-animal-ethics-summer-school"
 }

@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81a8-8567-d089ee14fad6",
     "render_version": 5,
     "synced_at": "2026-07-19T23:33:03.322916+00:00",
-    "synced_hash": "fcb72fe3f3ba961cd7807ddd888130dad7c49e78ebf46c4fd95cc924ba630567"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-13T19:10:42.368124+00:00",
+    "reviewer": "claude",
+    "notes": "unified City field format; replaced アルト・プロテイン with the established term 代替タンパク質"
   },
   "schema_version": 6,
   "source_markdown": "# New Food Forum (Czech)\n\nCityPrague\n\nCountryCzech Republic\n\nDate TBD\n\nDescription\n\nThe New Food Forum aims to support the development of innovative B2B solutions in the field of plant-based foods and to inspire key players on the Czech market to increase the quantity, availability and quality of plant-based products. An all-day conference packed with inspiring presentations by Czech and foreign speakers, as well as space for networking and enjoying delicious plant-based refreshments.\n\nPast talks and takeaways\n\nCzech edition of the New Food Conference\n\nTopicAlt ProteinIndustryEurope\n\nVirtual Option?\n\nWebsite[https://proveg.com/pl/new-food-forum/](https://proveg.com/pl/new-food-forum/)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "New Food Forum (Czech)",
   "translated_at": "2026-07-17T04:11:05.131467+00:00",
-  "translated_markdown": "# ニュー・フード・フォーラム（チェコ）\n\nプラハ市\n\n国：チェコ共和国\n\n日程は未定\n\n説明\n\n「ニュー・フード・フォーラム」は、植物由来食品の分野における革新的なB2Bソリューションの開発を支援するとともに、チェコ市場の主要関係者に働きかけ、植物由来製品の量、入手可能性、品質の向上を促すことを目的としています。 チェコ国内外の講演者による刺激的なプレゼンテーションが盛りだくさんの終日カンファレンスに加え、ネットワーキングや美味しい植物由来の軽食を楽しむ場も設けられています。\n\n過去の講演と主なポイント\n\n「ニュー・フード・カンファレンス」のチェコ語版\n\nトピック：アルト・プロテイン、業界、ヨーロッパ\n\nバーチャル・オプション？\n\nウェブサイト[https://proveg.com/pl/new-food-forum/](https://proveg.com/pl/new-food-forum/)\n",
-  "translated_text": "ニュー・フード・フォーラム（チェコ）\nプラハ市\n国：チェコ共和国\n日程は未定\n説明\n「ニュー・フード・フォーラム」は、植物由来食品の分野における革新的なB2Bソリューションの開発を支援するとともに、チェコ市場の主要関係者に働きかけ、植物由来製品の量、入手可能性、品質の向上を促すことを目的としています。 チェコ国内外の講演者による刺激的なプレゼンテーションが盛りだくさんの終日カンファレンスに加え、ネットワーキングや美味しい植物由来の軽食を楽しむ場も設けられています。\n過去の講演と主なポイント\n「ニュー・フード・カンファレンス」のチェコ語版\nトピック：アルト・プロテイン、業界、ヨーロッパ\nバーチャル・オプション？\nウェブサイトhttps://proveg.com/pl/new-food-forum/",
+  "translated_markdown": "# ニュー・フード・フォーラム（チェコ）\n\n都市：プラハ\n\n国：チェコ共和国\n\n日程は未定\n\n説明\n\n「ニュー・フード・フォーラム」は、植物由来食品の分野における革新的なB2Bソリューションの開発を支援するとともに、チェコ市場の主要関係者に働きかけ、植物由来製品の量、入手可能性、品質の向上を促すことを目的としています。 チェコ国内外の講演者による刺激的なプレゼンテーションが盛りだくさんの終日カンファレンスに加え、ネットワーキングや美味しい植物由来の軽食を楽しむ場も設けられています。\n\n過去の講演と主なポイント\n\n「ニュー・フード・カンファレンス」のチェコ語版\n\nトピック：代替タンパク質、業界、ヨーロッパ\n\nバーチャル・オプション？\n\nウェブサイト[https://proveg.com/pl/new-food-forum/](https://proveg.com/pl/new-food-forum/)\n",
+  "translated_text": "ニュー・フード・フォーラム（チェコ）\n都市：プラハ\n国：チェコ共和国\n日程は未定\n説明\n「ニュー・フード・フォーラム」は、植物由来食品の分野における革新的なB2Bソリューションの開発を支援するとともに、チェコ市場の主要関係者に働きかけ、植物由来製品の量、入手可能性、品質の向上を促すことを目的としています。 チェコ国内外の講演者による刺激的なプレゼンテーションが盛りだくさんの終日カンファレンスに加え、ネットワーキングや美味しい植物由来の軽食を楽しむ場も設けられています。\n過去の講演と主なポイント\n「ニュー・フード・カンファレンス」のチェコ語版\nトピック：代替タンパク質、業界、ヨーロッパ\nバーチャル・オプション？\nウェブサイトhttps://proveg.com/pl/new-food-forum/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/new-food-forum-czech"
 }
