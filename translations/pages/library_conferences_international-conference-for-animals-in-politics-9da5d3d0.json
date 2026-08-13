@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-816e-94e7-fe6de5e851b5",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:32:25.342016+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-13T03:34:11.308284+00:00",
+    "synced_hash": "5f39cd5c8719897d0d0f77109eaa5188bcb6ad4f3cc28ec5561a88b1e641b6c8"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated City field",
     "reviewed_at": "2026-08-12T19:05:25.645340+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated City field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# International Conference for Animals in Politics\n\nCityParis\n\nCountryFrance\n\nDate TBD\n\nDescription\n\nConvene to talk about the governance of animal protection across Europe. NGO leaders and advocacy officers participate in a series of conferences and workshops to discuss effective political strategies for advancing the animal condition and encourage the emergence of new areas of transnational cooperation. NGO representatives share their respective difficulties and compare their methodologies for developing political campaigns.\n\nPast talks and takeaways\n\nTopicAnimal AdvocacyEuropePolicy & Politics\n\nVirtual Option?\n\nWebsite[https://convergence-animaux-politique.fr/evenements/](https://convergence-animaux-politique.fr/evenements/)\n",

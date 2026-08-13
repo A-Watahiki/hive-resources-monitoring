@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8107-9d7f-f5563099cdd7",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:32:08.783033+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-13T03:33:57.985238+00:00",
+    "synced_hash": "4f6a5aae74a880946265b44f474b6bcce95f98705465ddddc2239932f49e3506"
   },
   "review": {
-    "status": "fixed",
+    "notes": "added the missing 都市： label to the City field",
     "reviewed_at": "2026-08-12T19:05:25.645340+00:00",
     "reviewer": "claude",
-    "notes": "added the missing 都市： label to the City field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# International Animal Rights Conference\n\nCityEsch-sur-Alzette\n\nCountryLuxemburg\n\nDate TBD\n\nDescription\n\nA platform where representatives of all different approaches to promoting animal rights can get together and exchange their ideas\n\nPast talks and takeaways\n\n[See Past IARC Talks](https://www.youtube.com/@internationalanimalrightsc281/videos)\n\nTopicAnimal AdvocacyLiberationGrassroots\n\nVirtual Option?\n\nWebsite[http://ar-conference.org/](http://ar-conference.org/)\n",

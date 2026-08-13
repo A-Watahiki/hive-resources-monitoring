@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8109-b352-f9378320bc24",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:31:29.576990+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-13T03:33:30.911647+00:00",
+    "synced_hash": "acc400fd16a4a0484f18e014dd911523976e063bea71334c0c600438c7e21f8a"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified the City field to 都市：value format for consistency",
     "reviewed_at": "2026-08-12T19:05:25.645340+00:00",
     "reviewer": "claude",
-    "notes": "unified the City field to 都市：value format for consistency"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Humane Canada’s Summit for Animals\n\nCityOttawa\n\nCountryCanada\n\nDate TBD\n\nDescription\n\nDescribed as the biggest and boldest animal welfare conference in Canada and hosted by Humane Canada, the National Federation of Humane Societies and SPCAs. The audience is inclusive of all types of animal advocates, but seem to focus on shelter and rescue staff, veterinary professionals, advocates and volunteers, students, policymakers. There are topics about farmed and wild animals included\n\nPast talks and takeaways\n\nTopicAnimal Welfare ScienceAnimal AdvocacyCompanion Animals\n\nVirtual Option?\n\nWebsite[https://eventmobi.com/website/summitforanimals](https://eventmobi.com/website/summitforanimals)\n",

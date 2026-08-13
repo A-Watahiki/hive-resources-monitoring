@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81dc-bec0-e03089a0207a",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:31:44.728080+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-13T03:33:43.561495+00:00",
+    "synced_hash": "d8177a9b5ac8980eda699b546bb7d176578ad3d966d3e897106e9f3677cc2d36"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated Country field",
     "reviewed_at": "2026-08-12T19:05:25.645340+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated Country field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Humane Hoax Online Conference\n\nCity\n\nCountryVirtual\n\nDate TBD\n\nDescription\n\nVirtual conference with presentations from experts and activists on the topic of humanewashing and greenwashing as it concerns animal product marketing with misleading labeling on meat, dairy, and eggs.\n\nPast talks and takeaways\n\nTopicAnimal AdvocacyLiberationVegan Advocacy\n\nVirtual Option?\n\nWebsite[https://www.humanehoax.org/the-humane-hoax-online-conference](https://www.humanehoax.org/the-humane-hoax-online-conference)\n",
