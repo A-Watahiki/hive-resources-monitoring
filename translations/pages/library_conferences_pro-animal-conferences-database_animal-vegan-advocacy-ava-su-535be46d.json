@@ -6,10 +6,10 @@
     "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-14T19:05:23.975678+00:00",
+    "reviewer": "claude",
+    "notes": "fixed a garbled Topic field (missing separators) and a truncated term 代替タンパク -> 代替タンパク質"
   },
   "schema_version": 6,
   "source_markdown": "# Animal & Vegan Advocacy (AVA)\n\nCity\n\nCountry\n\nDate TBD\n\nDescription\n\nThis event gathers animal advocates, activists, and leaders from across the globe to drive forward systemic change for farmed animals across the continent. It is regularly held in Africa, Asia, Latin America, and North America. If you’re looking to connect with local and international leaders in animal advocacy, participate in panels, workshops, and discussions that address the future of farmed animal advocacy, gain actionable insights and tools to advance your work and create lasting change for animals, this summit is the place to be.\n\nPast talks and takeaways\n\nTopicAnimal AdvocacyLeadershipFundraisingAlt ProteinAquatic AnimalsEffective AltruismLegal\n\nVirtual Option?\n\nWebsite[https://www.avasummit.com/](https://www.avasummit.com/)\n",
@@ -17,8 +17,8 @@
   "target_lang": "JA",
   "title": "Animal & Vegan Advocacy (AVA)",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# アニマル＆ヴィーガン・アドボカシー（AVA）\n\n都市\n\n国\n\n日程は未定\n\n説明\n\nこのイベントには、世界中から動物保護の支持者、活動家、リーダーたちが集まり、アフリカ大陸全体における家畜のための構造的な変革を推進します。アフリカ、アジア、ラテンアメリカ、北米で定期的に開催されています。 動物保護活動における国内外のリーダーたちと交流し、家畜の保護活動の将来について議論するパネルディスカッション、ワークショップ、討論会に参加し、自身の活動を前進させ、動物たちのために持続的な変化をもたらすための実践的な知見やツールを得たいとお考えなら、このサミットこそが最適な場です。\n\n過去の講演と主なポイント\n\nトピック 動物保護 リーダーシップ 資金調達 代替タンパク 水生動物 効果的利他主義 法律\n\nバーチャル・オプション？\n\nウェブサイト[https://www.avasummit.com/](https://www.avasummit.com/)\n",
-  "translated_text": "アニマル＆ヴィーガン・アドボカシー（AVA）\n都市\n国\n日程は未定\n説明\nこのイベントには、世界中から動物保護の支持者、活動家、リーダーたちが集まり、アフリカ大陸全体における家畜のための構造的な変革を推進します。アフリカ、アジア、ラテンアメリカ、北米で定期的に開催されています。 動物保護活動における国内外のリーダーたちと交流し、家畜の保護活動の将来について議論するパネルディスカッション、ワークショップ、討論会に参加し、自身の活動を前進させ、動物たちのために持続的な変化をもたらすための実践的な知見やツールを得たいとお考えなら、このサミットこそが最適な場です。\n過去の講演と主なポイント\nトピック 動物保護 リーダーシップ 資金調達 代替タンパク 水生動物 効果的利他主義 法律\nバーチャル・オプション？\nウェブサイトhttps://www.avasummit.com/",
+  "translated_markdown": "# アニマル＆ヴィーガン・アドボカシー（AVA）\n\n都市\n\n国\n\n日程は未定\n\n説明\n\nこのイベントには、世界中から動物保護の支持者、活動家、リーダーたちが集まり、アフリカ大陸全体における家畜のための構造的な変革を推進します。アフリカ、アジア、ラテンアメリカ、北米で定期的に開催されています。 動物保護活動における国内外のリーダーたちと交流し、家畜の保護活動の将来について議論するパネルディスカッション、ワークショップ、討論会に参加し、自身の活動を前進させ、動物たちのために持続的な変化をもたらすための実践的な知見やツールを得たいとお考えなら、このサミットこそが最適な場です。\n\n過去の講演と主なポイント\n\nトピック：動物保護、リーダーシップ、資金調達、代替タンパク質、水生動物、効果的利他主義、法律\n\nバーチャル・オプション？\n\nウェブサイト[https://www.avasummit.com/](https://www.avasummit.com/)\n",
+  "translated_text": "アニマル＆ヴィーガン・アドボカシー（AVA）\n都市\n国\n日程は未定\n説明\nこのイベントには、世界中から動物保護の支持者、活動家、リーダーたちが集まり、アフリカ大陸全体における家畜のための構造的な変革を推進します。アフリカ、アジア、ラテンアメリカ、北米で定期的に開催されています。 動物保護活動における国内外のリーダーたちと交流し、家畜の保護活動の将来について議論するパネルディスカッション、ワークショップ、討論会に参加し、自身の活動を前進させ、動物たちのために持続的な変化をもたらすための実践的な知見やツールを得たいとお考えなら、このサミットこそが最適な場です。\n過去の講演と主なポイント\nトピック：動物保護、リーダーシップ、資金調達、代替タンパク質、水生動物、効果的利他主義、法律\nバーチャル・オプション？\nウェブサイトhttps://www.avasummit.com/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/pro-animal-conferences-database/animal-vegan-advocacy-ava-summit-africa"
 }
