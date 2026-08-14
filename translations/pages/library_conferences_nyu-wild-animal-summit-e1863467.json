@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8199-8279-ce835a7851f3",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:33:32.924881+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-14T03:30:59.580045+00:00",
+    "synced_hash": "8161138b88feb2c7a4470fcbe5a3f48fffc6108d8177a8ffec0268d83333ab83"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed a garbled Topic field with a spurious 学術： colon inserted mid-list and missing separators",
     "reviewed_at": "2026-08-13T19:10:42.368124+00:00",
     "reviewer": "claude",
-    "notes": "fixed a garbled Topic field with a spurious 学術： colon inserted mid-list and missing separators"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# NYU Wild Animal Summit\n\nCityNew York City\n\nCountryNew York\n\nDate TBD\n\nDescription\n\nThe[ NYU Wild Animal Welfare Program](https://sites.google.com/nyu.edu/wildanimalwelfare/home) is hosting a two-day event to connect scholars on this topic across a variety of fields and career stages. The first day of the summit will feature lightning talks and discussion sessions. The second day will feature breakout sessions for workshopping collaborative project ideas. Both days will also include vegan meals and plenty of networking opportunities.\n\nPast talks and takeaways\n\nNone\n\nTopicAnimal Welfare ScienceAcademicWild AnimalsResearch\n\nVirtual Option?\n\nWebsite[https://sites.google.com/nyu.edu/wildanimalwelfare/opportunities](https://sites.google.com/nyu.edu/wildanimalwelfare/opportunities)\n",

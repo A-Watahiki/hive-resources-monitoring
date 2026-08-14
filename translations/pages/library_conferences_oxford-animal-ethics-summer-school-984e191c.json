@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81d5-bb29-d40990d44c9a",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:33:49.348734+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-14T03:31:12.617941+00:00",
+    "synced_hash": "46d74d3b15b13445d537018fd4cb85def99c114572c63c11d555c4dcd12d675c"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified City field format and translated the untranslated Topic field",
     "reviewed_at": "2026-08-13T19:10:42.368124+00:00",
     "reviewer": "claude",
-    "notes": "unified City field format and translated the untranslated Topic field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Oxford Animal Ethics Summer School\n\nCityOxford\n\nCountryUK\n\nDate TBD\n\nDescription\n\nThis event is for academics/intellectuals and has a different focus each year. We invite academics worldwide, including historians, biologists, social scientists, legal scholars, psychologists, theologians, philosophers, veterinarians, as well as, professional animal protectionists, to join us as we discuss this important, and, under-researched, area of moral enquiry.\n\nPast talks and takeaways\n\nTopicUKAcademic\n\nVirtual Option?\n\nWebsite[https://www.oxfordanimalethics.com/summer-school/call-for-papers/](https://www.oxfordanimalethics.com/summer-school/call-for-papers/)\n",

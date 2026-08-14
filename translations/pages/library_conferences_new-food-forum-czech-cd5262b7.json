@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81a8-8567-d089ee14fad6",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:33:03.322916+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-14T03:30:28.630716+00:00",
+    "synced_hash": "fcb72fe3f3ba961cd7807ddd888130dad7c49e78ebf46c4fd95cc924ba630567"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified City field format; replaced アルト・プロテイン with the established term 代替タンパク質",
     "reviewed_at": "2026-08-13T19:10:42.368124+00:00",
     "reviewer": "claude",
-    "notes": "unified City field format; replaced アルト・プロテイン with the established term 代替タンパク質"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# New Food Forum (Czech)\n\nCityPrague\n\nCountryCzech Republic\n\nDate TBD\n\nDescription\n\nThe New Food Forum aims to support the development of innovative B2B solutions in the field of plant-based foods and to inspire key players on the Czech market to increase the quantity, availability and quality of plant-based products. An all-day conference packed with inspiring presentations by Czech and foreign speakers, as well as space for networking and enjoying delicious plant-based refreshments.\n\nPast talks and takeaways\n\nCzech edition of the New Food Conference\n\nTopicAlt ProteinIndustryEurope\n\nVirtual Option?\n\nWebsite[https://proveg.com/pl/new-food-forum/](https://proveg.com/pl/new-food-forum/)\n",

@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81e0-8847-ddfe84845474",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:33:17.317169+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-14T03:30:45.289753+00:00",
+    "synced_hash": "a55f38b4d1db9a6194851bb23dfc3583d38ce0dc8168b9ded3378dc1df563de6"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified City field format; replaced Altタンパク質 with the established term 代替タンパク質",
     "reviewed_at": "2026-08-13T19:10:42.368124+00:00",
     "reviewer": "claude",
-    "notes": "unified City field format; replaced Altタンパク質 with the established term 代替タンパク質"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# New Food Forum (Polish)\n\nCityWarsaw\n\nCountryPoland\n\nDate TBD\n\nDescription\n\n**New Food Forum is a business event discussing plant solutions and trends on the food market. ** Experts and successful brands will act as speakers to share their knowledge and inspire further development of the plant alternatives segment in Poland. New Food Forum is the Polish edition of the international [New Food Conference (NFC)](http://new-food-conference.com/) . NFC is the first and largest conference in Europe devoted to alternative protein sources.\n\nPast talks and takeaways\n\nPolish edition of the New Food Conference\n\nTopicAlt Protein\n\nVirtual Option?\n\nWebsite[https://proveg.com/pl/new-food-forum/](https://proveg.com/pl/new-food-forum/)\n",
