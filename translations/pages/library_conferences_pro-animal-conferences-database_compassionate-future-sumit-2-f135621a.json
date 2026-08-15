@@ -6,10 +6,10 @@
     "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-15T19:04:24.082116+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated City field"
   },
   "schema_version": 6,
   "source_markdown": "# Compassionate Future Summit\n\nCityBerlin\n\nCountryGermany\n\nDate TBD\n\nDescription\n\nThe 2025 Compassionate Future Summit is a participant-driven working and community weekend for 40 ambitious international attendees and project representatives eager to reduce and prevent suffering long term.\n\nPast talks and takeaways\n\nTopicAnimal AdvocacyEffective AltruismAIPhilosophyWild Animals\n\nVirtual Option?\n\nWebsite[https://docs.google.com/document/d/1Or6FremkuMF6YYmyLF196S69oUfJlsawomw76WKLTgk/edit?tab=t.0#heading=h.hxiq6pz5423i](https://docs.google.com/document/d/1Or6FremkuMF6YYmyLF196S69oUfJlsawomw76WKLTgk/edit?tab=t.0#heading=h.hxiq6pz5423i)\n",
@@ -17,8 +17,8 @@
   "target_lang": "JA",
   "title": "Compassionate Future Summit",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# 「思いやりのある未来サミット」\n\nCityBerlin\n\n国：ドイツ\n\n日程は未定\n\n説明\n\n「2025年 思いやりのある未来サミット」は、長期的に苦しみを軽減・防止することに意欲的な、野心あふれる40名の国際的な参加者およびプロジェクト代表者が集う、参加者主導型のワーク＆コミュニティ・ウィークエンドです。\n\n過去の講演と主なポイント\n\nトピック：動物の権利擁護、効果的利他主義、AI、哲学、野生動物\n\nバーチャル・オプション？\n\nウェブサイト[https://docs.google.com/document/d/1Or6FremkuMF6YYmyLF196S69oUfJlsawomw76WKLTgk/edit?tab=t.0#heading=h.hxiq6pz5423i](https://docs.google.com/document/d/1Or6FremkuMF6YYmyLF196S69oUfJlsawomw76WKLTgk/edit?tab=t.0#heading=h.hxiq6pz5423i)\n",
-  "translated_text": "「思いやりのある未来サミット」\nCityBerlin\n国：ドイツ\n日程は未定\n説明\n「2025年 思いやりのある未来サミット」は、長期的に苦しみを軽減・防止することに意欲的な、野心あふれる40名の国際的な参加者およびプロジェクト代表者が集う、参加者主導型のワーク＆コミュニティ・ウィークエンドです。\n過去の講演と主なポイント\nトピック：動物の権利擁護、効果的利他主義、AI、哲学、野生動物\nバーチャル・オプション？\nウェブサイトhttps://docs.google.com/document/d/1Or6FremkuMF6YYmyLF196S69oUfJlsawomw76WKLTgk/edit?tab=t.0#heading=h.hxiq6pz5423i",
+  "translated_markdown": "# 「思いやりのある未来サミット」\n\n都市：ベルリン\n\n国：ドイツ\n\n日程は未定\n\n説明\n\n「2025年 思いやりのある未来サミット」は、長期的に苦しみを軽減・防止することに意欲的な、野心あふれる40名の国際的な参加者およびプロジェクト代表者が集う、参加者主導型のワーク＆コミュニティ・ウィークエンドです。\n\n過去の講演と主なポイント\n\nトピック：動物の権利擁護、効果的利他主義、AI、哲学、野生動物\n\nバーチャル・オプション？\n\nウェブサイト[https://docs.google.com/document/d/1Or6FremkuMF6YYmyLF196S69oUfJlsawomw76WKLTgk/edit?tab=t.0#heading=h.hxiq6pz5423i](https://docs.google.com/document/d/1Or6FremkuMF6YYmyLF196S69oUfJlsawomw76WKLTgk/edit?tab=t.0#heading=h.hxiq6pz5423i)\n",
+  "translated_text": "「思いやりのある未来サミット」\n都市：ベルリン\n国：ドイツ\n日程は未定\n説明\n「2025年 思いやりのある未来サミット」は、長期的に苦しみを軽減・防止することに意欲的な、野心あふれる40名の国際的な参加者およびプロジェクト代表者が集う、参加者主導型のワーク＆コミュニティ・ウィークエンドです。\n過去の講演と主なポイント\nトピック：動物の権利擁護、効果的利他主義、AI、哲学、野生動物\nバーチャル・オプション？\nウェブサイトhttps://docs.google.com/document/d/1Or6FremkuMF6YYmyLF196S69oUfJlsawomw76WKLTgk/edit?tab=t.0#heading=h.hxiq6pz5423i",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/pro-animal-conferences-database/compassionate-future-sumit-2025"
 }

@@ -6,10 +6,10 @@
     "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-08-15T19:04:24.082116+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# EA events: EA Global, EAGx, EA Summits, EA Connect\n\nCity\n\nCountry\n\nDate TBD\n\nDescription\n\nEA events brings together a wide network of people who have made helping others a core part of their lives. Speakers and attendees share new thinking and research in the field of effective altruism and coordinate on global projects. These events usually focus on the full range of causes related to effective altruism, including farmed animal welfare, global health and development, biosecurity, AI safety, and more.\n\nPast talks and takeaways\n\nTopicAnimal AdvocacyEffective Altruism\n\nVirtual Option?\n\nWebsite[https://www.effectivealtruism.org/ea-global/events](https://www.effectivealtruism.org/ea-global/events)\n",

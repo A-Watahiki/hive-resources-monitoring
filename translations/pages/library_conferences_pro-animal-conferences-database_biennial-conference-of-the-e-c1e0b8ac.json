@@ -6,10 +6,10 @@
     "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-15T19:04:24.082116+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated City field and split 学術研究 back into two separate Academic/Research tags"
   },
   "schema_version": 6,
   "source_markdown": "# Biennial Conference of the European Association for Critical Animal Studies\n\nCityBerlin\n\nCountryGermany\n\nDate TBD\n\nDescription\n\nThe European Association for Critical Animal Studies (EACAS) explores meaningful improvements to human-animal relationships with a focus on practical solutions.\n\nPast talks and takeaways\n\nTopicAcademicResearch\n\nVirtual Option?\n\nWebsite[https://www.eacas.eu/conference/](https://www.eacas.eu/conference/)\n",
@@ -17,8 +17,8 @@
   "target_lang": "JA",
   "title": "Biennial Conference of the European Association for Critical Animal Studies",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# 欧州批判的動物学協会隔年大会\n\nCityBerlin\n\n国：ドイツ\n\n日程は未定\n\n説明\n\n欧州批判的動物研究協会（EACAS）は、実践的な解決策に焦点を当て、人間と動物の関係に有意義な改善をもたらすことを目指しています。\n\n過去の講演と主なポイント\n\nトピック：学術研究\n\nバーチャル・オプション？\n\nウェブサイト[https://www.eacas.eu/conference/](https://www.eacas.eu/conference/)\n",
-  "translated_text": "欧州批判的動物学協会隔年大会\nCityBerlin\n国：ドイツ\n日程は未定\n説明\n欧州批判的動物研究協会（EACAS）は、実践的な解決策に焦点を当て、人間と動物の関係に有意義な改善をもたらすことを目指しています。\n過去の講演と主なポイント\nトピック：学術研究\nバーチャル・オプション？\nウェブサイトhttps://www.eacas.eu/conference/",
+  "translated_markdown": "# 欧州批判的動物学協会隔年大会\n\n都市：ベルリン\n\n国：ドイツ\n\n日程は未定\n\n説明\n\n欧州批判的動物研究協会（EACAS）は、実践的な解決策に焦点を当て、人間と動物の関係に有意義な改善をもたらすことを目指しています。\n\n過去の講演と主なポイント\n\nトピック：学術、研究\n\nバーチャル・オプション？\n\nウェブサイト[https://www.eacas.eu/conference/](https://www.eacas.eu/conference/)\n",
+  "translated_text": "欧州批判的動物学協会隔年大会\n都市：ベルリン\n国：ドイツ\n日程は未定\n説明\n欧州批判的動物研究協会（EACAS）は、実践的な解決策に焦点を当て、人間と動物の関係に有意義な改善をもたらすことを目指しています。\n過去の講演と主なポイント\nトピック：学術、研究\nバーチャル・オプション？\nウェブサイトhttps://www.eacas.eu/conference/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/pro-animal-conferences-database/biennial-conference-of-the-european-association-for-critical-animal-studies"
 }
