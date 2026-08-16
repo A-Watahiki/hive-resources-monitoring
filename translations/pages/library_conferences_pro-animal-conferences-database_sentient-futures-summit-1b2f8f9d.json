@@ -6,10 +6,10 @@
     "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-08-16T19:05:05.393921+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Sentient Futures Summit\n\nCitySan Francisco\n\nCountryUS\n\nDate TBD\n\nDescription\n\nSentient Futures Summit is the meeting place of AI experts, welfare researchers, animal advocates, and passionate thinkers seeking to have an impact. We’ll spend 3 days networking and learning how to steer AI and other technologies for the welfare of animals and potentially sentient artificial minds.\n\nPast talks and takeaways\n\nTopicAnimal AdvocacyAI\n\nVirtual Option?\n\nWebsite[https://www.sentientfutures.ai/sfsbay2026](https://www.sentientfutures.ai/sfsbay2026)\n",

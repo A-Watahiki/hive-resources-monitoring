@@ -6,10 +6,10 @@
     "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-08-16T19:05:05.393921+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# PHAIR Animal Advocacy Conference\n\nCityEdinburgh\n\nCountryScotland\n\nDate TBD\n\nDescription\n\nThe conference brings together researchers from social and behavioural sciences, and animal activists and advocates from around the world. We are interested in research on a range of topics relevant to animal advocacy including how we think about and relate to non-human animals, dietary choices and veganism, and effective approaches to animal advocacy.\n\nPast talks and takeaways\n\nTopicAnimal AdvocacyAnimal Welfare ScienceVegan AdvocacyEffective AltruismAcademic\n\nVirtual Option?\n\nWebsite[https://phairsociety.org/animal-advocacy-conference/](https://phairsociety.org/animal-advocacy-conference/)\n",

@@ -6,10 +6,10 @@
     "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-08-16T19:05:05.393921+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# International Plant-Based Nutrition Healthcare Conference\n\nCityAnaheim\n\nCountryUS\n\nDate TBD\n\nDescription\n\nThe nation’s premier CME-accredited medical education conference focused exclusively on the scientific research conveying the efficacy of whole food, plant-based nutrition.\n\nPast talks and takeaways\n\nTopicHealthVegan Advocacy\n\nVirtual Option?\n\nWebsite[https://pbnhc.com/](https://pbnhc.com/)\n",
