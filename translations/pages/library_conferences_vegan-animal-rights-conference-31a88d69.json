@@ -7,10 +7,10 @@
     "synced_hash": "c47ecf3035aab041eb233bac786ffdd5f0f5f93a51eca1931dc41253e2f0494d"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-08-17T19:04:52.628727+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Vegan & Animal Rights Conference (VARC)\n\nCityManchester\n\nCountryUK\n\nDate TBD\n\nDescription\n\nA grassroots-led conference aimed at sharing both established and novel strategies to help animals. New advocates are welcome and the event aims to grow and build the capacity of the UK animal rights scene.\n\nPast talks and takeaways\n\nTopicAnimal AdvocacyGrassrootsUKLiberation\n\nVirtual Option?\n\nWebsite[https://www.varconference.com/](https://www.varconference.com/)\n",

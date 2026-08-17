@@ -7,10 +7,10 @@
     "synced_hash": "d60c90cc3c5c39096c78ab0e6d55c1a217fd2f9572cb7ac6800273b4213772c2"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-08-17T19:04:52.628727+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Vegan Woman Summit\n\nCityLos Angeles\n\nCountryUS\n\nDate TBD\n\nDescription\n\nThe only women-focused vegan business conference. Meet top CEOs, celebrities, investors, and innovative brands. It is focused on building equitable and diverse representation of women leaders from around the world and partnering with major tech brands.\n\nPast talks and takeaways\n\nTopicAnimal AdvocacyLeadershipBusiness\n\nVirtual Option?\n\nWebsite[https://www.veganwomensummit.com/hollywood](https://www.veganwomensummit.com/hollywood)\n",

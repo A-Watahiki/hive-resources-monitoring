@@ -6,10 +6,10 @@
     "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-17T19:04:52.628727+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated City field; replaced アルト・プロテイン with the established term 代替タンパク質"
   },
   "schema_version": 6,
   "source_markdown": "# Vegan India Conference\n\nCityMumbai\n\nCountryIndia\n\nDate TBD\n\nDescription\n\nAn annual initiative by Vegan First, the Vegan India Conference (VIC) stands out as one of the most coveted events shaping the plant-based ecosystem in India. The conference serves as a catalyst for change, creating opportunities for individuals, businesses, decision-makers and institutions to reimagine food, fashion, beauty, and ethics - all through the lens of a plant-based and sustainable future. Since 2019, VIC has been building India’s plant-based ecosystem from the ground up— addressing critical issues such as climate change, the right to nutrition, animal agriculture, and food security.\n\nPast talks and takeaways\n\nTopicAlt ProteinAsiaBusiness\n\nVirtual Option?\n\nWebsite[https://www.veganindiaconference.com/](https://www.veganindiaconference.com/)\n",
@@ -17,8 +17,8 @@
   "target_lang": "JA",
   "title": "Vegan India Conference",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# ヴィーガン・インディア・カンファレンス\n\nCityMumbai\n\n国：インド\n\n日程は未定\n\n説明\n\n「Vegan First」が毎年開催する「Vegan India Conference（VIC）」は、インドの植物由来のエコシステムを形作る最も注目されるイベントの一つとして際立っています。 このカンファレンスは変革の触媒としての役割を果たし、個人、企業、意思決定者、そして機関が、植物由来かつ持続可能な未来という視点を通じて、食、ファッション、美容、そして倫理について新たな展望を描く機会を創出しています。 2019年以来、VICは気候変動、栄養を受ける権利、畜産業、食料安全保障といった重要な課題に取り組みながら、インドのプラントベースのエコシステムをゼロから築き上げてきました。\n\n過去の講演と主なポイント\n\nトピック・アルト・プロテイン・アジア・ビジネス\n\nバーチャル・オプション？\n\nウェブサイト[https://www.veganindiaconference.com/](https://www.veganindiaconference.com/)\n",
-  "translated_text": "ヴィーガン・インディア・カンファレンス\nCityMumbai\n国：インド\n日程は未定\n説明\n「Vegan First」が毎年開催する「Vegan India Conference（VIC）」は、インドの植物由来のエコシステムを形作る最も注目されるイベントの一つとして際立っています。 このカンファレンスは変革の触媒としての役割を果たし、個人、企業、意思決定者、そして機関が、植物由来かつ持続可能な未来という視点を通じて、食、ファッション、美容、そして倫理について新たな展望を描く機会を創出しています。 2019年以来、VICは気候変動、栄養を受ける権利、畜産業、食料安全保障といった重要な課題に取り組みながら、インドのプラントベースのエコシステムをゼロから築き上げてきました。\n過去の講演と主なポイント\nトピック・アルト・プロテイン・アジア・ビジネス\nバーチャル・オプション？\nウェブサイトhttps://www.veganindiaconference.com/",
+  "translated_markdown": "# ヴィーガン・インディア・カンファレンス\n\n都市：ムンバイ\n\n国：インド\n\n日程は未定\n\n説明\n\n「Vegan First」が毎年開催する「Vegan India Conference（VIC）」は、インドの植物由来のエコシステムを形作る最も注目されるイベントの一つとして際立っています。 このカンファレンスは変革の触媒としての役割を果たし、個人、企業、意思決定者、そして機関が、植物由来かつ持続可能な未来という視点を通じて、食、ファッション、美容、そして倫理について新たな展望を描く機会を創出しています。 2019年以来、VICは気候変動、栄養を受ける権利、畜産業、食料安全保障といった重要な課題に取り組みながら、インドのプラントベースのエコシステムをゼロから築き上げてきました。\n\n過去の講演と主なポイント\n\nトピック：代替タンパク質、アジア、ビジネス\n\nバーチャル・オプション？\n\nウェブサイト[https://www.veganindiaconference.com/](https://www.veganindiaconference.com/)\n",
+  "translated_text": "ヴィーガン・インディア・カンファレンス\n都市：ムンバイ\n国：インド\n日程は未定\n説明\n「Vegan First」が毎年開催する「Vegan India Conference（VIC）」は、インドの植物由来のエコシステムを形作る最も注目されるイベントの一つとして際立っています。 このカンファレンスは変革の触媒としての役割を果たし、個人、企業、意思決定者、そして機関が、植物由来かつ持続可能な未来という視点を通じて、食、ファッション、美容、そして倫理について新たな展望を描く機会を創出しています。 2019年以来、VICは気候変動、栄養を受ける権利、畜産業、食料安全保障といった重要な課題に取り組みながら、インドのプラントベースのエコシステムをゼロから築き上げてきました。\n過去の講演と主なポイント\nトピック：代替タンパク質、アジア、ビジネス\nバーチャル・オプション？\nウェブサイトhttps://www.veganindiaconference.com/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/pro-animal-conferences-database/vegan-india-conference"
 }

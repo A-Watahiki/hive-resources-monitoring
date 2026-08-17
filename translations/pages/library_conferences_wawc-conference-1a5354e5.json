@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81ea-abd1-fd1153968772",
     "render_version": 5,
     "synced_at": "2026-07-19T23:35:15.934808+00:00",
-    "synced_hash": "f5e5ce3f3ff1d36a17227a4947503c86f6710e27f6a3bc76448ba151ca5b6cd2"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-17T19:04:52.628727+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated City/Country fields"
   },
   "schema_version": 6,
   "source_markdown": "# WAWC Conference\n\nCityRemote\n\nCountryRemote\n\nDate TBD\n\nDescription\n\nThe Wild Animal Welfare Committee (WAWC) is delighted to announce its latest event – Translating wildlife welfare into practice: wildlife management in the 21st century – on Thursday 16 May 2024. In this full-day online conference, delegates will hear distinguished speakers from around the world discuss how and why wild animal welfare can be integrated into wider contexts, such as land management and conservation projects.\n\nPast talks and takeaways\n\nTopicWild Animals\n\nVirtual Option?\n\nWebsite[https://www.wawcommittee.org/news/registration-now-open-for-our-fourth-wild-animal-welfare-conference?utm_source=substack&utm_medium=email](https://www.wawcommittee.org/news/registration-now-open-for-our-fourth-wild-animal-welfare-conference?utm_source=substack&utm_medium=email)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "WAWC Conference",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# WAWC会議\n\nCityRemote\n\nCountryRemote\n\n日程は未定\n\n説明\n\n野生動物福祉委員会（WAWC）は、2024年5月16日（木）に開催される最新イベント「野生動物の福祉を実践へ：21世紀の野生動物管理」を発表できることを大変嬉しく思います。 この終日開催のオンライン会議では、世界各国から集まる著名な講演者たちが、野生動物の福祉を土地管理や保全プロジェクトといったより広範な文脈にどのように、そしてなぜ組み込むことができるのかについて議論します。\n\n過去の講演と主なポイント\n\nトピック：野生動物\n\nバーチャル・オプション？\n\nウェブサイト[https://www.wawcommittee.org/news/registration-now-open-for-our-fourth-wild-animal-welfare-conference?utm_source=substack&utm_medium=email](https://www.wawcommittee.org/news/registration-now-open-for-our-fourth-wild-animal-welfare-conference?utm_source=substack&utm_medium=email)\n",
-  "translated_text": "WAWC会議\nCityRemote\nCountryRemote\n日程は未定\n説明\n野生動物福祉委員会（WAWC）は、2024年5月16日（木）に開催される最新イベント「野生動物の福祉を実践へ：21世紀の野生動物管理」を発表できることを大変嬉しく思います。 この終日開催のオンライン会議では、世界各国から集まる著名な講演者たちが、野生動物の福祉を土地管理や保全プロジェクトといったより広範な文脈にどのように、そしてなぜ組み込むことができるのかについて議論します。\n過去の講演と主なポイント\nトピック：野生動物\nバーチャル・オプション？\nウェブサイトhttps://www.wawcommittee.org/news/registration-now-open-for-our-fourth-wild-animal-welfare-conference?utm_source=substack&utm_medium=email",
+  "translated_markdown": "# WAWC会議\n\n都市：リモート\n\n国：リモート\n\n日程は未定\n\n説明\n\n野生動物福祉委員会（WAWC）は、2024年5月16日（木）に開催される最新イベント「野生動物の福祉を実践へ：21世紀の野生動物管理」を発表できることを大変嬉しく思います。 この終日開催のオンライン会議では、世界各国から集まる著名な講演者たちが、野生動物の福祉を土地管理や保全プロジェクトといったより広範な文脈にどのように、そしてなぜ組み込むことができるのかについて議論します。\n\n過去の講演と主なポイント\n\nトピック：野生動物\n\nバーチャル・オプション？\n\nウェブサイト[https://www.wawcommittee.org/news/registration-now-open-for-our-fourth-wild-animal-welfare-conference?utm_source=substack&utm_medium=email](https://www.wawcommittee.org/news/registration-now-open-for-our-fourth-wild-animal-welfare-conference?utm_source=substack&utm_medium=email)\n",
+  "translated_text": "WAWC会議\n都市：リモート\n国：リモート\n日程は未定\n説明\n野生動物福祉委員会（WAWC）は、2024年5月16日（木）に開催される最新イベント「野生動物の福祉を実践へ：21世紀の野生動物管理」を発表できることを大変嬉しく思います。 この終日開催のオンライン会議では、世界各国から集まる著名な講演者たちが、野生動物の福祉を土地管理や保全プロジェクトといったより広範な文脈にどのように、そしてなぜ組み込むことができるのかについて議論します。\n過去の講演と主なポイント\nトピック：野生動物\nバーチャル・オプション？\nウェブサイトhttps://www.wawcommittee.org/news/registration-now-open-for-our-fourth-wild-animal-welfare-conference?utm_source=substack&utm_medium=email",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/wawc-conference"
 }
