@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81ea-abd1-fd1153968772",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:35:15.934808+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-18T02:22:23.944988+00:00",
+    "synced_hash": "f5e5ce3f3ff1d36a17227a4947503c86f6710e27f6a3bc76448ba151ca5b6cd2"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated City/Country fields",
     "reviewed_at": "2026-08-17T19:04:52.628727+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated City/Country fields"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# WAWC Conference\n\nCityRemote\n\nCountryRemote\n\nDate TBD\n\nDescription\n\nThe Wild Animal Welfare Committee (WAWC) is delighted to announce its latest event – Translating wildlife welfare into practice: wildlife management in the 21st century – on Thursday 16 May 2024. In this full-day online conference, delegates will hear distinguished speakers from around the world discuss how and why wild animal welfare can be integrated into wider contexts, such as land management and conservation projects.\n\nPast talks and takeaways\n\nTopicWild Animals\n\nVirtual Option?\n\nWebsite[https://www.wawcommittee.org/news/registration-now-open-for-our-fourth-wild-animal-welfare-conference?utm_source=substack&utm_medium=email](https://www.wawcommittee.org/news/registration-now-open-for-our-fourth-wild-animal-welfare-conference?utm_source=substack&utm_medium=email)\n",
