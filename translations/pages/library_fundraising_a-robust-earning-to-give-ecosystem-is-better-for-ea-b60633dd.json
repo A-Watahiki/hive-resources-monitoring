@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81a3-9774-e1c33b13f279",
     "render_version": 5,
     "synced_at": "2026-07-19T23:36:34.227129+00:00",
-    "synced_hash": "d2c24a5d78e8a137e675aba9cb4d7825075c3e801296310b89e572372e6a3997"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-18T19:33:00.877133+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated Format field"
   },
   "schema_version": 6,
   "source_markdown": "# A robust earning to give ecosystem is better for EA\n\nFormatArticle\n\nDetails\n\nURL[https://forum.effectivealtruism.org/posts/AyLF2KQ8AqQuiuDLz/a-robust-earning-to-give-ecosystem-is-better-for-ea](https://forum.effectivealtruism.org/posts/AyLF2KQ8AqQuiuDLz/a-robust-earning-to-give-ecosystem-is-better-for-ea)\n\nURL [https://forum.effectivealtruism.org/posts/AyLF2KQ8AqQuiuDLz/a-robust-earning-to-give-ecosystem-is-better-for-ea](https://forum.effectivealtruism.org/posts/AyLF2KQ8AqQuiuDLz/a-robust-earning-to-give-ecosystem-is-better-for-ea)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "A robust earning to give ecosystem is better for EA",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# 堅固な「収益から寄付へ」のエコシステムは、EAにとってより望ましい\n\nFormatArticle\n\n詳細\n\nURL[https://forum.effectivealtruism.org/posts/AyLF2KQ8AqQuiuDLz/a-robust-earning-to-give-ecosystem-is-better-for-ea](https://forum.effectivealtruism.org/posts/AyLF2KQ8AqQuiuDLz/a-robust-earning-to-give-ecosystem-is-better-for-ea)\n\nURL [https://forum.effectivealtruism.org/posts/AyLF2KQ8AqQuiuDLz/a-robust-earning-to-give-ecosystem-is-better-for-ea](https://forum.effectivealtruism.org/posts/AyLF2KQ8AqQuiuDLz/a-robust-earning-to-give-ecosystem-is-better-for-ea)\n",
-  "translated_text": "堅固な「収益から寄付へ」のエコシステムは、EAにとってより望ましい\nFormatArticle\n詳細\nURLhttps://forum.effectivealtruism.org/posts/AyLF2KQ8AqQuiuDLz/a-robust-earning-to-give-ecosystem-is-better-for-ea\nURL https://forum.effectivealtruism.org/posts/AyLF2KQ8AqQuiuDLz/a-robust-earning-to-give-ecosystem-is-better-for-ea",
+  "translated_markdown": "# 堅固な「収益から寄付へ」のエコシステムは、EAにとってより望ましい\n\n形式：記事\n\n詳細\n\nURL[https://forum.effectivealtruism.org/posts/AyLF2KQ8AqQuiuDLz/a-robust-earning-to-give-ecosystem-is-better-for-ea](https://forum.effectivealtruism.org/posts/AyLF2KQ8AqQuiuDLz/a-robust-earning-to-give-ecosystem-is-better-for-ea)\n\nURL [https://forum.effectivealtruism.org/posts/AyLF2KQ8AqQuiuDLz/a-robust-earning-to-give-ecosystem-is-better-for-ea](https://forum.effectivealtruism.org/posts/AyLF2KQ8AqQuiuDLz/a-robust-earning-to-give-ecosystem-is-better-for-ea)\n",
+  "translated_text": "堅固な「収益から寄付へ」のエコシステムは、EAにとってより望ましい\n形式：記事\n詳細\nURLhttps://forum.effectivealtruism.org/posts/AyLF2KQ8AqQuiuDLz/a-robust-earning-to-give-ecosystem-is-better-for-ea\nURL https://forum.effectivealtruism.org/posts/AyLF2KQ8AqQuiuDLz/a-robust-earning-to-give-ecosystem-is-better-for-ea",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/a-robust-earning-to-give-ecosystem-is-better-for-ea"
 }

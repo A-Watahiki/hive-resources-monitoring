@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-8158-847e-fce245b1dc06",
     "render_version": 5,
     "synced_at": "2026-08-12T03:31:03.300377+00:00",
-    "synced_hash": "8053769d36a653dac8bcc7f5f3d0abd88b42341dd6772c950ab903e513946cba"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-18T19:33:00.877133+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated City field; fixed split Animal Welfare Science tag"
   },
   "schema_version": 6,
   "source_markdown": "# Workshop on Wildlife Fertility Control\n\nCityYork\n\nCountryUK\n\nDate TBD\n\nDescription\n\nThis two-day event will explore the practical applications of wildlife fertility control in Europe. Day one will be dedicated to talks about the role of wildlife fertility control for different species and contexts: examples include fertility control for native and non-native species in urban and rural areas, rewilding, and fertility control and diseases. Day two will focus on group discussions on the implementation, challenges and opportunities of wildlife fertility control. Attendees will include representatives from public and private sectors, academia, practitioners and non-government organizations.\n\nPast talks and takeaways\n\nTopicWild AnimalsAnimal Welfare ScienceResearchAcademic\n\nVirtual Option?\n\nWebsite[https://wildlifefertilitycontrol.org/upcoming-events/#upcoming](https://wildlifefertilitycontrol.org/upcoming-events/#upcoming)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Workshop on Wildlife Fertility Control",
   "translated_at": "2026-08-12T03:24:44.037822+00:00",
-  "translated_markdown": "# 野生動物の繁殖制御に関するワークショップ\n\nCityYork\n\n国：英国\n\n日程は未定\n\n説明\n\nこの2日間にわたるイベントでは、ヨーロッパにおける野生生物の繁殖制御の実践的な応用について検討します。1日目は、さまざまな種や状況における野生生物の繁殖制御の役割に関する講演に充てられます。具体例としては、都市部や農村部における在来種および外来種の繁殖制御、リワイルディング、ならびに繁殖制御と疾病などが挙げられます。 2日目は、野生生物の繁殖制御の実施状況、課題、および機会に関するグループディスカッションに焦点を当てます。参加者には、官民セクター、学界、実務者、および非政府組織（NGO）の代表者が含まれます。\n\n過去の講演と主なポイント\n\nトピック：野生動物、動物福祉、科学、研究、学術\n\nバーチャル・オプション？\n\nウェブサイト[https://wildlifefertilitycontrol.org/upcoming-events/#upcoming](https://wildlifefertilitycontrol.org/upcoming-events/#upcoming)\n",
-  "translated_text": "野生動物の繁殖制御に関するワークショップ\nCityYork\n国：英国\n日程は未定\n説明\nこの2日間にわたるイベントでは、ヨーロッパにおける野生生物の繁殖制御の実践的な応用について検討します。1日目は、さまざまな種や状況における野生生物の繁殖制御の役割に関する講演に充てられます。具体例としては、都市部や農村部における在来種および外来種の繁殖制御、リワイルディング、ならびに繁殖制御と疾病などが挙げられます。 2日目は、野生生物の繁殖制御の実施状況、課題、および機会に関するグループディスカッションに焦点を当てます。参加者には、官民セクター、学界、実務者、および非政府組織（NGO）の代表者が含まれます。\n過去の講演と主なポイント\nトピック：野生動物、動物福祉、科学、研究、学術\nバーチャル・オプション？\nウェブサイトhttps://wildlifefertilitycontrol.org/upcoming-events/#upcoming",
+  "translated_markdown": "# 野生動物の繁殖制御に関するワークショップ\n\n都市：ヨーク\n\n国：英国\n\n日程は未定\n\n説明\n\nこの2日間にわたるイベントでは、ヨーロッパにおける野生生物の繁殖制御の実践的な応用について検討します。1日目は、さまざまな種や状況における野生生物の繁殖制御の役割に関する講演に充てられます。具体例としては、都市部や農村部における在来種および外来種の繁殖制御、リワイルディング、ならびに繁殖制御と疾病などが挙げられます。 2日目は、野生生物の繁殖制御の実施状況、課題、および機会に関するグループディスカッションに焦点を当てます。参加者には、官民セクター、学界、実務者、および非政府組織（NGO）の代表者が含まれます。\n\n過去の講演と主なポイント\n\nトピック：野生動物、動物福祉科学、研究、学術\n\nバーチャル・オプション？\n\nウェブサイト[https://wildlifefertilitycontrol.org/upcoming-events/#upcoming](https://wildlifefertilitycontrol.org/upcoming-events/#upcoming)\n",
+  "translated_text": "野生動物の繁殖制御に関するワークショップ\n都市：ヨーク\n国：英国\n日程は未定\n説明\nこの2日間にわたるイベントでは、ヨーロッパにおける野生生物の繁殖制御の実践的な応用について検討します。1日目は、さまざまな種や状況における野生生物の繁殖制御の役割に関する講演に充てられます。具体例としては、都市部や農村部における在来種および外来種の繁殖制御、リワイルディング、ならびに繁殖制御と疾病などが挙げられます。 2日目は、野生生物の繁殖制御の実施状況、課題、および機会に関するグループディスカッションに焦点を当てます。参加者には、官民セクター、学界、実務者、および非政府組織（NGO）の代表者が含まれます。\n過去の講演と主なポイント\nトピック：野生動物、動物福祉科学、研究、学術\nバーチャル・オプション？\nウェブサイトhttps://wildlifefertilitycontrol.org/upcoming-events/#upcoming",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/workshop-on-wildlife-fertility-control"
 }
