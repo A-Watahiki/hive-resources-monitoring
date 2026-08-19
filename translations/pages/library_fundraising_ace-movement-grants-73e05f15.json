@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81cf-ac6d-ffc8a0c03684",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:36:36.507903+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-19T02:25:50.755487+00:00",
+    "synced_hash": "637585cb94c63888e4ed843c1a917067815f9000d2b38a031e9a18a6434ee9ca"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated Focus field; added missing separator in grant size values",
     "reviewed_at": "2026-08-18T19:33:00.877133+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated Focus field; added missing separator in grant size values"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# ACE Movement Grants\n\nFocusUnderfunded regionsCapacity buildingSystemic change\n\nGrant cycleTwice a year\n\nGrant size in USD (if applicable)10-25k> 25k\n\nURL[https://animalcharityevaluators.org/movement-grants/](https://animalcharityevaluators.org/movement-grants/)\n\nWhat you need to know\n\nTwo rounds each year (as of 2026), opening in February and August.\n",

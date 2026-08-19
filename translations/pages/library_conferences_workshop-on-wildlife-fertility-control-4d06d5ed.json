@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8158-847e-fce245b1dc06",
     "render_version": 5,
-    "synced_at": "2026-08-12T03:31:03.300377+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-19T02:25:15.727331+00:00",
+    "synced_hash": "8053769d36a653dac8bcc7f5f3d0abd88b42341dd6772c950ab903e513946cba"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated City field; fixed split Animal Welfare Science tag",
     "reviewed_at": "2026-08-18T19:33:00.877133+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated City field; fixed split Animal Welfare Science tag"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Workshop on Wildlife Fertility Control\n\nCityYork\n\nCountryUK\n\nDate TBD\n\nDescription\n\nThis two-day event will explore the practical applications of wildlife fertility control in Europe. Day one will be dedicated to talks about the role of wildlife fertility control for different species and contexts: examples include fertility control for native and non-native species in urban and rural areas, rewilding, and fertility control and diseases. Day two will focus on group discussions on the implementation, challenges and opportunities of wildlife fertility control. Attendees will include representatives from public and private sectors, academia, practitioners and non-government organizations.\n\nPast talks and takeaways\n\nTopicWild AnimalsAnimal Welfare ScienceResearchAcademic\n\nVirtual Option?\n\nWebsite[https://wildlifefertilitycontrol.org/upcoming-events/#upcoming](https://wildlifefertilitycontrol.org/upcoming-events/#upcoming)\n",

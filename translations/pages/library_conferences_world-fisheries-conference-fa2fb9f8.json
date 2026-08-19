@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-811b-80c6-ec9fc225be62",
     "render_version": 5,
-    "synced_at": "2026-08-05T04:21:21.773253+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-19T02:25:27.266901+00:00",
+    "synced_hash": "3db53d33a2851fabb0f7ace052152646cf734ea59a188da244749e9e006207e0"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated City field; fixed garbled Topic list (missing separators, spurious colon)",
     "reviewed_at": "2026-08-18T19:33:00.877133+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated City field; fixed garbled Topic list (missing separators, spurious colon)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# World Fisheries Conference\n\nCitySeattle\n\nCountryWashingtonUS\n\nDate TBD\n\nDescription\n\nOrganized through the [World Council of Fisheries Societies](https://wcfs.fisheries.org/), every four years delegates from around the world meet to exchange ideas and perspectives about new research, emerging issues, scientific breakthroughs, and governance related to fisheries science, industry, conservation, and management.\n\nPast talks and takeaways\n\nTopicAquatic AnimalsIndustryResearchBusiness\n\nVirtual Option?\n\nWebsite[https://fishconserve.org/world-fisheries-congress/](https://fishconserve.org/world-fisheries-congress/)\n",
