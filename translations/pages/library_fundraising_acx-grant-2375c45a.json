@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81a0-acb4-e94232bc5efa",
     "render_version": 5,
     "synced_at": "2026-07-19T23:36:39.549195+00:00",
-    "synced_hash": "11e96fa4c32adfdf86879426a707c8f09649738a593a57a733e6d228b2367820"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-19T19:04:29.108354+00:00",
+    "reviewer": "claude",
+    "notes": "unified 焦点→重点分野 for terminology consistency; fixed grant size range (1-10k was mistranslated as 1〜1万, missing the thousand multiplier) and added missing separators"
   },
   "schema_version": 6,
   "source_markdown": "# ACX Grant\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nURL[https://www.astralcodexten.com/p/apply-for-an-acx-grant-2024](https://www.astralcodexten.com/p/apply-for-an-acx-grant-2024)\n\nWhat you need to know\n\n“I’m most interested in charities that pursue novel ways to change complex systems, either through technological breakthroughs, new social institutions, or targeted political change”. In 2022, Legal Impact for Chickens got a grant.\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "ACX Grant",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# ACX助成金\n\n焦点\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）1～1万1万～2万5千2万5千以上\n\nURL[https://www.astralcodexten.com/p/apply-for-an-acx-grant-2024](https://www.astralcodexten.com/p/apply-for-an-acx-grant-2024)\n\n知っておくべきこと\n\n「私が最も関心を持っているのは、技術的なブレークスルーや新しい社会制度、あるいは的を絞った政治的変革などを通じて、複雑なシステムを変革するための斬新な方法を追求する慈善団体です」。2022年、「Legal Impact for Chickens」は助成金を受け取りました。\n",
-  "translated_text": "ACX助成金\n焦点\n助成サイクル\n助成金額（米ドル、該当する場合）1～1万1万～2万5千2万5千以上\nURLhttps://www.astralcodexten.com/p/apply-for-an-acx-grant-2024\n知っておくべきこと\n「私が最も関心を持っているのは、技術的なブレークスルーや新しい社会制度、あるいは的を絞った政治的変革などを通じて、複雑なシステムを変革するための斬新な方法を追求する慈善団体です」。2022年、「Legal Impact for Chickens」は助成金を受け取りました。",
+  "translated_markdown": "# ACX助成金\n\n重点分野\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）1千～1万、1万～2万5千、2万5千以上\n\nURL[https://www.astralcodexten.com/p/apply-for-an-acx-grant-2024](https://www.astralcodexten.com/p/apply-for-an-acx-grant-2024)\n\n知っておくべきこと\n\n「私が最も関心を持っているのは、技術的なブレークスルーや新しい社会制度、あるいは的を絞った政治的変革などを通じて、複雑なシステムを変革するための斬新な方法を追求する慈善団体です」。2022年、「Legal Impact for Chickens」は助成金を受け取りました。\n",
+  "translated_text": "ACX助成金\n重点分野\n助成サイクル\n助成金額（米ドル、該当する場合）1千～1万、1万～2万5千、2万5千以上\nURLhttps://www.astralcodexten.com/p/apply-for-an-acx-grant-2024\n知っておくべきこと\n「私が最も関心を持っているのは、技術的なブレークスルーや新しい社会制度、あるいは的を絞った政治的変革などを通じて、複雑なシステムを変革するための斬新な方法を追求する慈善団体です」。2022年、「Legal Impact for Chickens」は助成金を受け取りました。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/acx-grant"
 }

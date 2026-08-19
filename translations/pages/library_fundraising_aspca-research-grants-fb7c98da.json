@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-817f-a179-ec53d02cb78c",
     "render_version": 5,
     "synced_at": "2026-07-19T23:36:48.884031+00:00",
-    "synced_hash": "a5a023d00127d78c5680f165d36969283a1b9545f4e772748ad2c95d6d9a67d3"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-19T19:04:29.108354+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated Focus field; fixed grant size range (1-10k was mistranslated as 1〜1万, missing the thousand multiplier) and added missing separators"
   },
   "schema_version": 6,
   "source_markdown": "# ASPCA Research Grants\n\nFocusResearch\n\nGrant cycle\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nURL[https://www.aspcapro.org/grant/2025/03/17/2025-aspca-research-grants](https://www.aspcapro.org/grant/2025/03/17/2025-aspca-research-grants)\n\nWhat you need to know\n\nFunds research across a variety of disciplines and methods that has clear potential to benefit animals, either directly or through effecting systems-level change.\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "ASPCA Research Grants",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# ASPCA研究助成金\n\nFocusResearch\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）1～1万1万～2万5千2万5千以上\n\nURL[https://www.aspcapro.org/grant/2025/03/17/2025-aspca-research-grants](https://www.aspcapro.org/grant/2025/03/17/2025-aspca-research-grants)\n\n知っておくべきこと\n\n動物に直接的に、あるいはシステムレベルの変化をもたらすことを通じて、明らかに利益をもたらす可能性のある、多様な分野や手法にわたる研究に資金を提供します。\n",
-  "translated_text": "ASPCA研究助成金\nFocusResearch\n助成サイクル\n助成金額（米ドル、該当する場合）1～1万1万～2万5千2万5千以上\nURLhttps://www.aspcapro.org/grant/2025/03/17/2025-aspca-research-grants\n知っておくべきこと\n動物に直接的に、あるいはシステムレベルの変化をもたらすことを通じて、明らかに利益をもたらす可能性のある、多様な分野や手法にわたる研究に資金を提供します。",
+  "translated_markdown": "# ASPCA研究助成金\n\n重点分野：研究\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）1千～1万、1万～2万5千、2万5千以上\n\nURL[https://www.aspcapro.org/grant/2025/03/17/2025-aspca-research-grants](https://www.aspcapro.org/grant/2025/03/17/2025-aspca-research-grants)\n\n知っておくべきこと\n\n動物に直接的に、あるいはシステムレベルの変化をもたらすことを通じて、明らかに利益をもたらす可能性のある、多様な分野や手法にわたる研究に資金を提供します。\n",
+  "translated_text": "ASPCA研究助成金\n重点分野：研究\n助成サイクル\n助成金額（米ドル、該当する場合）1千～1万、1万～2万5千、2万5千以上\nURLhttps://www.aspcapro.org/grant/2025/03/17/2025-aspca-research-grants\n知っておくべきこと\n動物に直接的に、あるいはシステムレベルの変化をもたらすことを通じて、明らかに利益をもたらす可能性のある、多様な分野や手法にわたる研究に資金を提供します。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/aspca-research-grants"
 }

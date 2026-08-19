@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81c8-89ab-ef8cd30890cd",
     "render_version": 5,
     "synced_at": "2026-07-19T23:36:41.478493+00:00",
-    "synced_hash": "1a23f0fea1f7749984c21a4289b2c89429c5f2e59faec9cf8a53762d08427c9c"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-19T19:04:29.108354+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated Format field"
   },
   "schema_version": 6,
   "source_markdown": "# AMA with Rick Holland (on the Hive Slack)\n\nFormatArticle\n\nDetails\n\nFundraising expert Rick Holland answered the community questions about fundraising on the Hive Slack.\n\nURL[https://impactfulanimal.slack.com/archives/C05KQ0JST6D/p1695896871519029](https://impactfulanimal.slack.com/archives/C05KQ0JST6D/p1695896871519029)\n\nURL [https://join-hive.slack.com/archives/C05KQ0JST6D/p1695896871519029](https://join-hive.slack.com/archives/C05KQ0JST6D/p1695896871519029)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "AMA with Rick Holland (on the Hive Slack)",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# リック・ホランド氏とのAMA（Hive Slackにて）\n\nFormatArticle\n\n詳細\n\n資金調達のエキスパートであるリック・ホランド氏が、HiveのSlack上で、資金調達に関するコミュニティからの質問に回答しました。\n\nURL[https://impactfulanimal.slack.com/archives/C05KQ0JST6D/p1695896871519029](https://impactfulanimal.slack.com/archives/C05KQ0JST6D/p1695896871519029)\n\nURL [https://join-hive.slack.com/archives/C05KQ0JST6D/p1695896871519029](https://join-hive.slack.com/archives/C05KQ0JST6D/p1695896871519029)\n",
-  "translated_text": "リック・ホランド氏とのAMA（Hive Slackにて）\nFormatArticle\n詳細\n資金調達のエキスパートであるリック・ホランド氏が、HiveのSlack上で、資金調達に関するコミュニティからの質問に回答しました。\nURLhttps://impactfulanimal.slack.com/archives/C05KQ0JST6D/p1695896871519029\nURL https://join-hive.slack.com/archives/C05KQ0JST6D/p1695896871519029",
+  "translated_markdown": "# リック・ホランド氏とのAMA（Hive Slackにて）\n\n形式：記事\n\n詳細\n\n資金調達のエキスパートであるリック・ホランド氏が、HiveのSlack上で、資金調達に関するコミュニティからの質問に回答しました。\n\nURL[https://impactfulanimal.slack.com/archives/C05KQ0JST6D/p1695896871519029](https://impactfulanimal.slack.com/archives/C05KQ0JST6D/p1695896871519029)\n\nURL [https://join-hive.slack.com/archives/C05KQ0JST6D/p1695896871519029](https://join-hive.slack.com/archives/C05KQ0JST6D/p1695896871519029)\n",
+  "translated_text": "リック・ホランド氏とのAMA（Hive Slackにて）\n形式：記事\n詳細\n資金調達のエキスパートであるリック・ホランド氏が、HiveのSlack上で、資金調達に関するコミュニティからの質問に回答しました。\nURLhttps://impactfulanimal.slack.com/archives/C05KQ0JST6D/p1695896871519029\nURL https://join-hive.slack.com/archives/C05KQ0JST6D/p1695896871519029",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/ama-with-rick-holland-on-the-hive-slack"
 }
