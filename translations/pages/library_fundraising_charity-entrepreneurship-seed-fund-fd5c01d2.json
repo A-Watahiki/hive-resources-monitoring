@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-8123-b91b-d0e7e1d8c6f5",
     "render_version": 5,
     "synced_at": "2026-07-19T23:36:55.151135+00:00",
-    "synced_hash": "f64839babca10d6e5610417c35de2da5d8950c8736a09b0650d08600805b49ce"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-20T19:04:55.877105+00:00",
+    "reviewer": "claude",
+    "notes": "unified 焦点→重点分野; translated the untranslated grant size range values and added missing separator"
   },
   "schema_version": 6,
   "source_markdown": "# Charity Entrepreneurship seed fund\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)> 25k> 100k\n\nURL[https://www.charityentrepreneurship.com/](https://www.charityentrepreneurship.com/)\n\nWhat you need to know\n\nFor incubated charities only: you need to apply and be accepted into the CE programme to be eligible for this funding and this usually means building from a CE-researched idea as they are less excited for existing ideas.\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Charity Entrepreneurship seed fund",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# チャリティ・アントレプレナーシップ・シードファンド\n\n焦点\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）> 25k> 100k\n\nURL[https://www.charityentrepreneurship.com/](https://www.charityentrepreneurship.com/)\n\n知っておくべきこと\n\nインキュベーション対象の慈善団体のみに限ります：この助成金の対象となるには、CEプログラムに申請し、採択される必要があります。通常、既存のアイデアよりもCEが調査したアイデアを基に事業を構築することが求められます。\n",
-  "translated_text": "チャリティ・アントレプレナーシップ・シードファンド\n焦点\n助成サイクル\n助成金額（米ドル、該当する場合）> 25k> 100k\nURLhttps://www.charityentrepreneurship.com/\n知っておくべきこと\nインキュベーション対象の慈善団体のみに限ります：この助成金の対象となるには、CEプログラムに申請し、採択される必要があります。通常、既存のアイデアよりもCEが調査したアイデアを基に事業を構築することが求められます。",
+  "translated_markdown": "# チャリティ・アントレプレナーシップ・シードファンド\n\n重点分野\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）2万5千以上、10万以上\n\nURL[https://www.charityentrepreneurship.com/](https://www.charityentrepreneurship.com/)\n\n知っておくべきこと\n\nインキュベーション対象の慈善団体のみに限ります：この助成金の対象となるには、CEプログラムに申請し、採択される必要があります。通常、既存のアイデアよりもCEが調査したアイデアを基に事業を構築することが求められます。\n",
+  "translated_text": "チャリティ・アントレプレナーシップ・シードファンド\n重点分野\n助成サイクル\n助成金額（米ドル、該当する場合）2万5千以上、10万以上\nURLhttps://www.charityentrepreneurship.com/\n知っておくべきこと\nインキュベーション対象の慈善団体のみに限ります：この助成金の対象となるには、CEプログラムに申請し、採択される必要があります。通常、既存のアイデアよりもCEが調査したアイデアを基に事業を構築することが求められます。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/charity-entrepreneurship-seed-fund"
 }

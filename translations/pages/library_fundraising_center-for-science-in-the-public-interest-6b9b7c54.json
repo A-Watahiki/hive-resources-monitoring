@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-8146-b242-d93fa8654c7a",
     "render_version": 5,
     "synced_at": "2026-07-19T23:36:53.112233+00:00",
-    "synced_hash": "e992d43cf8e91de35eae8222e376c26f49397dc35c3f3a93415fd500ad814871"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-20T19:04:55.877105+00:00",
+    "reviewer": "claude",
+    "notes": "unified 焦点→重点分野; fixed \"Systemic change\" mistranslated as 組織的な変革 (organizational) → 構造的な変革 (systemic/structural)"
   },
   "schema_version": 6,
   "source_markdown": "# Center for Science In the Public Interest\n\nFocusSystemic change\n\nGrant cycle\n\nGrant size in USD (if applicable)\n\nURL[https://www.cspinet.org/subgrants](https://www.cspinet.org/subgrants)\n\nWhat you need to know\n\nSupports public health and nutrition policies that create equitable food systems, prioritizing projects that improve access to nutritious food, support healthier food environments, and reduce health disparities.\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Center for Science In the Public Interest",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# 公益科学センター\n\n焦点：組織的な変革\n\n助成サイクル\n\n助成金額（米ドル）（該当する場合）\n\nURL[https://www.cspinet.org/subgrants](https://www.cspinet.org/subgrants)\n\n知っておくべきこと\n\n公平な食料システムを構築する公衆衛生および栄養政策を支援し、栄養価の高い食品へのアクセスを改善し、より健康的な食環境を促進し、健康格差を縮小するプロジェクトを優先的に推進する。\n",
-  "translated_text": "公益科学センター\n焦点：組織的な変革\n助成サイクル\n助成金額（米ドル）（該当する場合）\nURLhttps://www.cspinet.org/subgrants\n知っておくべきこと\n公平な食料システムを構築する公衆衛生および栄養政策を支援し、栄養価の高い食品へのアクセスを改善し、より健康的な食環境を促進し、健康格差を縮小するプロジェクトを優先的に推進する。",
+  "translated_markdown": "# 公益科学センター\n\n重点分野：構造的な変革\n\n助成サイクル\n\n助成金額（米ドル）（該当する場合）\n\nURL[https://www.cspinet.org/subgrants](https://www.cspinet.org/subgrants)\n\n知っておくべきこと\n\n公平な食料システムを構築する公衆衛生および栄養政策を支援し、栄養価の高い食品へのアクセスを改善し、より健康的な食環境を促進し、健康格差を縮小するプロジェクトを優先的に推進する。\n",
+  "translated_text": "公益科学センター\n重点分野：構造的な変革\n助成サイクル\n助成金額（米ドル）（該当する場合）\nURLhttps://www.cspinet.org/subgrants\n知っておくべきこと\n公平な食料システムを構築する公衆衛生および栄養政策を支援し、栄養価の高い食品へのアクセスを改善し、より健康的な食環境を促進し、健康格差を縮小するプロジェクトを優先的に推進する。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/center-for-science-in-the-public-interest"
 }
