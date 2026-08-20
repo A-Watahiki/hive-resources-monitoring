@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81a0-acb4-e94232bc5efa",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:36:39.549195+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-20T02:24:31.282113+00:00",
+    "synced_hash": "11e96fa4c32adfdf86879426a707c8f09649738a593a57a733e6d228b2367820"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified 焦点→重点分野 for terminology consistency; fixed grant size range (1-10k was mistranslated as 1〜1万, missing the thousand multiplier) and added missing separators",
     "reviewed_at": "2026-08-19T19:04:29.108354+00:00",
     "reviewer": "claude",
-    "notes": "unified 焦点→重点分野 for terminology consistency; fixed grant size range (1-10k was mistranslated as 1〜1万, missing the thousand multiplier) and added missing separators"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# ACX Grant\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nURL[https://www.astralcodexten.com/p/apply-for-an-acx-grant-2024](https://www.astralcodexten.com/p/apply-for-an-acx-grant-2024)\n\nWhat you need to know\n\n“I’m most interested in charities that pursue novel ways to change complex systems, either through technological breakthroughs, new social institutions, or targeted political change”. In 2022, Legal Impact for Chickens got a grant.\n",

@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8184-84f4-ffc78941daba",
     "render_version": 5,
-    "synced_at": "2026-07-23T04:22:41.017920+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-20T02:24:59.955487+00:00",
+    "synced_hash": "f04aa33d6fa88a347145348176c40607445614e874a3cdf5fc9543da1502e532"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated Format field",
     "reviewed_at": "2026-08-19T19:04:29.108354+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated Format field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Anima’s fundraising resources for beginners\n\nFormatResource collection\n\nDetails\n\nURL[https://animainternational.org/resources/keywords/fundraising](https://animainternational.org/resources/keywords/fundraising)\n\nURL [https://animainternational.org/resources/keywords/fundraising](https://animainternational.org/resources/keywords/fundraising)\n",

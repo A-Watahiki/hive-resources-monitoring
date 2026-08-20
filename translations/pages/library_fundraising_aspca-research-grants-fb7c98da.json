@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-817f-a179-ec53d02cb78c",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:36:48.884031+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-20T02:25:12.915451+00:00",
+    "synced_hash": "a5a023d00127d78c5680f165d36969283a1b9545f4e772748ad2c95d6d9a67d3"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated Focus field; fixed grant size range (1-10k was mistranslated as 1〜1万, missing the thousand multiplier) and added missing separators",
     "reviewed_at": "2026-08-19T19:04:29.108354+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated Focus field; fixed grant size range (1-10k was mistranslated as 1〜1万, missing the thousand multiplier) and added missing separators"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# ASPCA Research Grants\n\nFocusResearch\n\nGrant cycle\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nURL[https://www.aspcapro.org/grant/2025/03/17/2025-aspca-research-grants](https://www.aspcapro.org/grant/2025/03/17/2025-aspca-research-grants)\n\nWhat you need to know\n\nFunds research across a variety of disciplines and methods that has clear potential to benefit animals, either directly or through effecting systems-level change.\n",
