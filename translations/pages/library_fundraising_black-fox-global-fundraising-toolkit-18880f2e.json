@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-818a-ab1d-d8aca3d5c1b7",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:36:51.146574+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-21T02:30:04.843351+00:00",
+    "synced_hash": "ce6467b1a6a8b9bcb2293f6d4c340d32e14cf1f3219d00fe60c5681ab2de800a"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated Format field",
     "reviewed_at": "2026-08-20T19:04:55.877105+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated Format field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Black Fox Global fundraising toolkit\n\nFormatArticle\n\nDetails\n\nA really comprehensive document with fundraising advice.\n\nURL[https://drive.google.com/file/d/1ZULyBrv9yURQiWbO1WCzauVRW_Deyr9M/view](https://drive.google.com/file/d/1ZULyBrv9yURQiWbO1WCzauVRW_Deyr9M/view)\n\nURL [https://drive.google.com/file/d/1ZULyBrv9yURQiWbO1WCzauVRW_Deyr9M/view](https://drive.google.com/file/d/1ZULyBrv9yURQiWbO1WCzauVRW_Deyr9M/view)\n",

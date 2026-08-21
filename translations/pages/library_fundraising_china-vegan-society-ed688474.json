@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-815e-867f-e97abe9f05b9",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:36:57.228640+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-21T02:30:40.393134+00:00",
+    "synced_hash": "701f2b0af8408d9202f3dea68a84d8bf73835cda7a91627a44e88c4b8f0092c2"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label (特集→重点分野) and improved value phrasing; fixed grant size range that had incorrectly merged two distinct values (\"<1k\" and \"1-10k\") into one continuous range",
     "reviewed_at": "2026-08-20T19:04:55.877105+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label (特集→重点分野) and improved value phrasing; fixed grant size range that had incorrectly merged two distinct values (\"<1k\" and \"1-10k\") into one continuous range"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# China Vegan Society\n\nFocusVegan food systems\n\nGrant cycleYear round\n\nGrant size in USD (if applicable)< 1k1-10k\n\nURL[https://www.chinavegans.org/grant-program](https://www.chinavegans.org/grant-program)\n\nWhat you need to know\n\nSupports projects based in China that increase public awareness, acceptance, and practice of vegan and sustainable lifestyles.\n",

@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8123-b91b-d0e7e1d8c6f5",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:36:55.151135+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-21T02:30:29.175589+00:00",
+    "synced_hash": "f64839babca10d6e5610417c35de2da5d8950c8736a09b0650d08600805b49ce"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified 焦点→重点分野; translated the untranslated grant size range values and added missing separator",
     "reviewed_at": "2026-08-20T19:04:55.877105+00:00",
     "reviewer": "claude",
-    "notes": "unified 焦点→重点分野; translated the untranslated grant size range values and added missing separator"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Charity Entrepreneurship seed fund\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)> 25k> 100k\n\nURL[https://www.charityentrepreneurship.com/](https://www.charityentrepreneurship.com/)\n\nWhat you need to know\n\nFor incubated charities only: you need to apply and be accepted into the CE programme to be eligible for this funding and this usually means building from a CE-researched idea as they are less excited for existing ideas.\n",

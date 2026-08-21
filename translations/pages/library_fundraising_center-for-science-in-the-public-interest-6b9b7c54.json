@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8146-b242-d93fa8654c7a",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:36:53.112233+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-21T02:30:15.103278+00:00",
+    "synced_hash": "e992d43cf8e91de35eae8222e376c26f49397dc35c3f3a93415fd500ad814871"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified 焦点→重点分野; fixed \"Systemic change\" mistranslated as 組織的な変革 (organizational) → 構造的な変革 (systemic/structural)",
     "reviewed_at": "2026-08-20T19:04:55.877105+00:00",
     "reviewer": "claude",
-    "notes": "unified 焦点→重点分野; fixed \"Systemic change\" mistranslated as 組織的な変革 (organizational) → 構造的な変革 (systemic/structural)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Center for Science In the Public Interest\n\nFocusSystemic change\n\nGrant cycle\n\nGrant size in USD (if applicable)\n\nURL[https://www.cspinet.org/subgrants](https://www.cspinet.org/subgrants)\n\nWhat you need to know\n\nSupports public health and nutrition policies that create equitable food systems, prioritizing projects that improve access to nutritious food, support healthier food environments, and reduce health disparities.\n",
