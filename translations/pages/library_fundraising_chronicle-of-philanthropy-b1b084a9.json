@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81c6-b36c-e2f8e4922706",
     "render_version": 5,
     "synced_at": "2026-07-21T04:21:18.502545+00:00",
-    "synced_hash": "efa73dff024e854fdb5f9f0831040d83f7d8096319c6998cd2bcb02dc5d4cc20"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-21T19:04:13.440384+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated Format field"
   },
   "schema_version": 6,
   "source_markdown": "# Chronicle of Philanthropy\n\nFormatArticle\n\nDetails\n\nA magazine and digital platform that covers the world of philanthropy.\n\nURL[https://www.google.com/url?q=https://www.philanthropy.com/&sa=D&source=docs&ust=1707361460924761&usg=AOvVaw3BSQtpwu1hsxaMdqQunMza](https://www.google.com/url?q=https://www.philanthropy.com/&sa=D&source=docs&ust=1707361460924761&usg=AOvVaw3BSQtpwu1hsxaMdqQunMza)\n\nURL [https://www.philanthropy.com/fundraising/](https://www.philanthropy.com/fundraising/)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Chronicle of Philanthropy",
   "translated_at": "2026-07-21T04:17:39.516433+00:00",
-  "translated_markdown": "# 『クロニクル・オブ・フィランソロピー』\n\nFormatArticle\n\n詳細\n\n慈善活動の世界を取り上げる雑誌およびデジタルプラットフォーム。\n\nURL[https://www.google.com/url?q=https://www.philanthropy.com/&sa=D&source=docs&ust=1707361460924761&usg=AOvVaw3BSQtpwu1hsxaMdqQunMza](https://www.google.com/url?q=https://www.philanthropy.com/&sa=D&source=docs&ust=1707361460924761&usg=AOvVaw3BSQtpwu1hsxaMdqQunMza)\n\nURL [https://www.philanthropy.com/fundraising/](https://www.philanthropy.com/fundraising/)\n",
-  "translated_text": "『クロニクル・オブ・フィランソロピー』\nFormatArticle\n詳細\n慈善活動の世界を取り上げる雑誌およびデジタルプラットフォーム。\nURLhttps://www.google.com/url?q=https://www.philanthropy.com/&sa=D&source=docs&ust=1707361460924761&usg=AOvVaw3BSQtpwu1hsxaMdqQunMza\nURL https://www.philanthropy.com/fundraising/",
+  "translated_markdown": "# 『クロニクル・オブ・フィランソロピー』\n\n形式：記事\n\n詳細\n\n慈善活動の世界を取り上げる雑誌およびデジタルプラットフォーム。\n\nURL[https://www.google.com/url?q=https://www.philanthropy.com/&sa=D&source=docs&ust=1707361460924761&usg=AOvVaw3BSQtpwu1hsxaMdqQunMza](https://www.google.com/url?q=https://www.philanthropy.com/&sa=D&source=docs&ust=1707361460924761&usg=AOvVaw3BSQtpwu1hsxaMdqQunMza)\n\nURL [https://www.philanthropy.com/fundraising/](https://www.philanthropy.com/fundraising/)\n",
+  "translated_text": "『クロニクル・オブ・フィランソロピー』\n形式：記事\n詳細\n慈善活動の世界を取り上げる雑誌およびデジタルプラットフォーム。\nURLhttps://www.google.com/url?q=https://www.philanthropy.com/&sa=D&source=docs&ust=1707361460924761&usg=AOvVaw3BSQtpwu1hsxaMdqQunMza\nURL https://www.philanthropy.com/fundraising/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/chronicle-of-philanthropy"
 }

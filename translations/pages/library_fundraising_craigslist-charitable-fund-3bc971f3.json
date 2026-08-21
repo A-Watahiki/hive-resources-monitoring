@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81b6-b7ac-d05ee9297075",
     "render_version": 5,
     "synced_at": "2026-07-19T23:37:05.459106+00:00",
-    "synced_hash": "f320772cd02b602737068b7fcdfceb05aea07c329047dd5b1b742485be083c24"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-21T19:04:13.440384+00:00",
+    "reviewer": "claude",
+    "notes": "unified 焦点→重点分野; translated grant size range values and added missing separators"
   },
   "schema_version": 6,
   "source_markdown": "# Craigslist Charitable Fund\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nURL[https://www.craigslistfund.org/](https://www.craigslistfund.org/)\n\nWhat you need to know\n\nGives to a variety of initiatives that help farmed animals.\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Craigslist Charitable Fund",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# クレイグリスト慈善基金\n\n焦点\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）1～1万1万～2万5千2万5千以上\n\nURL[https://www.craigslistfund.org/](https://www.craigslistfund.org/)\n\n知っておくべきこと\n\n家畜を支援するさまざまな取り組みに寄付を行っています。\n",
-  "translated_text": "クレイグリスト慈善基金\n焦点\n助成サイクル\n助成金額（米ドル、該当する場合）1～1万1万～2万5千2万5千以上\nURLhttps://www.craigslistfund.org/\n知っておくべきこと\n家畜を支援するさまざまな取り組みに寄付を行っています。",
+  "translated_markdown": "# クレイグリスト慈善基金\n\n重点分野\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千、2万5千以上\n\nURL[https://www.craigslistfund.org/](https://www.craigslistfund.org/)\n\n知っておくべきこと\n\n家畜を支援するさまざまな取り組みに寄付を行っています。\n",
+  "translated_text": "クレイグリスト慈善基金\n重点分野\n助成サイクル\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千、2万5千以上\nURLhttps://www.craigslistfund.org/\n知っておくべきこと\n家畜を支援するさまざまな取り組みに寄付を行っています。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/craigslist-charitable-fund"
 }
