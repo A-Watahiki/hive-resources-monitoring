@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81ca-bc75-cf3623ecd546",
     "render_version": 5,
     "synced_at": "2026-07-19T23:37:25.045442+00:00",
-    "synced_hash": "7375bf50ea84be587f9ecb70f63d1609f382646fd86e440c150da196366aa7d6"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-22T19:03:49.352732+00:00",
+    "reviewer": "claude",
+    "notes": "unified 焦点→重点分野 for terminology consistency"
   },
   "schema_version": 6,
   "source_markdown": "# Senterra Funders (formerly Farmed Animal Funders)\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)\n\nURL[https://www.senterrafunders.org/](https://www.senterrafunders.org/)\n\nWhat you need to know\n\nSenterra Funders (formerly Farmed Animal Funders) is a donor community made up of individuals and foundations giving more than $250,000 per year to end factory farming. They occasionally have requests for proposals, but do not have applications open by default.\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Senterra Funders (formerly Farmed Animal Funders)",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# Senterra Funders（旧 Farmed Animal Funders）\n\n焦点\n\n助成サイクル\n\n助成金額（米ドル）（該当する場合）\n\nURL[https://www.senterrafunders.org/](https://www.senterrafunders.org/)\n\n知っておくべきこと\n\nSenterra Funders（旧称：Farmed Animal Funders）は、工場式畜産を終わらせるために年間25万ドル以上を寄付する個人や財団で構成される寄付者コミュニティです。同団体は時折提案募集を行うことがありますが、通常は公募を行っていません。\n",
-  "translated_text": "Senterra Funders（旧 Farmed Animal Funders）\n焦点\n助成サイクル\n助成金額（米ドル）（該当する場合）\nURLhttps://www.senterrafunders.org/\n知っておくべきこと\nSenterra Funders（旧称：Farmed Animal Funders）は、工場式畜産を終わらせるために年間25万ドル以上を寄付する個人や財団で構成される寄付者コミュニティです。同団体は時折提案募集を行うことがありますが、通常は公募を行っていません。",
+  "translated_markdown": "# Senterra Funders（旧 Farmed Animal Funders）\n\n重点分野\n\n助成サイクル\n\n助成金額（米ドル）（該当する場合）\n\nURL[https://www.senterrafunders.org/](https://www.senterrafunders.org/)\n\n知っておくべきこと\n\nSenterra Funders（旧称：Farmed Animal Funders）は、工場式畜産を終わらせるために年間25万ドル以上を寄付する個人や財団で構成される寄付者コミュニティです。同団体は時折提案募集を行うことがありますが、通常は公募を行っていません。\n",
+  "translated_text": "Senterra Funders（旧 Farmed Animal Funders）\n重点分野\n助成サイクル\n助成金額（米ドル）（該当する場合）\nURLhttps://www.senterrafunders.org/\n知っておくべきこと\nSenterra Funders（旧称：Farmed Animal Funders）は、工場式畜産を終わらせるために年間25万ドル以上を寄付する個人や財団で構成される寄付者コミュニティです。同団体は時折提案募集を行うことがありますが、通常は公募を行っていません。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/farmed-animal-funders"
 }
