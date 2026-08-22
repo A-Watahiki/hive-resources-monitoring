@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81c6-b36c-e2f8e4922706",
     "render_version": 5,
-    "synced_at": "2026-07-21T04:21:18.502545+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-22T02:22:24.165169+00:00",
+    "synced_hash": "efa73dff024e854fdb5f9f0831040d83f7d8096319c6998cd2bcb02dc5d4cc20"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated Format field",
     "reviewed_at": "2026-08-21T19:04:13.440384+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated Format field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Chronicle of Philanthropy\n\nFormatArticle\n\nDetails\n\nA magazine and digital platform that covers the world of philanthropy.\n\nURL[https://www.google.com/url?q=https://www.philanthropy.com/&sa=D&source=docs&ust=1707361460924761&usg=AOvVaw3BSQtpwu1hsxaMdqQunMza](https://www.google.com/url?q=https://www.philanthropy.com/&sa=D&source=docs&ust=1707361460924761&usg=AOvVaw3BSQtpwu1hsxaMdqQunMza)\n\nURL [https://www.philanthropy.com/fundraising/](https://www.philanthropy.com/fundraising/)\n",

@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8124-9ee1-fe2cbc1e14c7",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:37:07.536626+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-22T02:22:44.556075+00:00",
+    "synced_hash": "49ebda7fa3513be2935cd978725c63a7e35e42a0a3c1952a3f7d6a1cb1aa8fa0"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label mistranslated as a standalone tag (フォーカス) instead of a field label; fixed grant size range that had incorrectly merged two distinct values (\"<1k\" and \"1-10k\") into one continuous range",
     "reviewed_at": "2026-08-21T19:04:13.440384+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label mistranslated as a standalone tag (フォーカス) instead of a field label; fixed grant size range that had incorrectly merged two distinct values (\"<1k\" and \"1-10k\") into one continuous range"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Culture & Animals Foundation\n\nFocusResearchCreativity and Performance\n\nGrant cycle\n\nGrant size in USD (if applicable)< 1k1-10k\n\nURL[https://cultureandanimals.org/](https://cultureandanimals.org/)\n\nWhat you need to know\n\nSupports academic and artistic projects that raise public awareness about animal rights.\n",

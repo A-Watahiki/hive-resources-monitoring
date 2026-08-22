@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8161-b800-db575c120127",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:36:59.380160+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-22T02:22:15.663806+00:00",
+    "synced_hash": "b84ff2f74ecdaf1207fd943f48db22d6761f97afcd227f1a52fe5cd66d6e9ac5"
   },
   "review": {
-    "status": "fixed",
+    "notes": "added missing separators between tag values",
     "reviewed_at": "2026-08-21T19:04:13.440384+00:00",
     "reviewer": "claude",
-    "notes": "added missing separators between tag values"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Chris Flood\n\nTagsFirst-time fundraisersCan discuss any fundraising topicFundraising strategy\n\nCan help with\n\nCan advise individually pro-bono and on behalf of his organisation.\n\nEmail[cdflood@outlook.com](mailto:mailto:cdflood@outlook.com)\n",

@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81b6-b7ac-d05ee9297075",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:37:05.459106+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-22T02:22:33.854298+00:00",
+    "synced_hash": "f320772cd02b602737068b7fcdfceb05aea07c329047dd5b1b742485be083c24"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified 焦点→重点分野; translated grant size range values and added missing separators",
     "reviewed_at": "2026-08-21T19:04:13.440384+00:00",
     "reviewer": "claude",
-    "notes": "unified 焦点→重点分野; translated grant size range values and added missing separators"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Craigslist Charitable Fund\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nURL[https://www.craigslistfund.org/](https://www.craigslistfund.org/)\n\nWhat you need to know\n\nGives to a variety of initiatives that help farmed animals.\n",
