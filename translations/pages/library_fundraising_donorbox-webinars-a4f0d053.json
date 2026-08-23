@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8182-bb6d-c2b03ebd07ce",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:37:13.860834+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-23T02:29:40.962352+00:00",
+    "synced_hash": "d288fbfd06265bb467258b2631aef94344de5f956fe13396d453ccd5135556ff"
   },
   "review": {
-    "status": "fixed",
+    "notes": "reordered Format field to match label:value convention (形式：ウェビナー)",
     "reviewed_at": "2026-08-22T19:03:49.352732+00:00",
     "reviewer": "claude",
-    "notes": "reordered Format field to match label:value convention (形式：ウェビナー)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Donorbox webinars\n\nFormatWebinar\n\nDetails\n\nDonorbox is an online platform that facilitates online donations.\n\nURL[https://www.youtube.com/@Donorbox/](https://www.youtube.com/@Donorbox/)\n\nURL [https://www.youtube.com/@Donorbox](https://www.youtube.com/@Donorbox)\n",

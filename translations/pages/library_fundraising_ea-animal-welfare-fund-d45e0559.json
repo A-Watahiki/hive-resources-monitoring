@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8106-88a0-c5ef6d7c186f",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:37:16.265938+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-23T02:29:50.290376+00:00",
+    "synced_hash": "f73731fcbc9493fb8abbef2cca1e0b2b7974ef78f9dda0eca2ea88dc6b7a88a3"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated Focus field and grant size range values, added missing separators",
     "reviewed_at": "2026-08-22T19:03:49.352732+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated Focus field and grant size range values, added missing separators"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# EA Animal Welfare Fund\n\nFocusUnderfunded regionsMovement buildingCage-free workResearch\n\nGrant cycleYear round\n\nGrant size in USD (if applicable)10-25k> 25k\n\nURL[https://funds.effectivealtruism.org/funds/animal-welfare](https://funds.effectivealtruism.org/funds/animal-welfare)\n\nWhat you need to know\n\nAll-year-round applications, focusing on cost-effective interventions.\n",

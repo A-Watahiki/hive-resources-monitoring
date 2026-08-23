@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81ca-bc75-cf3623ecd546",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:37:25.045442+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-23T02:29:59.989408+00:00",
+    "synced_hash": "7375bf50ea84be587f9ecb70f63d1609f382646fd86e440c150da196366aa7d6"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified 焦点→重点分野 for terminology consistency",
     "reviewed_at": "2026-08-22T19:03:49.352732+00:00",
     "reviewer": "claude",
-    "notes": "unified 焦点→重点分野 for terminology consistency"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Senterra Funders (formerly Farmed Animal Funders)\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)\n\nURL[https://www.senterrafunders.org/](https://www.senterrafunders.org/)\n\nWhat you need to know\n\nSenterra Funders (formerly Farmed Animal Funders) is a donor community made up of individuals and foundations giving more than $250,000 per year to end factory farming. They occasionally have requests for proposals, but do not have applications open by default.\n",
