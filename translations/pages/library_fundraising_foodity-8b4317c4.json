@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81c3-9a3e-de3b71025f82",
     "render_version": 5,
     "synced_at": "2026-07-19T23:37:32.333284+00:00",
-    "synced_hash": "7fcdd40866f7a3cb32c4ec51c2befe30fdc02d67f6096c95f918cd4bf1cee774"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-23T19:04:22.225670+00:00",
+    "reviewer": "claude",
+    "notes": "unified 焦点→重点分野 for terminology consistency"
   },
   "schema_version": 6,
   "source_markdown": "# Foodity\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)> 100k\n\nURL[https://foodity.eu/open-call-2/](https://foodity.eu/open-call-2/)\n\nWhat you need to know\n\nGrant for data-driven solutions to empower citizens to make healthier food choices and create more sustainable food systems. Applicants must be based in an EU or** **[**Horizon Europe-associated country**](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/list-3rd-country-participation_horizon-euratom_en.pdf)**.**\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Foodity",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# Foodity\n\n焦点\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）＞ 10万\n\nURL[https://foodity.eu/open-call-2/](https://foodity.eu/open-call-2/)\n\n知っておくべきこと\n\n市民がより健康的な食の選択を行えるよう支援し、より持続可能な食料システムを構築するための、データ駆動型ソリューションに対する助成金。申請者は、EU加盟国または[**「ホライズン・ヨーロッパ」の関連国**](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/list-3rd-country-participation_horizon-euratom_en.pdf)に拠点を置く団体でなければなりません**。**\n",
-  "translated_text": "Foodity\n焦点\n助成サイクル\n助成金額（米ドル、該当する場合）＞ 10万\nURLhttps://foodity.eu/open-call-2/\n知っておくべきこと\n市民がより健康的な食の選択を行えるよう支援し、より持続可能な食料システムを構築するための、データ駆動型ソリューションに対する助成金。申請者は、EU加盟国または「ホライズン・ヨーロッパ」の関連国に拠点を置く団体でなければなりません。",
+  "translated_markdown": "# Foodity\n\n重点分野\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）＞ 10万\n\nURL[https://foodity.eu/open-call-2/](https://foodity.eu/open-call-2/)\n\n知っておくべきこと\n\n市民がより健康的な食の選択を行えるよう支援し、より持続可能な食料システムを構築するための、データ駆動型ソリューションに対する助成金。申請者は、EU加盟国または[**「ホライズン・ヨーロッパ」の関連国**](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/list-3rd-country-participation_horizon-euratom_en.pdf)に拠点を置く団体でなければなりません**。**\n",
+  "translated_text": "Foodity\n重点分野\n助成サイクル\n助成金額（米ドル、該当する場合）＞ 10万\nURLhttps://foodity.eu/open-call-2/\n知っておくべきこと\n市民がより健康的な食の選択を行えるよう支援し、より持続可能な食料システムを構築するための、データ駆動型ソリューションに対する助成金。申請者は、EU加盟国または「ホライズン・ヨーロッパ」の関連国に拠点を置く団体でなければなりません。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/foodity"
 }

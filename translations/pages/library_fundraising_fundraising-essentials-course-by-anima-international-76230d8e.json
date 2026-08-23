@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-818c-9d81-d7e0a46e59c0",
     "render_version": 5,
     "synced_at": "2026-07-19T23:37:38.538762+00:00",
-    "synced_hash": "ec17af8c6a832b1f8a9b41ee8027837b760db2a8bdc6ba103d9e9492a7f31b20"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-23T19:04:22.225670+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated Format field"
   },
   "schema_version": 6,
   "source_markdown": "# Fundraising Essentials course by Anima International\n\nFormatCourse\n\nDetails\n\nFree, self-paced course.\n\nURL[https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials](https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Fundraising Essentials course by Anima International",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# アニマ・インターナショナルによる「資金調達基礎講座」\n\nFormatCourse\n\n詳細\n\n無料で、自分のペースで学べるコースです。\n\nURL[https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials](https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials)\n",
-  "translated_text": "アニマ・インターナショナルによる「資金調達基礎講座」\nFormatCourse\n詳細\n無料で、自分のペースで学べるコースです。\nURLhttps://animal-advocacy-center.thinkific.com/courses/fundraising-essentials",
+  "translated_markdown": "# アニマ・インターナショナルによる「資金調達基礎講座」\n\n形式：コース\n\n詳細\n\n無料で、自分のペースで学べるコースです。\n\nURL[https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials](https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials)\n",
+  "translated_text": "アニマ・インターナショナルによる「資金調達基礎講座」\n形式：コース\n詳細\n無料で、自分のペースで学べるコースです。\nURLhttps://animal-advocacy-center.thinkific.com/courses/fundraising-essentials",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/fundraising-essentials-course-by-anima-international"
 }
