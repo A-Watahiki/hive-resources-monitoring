@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81c3-9a3e-de3b71025f82",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:37:32.333284+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-24T02:28:50.616914+00:00",
+    "synced_hash": "7fcdd40866f7a3cb32c4ec51c2befe30fdc02d67f6096c95f918cd4bf1cee774"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified 焦点→重点分野 for terminology consistency",
     "reviewed_at": "2026-08-23T19:04:22.225670+00:00",
     "reviewer": "claude",
-    "notes": "unified 焦点→重点分野 for terminology consistency"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Foodity\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)> 100k\n\nURL[https://foodity.eu/open-call-2/](https://foodity.eu/open-call-2/)\n\nWhat you need to know\n\nGrant for data-driven solutions to empower citizens to make healthier food choices and create more sustainable food systems. Applicants must be based in an EU or** **[**Horizon Europe-associated country**](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/list-3rd-country-participation_horizon-euratom_en.pdf)**.**\n",

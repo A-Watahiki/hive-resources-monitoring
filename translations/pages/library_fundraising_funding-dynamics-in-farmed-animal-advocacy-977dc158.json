@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8135-bea4-fe62a43e06ca",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:37:35.734192+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-24T02:28:56.987680+00:00",
+    "synced_hash": "fa84380f905d6ed2265f4e1e81e297ce3232857d873bf4f619de2ff92491e910"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated Format field",
     "reviewed_at": "2026-08-23T19:04:22.225670+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated Format field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Funding Dynamics in Farmed Animal Advocacy\n\nFormatArticle\n\nDetails\n\nURL[https://faunalytics.org/funding-dynamics-in-farmed-animal-advocacy/](https://faunalytics.org/funding-dynamics-in-farmed-animal-advocacy/)\n",
