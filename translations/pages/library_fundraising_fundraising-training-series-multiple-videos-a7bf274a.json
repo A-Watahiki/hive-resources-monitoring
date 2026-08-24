@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-816f-8c16-e47b54bed326",
     "render_version": 5,
     "synced_at": "2026-08-10T03:19:20.288037+00:00",
-    "synced_hash": "42b71a5ffd12700662d0f2fe513ca23a4f56d0830b7b8d77b5d5081899a4faa9"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-24T19:04:12.427392+00:00",
+    "reviewer": "claude",
+    "notes": "reordered Format field to match label:value convention (形式：ウェビナー)"
   },
   "schema_version": 6,
   "source_markdown": "# Fundraising Training Series (multiple videos)\n\nFormatWebinar\n\nDetails\n\nURL[https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H](https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H)\n\nURL [https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H](https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Fundraising Training Series (multiple videos)",
   "translated_at": "2026-08-10T03:13:01.055592+00:00",
-  "translated_markdown": "# 資金調達トレーニングシリーズ（複数の動画）\n\nウェビナー形式\n\n詳細\n\nURL[https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H](https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H)\n\nURL [https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H](https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H)\n",
-  "translated_text": "資金調達トレーニングシリーズ（複数の動画）\nウェビナー形式\n詳細\nURLhttps://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H\nURL https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H",
+  "translated_markdown": "# 資金調達トレーニングシリーズ（複数の動画）\n\n形式：ウェビナー\n\n詳細\n\nURL[https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H](https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H)\n\nURL [https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H](https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H)\n",
+  "translated_text": "資金調達トレーニングシリーズ（複数の動画）\n形式：ウェビナー\n詳細\nURLhttps://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H\nURL https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/fundraising-training-series-multiple-videos"
 }

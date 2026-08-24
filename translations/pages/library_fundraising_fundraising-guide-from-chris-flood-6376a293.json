@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81f3-8a34-e124f3376c4b",
     "render_version": 5,
     "synced_at": "2026-07-22T04:25:00.525803+00:00",
-    "synced_hash": "ca32f83703bab40908ba298e76a2774d6e5cd3d52c402e0162846aa07fbc9360"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-24T19:04:12.427392+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated Format field"
   },
   "schema_version": 6,
   "source_markdown": "# Fundraising guide from Chris Flood\n\nFormatArticle\n\nDetails\n\nStrategic advice and specific funding leads for animal advocacy groups, based on the author's successful experience growing financial support for environmental justice causes.\n\nURL[https://1drv.ms/w/s!Avsx1_U15N3ljntlRZB_-5ght432?e=haseuM](https://1drv.ms/w/s!Avsx1_U15N3ljntlRZB_-5ght432?e=haseuM)\n\nURL [https://onedrive.live.com/:w:/g/personal/E5DDE435F5D731FB/s!Avsx1_U15N3ljntlRZB_-5ght432?resid=E5DDE435F5D731FB!1915&ithint=file%2Cdocx&e=haseuM&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3cvcyFBdnN4MV9VMTVOM2xqbnRsUlpCXy01Z2h0NDMyP2U9aGFzZXVN](https://onedrive.live.com/:w:/g/personal/E5DDE435F5D731FB/s!Avsx1_U15N3ljntlRZB_-5ght432?resid=E5DDE435F5D731FB!1915&ithint=file%2Cdocx&e=haseuM&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3cvcyFBdnN4MV9VMTVOM2xqbnRsUlpCXy01Z2h0NDMyP2U9aGFzZXVN)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Fundraising guide from Chris Flood",
   "translated_at": "2026-07-22T04:20:42.246878+00:00",
-  "translated_markdown": "# クリス・フラッドによる資金調達ガイド\n\nFormatArticle\n\n詳細\n\n著者が環境正義の活動に対する資金支援を拡大させた成功体験に基づき、動物保護団体に向けた戦略的なアドバイスや具体的な資金調達先情報を提供します。\n\nURL[https://1drv.ms/w/s!Avsx1_U15N3ljntlRZB_-5ght432?e=haseuM](https://1drv.ms/w/s!Avsx1_U15N3ljntlRZB_-5ght432?e=haseuM)\n\nURL [https://onedrive.live.com/:w:/g/personal/E5DDE435F5D731FB/s!Avsx1_U15N3ljntlRZB_-5ght432?resid=E5DDE435F5D731FB!1915&ithint=file%2Cdocx&e=haseuM&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3cvcyFBdnN4MV9VMTVOM2xqbnRsUlpCXy01Z2h0NDMyP2U9aGFzZXVN](https://onedrive.live.com/:w:/g/personal/E5DDE435F5D731FB/s!Avsx1_U15N3ljntlRZB_-5ght432?resid=E5DDE435F5D731FB!1915&ithint=file%2Cdocx&e=haseuM&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3cvcyFBdnN4MV9VMTVOM2xqbnRsUlpCXy01Z2h0NDMyP2U9aGFzZXVN)\n",
-  "translated_text": "クリス・フラッドによる資金調達ガイド\nFormatArticle\n詳細\n著者が環境正義の活動に対する資金支援を拡大させた成功体験に基づき、動物保護団体に向けた戦略的なアドバイスや具体的な資金調達先情報を提供します。\nURLhttps://1drv.ms/w/s!Avsx1_U15N3ljntlRZB_-5ght432?e=haseuM\nURL https://onedrive.live.com/:w:/g/personal/E5DDE435F5D731FB/s!Avsx1_U15N3ljntlRZB_-5ght432?resid=E5DDE435F5D731FB!1915&ithint=file%2Cdocx&e=haseuM&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3cvcyFBdnN4MV9VMTVOM2xqbnRsUlpCXy01Z2h0NDMyP2U9aGFzZXVN",
+  "translated_markdown": "# クリス・フラッドによる資金調達ガイド\n\n形式：記事\n\n詳細\n\n著者が環境正義の活動に対する資金支援を拡大させた成功体験に基づき、動物保護団体に向けた戦略的なアドバイスや具体的な資金調達先情報を提供します。\n\nURL[https://1drv.ms/w/s!Avsx1_U15N3ljntlRZB_-5ght432?e=haseuM](https://1drv.ms/w/s!Avsx1_U15N3ljntlRZB_-5ght432?e=haseuM)\n\nURL [https://onedrive.live.com/:w:/g/personal/E5DDE435F5D731FB/s!Avsx1_U15N3ljntlRZB_-5ght432?resid=E5DDE435F5D731FB!1915&ithint=file%2Cdocx&e=haseuM&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3cvcyFBdnN4MV9VMTVOM2xqbnRsUlpCXy01Z2h0NDMyP2U9aGFzZXVN](https://onedrive.live.com/:w:/g/personal/E5DDE435F5D731FB/s!Avsx1_U15N3ljntlRZB_-5ght432?resid=E5DDE435F5D731FB!1915&ithint=file%2Cdocx&e=haseuM&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3cvcyFBdnN4MV9VMTVOM2xqbnRsUlpCXy01Z2h0NDMyP2U9aGFzZXVN)\n",
+  "translated_text": "クリス・フラッドによる資金調達ガイド\n形式：記事\n詳細\n著者が環境正義の活動に対する資金支援を拡大させた成功体験に基づき、動物保護団体に向けた戦略的なアドバイスや具体的な資金調達先情報を提供します。\nURLhttps://1drv.ms/w/s!Avsx1_U15N3ljntlRZB_-5ght432?e=haseuM\nURL https://onedrive.live.com/:w:/g/personal/E5DDE435F5D731FB/s!Avsx1_U15N3ljntlRZB_-5ght432?resid=E5DDE435F5D731FB!1915&ithint=file%2Cdocx&e=haseuM&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3cvcyFBdnN4MV9VMTVOM2xqbnRsUlpCXy01Z2h0NDMyP2U9aGFzZXVN",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/fundraising-guide-from-chris-flood"
 }
