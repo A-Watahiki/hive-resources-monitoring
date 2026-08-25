@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-816f-8c16-e47b54bed326",
     "render_version": 5,
-    "synced_at": "2026-08-10T03:19:20.288037+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-25T02:24:38.222852+00:00",
+    "synced_hash": "42b71a5ffd12700662d0f2fe513ca23a4f56d0830b7b8d77b5d5081899a4faa9"
   },
   "review": {
-    "status": "fixed",
+    "notes": "reordered Format field to match label:value convention (形式：ウェビナー)",
     "reviewed_at": "2026-08-24T19:04:12.427392+00:00",
     "reviewer": "claude",
-    "notes": "reordered Format field to match label:value convention (形式：ウェビナー)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Fundraising Training Series (multiple videos)\n\nFormatWebinar\n\nDetails\n\nURL[https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H](https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H)\n\nURL [https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H](https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H)\n",

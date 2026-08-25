@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8129-9e7d-e465b8a622e5",
     "render_version": 5,
-    "synced_at": "2026-08-04T04:23:55.697694+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-25T02:24:48.666347+00:00",
+    "synced_hash": "8713ca60ad8f7ceb6a8cd7b0cefbc795c1b5f8a8803b42943013886a79a19197"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated Focus field",
     "reviewed_at": "2026-08-24T19:04:12.427392+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated Focus field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# GFI Research Grant Program\n\nFocusAlternative proteinResearch\n\nGrant cycle\n\nGrant size in USD (if applicable)> 100k\n\nURL[https://gfi.org/researchgrants/#research-grant-program](https://gfi.org/researchgrants/#research-grant-program)\n\nWhat you need to know\n\nSupport early to mid-stage research proposals aimed at tackling urgent scientific and technological challenges within the alternative protein industry.\n",

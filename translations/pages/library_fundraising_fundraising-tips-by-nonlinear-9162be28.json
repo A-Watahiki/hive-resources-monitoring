@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81e1-8e1b-cd0dc9ac2e8f",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:37:42.907551+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-25T02:24:29.207459+00:00",
+    "synced_hash": "563260f8fe75637bf2e68ca47e68f772a41710ee9e61384b3e2245f65b799e3f"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated Format field",
     "reviewed_at": "2026-08-24T19:04:12.427392+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated Format field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Fundraising tips by Nonlinear\n\nFormatArticle\n\nDetails\n\nLargely applicable to animal advocacy sas well.\n\nURL[https://www.nonlinear.org/fundraising-tips.html](https://www.nonlinear.org/fundraising-tips.html)\n",
