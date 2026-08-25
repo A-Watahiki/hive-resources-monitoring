@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81ff-8a03-ded5426fb9ae",
     "render_version": 5,
     "synced_at": "2026-07-23T04:22:50.411810+00:00",
-    "synced_hash": "30828e7d8483895f400880b6ea928d12fb0325320719a4b333af2212adf0b586"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-25T19:07:49.569262+00:00",
+    "reviewer": "claude",
+    "notes": "reordered Format field to match label:value convention (形式：ウェビナー)"
   },
   "schema_version": 6,
   "source_markdown": "# GiveButter webinars and videos\n\nFormatWebinar\n\nDetails\n\nA giving platform that creates free resources for non-profits.\n\nURL[https://givebutter.com/freebies](https://givebutter.com/freebies)\n\nURL [https://givebutter.com/freebies](https://givebutter.com/freebies)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "GiveButter webinars and videos",
   "translated_at": "2026-07-23T04:18:30.816937+00:00",
-  "translated_markdown": "# GiveButterのウェビナーと動画\n\nウェビナー形式\n\n詳細\n\n非営利団体のために無料のリソースを提供する寄付プラットフォーム。\n\nURL [https://givebutter.com/freebies](https://givebutter.com/freebies)\n\nURL [https://givebutter.com/freebies](https://givebutter.com/freebies)\n",
-  "translated_text": "GiveButterのウェビナーと動画\nウェビナー形式\n詳細\n非営利団体のために無料のリソースを提供する寄付プラットフォーム。\nURL https://givebutter.com/freebies\nURL https://givebutter.com/freebies",
+  "translated_markdown": "# GiveButterのウェビナーと動画\n\n形式：ウェビナー\n\n詳細\n\n非営利団体のために無料のリソースを提供する寄付プラットフォーム。\n\nURL [https://givebutter.com/freebies](https://givebutter.com/freebies)\n\nURL [https://givebutter.com/freebies](https://givebutter.com/freebies)\n",
+  "translated_text": "GiveButterのウェビナーと動画\n形式：ウェビナー\n詳細\n非営利団体のために無料のリソースを提供する寄付プラットフォーム。\nURL https://givebutter.com/freebies\nURL https://givebutter.com/freebies",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/givebutter-webinars-and-videos"
 }

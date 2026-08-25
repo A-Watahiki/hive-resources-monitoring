@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-8154-8589-ea6cf0dcf623",
     "render_version": 5,
     "synced_at": "2026-07-19T23:38:03.683148+00:00",
-    "synced_hash": "731916ef4c41c90983c0898217bc448f7e9d2113801b4cae4315e77aff2a2056"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-25T19:07:49.569262+00:00",
+    "reviewer": "claude",
+    "notes": "fixed Focus label (注目→重点分野) for consistency; fixed grant size range missing thousand multiplier"
   },
   "schema_version": 6,
   "source_markdown": "# India Animal Welfare Funding Circle\n\nFocusUnderfunded regions\n\nGrant cycle\n\nGrant size in USD (if applicable)1-10k\n\nURL[https://animalfundingcircle.in/](https://animalfundingcircle.in/)\n\nWhat you need to know\n\nImpact-focused donors supporting animal-focused nonprofits in India.\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "India Animal Welfare Funding Circle",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# インド動物福祉資金調達サークル\n\n注目：資金不足の地域\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）1～1万\n\nURL[https://animalfundingcircle.in/](https://animalfundingcircle.in/)\n\n知っておくべきこと\n\nインドの動物保護を主軸とする非営利団体を支援する、社会貢献を重視する寄付者たち。\n",
-  "translated_text": "インド動物福祉資金調達サークル\n注目：資金不足の地域\n助成サイクル\n助成金額（米ドル、該当する場合）1～1万\nURLhttps://animalfundingcircle.in/\n知っておくべきこと\nインドの動物保護を主軸とする非営利団体を支援する、社会貢献を重視する寄付者たち。",
+  "translated_markdown": "# インド動物福祉資金調達サークル\n\n重点分野：資金不足の地域\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）：1千～1万\n\nURL[https://animalfundingcircle.in/](https://animalfundingcircle.in/)\n\n知っておくべきこと\n\nインドの動物保護を主軸とする非営利団体を支援する、社会貢献を重視する寄付者たち。\n",
+  "translated_text": "インド動物福祉資金調達サークル\n重点分野：資金不足の地域\n助成サイクル\n助成金額（米ドル、該当する場合）：1千～1万\nURLhttps://animalfundingcircle.in/\n知っておくべきこと\nインドの動物保護を主軸とする非営利団体を支援する、社会貢献を重視する寄付者たち。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/india-animal-welfare-funding-circle"
 }
