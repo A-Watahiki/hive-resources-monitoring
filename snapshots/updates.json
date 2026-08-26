@@ -4,20 +4,6 @@
       "added": [],
       "changed": [
         {
-          "diff": "--- before\n+++ after\n@@ -16,2 +16,4 @@\n URL\n https://www.google.com/url?q=https://www.philanthropy.com/&sa=D&source=docs&ust=1707361460924761&usg=AOvVaw3BSQtpwu1hsxaMdqQunMza\n+URL\n+https://www.philanthropy.com/fundraising/",
-          "diff_lines_omitted": 0,
-          "title": "Chronicle of Philanthropy",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising/chronicle-of-philanthropy"
-        }
-      ],
-      "detected_at": "2026-07-21T03:19:29.153268+00:00",
-      "removed": []
-    },
-    {
-      "added": [],
-      "changed": [
-        {
           "diff": "--- before\n+++ after\n@@ -14,5 +14,5 @@\n Food 4 Thought Festival\n City\n-Massachusetts\n+Stanford\n Country\n US\n@@ -29,3 +29,3 @@\n Virtual Option?\n Website\n-https://www.food4thoughtinnovations.org/food4thought-2025\n+https://www.food4thoughtinnovations.org/stanford-festival",
           "diff_lines_omitted": 0,
           "title": "Food 4 Thought Festival",
@@ -208,6 +194,25 @@
         }
       ],
       "detected_at": "2026-08-20T01:32:19.931425+00:00",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "title": "Animal Law Conference",
+          "url": "https://resources.joinhive.org/library/conferences/pro-animal-conferences-database/animal-law-conference"
+        }
+      ],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -564,4 +564,10 @@\n Prior Animal Alliance Asia Videos\n AACA is a virtual platform for animal justice advocates across Asia to learn new skills, exchange ideas, and grow the movement together.\n+Animal Law Conference\n+www.animallawconference.org\n+D.C.\n+US\n+Legal\n+Past Conferences\n Animal Liberation Conference\n www.animalliberationconference.com",
+          "diff_lines_omitted": 0,
+          "title": "Conferences Database: Farmed Animal Advocacy",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/conferences"
+        }
+      ],
+      "detected_at": "2026-08-26T01:42:17.877424+00:00",
       "removed": []
     }
   ]
