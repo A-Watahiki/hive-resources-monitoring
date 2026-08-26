@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81e0-9534-c3aa4e3bfe0c",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:37:59.287107+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-26T02:32:58.933612+00:00",
+    "synced_hash": "b1b8f09e35c1e915d96668c7037ea7106fa8f5866b23dd052955d6fb3b6eb0e2"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label (特集→重点分野) and value phrasing; translated grant size range values and added missing separator",
     "reviewed_at": "2026-08-25T19:07:49.569262+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label (特集→重点分野) and value phrasing; translated grant size range values and added missing separator"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Challenge 22 (Animals Now)\n\nFocusVegan food systems\n\nGrant cycleYear round\n\nGrant size in USD (if applicable)1-10k10-25k\n\nURL[https://challenge22.com/community/](https://challenge22.com/community/)\n\nWhat you need to know\n\nThe grant can be used solely for running online vegan challenges focused on support groups. A larger grant can be approved in exceptional cases.\n",

@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81ff-8a03-ded5426fb9ae",
     "render_version": 5,
-    "synced_at": "2026-07-23T04:22:50.411810+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-26T02:32:36.910309+00:00",
+    "synced_hash": "30828e7d8483895f400880b6ea928d12fb0325320719a4b333af2212adf0b586"
   },
   "review": {
-    "status": "fixed",
+    "notes": "reordered Format field to match label:value convention (形式：ウェビナー)",
     "reviewed_at": "2026-08-25T19:07:49.569262+00:00",
     "reviewer": "claude",
-    "notes": "reordered Format field to match label:value convention (形式：ウェビナー)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# GiveButter webinars and videos\n\nFormatWebinar\n\nDetails\n\nA giving platform that creates free resources for non-profits.\n\nURL[https://givebutter.com/freebies](https://givebutter.com/freebies)\n\nURL [https://givebutter.com/freebies](https://givebutter.com/freebies)\n",

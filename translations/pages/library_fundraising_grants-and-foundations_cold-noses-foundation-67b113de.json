@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8164-a22e-d73747bba9e2",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:01.237170+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-26T02:33:10.812063+00:00",
+    "synced_hash": "97f63d18fa4d7221d42919446102a07a77f9f670e6d242bfc6f142f887ecafa8"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified 焦点→重点分野 for terminology consistency",
     "reviewed_at": "2026-08-25T19:07:49.569262+00:00",
     "reviewer": "claude",
-    "notes": "unified 焦点→重点分野 for terminology consistency"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Cold Noses Foundation\n\nFocus\n\nGrant cycleQuarterly\n\nGrant size in USD (if applicable)10-25k\n\nURL[https://www.coldnosesfoundation.org/grant-guidelines](https://www.coldnosesfoundation.org/grant-guidelines)\n\nWhat you need to know\n\nUnder the farm animal focus, they support rescue, rehab, or sanctuaries\n",

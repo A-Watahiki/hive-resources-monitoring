@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8154-8589-ea6cf0dcf623",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:03.683148+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-26T02:33:22.271512+00:00",
+    "synced_hash": "731916ef4c41c90983c0898217bc448f7e9d2113801b4cae4315e77aff2a2056"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label (注目→重点分野) for consistency; fixed grant size range missing thousand multiplier",
     "reviewed_at": "2026-08-25T19:07:49.569262+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label (注目→重点分野) for consistency; fixed grant size range missing thousand multiplier"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# India Animal Welfare Funding Circle\n\nFocusUnderfunded regions\n\nGrant cycle\n\nGrant size in USD (if applicable)1-10k\n\nURL[https://animalfundingcircle.in/](https://animalfundingcircle.in/)\n\nWhat you need to know\n\nImpact-focused donors supporting animal-focused nonprofits in India.\n",
