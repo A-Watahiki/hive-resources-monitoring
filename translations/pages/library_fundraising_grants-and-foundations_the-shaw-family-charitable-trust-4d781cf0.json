@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81ac-b570-fcfd62e78a2d",
     "render_version": 5,
     "synced_at": "2026-07-19T23:38:07.941455+00:00",
-    "synced_hash": "2852cf495c2c3a50958428370ddd1ed9b4d7809a1c719411f4e6b87b39042d0c"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-26T19:07:35.550665+00:00",
+    "reviewer": "claude",
+    "notes": "unified 焦点→重点分野; translated the untranslated grant size range values"
   },
   "schema_version": 6,
   "source_markdown": "# The Shaw Family Charitable Trust\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)< 1k1-10k10-25k\n\nURL[https://www.shawfamilycharitable.org/](https://www.shawfamilycharitable.org/)\n\nWhat you need to know\n\nGrants for US 501c3s only; past grantees include farm sanctuaries. In 2026, applicants are encouraged to submit proposals up to $25,000.\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "The Shaw Family Charitable Trust",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# ショー・ファミリー慈善信託\n\n焦点\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）< 1k1-10k10-25k\n\nURL[https://www.shawfamilycharitable.org/](https://www.shawfamilycharitable.org/)\n\n知っておくべきこと\n\n助成対象は米国の501(c)(3)団体に限られます。過去の助成先には、農場型動物保護施設が含まれます。2026年は、申請者に対し、最大25,000ドルまでの助成提案の提出が推奨されています。\n",
-  "translated_text": "ショー・ファミリー慈善信託\n焦点\n助成サイクル\n助成金額（米ドル、該当する場合）< 1k1-10k10-25k\nURLhttps://www.shawfamilycharitable.org/\n知っておくべきこと\n助成対象は米国の501(c)(3)団体に限られます。過去の助成先には、農場型動物保護施設が含まれます。2026年は、申請者に対し、最大25,000ドルまでの助成提案の提出が推奨されています。",
+  "translated_markdown": "# ショー・ファミリー慈善信託\n\n重点分野\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）：1千未満、1千～1万、1万～2万5千\n\nURL[https://www.shawfamilycharitable.org/](https://www.shawfamilycharitable.org/)\n\n知っておくべきこと\n\n助成対象は米国の501(c)(3)団体に限られます。過去の助成先には、農場型動物保護施設が含まれます。2026年は、申請者に対し、最大25,000ドルまでの助成提案の提出が推奨されています。\n",
+  "translated_text": "ショー・ファミリー慈善信託\n重点分野\n助成サイクル\n助成金額（米ドル、該当する場合）：1千未満、1千～1万、1万～2万5千\nURLhttps://www.shawfamilycharitable.org/\n知っておくべきこと\n助成対象は米国の501(c)(3)団体に限られます。過去の助成先には、農場型動物保護施設が含まれます。2026年は、申請者に対し、最大25,000ドルまでの助成提案の提出が推奨されています。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/the-shaw-family-charitable-trust"
 }

@@ -6,10 +6,10 @@
     "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-08-26T19:07:35.550665+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Animal Law Conference\n\nCityD.C.\n\nCountryUS\n\nDate TBD\n\nDescription\n\nPast talks and takeaways\n\n[Past Conferences](https://www.animallawconference.org/past-conferences-2/)\n\nTopicLegal\n\nVirtual Option?\n\nWebsite[https://www.animallawconference.org/](https://www.animallawconference.org/)\n",
