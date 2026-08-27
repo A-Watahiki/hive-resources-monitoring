@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8185-8e55-d078c12056a1",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:10.074534+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-27T11:10:18.147674+00:00",
+    "synced_hash": "8341ba904a1e4749a8de6291b723f96d0e846591aad4df4ddff8194159d7479a"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label and added missing separators between values; fixed grant size range missing thousand multiplier",
     "reviewed_at": "2026-08-26T19:07:35.550665+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label and added missing separators between values; fixed grant size range missing thousand multiplier"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# The William and Charlotte Parks Foundation\n\nFocusUnderfunded regionsSystemic changeVegan food systemsResearch\n\nGrant cycle\n\nGrant size in USD (if applicable)1-10k\n\nURL[https://www.parksfoundation.org/](https://www.parksfoundation.org/)\n\nWhat you need to know\n\nFor US 501(c)(3)s or equivalent, with a preference for applications from outside the US.\n",

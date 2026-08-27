@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8123-9403-d7fe93a59730",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:05.579102+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-27T11:09:49.904869+00:00",
+    "synced_hash": "aaa3658114933fb92390bd02626b5d0b0423c889f1aa1c0864b6ce4529fe0a17"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified 焦点→重点分野; converted grant size value to established 万-based notation",
     "reviewed_at": "2026-08-26T19:07:35.550665+00:00",
     "reviewer": "claude",
-    "notes": "unified 焦点→重点分野; converted grant size value to established 万-based notation"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# The Conservation, Food and Health Foundation\n\nFocusUnderfunded regions\n\nGrant cycleTwice a year\n\nGrant size in USD (if applicable)> 25k\n\nURL[https://cfhfoundation.grantsmanagement08.com/](https://cfhfoundation.grantsmanagement08.com/)\n\nWhat you need to know\n\nThe Conservation, Food and Health Foundation seeks to protect the environment, improve food production, and promote public health in Africa, Asia, the Caribbean, Latin America, and the Middle East.\n",

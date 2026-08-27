@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81ac-b570-fcfd62e78a2d",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:07.941455+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-27T11:10:02.440525+00:00",
+    "synced_hash": "2852cf495c2c3a50958428370ddd1ed9b4d7809a1c719411f4e6b87b39042d0c"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified 焦点→重点分野; translated the untranslated grant size range values",
     "reviewed_at": "2026-08-26T19:07:35.550665+00:00",
     "reviewer": "claude",
-    "notes": "unified 焦点→重点分野; translated the untranslated grant size range values"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# The Shaw Family Charitable Trust\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)< 1k1-10k10-25k\n\nURL[https://www.shawfamilycharitable.org/](https://www.shawfamilycharitable.org/)\n\nWhat you need to know\n\nGrants for US 501c3s only; past grantees include farm sanctuaries. In 2026, applicants are encouraged to submit proposals up to $25,000.\n",
