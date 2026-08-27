@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81bc-8309-f933a7945590",
     "render_version": 5,
     "synced_at": "2026-07-19T23:38:18.611165+00:00",
-    "synced_hash": "140e4d8ee4c97a0fcfd40b1ab57a1a715ec816d949cdc6624b87dc75889190b2"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-27T19:04:30.981984+00:00",
+    "reviewer": "claude",
+    "notes": "unified 焦点→重点分野 for terminology consistency"
   },
   "schema_version": 6,
   "source_markdown": "# Jeremy Coller Foundation\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)\n\nURL[https://jeremycollerfoundation.org/](https://jeremycollerfoundation.org/)\n\nWhat you need to know\n\nInvests in the transition to a more sustainable food system.\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Jeremy Coller Foundation",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# ジェレミー・コラー財団\n\n焦点\n\n助成サイクル\n\n助成金額（米ドル）（該当する場合）\n\nURL[https://jeremycollerfoundation.org/](https://jeremycollerfoundation.org/)\n\n知っておくべきこと\n\nより持続可能な食料システムへの移行に投資する。\n",
-  "translated_text": "ジェレミー・コラー財団\n焦点\n助成サイクル\n助成金額（米ドル）（該当する場合）\nURLhttps://jeremycollerfoundation.org/\n知っておくべきこと\nより持続可能な食料システムへの移行に投資する。",
+  "translated_markdown": "# ジェレミー・コラー財団\n\n重点分野\n\n助成サイクル\n\n助成金額（米ドル）（該当する場合）\n\nURL[https://jeremycollerfoundation.org/](https://jeremycollerfoundation.org/)\n\n知っておくべきこと\n\nより持続可能な食料システムへの移行に投資する。\n",
+  "translated_text": "ジェレミー・コラー財団\n重点分野\n助成サイクル\n助成金額（米ドル）（該当する場合）\nURLhttps://jeremycollerfoundation.org/\n知っておくべきこと\nより持続可能な食料システムへの移行に投資する。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/jeremy-coller-foundation"
 }

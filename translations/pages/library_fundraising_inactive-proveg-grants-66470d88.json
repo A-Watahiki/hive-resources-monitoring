@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-8162-ab79-d71c999a5db3",
     "render_version": 5,
     "synced_at": "2026-07-19T23:38:13.954444+00:00",
-    "synced_hash": "4454ba73e46862081db3ec9d5005c3c1520aff45c268d4dac86fc183078423a6"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-27T19:04:30.981984+00:00",
+    "reviewer": "claude",
+    "notes": "fixed Focus label and value phrasing; translated grant size range values and added missing separators"
   },
   "schema_version": 6,
   "source_markdown": "# \\[Inactive\\] ProVeg Grants\n\nFocusVegan food systems\n\nGrant cycle\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nURL[https://proveg.org/advocacy/grants/](https://proveg.org/advocacy/grants/)\n\nWhat you need to know\n\nGives plant-based campaigns around the world quarterly.\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "[Inactive] ProVeg Grants",
   "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# \\[休止中\\] ProVeg助成金\n\n特集：ヴィーガン食のシステム\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）1～1万1万～2万5千2万5千以上\n\nURL[https://proveg.org/advocacy/grants/](https://proveg.org/advocacy/grants/)\n\n知っておくべきこと\n\n世界中で植物由来のキャンペーンを四半期ごとに展開しています。\n",
-  "translated_text": "[休止中] ProVeg助成金\n特集：ヴィーガン食のシステム\n助成サイクル\n助成金額（米ドル、該当する場合）1～1万1万～2万5千2万5千以上\nURLhttps://proveg.org/advocacy/grants/\n知っておくべきこと\n世界中で植物由来のキャンペーンを四半期ごとに展開しています。",
+  "translated_markdown": "# \\[休止中\\] ProVeg助成金\n\n重点分野：ヴィーガン食料システム\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千、2万5千以上\n\nURL[https://proveg.org/advocacy/grants/](https://proveg.org/advocacy/grants/)\n\n知っておくべきこと\n\n世界中で植物由来のキャンペーンを四半期ごとに展開しています。\n",
+  "translated_text": "[休止中] ProVeg助成金\n重点分野：ヴィーガン食料システム\n助成サイクル\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千、2万5千以上\nURLhttps://proveg.org/advocacy/grants/\n知っておくべきこと\n世界中で植物由来のキャンペーンを四半期ごとに展開しています。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/inactive-proveg-grants"
 }
