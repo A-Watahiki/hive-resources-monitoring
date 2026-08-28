@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-815b-b33f-d504dc7a1816",
     "render_version": 5,
     "synced_at": "2026-07-19T23:38:22.419723+00:00",
-    "synced_hash": "879199379781fb0fd1d10d820b7751eb8a1c55f6c5ca8c3c5d9d672003e0b995"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-28T19:04:04.711819+00:00",
+    "reviewer": "claude",
+    "notes": "fixed Focus label and added missing separators between values; translated grant size range values and added missing separators"
   },
   "schema_version": 6,
   "source_markdown": "# Kickstarting for Good\n\nFocusVegan food systemsUnderfunded regionsSystemic changeMovement building\n\nGrant cycleYearly\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nURL[https://provegincubator.com/kickstartingforgood/](https://provegincubator.com/kickstartingforgood/)\n\nWhat you need to know\n\nAn incubator for non-profits aiming to reduce animal suffering and promote plant-based diets. Provides prizes to top teams and seed funding to graduating initiatives. Travel and accommodation covered.\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Kickstarting for Good",
   "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "# 「Kickstarting for Good」\n\nフォーカス ヴィーガン食のシステム 資金不足の地域 構造的な変革 運動の構築\n\n助成サイクル：年次\n\n助成金額（米ドル、該当する場合）1～1万1万～2万5千2万5千以上\n\nURL[https://provegincubator.com/kickstartingforgood/](https://provegincubator.com/kickstartingforgood/)\n\n知っておくべきこと\n\n動物の苦しみを軽減し、植物由来の食生活を推進することを目的とする非営利団体のためのインキュベータープログラムです。上位チームには賞金が授与され、プログラム修了時には卒業するプロジェクトに対してシード資金が提供されます。旅費・宿泊費は全額負担されます。\n",
-  "translated_text": "「Kickstarting for Good」\nフォーカス ヴィーガン食のシステム 資金不足の地域 構造的な変革 運動の構築\n助成サイクル：年次\n助成金額（米ドル、該当する場合）1～1万1万～2万5千2万5千以上\nURLhttps://provegincubator.com/kickstartingforgood/\n知っておくべきこと\n動物の苦しみを軽減し、植物由来の食生活を推進することを目的とする非営利団体のためのインキュベータープログラムです。上位チームには賞金が授与され、プログラム修了時には卒業するプロジェクトに対してシード資金が提供されます。旅費・宿泊費は全額負担されます。",
+  "translated_markdown": "# 「Kickstarting for Good」\n\n重点分野：ヴィーガン食料システム、資金不足の地域、構造的な変革、運動の構築\n\n助成サイクル：年次\n\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千、2万5千以上\n\nURL[https://provegincubator.com/kickstartingforgood/](https://provegincubator.com/kickstartingforgood/)\n\n知っておくべきこと\n\n動物の苦しみを軽減し、植物由来の食生活を推進することを目的とする非営利団体のためのインキュベータープログラムです。上位チームには賞金が授与され、プログラム修了時には卒業するプロジェクトに対してシード資金が提供されます。旅費・宿泊費は全額負担されます。\n",
+  "translated_text": "「Kickstarting for Good」\n重点分野：ヴィーガン食料システム、資金不足の地域、構造的な変革、運動の構築\n助成サイクル：年次\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千、2万5千以上\nURLhttps://provegincubator.com/kickstartingforgood/\n知っておくべきこと\n動物の苦しみを軽減し、植物由来の食生活を推進することを目的とする非営利団体のためのインキュベータープログラムです。上位チームには賞金が授与され、プログラム修了時には卒業するプロジェクトに対してシード資金が提供されます。旅費・宿泊費は全額負担されます。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/kickstarting-for-good"
 }

@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81fc-8c2f-dc0ec4917957",
     "render_version": 5,
     "synced_at": "2026-07-19T23:38:31.297204+00:00",
-    "synced_hash": "c8f76ff5a4e79c3ede22f354854bc70c81c7afd188dbf22d51c1d6cbadc19554"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-28T19:04:04.711819+00:00",
+    "reviewer": "claude",
+    "notes": "fixed Focus label and added missing separator between values; translated the untranslated grant size range values"
   },
   "schema_version": 6,
   "source_markdown": "# Meta Charity Funders\n\nFocusEffective givingMovement building\n\nGrant cycleTwice a year\n\nGrant size in USD (if applicable)10-25k> 25k> 100k\n\nURL[https://www.metacharityfunders.com/](https://www.metacharityfunders.com/)\n\nWhat you need to know\n\nA funding circle for meta charities (charities that support other charities to succeed).\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Meta Charity Funders",
   "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "# メタ・チャリティ・ファンダーズ\n\nフォーカス 効果的な寄付 運動の構築\n\n助成サイクル：年2回\n\n助成金額（米ドル、該当する場合）10～25k> 25k> 100k\n\nURL[https://www.metacharityfunders.com/](https://www.metacharityfunders.com/)\n\n知っておくべきこと\n\nメタ慈善団体（他の慈善団体の成功を支援する慈善団体）のための資金調達サークル。\n",
-  "translated_text": "メタ・チャリティ・ファンダーズ\nフォーカス 効果的な寄付 運動の構築\n助成サイクル：年2回\n助成金額（米ドル、該当する場合）10～25k> 25k> 100k\nURLhttps://www.metacharityfunders.com/\n知っておくべきこと\nメタ慈善団体（他の慈善団体の成功を支援する慈善団体）のための資金調達サークル。",
+  "translated_markdown": "# メタ・チャリティ・ファンダーズ\n\n重点分野：効果的な寄付、運動の構築\n\n助成サイクル：年2回\n\n助成金額（米ドル、該当する場合）：1万～2万5千、2万5千以上、10万以上\n\nURL[https://www.metacharityfunders.com/](https://www.metacharityfunders.com/)\n\n知っておくべきこと\n\nメタ慈善団体（他の慈善団体の成功を支援する慈善団体）のための資金調達サークル。\n",
+  "translated_text": "メタ・チャリティ・ファンダーズ\n重点分野：効果的な寄付、運動の構築\n助成サイクル：年2回\n助成金額（米ドル、該当する場合）：1万～2万5千、2万5千以上、10万以上\nURLhttps://www.metacharityfunders.com/\n知っておくべきこと\nメタ慈善団体（他の慈善団体の成功を支援する慈善団体）のための資金調達サークル。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/meta-charity-funders"
 }
