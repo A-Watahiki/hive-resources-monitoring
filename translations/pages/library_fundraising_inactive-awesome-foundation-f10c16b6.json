@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8178-aee0-c05a3ec30b55",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:12.184661+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-28T12:42:16.353135+00:00",
+    "synced_hash": "3aeeb8a631bca705caca6406d5d1f10409bb2a7ba1c9dfe32e495cba77929594"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified 焦点→重点分野; translated the untranslated grant size value",
     "reviewed_at": "2026-08-27T19:04:30.981984+00:00",
     "reviewer": "claude",
-    "notes": "unified 焦点→重点分野; translated the untranslated grant size value"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# \\[Inactive\\] Awesome Foundation\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)< 1k\n\nURL[https://www.awesomefoundation.org/en/chapters/vegan](https://www.awesomefoundation.org/en/chapters/vegan)\n\nWhat you need to know\n\n1k seed grants to small, vegan projects.\n",

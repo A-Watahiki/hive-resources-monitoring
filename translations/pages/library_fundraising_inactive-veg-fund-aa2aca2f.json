@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8157-be2c-d56c9dc45bb6",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:16.259463+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-28T12:42:41.727471+00:00",
+    "synced_hash": "d3b5f3490d460c996d6ebc4b776aa7db711e2898291b840a4f2ed183e536567b"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified 焦点→重点分野; fixed grant size range missing thousand multiplier",
     "reviewed_at": "2026-08-27T19:04:30.981984+00:00",
     "reviewer": "claude",
-    "notes": "unified 焦点→重点分野; fixed grant size range missing thousand multiplier"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# \\[Inactive\\] Veg Fund\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)1-10k\n\nURL[https://rancheradvocacy.org/vegfund/](https://rancheradvocacy.org/vegfund/)\n\nWhat you need to know\n\nGrants for vegan campaigns and grassroots vegan activism.\n",

@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81bc-8309-f933a7945590",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:18.611165+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-28T12:42:53.003852+00:00",
+    "synced_hash": "140e4d8ee4c97a0fcfd40b1ab57a1a715ec816d949cdc6624b87dc75889190b2"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified 焦点→重点分野 for terminology consistency",
     "reviewed_at": "2026-08-27T19:04:30.981984+00:00",
     "reviewer": "claude",
-    "notes": "unified 焦点→重点分野 for terminology consistency"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Jeremy Coller Foundation\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)\n\nURL[https://jeremycollerfoundation.org/](https://jeremycollerfoundation.org/)\n\nWhat you need to know\n\nInvests in the transition to a more sustainable food system.\n",

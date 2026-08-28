@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8152-8d46-e9a575e3884b",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:20.356616+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-28T12:43:04.773047+00:00",
+    "synced_hash": "ecfe8cf681b942dc5b2d31b3daf7496c583c3c2fae2ac46a6fe1c99d6f2c556d"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified 焦点→重点分野 for terminology consistency",
     "reviewed_at": "2026-08-27T19:04:30.981984+00:00",
     "reviewer": "claude",
-    "notes": "unified 焦点→重点分野 for terminology consistency"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Joanna Toole Foundation\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)10-25k\n\nURL[https://joannatoolefoundation.org/apply-for-a-grant/](https://joannatoolefoundation.org/apply-for-a-grant/)\n\nWhat you need to know\n\nExcited about projects at the intersection of animal welfare and climate change; in particular the welfare of marine animals.\n",

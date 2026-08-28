@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8162-ab79-d71c999a5db3",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:13.954444+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-28T12:42:29.838052+00:00",
+    "synced_hash": "4454ba73e46862081db3ec9d5005c3c1520aff45c268d4dac86fc183078423a6"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label and value phrasing; translated grant size range values and added missing separators",
     "reviewed_at": "2026-08-27T19:04:30.981984+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label and value phrasing; translated grant size range values and added missing separators"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# \\[Inactive\\] ProVeg Grants\n\nFocusVegan food systems\n\nGrant cycle\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nURL[https://proveg.org/advocacy/grants/](https://proveg.org/advocacy/grants/)\n\nWhat you need to know\n\nGives plant-based campaigns around the world quarterly.\n",
