@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81fc-8c2f-dc0ec4917957",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:31.297204+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-29T07:50:47.747031+00:00",
+    "synced_hash": "c8f76ff5a4e79c3ede22f354854bc70c81c7afd188dbf22d51c1d6cbadc19554"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label and added missing separator between values; translated the untranslated grant size range values",
     "reviewed_at": "2026-08-28T19:04:04.711819+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label and added missing separator between values; translated the untranslated grant size range values"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Meta Charity Funders\n\nFocusEffective givingMovement building\n\nGrant cycleTwice a year\n\nGrant size in USD (if applicable)10-25k> 25k> 100k\n\nURL[https://www.metacharityfunders.com/](https://www.metacharityfunders.com/)\n\nWhat you need to know\n\nA funding circle for meta charities (charities that support other charities to succeed).\n",

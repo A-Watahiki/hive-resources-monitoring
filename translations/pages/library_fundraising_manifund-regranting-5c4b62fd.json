@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-814c-8b05-f70b5200e9a2",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:28.788265+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-29T07:50:36.954513+00:00",
+    "synced_hash": "a51305959a557ed35a5dbb46f7feaf4473f6bce2aa39483538744336fcbf1b73"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified 焦点→重点分野; fixed grant size range missing thousand multiplier",
     "reviewed_at": "2026-08-28T19:04:04.711819+00:00",
     "reviewer": "claude",
-    "notes": "unified 焦点→重点分野; fixed grant size range missing thousand multiplier"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Manifund regranting\n\nFocus\n\nGrant cycleYear round\n\nGrant size in USD (if applicable)1-10k\n\nURL[https://manifund.org/causes/animal-welfare](https://manifund.org/causes/animal-welfare)\n\nWhat you need to know\n\nList proposals and get them noticed via the platform. We’ve noticed that animal ideas are unlikely to get funded, but it may be good for attention. You can also apply to be a regrantor.\n",

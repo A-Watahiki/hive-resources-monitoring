@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8142-96cd-e83320434d34",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:26.516033+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-29T07:50:26.407771+00:00",
+    "synced_hash": "c89da6ed71bffae653c342e43cc49faa5af68a28fec0af211463d4a5db9ebf5c"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified 焦点→重点分野; translated grant size range values and added missing separator",
     "reviewed_at": "2026-08-28T19:04:04.711819+00:00",
     "reviewer": "claude",
-    "notes": "unified 焦点→重点分野; translated grant size range values and added missing separator"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Lush Spring Prize\n\nFocus\n\nGrant cycleBiennial\n\nGrant size in USD (if applicable)1-10k10-25k\n\nURL[https://springprize.org/](https://springprize.org/)\n\nWhat you need to know\n\nFunds projects that contribute to social and environmental regeneration.\n",
