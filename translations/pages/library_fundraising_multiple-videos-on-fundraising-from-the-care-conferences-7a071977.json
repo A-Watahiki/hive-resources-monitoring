@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-8125-afd8-f33409b44e7c",
     "render_version": 5,
     "synced_at": "2026-08-04T04:24:04.159324+00:00",
-    "synced_hash": "a2850cf368356bf8713dd1ab7f9d5fd65daeb6101fbbada9c7ec5329df455fe1"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-29T19:04:37.941360+00:00",
+    "reviewer": "claude",
+    "notes": "reordered Format field; fixed broken markdown link syntax that split the URL text outside the link brackets"
   },
   "schema_version": 6,
   "source_markdown": "# Multiple videos on fundraising from the CARE conferences\n\nFormatWebinar\n\nDetails\n\nURL[https://www.youtube.com/@careconferenceonanimalrigh7431/search](https://www.youtube.com/@careconferenceonanimalrigh7431/search)\n\nURL [https://www.youtube.com/@careconferenceonanimalrigh7431/videos](https://www.youtube.com/@careconferenceonanimalrigh7431/videos)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Multiple videos on fundraising from the CARE conferences",
   "translated_at": "2026-08-04T04:16:57.404499+00:00",
-  "translated_markdown": "# CAREカンファレンスで公開された、資金調達に関する複数の動画\n\nウェビナー形式\n\n詳細\n\nURL[https://www.youtube.com/@careconferenceonanimalrigh7431/search](https://www.youtube.com/@careconferenceonanimalrigh7431/search)\n\nURL https://www.youtube.com/[@careconferenceonanimalrigh7431/videos](https://www.youtube.com/@careconferenceonanimalrigh7431/videos)\n",
-  "translated_text": "CAREカンファレンスで公開された、資金調達に関する複数の動画\nウェビナー形式\n詳細\nURLhttps://www.youtube.com/@careconferenceonanimalrigh7431/search\nURL https://www.youtube.com/@careconferenceonanimalrigh7431/videos",
+  "translated_markdown": "# CAREカンファレンスで公開された、資金調達に関する複数の動画\n\n形式：ウェビナー\n\n詳細\n\nURL[https://www.youtube.com/@careconferenceonanimalrigh7431/search](https://www.youtube.com/@careconferenceonanimalrigh7431/search)\n\nURL [https://www.youtube.com/@careconferenceonanimalrigh7431/videos](https://www.youtube.com/@careconferenceonanimalrigh7431/videos)\n",
+  "translated_text": "CAREカンファレンスで公開された、資金調達に関する複数の動画\n形式：ウェビナー\n詳細\nURLhttps://www.youtube.com/@careconferenceonanimalrigh7431/search\nURL https://www.youtube.com/@careconferenceonanimalrigh7431/videos",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/multiple-videos-on-fundraising-from-the-care-conferences"
 }

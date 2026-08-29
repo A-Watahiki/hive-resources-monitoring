@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81bb-8080-ec9b7a43a4dc",
     "render_version": 5,
     "synced_at": "2026-07-19T23:38:39.009161+00:00",
-    "synced_hash": "1f2cdda01d5f43a589d4a20566e161bff8c72a2200b9140ed1b38568f72b211e"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-29T19:04:37.941360+00:00",
+    "reviewer": "claude",
+    "notes": "fixed brand name \"Nonprofit Tech for Good\" mistranslated as generic phrase 社会貢献を目的とした非営利のテクノロジー in the body heading; translated the untranslated Format field"
   },
   "schema_version": 6,
   "source_markdown": "# Nonprofit Tech for Good\n\nFormatResource collection\n\nDetails\n\nA website for digital fundraising professionals, covering topics like how to optimise your website for fundraising and running digital campaigns.\n\nURL[https://bit.ly/38rKPKu](https://bit.ly/38rKPKu)\n\nURL [https://www.nptechforgood.com/](https://www.nptechforgood.com/)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Nonprofit Tech for Good",
   "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "# 社会貢献を目的とした非営利のテクノロジー\n\nFormatResource コレクション\n\n詳細\n\nデジタル資金調達に携わる専門家向けのウェブサイトで、資金調達に向けたウェブサイトの最適化方法やデジタルキャンペーンの実施方法などのトピックを取り上げています。\n\nURL[https://bit.ly/38rKPKu](https://bit.ly/38rKPKu)\n\nURL [https://www.nptechforgood.com/](https://www.nptechforgood.com/)\n",
-  "translated_text": "社会貢献を目的とした非営利のテクノロジー\nFormatResource コレクション\n詳細\nデジタル資金調達に携わる専門家向けのウェブサイトで、資金調達に向けたウェブサイトの最適化方法やデジタルキャンペーンの実施方法などのトピックを取り上げています。\nURLhttps://bit.ly/38rKPKu\nURL https://www.nptechforgood.com/",
+  "translated_markdown": "# Nonprofit Tech for Good\n\n形式：リソース集\n\n詳細\n\nデジタル資金調達に携わる専門家向けのウェブサイトで、資金調達に向けたウェブサイトの最適化方法やデジタルキャンペーンの実施方法などのトピックを取り上げています。\n\nURL[https://bit.ly/38rKPKu](https://bit.ly/38rKPKu)\n\nURL [https://www.nptechforgood.com/](https://www.nptechforgood.com/)\n",
+  "translated_text": "Nonprofit Tech for Good\n形式：リソース集\n詳細\nデジタル資金調達に携わる専門家向けのウェブサイトで、資金調達に向けたウェブサイトの最適化方法やデジタルキャンペーンの実施方法などのトピックを取り上げています。\nURLhttps://bit.ly/38rKPKu\nURL https://www.nptechforgood.com/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/nonprofit-tech-for-good"
 }
