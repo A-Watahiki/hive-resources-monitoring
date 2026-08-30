@@ -4,27 +4,6 @@
       "added": [],
       "changed": [
         {
-          "diff": "--- before\n+++ after\n@@ -15,2 +15,4 @@\n URL\n https://animainternational.org/resources/keywords/fundraising\n+URL\n+https://animainternational.org/resources/keywords/fundraising",
-          "diff_lines_omitted": 0,
-          "title": "Anima’s fundraising resources for beginners",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising/animas-fundraising-resources-for-beginners"
-        },
-        {
-          "diff": "--- before\n+++ after\n@@ -16,2 +16,4 @@\n URL\n https://givebutter.com/freebies\n+URL\n+https://givebutter.com/freebies",
-          "diff_lines_omitted": 0,
-          "title": "GiveButter webinars and videos",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising/givebutter-webinars-and-videos"
-        }
-      ],
-      "detected_at": "2026-07-23T03:25:14.050347+00:00",
-      "removed": []
-    },
-    {
-      "added": [],
-      "changed": [
-        {
           "diff": "--- before\n+++ after\n@@ -17,5 +17,5 @@\n > 100k\n URL\n-https://docs.google.com/document/d/1lB4wFg_K8YfY71OecUm-LxlGmtZZcLt-4YC7yduP6uc/edit?tab=t.0\n+https://gfi.org/researchgrants/#research-grant-program\n What you need to know\n Support early to mid-stage research proposals aimed at tackling urgent scientific and technological challenges within the alternative protein industry.",
           "diff_lines_omitted": 0,
           "title": "GFI Research Grant Program",
@@ -193,6 +172,37 @@
       ],
       "detected_at": "2026-08-29T06:34:53.619985+00:00",
       "removed": []
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -465,5 +465,5 @@\n and ask a question in #help-requests.\n ‣\n-How to make the best out of a conference?\n+How to make the most out of a conference?\n Each conference is a big commitment on your resources so it’s important that you take full advantage of this opportunity. We recommend that you always\n take plenty of time to research the conference and prepare for it well.",
+          "diff_lines_omitted": 0,
+          "title": "Conferences Database: Farmed Animal Advocacy",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/conferences"
+        }
+      ],
+      "detected_at": "2026-08-30T04:47:28.723670+00:00",
+      "removed": [
+        {
+          "title": "Eva Yoe",
+          "url": "https://resources.joinhive.org/library/fundraising/eva-yoe"
+        },
+        {
+          "title": "GiveButter webinars and videos",
+          "url": "https://resources.joinhive.org/library/fundraising/givebutter-webinars-and-videos"
+        },
+        {
+          "title": "The William and Charlotte Parks Foundation",
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/the-william-and-charlotte-parks-foundation"
+        },
+        {
+          "title": "NextAfter Institute",
+          "url": "https://resources.joinhive.org/library/fundraising/nextafter-institute"
+        }
+      ]
     }
   ]
 }
