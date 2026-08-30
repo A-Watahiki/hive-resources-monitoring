@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-819d-80e3-fe6770fa882f",
     "render_version": 5,
     "synced_at": "2026-07-19T23:38:44.932555+00:00",
-    "synced_hash": "1a1bda13b62497aebd29fa2056b36284cf06b48db6d6f93b658cda4748486aa1"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-30T19:04:47.466340+00:00",
+    "reviewer": "claude",
+    "notes": "fixed org name \"Phauna\" mistranslated as 誇り (pride) in the page title/heading; fixed Focus label and separators, unified 能力開発→能力強化"
   },
   "schema_version": 6,
   "source_markdown": "# Phauna\n\nFocusAnimal rightsCapacity building\n\nGrant cycle\n\nGrant size in USD (if applicable)\n\nURL[https://www.phaunaproject.org/inquiries/](https://www.phaunaproject.org/inquiries/)\n\nWhat you need to know\n\nInvitation-only. You can also [**seek an invitation.**](https://www.phaunaproject.org/inquiries/)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Phauna",
   "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "# 誇り\n\n焦点 動物の権利 能力開発\n\n助成サイクル\n\n助成金額（米ドル）（該当する場合）\n\nURL[https://www.phaunaproject.org/inquiries/](https://www.phaunaproject.org/inquiries/)\n\n知っておくべきこと\n\n招待制です。[**招待状を申し込む**](https://www.phaunaproject.org/inquiries/)ことも可能です[**。**](https://www.phaunaproject.org/inquiries/)\n",
-  "translated_text": "誇り\n焦点 動物の権利 能力開発\n助成サイクル\n助成金額（米ドル）（該当する場合）\nURLhttps://www.phaunaproject.org/inquiries/\n知っておくべきこと\n招待制です。招待状を申し込むことも可能です。",
+  "translated_markdown": "# Phauna\n\n重点分野：動物の権利、能力強化\n\n助成サイクル\n\n助成金額（米ドル）（該当する場合）\n\nURL[https://www.phaunaproject.org/inquiries/](https://www.phaunaproject.org/inquiries/)\n\n知っておくべきこと\n\n招待制です。[**招待状を申し込む**](https://www.phaunaproject.org/inquiries/)ことも可能です[**。**](https://www.phaunaproject.org/inquiries/)\n",
+  "translated_text": "Phauna\n重点分野：動物の権利、能力強化\n助成サイクル\n助成金額（米ドル）（該当する場合）\nURLhttps://www.phaunaproject.org/inquiries/\n知っておくべきこと\n招待制です。招待状を申し込むことも可能です。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/phauna"
 }

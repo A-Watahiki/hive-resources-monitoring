@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81a3-90db-cdd76fbdbc22",
     "render_version": 5,
     "synced_at": "2026-07-19T23:38:47.173652+00:00",
-    "synced_hash": "03e0ca5820084a18d2dfb3bd619199341944002e6231f161d70ec0bdb11f913d"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-30T19:04:47.466340+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated Format field"
   },
   "schema_version": 6,
   "source_markdown": "# Professional development courses for fundraisers (EA Forum resource collection)\n\nFormatResource collection\n\nDetails\n\nA list of free online fundraising resources from Candid Learning.\n\nURL[https://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few](https://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few)\n\nURL [https://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few](https://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few)\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Professional development courses for fundraisers (EA Forum resource collection)",
   "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "# 資金調達担当者向け専門能力開発コース（EAフォーラムの資料集）\n\nFormatResource コレクション\n\n詳細\n\nCandid Learningが提供する、無料のオンライン募金リソース一覧。\n\nURL[https://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few](https://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few)\n\nURL [https://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few](https://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few)\n",
-  "translated_text": "資金調達担当者向け専門能力開発コース（EAフォーラムの資料集）\nFormatResource コレクション\n詳細\nCandid Learningが提供する、無料のオンライン募金リソース一覧。\nURLhttps://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few\nURL https://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few",
+  "translated_markdown": "# 資金調達担当者向け専門能力開発コース（EAフォーラムの資料集）\n\n形式：リソース集\n\n詳細\n\nCandid Learningが提供する、無料のオンライン募金リソース一覧。\n\nURL[https://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few](https://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few)\n\nURL [https://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few](https://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few)\n",
+  "translated_text": "資金調達担当者向け専門能力開発コース（EAフォーラムの資料集）\n形式：リソース集\n詳細\nCandid Learningが提供する、無料のオンライン募金リソース一覧。\nURLhttps://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few\nURL https://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/professional-development-courses-for-fundraisers-ea-forum-resource-collection"
 }
