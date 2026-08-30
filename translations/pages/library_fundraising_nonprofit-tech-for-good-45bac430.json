@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81bb-8080-ec9b7a43a4dc",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:39.009161+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-30T06:28:33.780853+00:00",
+    "synced_hash": "1f2cdda01d5f43a589d4a20566e161bff8c72a2200b9140ed1b38568f72b211e"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed brand name \"Nonprofit Tech for Good\" mistranslated as generic phrase 社会貢献を目的とした非営利のテクノロジー in the body heading; translated the untranslated Format field",
     "reviewed_at": "2026-08-29T19:04:37.941360+00:00",
     "reviewer": "claude",
-    "notes": "fixed brand name \"Nonprofit Tech for Good\" mistranslated as generic phrase 社会貢献を目的とした非営利のテクノロジー in the body heading; translated the untranslated Format field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Nonprofit Tech for Good\n\nFormatResource collection\n\nDetails\n\nA website for digital fundraising professionals, covering topics like how to optimise your website for fundraising and running digital campaigns.\n\nURL[https://bit.ly/38rKPKu](https://bit.ly/38rKPKu)\n\nURL [https://www.nptechforgood.com/](https://www.nptechforgood.com/)\n",

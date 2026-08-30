@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-815a-995b-c2898944d5cb",
     "render_version": 5,
-    "synced_at": "2026-08-11T03:14:04.227890+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-30T06:28:07.202520+00:00",
+    "synced_hash": "28b2d64d0d9fac25f245aa76d083630c6fb4e817f95c870ca10112b64a1f219d"
   },
   "review": {
-    "status": "fixed",
+    "notes": "reordered Format field to match label:value convention (形式：ポッドキャスト)",
     "reviewed_at": "2026-08-29T19:04:37.941360+00:00",
     "reviewer": "claude",
-    "notes": "reordered Format field to match label:value convention (形式：ポッドキャスト)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Mission to Movements Podcast\n\nFormatPodcast\n\nDetails\n\nPodcast on how to become a better fundraiser.\n\nURL[https://positiveequation.com/podcast/](https://positiveequation.com/podcast/)\n\nURL [https://positiveequation.com/podcast/](https://positiveequation.com/podcast/)\n",

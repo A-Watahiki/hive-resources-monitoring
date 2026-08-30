@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-818f-afca-d30ad54bd4ac",
     "render_version": 5,
-    "synced_at": "2026-08-04T04:24:13.262062+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-30T06:28:25.567013+00:00",
+    "synced_hash": "f901cf147cb6932c8068fa6e97f71b9442683284c584afa13f546a38cacd541e"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated Format field",
     "reviewed_at": "2026-08-29T19:04:37.941360+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated Format field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# NextAfter Institute\n\nFormatCourse\n\nDetails\n\n(Paid) Online fundraising courses to equip you with research-proven strategies, tactics, and skills to help you grow online donations and revenue.\n\nURL[https://courses.nextafter.com/](https://courses.nextafter.com/)\n\nURL [https://courses.nextafter.com/](https://courses.nextafter.com/)\n",
