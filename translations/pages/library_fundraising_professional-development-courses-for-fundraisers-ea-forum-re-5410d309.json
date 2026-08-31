@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81a3-90db-cdd76fbdbc22",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:47.173652+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-31T06:55:37.798668+00:00",
+    "synced_hash": "03e0ca5820084a18d2dfb3bd619199341944002e6231f161d70ec0bdb11f913d"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated Format field",
     "reviewed_at": "2026-08-30T19:04:47.466340+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated Format field"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Professional development courses for fundraisers (EA Forum resource collection)\n\nFormatResource collection\n\nDetails\n\nA list of free online fundraising resources from Candid Learning.\n\nURL[https://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few](https://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few)\n\nURL [https://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few](https://forum.effectivealtruism.org/posts/kcm6m5BqpBeqSEx55/professional-development-resources-for-fundraisers-a-few)\n",

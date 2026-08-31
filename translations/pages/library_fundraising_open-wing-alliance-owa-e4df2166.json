@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-812b-bbdc-ce6a65c8d46c",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:42.846141+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-31T06:55:15.901806+00:00",
+    "synced_hash": "187cc8c38527a76aac319a397b3b69f82d8b37f35e84cf04b08f1949d597b6e8"
   },
   "review": {
-    "status": "fixed",
+    "notes": "translated the untranslated \"Focus\" label to 重点分野 for consistency",
     "reviewed_at": "2026-08-30T19:04:47.466340+00:00",
     "reviewer": "claude",
-    "notes": "translated the untranslated \"Focus\" label to 重点分野 for consistency"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Open Wing Alliance (OWA)\n\nFocusCage-free work\n\nGrant cycle\n\nGrant size in USD (if applicable)\n\nURL[https://openwingalliance.org/grants](https://openwingalliance.org/grants)\n\nWhat you need to know\n\nGrants to organisations who do cage-free work. Applicants must be members of OWA.\n",

@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81ef-a272-d41cecdcf676",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:40.781138+00:00",
-    "synced_hash": null
+    "synced_at": "2026-08-31T06:55:01.682120+00:00",
+    "synced_hash": "a8ed5cc3d0b54fc316a516ba3c591467ae38b4220273e0ca00d35f22ed5bb5d3"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label and added missing separators between values; translated the untranslated grant size range values",
     "reviewed_at": "2026-08-30T19:04:47.466340+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label and added missing separators between values; translated the untranslated grant size range values"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Coefficient Giving (formerly Open Philanthropy)\n\nFocusUnderfunded regionsCage-free workAlternative protein\n\nGrant cycle\n\nGrant size in USD (if applicable)> 25k> 100k\n\nURL[https://coefficientgiving.org/funds/farm-animal-welfare/](https://coefficientgiving.org/funds/farm-animal-welfare/)\n\nWhat you need to know\n\nThey accept very few unsolicited applications and are likely to approach you if they think your project is a good fit. You can be asked to be referred by another community member if you think your project might be considered. To learn more about what they are interested it, check out [their latest grants](https://coefficientgiving.org/funds/farm-animal-welfare/).\n",
