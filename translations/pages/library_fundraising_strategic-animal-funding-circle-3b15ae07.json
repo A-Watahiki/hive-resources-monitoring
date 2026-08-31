@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-8184-bb82-f70365c4bc94",
     "render_version": 5,
     "synced_at": "2026-07-19T23:38:57.373269+00:00",
-    "synced_hash": "f988c5cebd5383688b2f66803b8583dab12508994b3c4d1b035ac0d5f822afe9"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-31T19:04:22.369595+00:00",
+    "reviewer": "claude",
+    "notes": "unified 焦点→重点分野 for terminology consistency"
   },
   "schema_version": 6,
   "source_markdown": "# Strategic Animal Funding Circle\n\nFocus\n\nGrant cycleTwice a year\n\nGrant size in USD (if applicable)\n\nURL[https://www.animalfundingcircle.com/](https://www.animalfundingcircle.com/)\n\nWhat you need to know\n\nA group of impact-focused donors founded in 2024 who support promising animal-focused nonprofits with strategic funding. See their [last RFP](https://forum.effectivealtruism.org/posts/AhPwptBxNeZxaCjfK/request-for-proposals-strategic-animal-funding-circle-fall).\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Strategic Animal Funding Circle",
   "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "# 戦略的動物資金調達サークル\n\n焦点\n\n助成サイクル：年2回\n\n助成金額（米ドル）（該当する場合）\n\nURL[https://www.animalfundingcircle.com/](https://www.animalfundingcircle.com/)\n\n知っておくべきこと\n\n2024年に設立された、インパクト重視の寄付者グループで、将来性のある動物保護を主軸とする非営利団体に対し、戦略的な資金提供を行っています。[最新のRFP](https://forum.effectivealtruism.org/posts/AhPwptBxNeZxaCjfK/request-for-proposals-strategic-animal-funding-circle-fall)をご覧ください。\n",
-  "translated_text": "戦略的動物資金調達サークル\n焦点\n助成サイクル：年2回\n助成金額（米ドル）（該当する場合）\nURLhttps://www.animalfundingcircle.com/\n知っておくべきこと\n2024年に設立された、インパクト重視の寄付者グループで、将来性のある動物保護を主軸とする非営利団体に対し、戦略的な資金提供を行っています。最新のRFPをご覧ください。",
+  "translated_markdown": "# 戦略的動物資金調達サークル\n\n重点分野\n\n助成サイクル：年2回\n\n助成金額（米ドル）（該当する場合）\n\nURL[https://www.animalfundingcircle.com/](https://www.animalfundingcircle.com/)\n\n知っておくべきこと\n\n2024年に設立された、インパクト重視の寄付者グループで、将来性のある動物保護を主軸とする非営利団体に対し、戦略的な資金提供を行っています。[最新のRFP](https://forum.effectivealtruism.org/posts/AhPwptBxNeZxaCjfK/request-for-proposals-strategic-animal-funding-circle-fall)をご覧ください。\n",
+  "translated_text": "戦略的動物資金調達サークル\n重点分野\n助成サイクル：年2回\n助成金額（米ドル）（該当する場合）\nURLhttps://www.animalfundingcircle.com/\n知っておくべきこと\n2024年に設立された、インパクト重視の寄付者グループで、将来性のある動物保護を主軸とする非営利団体に対し、戦略的な資金提供を行っています。最新のRFPをご覧ください。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/strategic-animal-funding-circle"
 }

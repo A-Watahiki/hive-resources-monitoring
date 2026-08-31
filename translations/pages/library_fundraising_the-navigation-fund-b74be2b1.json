@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-8178-bebd-d535acb72c18",
     "render_version": 5,
     "synced_at": "2026-07-19T23:38:59.411203+00:00",
-    "synced_hash": "db066ac748e6eaea98ac782c355a987f2e270d0f95fc5a93960ff8902f0fd1e5"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-08-31T19:04:22.369595+00:00",
+    "reviewer": "claude",
+    "notes": "fixed Focus label and added missing separator between values"
   },
   "schema_version": 6,
   "source_markdown": "# The Navigation Fund\n\nFocusMovement buildingEffective giving\n\nGrant cycle\n\nGrant size in USD (if applicable)\n\nURL[https://www.navigation.org/](https://www.navigation.org/)\n\nWhat you need to know\n\nGrant applications are by invitation only, but you can [introduce yourself](https://www.navigation.org/grants/farm-animal-welfare/introduce-yourself) to the team.\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "The Navigation Fund",
   "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "# ナビゲーション・ファンド\n\nフォーカス 運動の構築 効果的な寄付\n\n助成サイクル\n\n助成金額（米ドル）（該当する場合）\n\nURL [https://www.navigation.org/](https://www.navigation.org/)\n\n知っておくべきこと\n\n助成金の申請は招待制ですが、チームに[自己紹介することは](https://www.navigation.org/grants/farm-animal-welfare/introduce-yourself)可能です。\n",
-  "translated_text": "ナビゲーション・ファンド\nフォーカス 運動の構築 効果的な寄付\n助成サイクル\n助成金額（米ドル）（該当する場合）\nURL https://www.navigation.org/\n知っておくべきこと\n助成金の申請は招待制ですが、チームに自己紹介することは可能です。",
+  "translated_markdown": "# ナビゲーション・ファンド\n\n重点分野：運動の構築、効果的な寄付\n\n助成サイクル\n\n助成金額（米ドル）（該当する場合）\n\nURL [https://www.navigation.org/](https://www.navigation.org/)\n\n知っておくべきこと\n\n助成金の申請は招待制ですが、チームに[自己紹介することは](https://www.navigation.org/grants/farm-animal-welfare/introduce-yourself)可能です。\n",
+  "translated_text": "ナビゲーション・ファンド\n重点分野：運動の構築、効果的な寄付\n助成サイクル\n助成金額（米ドル）（該当する場合）\nURL https://www.navigation.org/\n知っておくべきこと\n助成金の申請は招待制ですが、チームに自己紹介することは可能です。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/the-navigation-fund"
 }
