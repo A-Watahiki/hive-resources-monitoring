@@ -4,34 +4,6 @@
       "added": [],
       "changed": [
         {
-          "diff": "--- before\n+++ after\n@@ -17,5 +17,5 @@\n > 100k\n URL\n-https://docs.google.com/document/d/1lB4wFg_K8YfY71OecUm-LxlGmtZZcLt-4YC7yduP6uc/edit?tab=t.0\n+https://gfi.org/researchgrants/#research-grant-program\n What you need to know\n Support early to mid-stage research proposals aimed at tackling urgent scientific and technological challenges within the alternative protein industry.",
-          "diff_lines_omitted": 0,
-          "title": "GFI Research Grant Program",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising/gfi-research-grant-program"
-        },
-        {
-          "diff": "--- before\n+++ after\n@@ -15,2 +15,4 @@\n URL\n https://www.youtube.com/@careconferenceonanimalrigh7431/search\n+URL\n+https://www.youtube.com/@careconferenceonanimalrigh7431/videos",
-          "diff_lines_omitted": 0,
-          "title": "Multiple videos on fundraising from the CARE conferences",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising/multiple-videos-on-fundraising-from-the-care-conferences"
-        },
-        {
-          "diff": "--- before\n+++ after\n@@ -16,2 +16,4 @@\n URL\n https://courses.nextafter.com/\n+URL\n+https://courses.nextafter.com/",
-          "diff_lines_omitted": 0,
-          "title": "NextAfter Institute",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising/nextafter-institute"
-        }
-      ],
-      "detected_at": "2026-08-04T02:57:50.997591+00:00",
-      "removed": []
-    },
-    {
-      "added": [],
-      "changed": [
-        {
           "diff": "--- before\n+++ after\n@@ -28,3 +28,3 @@\n Virtual Option?\n Website\n-https://wfc2024.fisheries.org\n+https://fishconserve.org/world-fisheries-congress/",
           "diff_lines_omitted": 0,
           "title": "World Fisheries Conference",
@@ -203,6 +175,29 @@
           "url": "https://resources.joinhive.org/library/fundraising/nextafter-institute"
         }
       ]
+    },
+    {
+      "added": [
+        {
+          "title": "Eva Yoe",
+          "url": "https://resources.joinhive.org/library/fundraising/eva-yoe"
+        },
+        {
+          "title": "GiveButter webinars and videos",
+          "url": "https://resources.joinhive.org/library/fundraising/givebutter-webinars-and-videos"
+        },
+        {
+          "title": "The William and Charlotte Parks Foundation",
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/the-william-and-charlotte-parks-foundation"
+        },
+        {
+          "title": "NextAfter Institute",
+          "url": "https://resources.joinhive.org/library/fundraising/nextafter-institute"
+        }
+      ],
+      "changed": [],
+      "detected_at": "2026-08-31T04:47:50.882752+00:00",
+      "removed": []
     }
   ]
 }
