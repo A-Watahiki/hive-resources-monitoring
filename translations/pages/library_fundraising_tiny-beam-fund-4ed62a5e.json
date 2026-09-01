@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81d0-bdcb-f6774bac9677",
     "render_version": 5,
     "synced_at": "2026-07-19T23:39:05.468080+00:00",
-    "synced_hash": "ca299895dee5b781eb64ee8d2319b9f36469e79b0b9e12d80c03a428e98f2efe"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-09-01T19:05:16.703142+00:00",
+    "reviewer": "claude",
+    "notes": "fixed Focus label and added missing separator between values; translated grant size range values and added missing separator"
   },
   "schema_version": 6,
   "source_markdown": "# Tiny Beam Fund\n\nFocusResearchUnderfunded regions\n\nGrant cycle\n\nGrant size in USD (if applicable)1-10k10-25k\n\nURL[https://tinybeamfund.org/Home](https://tinybeamfund.org/Home)\n\nWhat you need to know\n\nSupports research on the negative impacts of industrial animal agriculture, particularly concerning low- and middle-income countries. Find the last call [here](https://drive.google.com/file/d/1O3rCnBVCVA3SbRd7KUhH1oqWnhssFrq1/view).\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Tiny Beam Fund",
   "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "# Tiny Beam Fund\n\nフォーカス・リサーチ：資金不足の地域\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）1～1万1万～2万5千\n\nURL[https://tinybeamfund.org/Home](https://tinybeamfund.org/Home)\n\n知っておくべきこと\n\n工業型畜産業がもたらす悪影響、特に低・中所得国における影響に関する研究を支援しています。募集要項[はこちら](https://drive.google.com/file/d/1O3rCnBVCVA3SbRd7KUhH1oqWnhssFrq1/view)をご覧ください。\n",
-  "translated_text": "Tiny Beam Fund\nフォーカス・リサーチ：資金不足の地域\n助成サイクル\n助成金額（米ドル、該当する場合）1～1万1万～2万5千\nURLhttps://tinybeamfund.org/Home\n知っておくべきこと\n工業型畜産業がもたらす悪影響、特に低・中所得国における影響に関する研究を支援しています。募集要項はこちらをご覧ください。",
+  "translated_markdown": "# Tiny Beam Fund\n\n重点分野：研究、資金不足の地域\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千\n\nURL[https://tinybeamfund.org/Home](https://tinybeamfund.org/Home)\n\n知っておくべきこと\n\n工業型畜産業がもたらす悪影響、特に低・中所得国における影響に関する研究を支援しています。募集要項[はこちら](https://drive.google.com/file/d/1O3rCnBVCVA3SbRd7KUhH1oqWnhssFrq1/view)をご覧ください。\n",
+  "translated_text": "Tiny Beam Fund\n重点分野：研究、資金不足の地域\n助成サイクル\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千\nURLhttps://tinybeamfund.org/Home\n知っておくべきこと\n工業型畜産業がもたらす悪影響、特に低・中所得国における影響に関する研究を支援しています。募集要項はこちらをご覧ください。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/tiny-beam-fund"
 }

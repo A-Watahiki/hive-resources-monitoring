@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81e3-9420-d2bb7abda672",
     "render_version": 5,
     "synced_at": "2026-07-19T23:39:09.506145+00:00",
-    "synced_hash": "ac0ad372718cd7e0a20e555715b44f7937e8744d31531cf6dda5114707be5a92"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-09-01T19:05:16.703142+00:00",
+    "reviewer": "claude",
+    "notes": "fixed Focus label and value phrasing; translated the untranslated grant size range values"
   },
   "schema_version": 6,
   "source_markdown": "# Vegan Grants (Karuna Foundation)\n\nFocusVegan food systems\n\nGrant cycleYear round\n\nGrant size in USD (if applicable)10-25k> 25k\n\nURL[https://vgrants.org/](https://vgrants.org/)\n\nWhat you need to know\n\nFunds advocacy that reaches a mainstream and/or influential audience with a compelling vegan diet or menu change message in a cost-effective way.\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Vegan Grants (Karuna Foundation)",
   "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "# ヴィーガン助成金（カルナ財団）\n\n特集：ヴィーガン食のシステム\n\n助成サイクル：通年\n\n助成金額（米ドル、該当する場合）10～25k> 25k\n\nURL [https://vgrants.org/](https://vgrants.org/)\n\n知っておくべきこと\n\n費用対効果の高い方法で、説得力のあるヴィーガン食やメニュー変更のメッセージを、一般大衆や影響力のある層に届けるための啓発活動に資金を提供します。\n",
-  "translated_text": "ヴィーガン助成金（カルナ財団）\n特集：ヴィーガン食のシステム\n助成サイクル：通年\n助成金額（米ドル、該当する場合）10～25k> 25k\nURL https://vgrants.org/\n知っておくべきこと\n費用対効果の高い方法で、説得力のあるヴィーガン食やメニュー変更のメッセージを、一般大衆や影響力のある層に届けるための啓発活動に資金を提供します。",
+  "translated_markdown": "# ヴィーガン助成金（カルナ財団）\n\n重点分野：ヴィーガン食料システム\n\n助成サイクル：通年\n\n助成金額（米ドル、該当する場合）：1万～2万5千、2万5千以上\n\nURL [https://vgrants.org/](https://vgrants.org/)\n\n知っておくべきこと\n\n費用対効果の高い方法で、説得力のあるヴィーガン食やメニュー変更のメッセージを、一般大衆や影響力のある層に届けるための啓発活動に資金を提供します。\n",
+  "translated_text": "ヴィーガン助成金（カルナ財団）\n重点分野：ヴィーガン食料システム\n助成サイクル：通年\n助成金額（米ドル、該当する場合）：1万～2万5千、2万5千以上\nURL https://vgrants.org/\n知っておくべきこと\n費用対効果の高い方法で、説得力のあるヴィーガン食やメニュー変更のメッセージを、一般大衆や影響力のある層に届けるための啓発活動に資金を提供します。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/vegan-grants-karuna-foundation"
 }

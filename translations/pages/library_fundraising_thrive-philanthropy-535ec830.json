@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-819a-b74d-c2d5fad2999f",
     "render_version": 5,
     "synced_at": "2026-07-19T23:39:03.314019+00:00",
-    "synced_hash": "96b80f806fa8ee353c09f42ab1c7b0ced8dfa991a409efebe22fd41424017cdc"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-09-01T19:05:16.703142+00:00",
+    "reviewer": "claude",
+    "notes": "fixed Focus label and value phrasing; translated grant size range values and added missing separators"
   },
   "schema_version": 6,
   "source_markdown": "# Thrive Philanthropy\n\nFocusVegan food systems\n\nGrant cycleQuarterly\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nURL[https://www.thrivephilanthropy.org/grants](https://www.thrivephilanthropy.org/grants)\n\nWhat you need to know\n\nGlobal grants, has two grants: a seed and a bigger Thrive grant. US organizations or international chapters of US organizations are not eligible.\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Thrive Philanthropy",
   "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "# スライブ・フィランソロピー\n\n特集：ヴィーガン食のシステム\n\n助成サイクル：四半期ごと\n\n助成金額（米ドル、該当する場合）1～1万1万～2万5千2万5千以上\n\nURL[https://www.thrivephilanthropy.org/grants](https://www.thrivephilanthropy.org/grants)\n\n知っておくべきこと\n\nグローバル・グラントには、「シード・グラント」と、より規模の大きい「スライヴ・グラント」の2種類があります。米国の団体、または米国の団体の海外支部は、申請資格がありません。\n",
-  "translated_text": "スライブ・フィランソロピー\n特集：ヴィーガン食のシステム\n助成サイクル：四半期ごと\n助成金額（米ドル、該当する場合）1～1万1万～2万5千2万5千以上\nURLhttps://www.thrivephilanthropy.org/grants\n知っておくべきこと\nグローバル・グラントには、「シード・グラント」と、より規模の大きい「スライヴ・グラント」の2種類があります。米国の団体、または米国の団体の海外支部は、申請資格がありません。",
+  "translated_markdown": "# スライブ・フィランソロピー\n\n重点分野：ヴィーガン食料システム\n\n助成サイクル：四半期ごと\n\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千、2万5千以上\n\nURL[https://www.thrivephilanthropy.org/grants](https://www.thrivephilanthropy.org/grants)\n\n知っておくべきこと\n\nグローバル・グラントには、「シード・グラント」と、より規模の大きい「スライヴ・グラント」の2種類があります。米国の団体、または米国の団体の海外支部は、申請資格がありません。\n",
+  "translated_text": "スライブ・フィランソロピー\n重点分野：ヴィーガン食料システム\n助成サイクル：四半期ごと\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千、2万5千以上\nURLhttps://www.thrivephilanthropy.org/grants\n知っておくべきこと\nグローバル・グラントには、「シード・グラント」と、より規模の大きい「スライヴ・グラント」の2種類があります。米国の団体、または米国の団体の海外支部は、申請資格がありません。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/thrive-philanthropy"
 }

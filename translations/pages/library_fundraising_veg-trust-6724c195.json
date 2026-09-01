@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-8132-8204-e4a2150a9bb8",
     "render_version": 5,
     "synced_at": "2026-07-19T23:39:07.142564+00:00",
-    "synced_hash": "40301044e412ef0edf14980bd018053e257d9117bdfc4a9313cc0bd1bedebdab"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-09-01T19:05:16.703142+00:00",
+    "reviewer": "claude",
+    "notes": "fixed Focus label and added missing separator between values; fixed grant size range missing thousand multiplier"
   },
   "schema_version": 6,
   "source_markdown": "# Veg Trust\n\nFocusVegan food systemsResearch\n\nGrant cycleYear round\n\nGrant size in USD (if applicable)1-10k\n\nURL[https://vegtrust.com/](https://vegtrust.com/)\n\nWhat you need to know\n\nOnly accepts UK applications from those not funded by Karuna/Vegan Grants within the last 12 months.\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Veg Trust",
   "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "# ヴェグ・トラスト\n\nフォーカス ヴィーガン食のシステム 研究\n\n助成サイクル：通年\n\n助成金額（米ドル、該当する場合）1～1万\n\nURL[https://vegtrust.com/](https://vegtrust.com/)\n\n知っておくべきこと\n\n過去12ヶ月以内にカルナ／ヴィーガン・グラントからの助成を受けていない英国在住者のみ応募可能です。\n",
-  "translated_text": "ヴェグ・トラスト\nフォーカス ヴィーガン食のシステム 研究\n助成サイクル：通年\n助成金額（米ドル、該当する場合）1～1万\nURLhttps://vegtrust.com/\n知っておくべきこと\n過去12ヶ月以内にカルナ／ヴィーガン・グラントからの助成を受けていない英国在住者のみ応募可能です。",
+  "translated_markdown": "# ヴェグ・トラスト\n\n重点分野：ヴィーガン食料システム、研究\n\n助成サイクル：通年\n\n助成金額（米ドル、該当する場合）：1千～1万\n\nURL[https://vegtrust.com/](https://vegtrust.com/)\n\n知っておくべきこと\n\n過去12ヶ月以内にカルナ／ヴィーガン・グラントからの助成を受けていない英国在住者のみ応募可能です。\n",
+  "translated_text": "ヴェグ・トラスト\n重点分野：ヴィーガン食料システム、研究\n助成サイクル：通年\n助成金額（米ドル、該当する場合）：1千～1万\nURLhttps://vegtrust.com/\n知っておくべきこと\n過去12ヶ月以内にカルナ／ヴィーガン・グラントからの助成を受けていない英国在住者のみ応募可能です。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/veg-trust"
 }
