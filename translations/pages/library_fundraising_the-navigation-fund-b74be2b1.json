@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8178-bebd-d535acb72c18",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:59.411203+00:00",
-    "synced_hash": null
+    "synced_at": "2026-09-01T06:15:01.437732+00:00",
+    "synced_hash": "db066ac748e6eaea98ac782c355a987f2e270d0f95fc5a93960ff8902f0fd1e5"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label and added missing separator between values",
     "reviewed_at": "2026-08-31T19:04:22.369595+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label and added missing separator between values"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# The Navigation Fund\n\nFocusMovement buildingEffective giving\n\nGrant cycle\n\nGrant size in USD (if applicable)\n\nURL[https://www.navigation.org/](https://www.navigation.org/)\n\nWhat you need to know\n\nGrant applications are by invitation only, but you can [introduce yourself](https://www.navigation.org/grants/farm-animal-welfare/introduce-yourself) to the team.\n",

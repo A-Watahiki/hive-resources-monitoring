@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8184-bb82-f70365c4bc94",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:57.373269+00:00",
-    "synced_hash": null
+    "synced_at": "2026-09-01T06:14:49.635959+00:00",
+    "synced_hash": "f988c5cebd5383688b2f66803b8583dab12508994b3c4d1b035ac0d5f822afe9"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified 焦点→重点分野 for terminology consistency",
     "reviewed_at": "2026-08-31T19:04:22.369595+00:00",
     "reviewer": "claude",
-    "notes": "unified 焦点→重点分野 for terminology consistency"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Strategic Animal Funding Circle\n\nFocus\n\nGrant cycleTwice a year\n\nGrant size in USD (if applicable)\n\nURL[https://www.animalfundingcircle.com/](https://www.animalfundingcircle.com/)\n\nWhat you need to know\n\nA group of impact-focused donors founded in 2024 who support promising animal-focused nonprofits with strategic funding. See their [last RFP](https://forum.effectivealtruism.org/posts/AhPwptBxNeZxaCjfK/request-for-proposals-strategic-animal-funding-circle-fall).\n",
