@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-815f-b31c-c306e6885b64",
     "render_version": 5,
     "synced_at": "2026-07-19T23:39:14.390680+00:00",
-    "synced_hash": "e83e67d41e902f39f4813d59549ff7aa50f2f905de38f778a6cea8f96c9dc7ac"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-09-02T19:05:06.068266+00:00",
+    "reviewer": "claude",
+    "notes": "unified 焦点→重点分野; fixed grant size range missing thousand multiplier"
   },
   "schema_version": 6,
   "source_markdown": "# Women Funders in Animal Rights\n\nFocus\n\nGrant cycleYearly\n\nGrant size in USD (if applicable)1-10k\n\nURL[https://www.womenfundersinar.org/grants](https://www.womenfundersinar.org/grants)\n\nWhat you need to know\n\nGrants for initiatives run by women. Organizations with an annual budget of $250,000 USD or less are eligible.\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Women Funders in Animal Rights",
   "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "# 動物の権利を支援する女性資金提供者たち\n\n焦点\n\n助成サイクル：年次\n\n助成金額（米ドル、該当する場合）1～1万\n\nURL[https://www.womenfundersinar.org/grants](https://www.womenfundersinar.org/grants)\n\n知っておくべきこと\n\n女性が主導する取り組みに対する助成金。年間予算が25万米ドル以下の団体が対象となります。\n",
-  "translated_text": "動物の権利を支援する女性資金提供者たち\n焦点\n助成サイクル：年次\n助成金額（米ドル、該当する場合）1～1万\nURLhttps://www.womenfundersinar.org/grants\n知っておくべきこと\n女性が主導する取り組みに対する助成金。年間予算が25万米ドル以下の団体が対象となります。",
+  "translated_markdown": "# 動物の権利を支援する女性資金提供者たち\n\n重点分野\n\n助成サイクル：年次\n\n助成金額（米ドル、該当する場合）：1千～1万\n\nURL[https://www.womenfundersinar.org/grants](https://www.womenfundersinar.org/grants)\n\n知っておくべきこと\n\n女性が主導する取り組みに対する助成金。年間予算が25万米ドル以下の団体が対象となります。\n",
+  "translated_text": "動物の権利を支援する女性資金提供者たち\n重点分野\n助成サイクル：年次\n助成金額（米ドル、該当する場合）：1千～1万\nURLhttps://www.womenfundersinar.org/grants\n知っておくべきこと\n女性が主導する取り組みに対する助成金。年間予算が25万米ドル以下の団体が対象となります。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/women-funders-in-animal-rights"
 }
