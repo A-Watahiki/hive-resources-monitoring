@@ -4,20 +4,6 @@
       "added": [],
       "changed": [
         {
-          "diff": "--- before\n+++ after\n@@ -28,3 +28,3 @@\n Virtual Option?\n Website\n-https://wfc2024.fisheries.org\n+https://fishconserve.org/world-fisheries-congress/",
-          "diff_lines_omitted": 0,
-          "title": "World Fisheries Conference",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/conferences/world-fisheries-conference"
-        }
-      ],
-      "detected_at": "2026-08-05T02:55:43.857613+00:00",
-      "removed": []
-    },
-    {
-      "added": [],
-      "changed": [
-        {
           "diff": "--- before\n+++ after\n@@ -123,6 +123,2 @@\n Amplify your impact for animals\n Sign up now at [website or contact information].\n-Feedback for Organizational Brand Guide\n-Prompt #\n-Feedback\n-Please be constructive in your feedback and let us know how we can improve the prompt. Also feel free to shout out a prompt that worked especially well for you.",
           "diff_lines_omitted": 0,
           "title": "Organizational Brand Guide",
@@ -197,6 +183,20 @@
       ],
       "changed": [],
       "detected_at": "2026-08-31T04:47:50.882752+00:00",
+      "removed": []
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -121,6 +121,4 @@\n If you’d like to make amendments or be removed from this list, please email hello@joinhive.org from your organization’s email address.\n Other databases you may want to check out:\n-Food System Stewards\n-(Hosts a frequently updated list of funding opportunities, including some that aren’t publicly searchable.)\n Animal Advocacy Africa: Funding Opportunities\n (Relevant not only to Africa.)",
+          "diff_lines_omitted": 0,
+          "title": "Fundraising Guide",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising"
+        }
+      ],
+      "detected_at": "2026-09-02T03:52:33.514802+00:00",
       "removed": []
     }
   ]
