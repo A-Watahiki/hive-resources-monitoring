@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8132-8204-e4a2150a9bb8",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:39:07.142564+00:00",
-    "synced_hash": null
+    "synced_at": "2026-09-02T05:41:10.534440+00:00",
+    "synced_hash": "40301044e412ef0edf14980bd018053e257d9117bdfc4a9313cc0bd1bedebdab"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label and added missing separator between values; fixed grant size range missing thousand multiplier",
     "reviewed_at": "2026-09-01T19:05:16.703142+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label and added missing separator between values; fixed grant size range missing thousand multiplier"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Veg Trust\n\nFocusVegan food systemsResearch\n\nGrant cycleYear round\n\nGrant size in USD (if applicable)1-10k\n\nURL[https://vegtrust.com/](https://vegtrust.com/)\n\nWhat you need to know\n\nOnly accepts UK applications from those not funded by Karuna/Vegan Grants within the last 12 months.\n",

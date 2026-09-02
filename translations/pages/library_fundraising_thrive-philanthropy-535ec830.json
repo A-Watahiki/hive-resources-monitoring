@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-819a-b74d-c2d5fad2999f",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:39:03.314019+00:00",
-    "synced_hash": null
+    "synced_at": "2026-09-02T05:40:47.684644+00:00",
+    "synced_hash": "96b80f806fa8ee353c09f42ab1c7b0ced8dfa991a409efebe22fd41424017cdc"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label and value phrasing; translated grant size range values and added missing separators",
     "reviewed_at": "2026-09-01T19:05:16.703142+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label and value phrasing; translated grant size range values and added missing separators"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Thrive Philanthropy\n\nFocusVegan food systems\n\nGrant cycleQuarterly\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nURL[https://www.thrivephilanthropy.org/grants](https://www.thrivephilanthropy.org/grants)\n\nWhat you need to know\n\nGlobal grants, has two grants: a seed and a bigger Thrive grant. US organizations or international chapters of US organizations are not eligible.\n",

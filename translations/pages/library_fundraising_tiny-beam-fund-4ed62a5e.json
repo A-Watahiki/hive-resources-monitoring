@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81d0-bdcb-f6774bac9677",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:39:05.468080+00:00",
-    "synced_hash": null
+    "synced_at": "2026-09-02T05:40:59.334383+00:00",
+    "synced_hash": "ca299895dee5b781eb64ee8d2319b9f36469e79b0b9e12d80c03a428e98f2efe"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label and added missing separator between values; translated grant size range values and added missing separator",
     "reviewed_at": "2026-09-01T19:05:16.703142+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label and added missing separator between values; translated grant size range values and added missing separator"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Tiny Beam Fund\n\nFocusResearchUnderfunded regions\n\nGrant cycle\n\nGrant size in USD (if applicable)1-10k10-25k\n\nURL[https://tinybeamfund.org/Home](https://tinybeamfund.org/Home)\n\nWhat you need to know\n\nSupports research on the negative impacts of industrial animal agriculture, particularly concerning low- and middle-income countries. Find the last call [here](https://drive.google.com/file/d/1O3rCnBVCVA3SbRd7KUhH1oqWnhssFrq1/view).\n",

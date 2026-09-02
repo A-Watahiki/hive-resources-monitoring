@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81e3-9420-d2bb7abda672",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:39:09.506145+00:00",
-    "synced_hash": null
+    "synced_at": "2026-09-02T05:41:21.437281+00:00",
+    "synced_hash": "ac0ad372718cd7e0a20e555715b44f7937e8744d31531cf6dda5114707be5a92"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label and value phrasing; translated the untranslated grant size range values",
     "reviewed_at": "2026-09-01T19:05:16.703142+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label and value phrasing; translated the untranslated grant size range values"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Vegan Grants (Karuna Foundation)\n\nFocusVegan food systems\n\nGrant cycleYear round\n\nGrant size in USD (if applicable)10-25k> 25k\n\nURL[https://vgrants.org/](https://vgrants.org/)\n\nWhat you need to know\n\nFunds advocacy that reaches a mainstream and/or influential audience with a compelling vegan diet or menu change message in a cost-effective way.\n",
