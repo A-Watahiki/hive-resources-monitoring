@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8123-a814-ed4eb9659125",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:39:11.949876+00:00",
-    "synced_hash": null
+    "synced_at": "2026-09-03T05:41:18.675648+00:00",
+    "synced_hash": "dd19a87deb2bd10a23cfefd83265b2998cc8f03643eae75f489cd4fedbfcab4c"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label and added missing separators; unified 能力開発→能力強化 and 体系的な変革→構造的な変革; translated grant size range values",
     "reviewed_at": "2026-09-02T19:05:06.068266+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label and added missing separators; unified 能力開発→能力強化 and 体系的な変革→構造的な変革; translated grant size range values"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Voiceless Grants\n\nFocusCapacity buildingSystemic changeMovement building\n\nGrant cycleYear round\n\nGrant size in USD (if applicable)1-10k10-25k\n\nURL[https://voiceless.org.au/about-the-voiceless-grants-program/](https://voiceless.org.au/about-the-voiceless-grants-program/)\n\nWhat you need to know\n\nFunds projects that address the root causes of animal exploitation and promote a vegan philosophy. Values strategic, intersectional (e.g. climate/environment), creative and solutions-based thinking. Special interest in Australia, Israel, and the Global South.\n",

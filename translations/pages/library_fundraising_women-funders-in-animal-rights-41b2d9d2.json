@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-815f-b31c-c306e6885b64",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:39:14.390680+00:00",
-    "synced_hash": null
+    "synced_at": "2026-09-03T05:41:32.235691+00:00",
+    "synced_hash": "e83e67d41e902f39f4813d59549ff7aa50f2f905de38f778a6cea8f96c9dc7ac"
   },
   "review": {
-    "status": "fixed",
+    "notes": "unified 焦点→重点分野; fixed grant size range missing thousand multiplier",
     "reviewed_at": "2026-09-02T19:05:06.068266+00:00",
     "reviewer": "claude",
-    "notes": "unified 焦点→重点分野; fixed grant size range missing thousand multiplier"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Women Funders in Animal Rights\n\nFocus\n\nGrant cycleYearly\n\nGrant size in USD (if applicable)1-10k\n\nURL[https://www.womenfundersinar.org/grants](https://www.womenfundersinar.org/grants)\n\nWhat you need to know\n\nGrants for initiatives run by women. Organizations with an annual budget of $250,000 USD or less are eligible.\n",
