@@ -7,10 +7,10 @@
     "synced_hash": "01115d49bdcbc653184ec3a8ae52229053f7a13114c11b2ff77f951efce8fba4"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-04T19:03:57.163439+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Getting Started with Evaluation Survey\n\nLink[https://forum.effectivealtruism.org/posts/cvyLXaa3HaAmc9mA7/getting-started-with-impact-evaluation-surveys-a-beginner-s](https://forum.effectivealtruism.org/posts/cvyLXaa3HaAmc9mA7/getting-started-with-impact-evaluation-surveys-a-beginner-s)\n\nNotes\n",

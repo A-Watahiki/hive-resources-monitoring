@@ -7,10 +7,10 @@
     "synced_hash": "3c3f34eb4e3df6c867bd8b5ab2891847a930aa959ffa55e0d3cbda27c8301b70"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-04T19:03:57.163439+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# CARE 2023 | Sophie Gulliver | Evaluation 101: How to do it practically and purposefully\n\nLink[https://www.youtube.com/watch?v=J-ilhADITBk](https://www.youtube.com/watch?v=J-ilhADITBk)\n\nNotes\n",

@@ -7,10 +7,10 @@
     "synced_hash": "113ccd9d53a9f30f7a8bec520934a8113de182444046662acc63ff1b3167336a"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-04T19:03:57.163439+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Challenges of MEL\n\nLink[https://analyticsinaction.co/challenges-of-monitoring-and-evaluation](https://analyticsinaction.co/challenges-of-monitoring-and-evaluation)\n\nNotes\n",

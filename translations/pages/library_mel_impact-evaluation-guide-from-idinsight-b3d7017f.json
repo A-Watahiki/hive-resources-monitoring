@@ -7,10 +7,10 @@
     "synced_hash": "85df26b7a924a7171d17faa9beacf003a7ce6492a43dcf6361583c77d4c7c4b6"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-04T19:03:57.163439+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Impact Evaluation Guide from IDinsight\n\nLink[https://guide.idinsight.org/impact-evaluation/](https://guide.idinsight.org/impact-evaluation/)\n\nNotes\n",

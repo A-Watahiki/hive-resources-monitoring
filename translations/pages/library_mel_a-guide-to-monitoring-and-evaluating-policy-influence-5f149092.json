@@ -7,10 +7,10 @@
     "synced_hash": "c786cf20ded764ba6709cfdbaf391f1c1cc644e35cc75f90919b88b199ff00f3"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-04T19:03:57.163439+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# A Guide to Monitoring and Evaluating Policy Influence\n\nLink[https://www.betterevaluation.org/sites/default/files/m_e_policy_influence.pdf](https://www.betterevaluation.org/sites/default/files/m_e_policy_influence.pdf)\n\nNotes\n",
