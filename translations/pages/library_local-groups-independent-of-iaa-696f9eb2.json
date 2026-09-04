@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8172-9af6-c06bb90602df",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:40:44.353176+00:00",
-    "synced_hash": null
+    "synced_at": "2026-09-04T05:45:00.261811+00:00",
+    "synced_hash": "151cc1d567f64f16f19c94ac51dedbd3f46fd0c07fbb0e39450002e98f3e3719"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed link text \"Asia\" mistranslated as 件名 (subject line)",
     "reviewed_at": "2026-09-03T19:04:44.673569+00:00",
     "reviewer": "claude",
-    "notes": "fixed link text \"Asia\" mistranslated as 件名 (subject line)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "🌍\n\n# Local groups (independent of Hive)\n\n(Last reviewed September 2025)\n\n[🦘Effective Animal Advocacy Australia](https://resources.joinhive.org/library/local-groups-independent-of-iaa/effective-animal-advocacy-australia)\n\n[Asia](https://resources.joinhive.org/library/local-groups-independent-of-iaa/asia)\n",

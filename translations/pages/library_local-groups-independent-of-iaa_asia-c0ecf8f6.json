@@ -4,14 +4,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-819b-8a5d-fbc4da50b3ff",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:41:01.505327+00:00",
-    "synced_hash": null
+    "synced_at": "2026-09-04T05:45:12.106904+00:00",
+    "synced_hash": "5d19724f5c135d600d6004f2d39b4ba0520355fe07b9385a9f5514c1919f80f5"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed page title/heading \"Asia\" mistranslated as 件名 (subject line)",
     "reviewed_at": "2026-09-03T19:04:44.673569+00:00",
     "reviewer": "claude",
-    "notes": "fixed page title/heading \"Asia\" mistranslated as 件名 (subject line)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Asia\n\nJoin our [#r-asia](https://impactfulanimal.slack.com/archives/C05HZ44H0CV) channel for regional updates.\n\nWe are collaborating with Asia for Animals in this region to connect you to your local community.\n\n- If you are **working for an NGO** based in Asia, and you haven’t yet joined the free Asia for Animals network, you can do so [here](https://www.asiaforanimals.com/join-afa). Once you join, you can also access their Slack to network with other Asian NGOs, and also optionally:\n\n- Join the [Farm Animal Coalition](https://www.asiaforanimals.com/farm) if you are looking to join forces with other Asian NGOs and participate in a working group and focussed subgroups to advance the work of the Asian movement\n\n- Request support from the [Capacity in Animal Protection Coalition](https://www.asiaforanimals.com/capacity). They can help Asian NGOs working on farmed animal and diet change programs to navigate resources, or they can provide detailed 1 on 1 support to help you overcome your challenges. (In 2024 they will publish an application form so your NGO can apply for the 1-1 support)\n\n- If you are an individual activist and **thinking about developing a career **in the movement for farmed animals, check out all the great resources at [Animal Advocacy Careers ](https://www.animaladvocacycareers.org/)(as well as the #jobs-posting channel!)\n\n- For early career advocates in South East Asia particularly, you may want to check out the fellowship programs offered by [Welfare Matters](https://www.farmanimalwelfare.asia/). For those in China, take a look at the program at [IFAWF](https://www.ifawf.org/)\n\n- If you are **thinking of developing your own new NGO** in Asia, you could explore the Charity Entrepreneurship Incubation Program, or if you are particularly interested in doing the same for veganism and diet change work, check out the [Kickstarting for Good ](https://provegincubator.com/kickstartingforgood/)program by ProVeg International\n",
