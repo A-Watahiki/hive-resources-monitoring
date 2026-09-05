@@ -7,10 +7,10 @@
     "synced_hash": "4036462c35f6e1ced082bf74d84ed55d94e620bf19a5769fd157cbf5e70969ee"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-05T19:04:22.356193+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found (re-reviewed after content update; prior fixes correctly carried forward via translation cache)"
   },
   "schema_version": 6,
   "source_markdown": "# Give Momentum\n\nFormatResource collection\n\nDetails\n\n“\\[…\\] we're creating tools designed around the way charities want to communicate with their donors, so they can spend more time on what matters”\n\nURL[https://www.givemomentum.com/about-us/about-us](https://www.givemomentum.com/about-us/about-us)\n\nURL [https://givemomentum.com/resources/blog/](https://givemomentum.com/resources/blog/)\n",

@@ -7,10 +7,10 @@
     "synced_hash": "d2cde921b44dacdb8e5704c33635094f3598cac8e11c79b7c4b5ab23883c8205"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-05T19:04:22.356193+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found (re-reviewed after content update; prior fixes correctly carried forward via translation cache)"
   },
   "schema_version": 6,
   "source_markdown": "# Fundraising Essentials course by Anima International\n\nFormatCourse\n\nDetails\n\nFree, self-paced course.\n\nURL[https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials](https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials)\n\nURL [https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials](https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials)\n",

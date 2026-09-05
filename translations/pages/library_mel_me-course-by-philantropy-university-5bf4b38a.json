@@ -7,10 +7,10 @@
     "synced_hash": "dd3a7cce56261e63ed5f1eb802f865dbd7e8acce10f681c1f09e7c57e88fc241"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-05T19:04:22.356193+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# M&E Course by Philantropy University\n\nLink[https://courses.philanthropyu.org/courses/course-v1:FHI360+MonitoringEvaluation_101+1_1.0_20180416_20180527/about?enrolled=1](https://courses.philanthropyu.org/courses/course-v1:FHI360+MonitoringEvaluation_101+1_1.0_20180416_20180527/about?enrolled=1)\n\nNotes\n",
