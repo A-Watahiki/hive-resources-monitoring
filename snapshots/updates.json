@@ -4,20 +4,6 @@
       "added": [],
       "changed": [
         {
-          "diff": "--- before\n+++ after\n@@ -123,6 +123,2 @@\n Amplify your impact for animals\n Sign up now at [website or contact information].\n-Feedback for Organizational Brand Guide\n-Prompt #\n-Feedback\n-Please be constructive in your feedback and let us know how we can improve the prompt. Also feel free to shout out a prompt that worked especially well for you.",
-          "diff_lines_omitted": 0,
-          "title": "Organizational Brand Guide",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/ai-prompts/organizational-brand-guide"
-        }
-      ],
-      "detected_at": "2026-08-09T02:06:58.831851+00:00",
-      "removed": []
-    },
-    {
-      "added": [],
-      "changed": [
-        {
           "diff": "--- before\n+++ after\n@@ -15,2 +15,4 @@\n URL\n https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H\n+URL\n+https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H",
           "diff_lines_omitted": 0,
           "title": "Fundraising Training Series (multiple videos)",
@@ -197,6 +183,41 @@
         }
       ],
       "detected_at": "2026-09-02T03:52:33.514802+00:00",
+      "removed": []
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -22,3 +22,6 @@\n https://animalcharityevaluators.org/movement-grants/\n What you need to know\n-Two rounds each year (as of 2026), opening in February and August.\n+August 2026 update, from the ACE Movement Grants webpage: We’ve temporarily paused our EOI submissions process while we take time for some movement analysis, and we expect to reopen in early 2027….if you’ve already submitted an EOI that’s under review, you’re in our system and will be considered in our Fall grant round. (Please read more here:\n+https://animalcharityevaluators.org/movement-grants/apply-for-funding/\n+)\n+Previous to this update, how the Movement Grant Fund was operating was that you could submit an Expression of Interest (EOI) on a rolling basis, and then ACE would evaluate submissions during 1 or 2 rounds in a year.",
+          "diff_lines_omitted": 0,
+          "title": "ACE Movement Grants",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/ace-movement-grants"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -16,2 +16,4 @@\n URL\n https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials\n+URL\n+https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials",
+          "diff_lines_omitted": 0,
+          "title": "Fundraising Essentials course by Anima International",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/fundraising-essentials-course-by-anima-international"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -16,2 +16,4 @@\n URL\n https://www.nonlinear.org/fundraising-tips.html\n+URL\n+https://www.nonlinear.org/fundraising-tips.html",
+          "diff_lines_omitted": 0,
+          "title": "Fundraising tips by Nonlinear",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/fundraising-tips-by-nonlinear"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -16,2 +16,4 @@\n URL\n https://www.givemomentum.com/about-us/about-us\n+URL\n+https://givemomentum.com/resources/blog/",
+          "diff_lines_omitted": 0,
+          "title": "Give Momentum",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/give-momentum"
+        }
+      ],
+      "detected_at": "2026-09-05T03:50:23.138415+00:00",
       "removed": []
     }
   ]
