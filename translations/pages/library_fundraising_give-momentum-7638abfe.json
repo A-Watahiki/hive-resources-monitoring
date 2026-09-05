@@ -1,25 +1,25 @@
 {
-  "content_hash": "343e5abccec4a192509985240ce9ad018a8638feb1cb43621db0e41b7d013f34",
+  "content_hash": "4036462c35f6e1ced082bf74d84ed55d94e620bf19a5769fd157cbf5e70969ee",
   "notion": {
     "page_id": "3a2383bb-2c1b-8104-a485-c5ea7ca0518d",
     "render_version": 5,
-    "synced_at": "2026-08-25T02:24:57.544820+00:00",
-    "synced_hash": "343e5abccec4a192509985240ce9ad018a8638feb1cb43621db0e41b7d013f34"
+    "synced_at": "2026-09-05T05:32:43.193659+00:00",
+    "synced_hash": "4036462c35f6e1ced082bf74d84ed55d94e620bf19a5769fd157cbf5e70969ee"
   },
   "review": {
-    "notes": "fixed brand name \"Give Momentum\" mistranslated as generic phrase 勢いをつける in the body heading; translated the untranslated Format field",
-    "reviewed_at": "2026-08-24T19:04:12.427392+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Give Momentum\n\nFormatResource collection\n\nDetails\n\n“\\[…\\] we're creating tools designed around the way charities want to communicate with their donors, so they can spend more time on what matters”\n\nURL[https://www.givemomentum.com/about-us/about-us](https://www.givemomentum.com/about-us/about-us)\n",
-  "source_text": "Give Momentum\nFormatResource collection\nDetails\n“[…] we're creating tools designed around the way charities want to communicate with their donors, so they can spend more time on what matters”\nURLhttps://www.givemomentum.com/about-us/about-us",
+  "source_markdown": "# Give Momentum\n\nFormatResource collection\n\nDetails\n\n“\\[…\\] we're creating tools designed around the way charities want to communicate with their donors, so they can spend more time on what matters”\n\nURL[https://www.givemomentum.com/about-us/about-us](https://www.givemomentum.com/about-us/about-us)\n\nURL [https://givemomentum.com/resources/blog/](https://givemomentum.com/resources/blog/)\n",
+  "source_text": "Give Momentum\nFormatResource collection\nDetails\n“[…] we're creating tools designed around the way charities want to communicate with their donors, so they can spend more time on what matters”\nURLhttps://www.givemomentum.com/about-us/about-us\nURL https://givemomentum.com/resources/blog/",
   "target_lang": "JA",
   "title": "Give Momentum",
-  "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# Give Momentum\n\n形式：リソース集\n\n詳細\n\n「\\[…\\] 私たちは、慈善団体が寄付者とコミュニケーションを取りたいと考える方法に合わせて設計されたツールを開発しており、それによって団体がより重要な業務に時間を割けるようにしています」\n\nURL[https://www.givemomentum.com/about-us/about-us](https://www.givemomentum.com/about-us/about-us)\n",
-  "translated_text": "Give Momentum\n形式：リソース集\n詳細\n「[…] 私たちは、慈善団体が寄付者とコミュニケーションを取りたいと考える方法に合わせて設計されたツールを開発しており、それによって団体がより重要な業務に時間を割けるようにしています」\nURLhttps://www.givemomentum.com/about-us/about-us",
+  "translated_at": "2026-09-05T05:26:49.395675+00:00",
+  "translated_markdown": "# Give Momentum\n\n形式：リソース集\n\n詳細\n\n「\\[…\\] 私たちは、慈善団体が寄付者とコミュニケーションを取りたいと考える方法に合わせて設計されたツールを開発しており、それによって団体がより重要な業務に時間を割けるようにしています」\n\nURL[https://www.givemomentum.com/about-us/about-us](https://www.givemomentum.com/about-us/about-us)\n\nURL [https://givemomentum.com/resources/blog/](https://givemomentum.com/resources/blog/)\n",
+  "translated_text": "Give Momentum\n形式：リソース集\n詳細\n「[…] 私たちは、慈善団体が寄付者とコミュニケーションを取りたいと考える方法に合わせて設計されたツールを開発しており、それによって団体がより重要な業務に時間を割けるようにしています」\nURLhttps://www.givemomentum.com/about-us/about-us\nURL https://givemomentum.com/resources/blog/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/give-momentum"
 }

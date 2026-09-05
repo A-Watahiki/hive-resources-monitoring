@@ -1,25 +1,25 @@
 {
-  "content_hash": "637585cb94c63888e4ed843c1a917067815f9000d2b38a031e9a18a6434ee9ca",
+  "content_hash": "4dc938f0d66e9a586a792ea68952946b7706fc123a0459176a71f99e5061808e",
   "notion": {
     "page_id": "3a2383bb-2c1b-81cf-ac6d-ffc8a0c03684",
     "render_version": 5,
-    "synced_at": "2026-08-19T02:25:50.755487+00:00",
-    "synced_hash": "637585cb94c63888e4ed843c1a917067815f9000d2b38a031e9a18a6434ee9ca"
+    "synced_at": "2026-09-05T05:32:19.263788+00:00",
+    "synced_hash": "4dc938f0d66e9a586a792ea68952946b7706fc123a0459176a71f99e5061808e"
   },
   "review": {
-    "notes": "translated the untranslated Focus field; added missing separator in grant size values",
-    "reviewed_at": "2026-08-18T19:33:00.877133+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# ACE Movement Grants\n\nFocusUnderfunded regionsCapacity buildingSystemic change\n\nGrant cycleTwice a year\n\nGrant size in USD (if applicable)10-25k> 25k\n\nURL[https://animalcharityevaluators.org/movement-grants/](https://animalcharityevaluators.org/movement-grants/)\n\nWhat you need to know\n\nTwo rounds each year (as of 2026), opening in February and August.\n",
-  "source_text": "ACE Movement Grants\nFocusUnderfunded regionsCapacity buildingSystemic change\nGrant cycleTwice a year\nGrant size in USD (if applicable)10-25k> 25k\nURLhttps://animalcharityevaluators.org/movement-grants/\nWhat you need to know\nTwo rounds each year (as of 2026), opening in February and August.",
+  "source_markdown": "# ACE Movement Grants\n\nFocusUnderfunded regionsCapacity buildingSystemic change\n\nGrant cycleTwice a year\n\nGrant size in USD (if applicable)10-25k> 25k\n\nURL[https://animalcharityevaluators.org/movement-grants/](https://animalcharityevaluators.org/movement-grants/)\n\nWhat you need to know\n\nAugust 2026 update, from the ACE Movement Grants webpage: We’ve temporarily paused our EOI submissions process while we take time for some movement analysis, and we expect to reopen in early 2027….if you’ve already submitted an EOI that’s under review, you’re in our system and will be considered in our Fall grant round. (Please read more here: [https://animalcharityevaluators.org/movement-grants/apply-for-funding/](https://animalcharityevaluators.org/movement-grants/apply-for-funding/)) Previous to this update, how the Movement Grant Fund was operating was that you could submit an Expression of Interest (EOI) on a rolling basis, and then ACE would evaluate submissions during 1 or 2 rounds in a year.\n",
+  "source_text": "ACE Movement Grants\nFocusUnderfunded regionsCapacity buildingSystemic change\nGrant cycleTwice a year\nGrant size in USD (if applicable)10-25k> 25k\nURLhttps://animalcharityevaluators.org/movement-grants/\nWhat you need to know\nAugust 2026 update, from the ACE Movement Grants webpage: We’ve temporarily paused our EOI submissions process while we take time for some movement analysis, and we expect to reopen in early 2027….if you’ve already submitted an EOI that’s under review, you’re in our system and will be considered in our Fall grant round. (Please read more here: https://animalcharityevaluators.org/movement-grants/apply-for-funding/) Previous to this update, how the Movement Grant Fund was operating was that you could submit an Expression of Interest (EOI) on a rolling basis, and then ACE would evaluate submissions during 1 or 2 rounds in a year.",
   "target_lang": "JA",
   "title": "ACE Movement Grants",
-  "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# ACEムーブメント助成金\n\n重点分野：資金不足の地域、能力強化、構造的な変革\n\n助成サイクル：年2回\n\n助成金額（米ドル、該当する場合）：10～25k、> 25k\n\nURL[https://animalcharityevaluators.org/movement-grants/](https://animalcharityevaluators.org/movement-grants/)\n\n知っておくべきこと\n\n毎年2回（2026年現在）、2月と8月に開催されます。\n",
-  "translated_text": "ACEムーブメント助成金\n重点分野：資金不足の地域、能力強化、構造的な変革\n助成サイクル：年2回\n助成金額（米ドル、該当する場合）：10～25k、> 25k\nURLhttps://animalcharityevaluators.org/movement-grants/\n知っておくべきこと\n毎年2回（2026年現在）、2月と8月に開催されます。",
+  "translated_at": "2026-09-05T05:26:49.395675+00:00",
+  "translated_markdown": "# ACEムーブメント助成金\n\n重点分野：資金不足の地域、能力強化、構造的な変革\n\n助成サイクル：年2回\n\n助成金額（米ドル、該当する場合）：10～25k、> 25k\n\nURL[https://animalcharityevaluators.org/movement-grants/](https://animalcharityevaluators.org/movement-grants/)\n\n知っておくべきこと\n\n2026年8月更新、ACEムーブメント・グラントのウェブページより： 現在、当団体の動向分析を行うため、EOI（参加意向表明）の受付を一時的に停止しております。2027年初頭に受付を再開する予定です……。すでにEOIを提出済みで審査中の場合は、当団体のシステムに登録済みとなりますので、秋の助成金募集ラウンドで審査の対象となります。（詳細はこちらをご覧ください： [https://animalcharityevaluators.org/movement-grants/apply-for-funding/](https://animalcharityevaluators.org/movement-grants/apply-for-funding/)）この更新以前、ムーブメント・グラント・ファンドの運営方法は、随時「関心表明（EOI）」を提出でき、その後ACEが年1回または2回のラウンドで提出物を評価するというものでした。\n",
+  "translated_text": "ACEムーブメント助成金\n重点分野：資金不足の地域、能力強化、構造的な変革\n助成サイクル：年2回\n助成金額（米ドル、該当する場合）：10～25k、> 25k\nURLhttps://animalcharityevaluators.org/movement-grants/\n知っておくべきこと\n2026年8月更新、ACEムーブメント・グラントのウェブページより： 現在、当団体の動向分析を行うため、EOI（参加意向表明）の受付を一時的に停止しております。2027年初頭に受付を再開する予定です……。すでにEOIを提出済みで審査中の場合は、当団体のシステムに登録済みとなりますので、秋の助成金募集ラウンドで審査の対象となります。（詳細はこちらをご覧ください： https://animalcharityevaluators.org/movement-grants/apply-for-funding/）この更新以前、ムーブメント・グラント・ファンドの運営方法は、随時「関心表明（EOI）」を提出でき、その後ACEが年1回または2回のラウンドで提出物を評価するというものでした。",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/ace-movement-grants"
 }
