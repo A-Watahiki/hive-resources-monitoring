@@ -4,20 +4,6 @@
       "added": [],
       "changed": [
         {
-          "diff": "--- before\n+++ after\n@@ -15,2 +15,4 @@\n URL\n https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H\n+URL\n+https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H",
-          "diff_lines_omitted": 0,
-          "title": "Fundraising Training Series (multiple videos)",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising/fundraising-training-series-multiple-videos"
-        }
-      ],
-      "detected_at": "2026-08-10T02:11:06.427083+00:00",
-      "removed": []
-    },
-    {
-      "added": [],
-      "changed": [
-        {
           "diff": "--- before\n+++ after\n@@ -323,4 +323,23 @@\n (paid)\n We partner with purpose-driven companies, organizations, and individuals who are creating real impact for people, animals, and the planet. Through our personalized recruitment, coaching, and consulting services, we connect values-aligned people with values-led opportunities, helping conscious businesses grow and helping individuals thrive in careers that matter. With compassion, ethics, and alignment at the heart of everything we do, our goal is simple: to make the world kinder, one placement, one business, and one dream at a time.\n+‣\n+Know Your Elephants\n+(paid)\n+They work with nonprofits and social impact initiatives on the underlying reasons organizations struggle: leadership, culture, structure, and strategy. The approach is direct rather than motivational, working through resistance to change instead of around it, and treating hard tradeoffs as the core of real strategy.\n+Focus\n+Leadership\n+– supporting leaders through hard decisions, team-building under pressure, and clarity on what the organization will and won't compromise on\n+Transformation\n+– reworking the actual system (mission, culture, leadership, structure) when deep change is needed\n+Strategy\n+– helping organizations make deliberate choices about what to prioritize and what to give up\n+Culture\n+– closing the gap between stated values and the decisions an organization actually makes\n+Process\n+– redesigning processes that no longer fit as an organization grows\n+Structure\n+– treating structure as a strategic question tied to what the organization needs to do\n+Recruitment\n+– supporting the full hiring process to find people who strengthen the mission\n Executive coaches\n 📚Resources",
           "diff_lines_omitted": 0,
           "title": "Building Organizations",
@@ -218,6 +204,27 @@
         }
       ],
       "detected_at": "2026-09-05T03:50:23.138415+00:00",
+      "removed": []
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -16,2 +16,4 @@\n URL\n https://joindpp.org/\n+URL\n+https://joindpp.org/",
+          "diff_lines_omitted": 0,
+          "title": "Donor Participation Project",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/donor-participation-project"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -15,2 +15,4 @@\n URL\n https://faunalytics.org/funding-dynamics-in-farmed-animal-advocacy/\n+URL\n+https://faunalytics.org/funding-dynamics-in-farmed-animal-advocacy/",
+          "diff_lines_omitted": 0,
+          "title": "Funding Dynamics in Farmed Animal Advocacy",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/funding-dynamics-in-farmed-animal-advocacy"
+        }
+      ],
+      "detected_at": "2026-09-06T03:54:10.845989+00:00",
       "removed": []
     }
   ]
