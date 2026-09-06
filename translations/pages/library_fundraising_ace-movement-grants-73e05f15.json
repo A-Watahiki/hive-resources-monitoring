@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81cf-ac6d-ffc8a0c03684",
     "render_version": 5,
-    "synced_at": "2026-09-05T05:32:19.263788+00:00",
-    "synced_hash": null
+    "synced_at": "2026-09-06T05:46:50.537622+00:00",
+    "synced_hash": "4dc938f0d66e9a586a792ea68952946b7706fc123a0459176a71f99e5061808e"
   },
   "review": {
-    "status": "fixed",
+    "notes": "converted grant size to established 万-based notation for consistency with other pages; prior fixes (Focus/Capacity/Systemic change) correctly carried forward via translation cache after source content update",
     "reviewed_at": "2026-09-05T19:04:22.356193+00:00",
     "reviewer": "claude",
-    "notes": "converted grant size to established 万-based notation for consistency with other pages; prior fixes (Focus/Capacity/Systemic change) correctly carried forward via translation cache after source content update"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# ACE Movement Grants\n\nFocusUnderfunded regionsCapacity buildingSystemic change\n\nGrant cycleTwice a year\n\nGrant size in USD (if applicable)10-25k> 25k\n\nURL[https://animalcharityevaluators.org/movement-grants/](https://animalcharityevaluators.org/movement-grants/)\n\nWhat you need to know\n\nAugust 2026 update, from the ACE Movement Grants webpage: We’ve temporarily paused our EOI submissions process while we take time for some movement analysis, and we expect to reopen in early 2027….if you’ve already submitted an EOI that’s under review, you’re in our system and will be considered in our Fall grant round. (Please read more here: [https://animalcharityevaluators.org/movement-grants/apply-for-funding/](https://animalcharityevaluators.org/movement-grants/apply-for-funding/)) Previous to this update, how the Movement Grant Fund was operating was that you could submit an Expression of Interest (EOI) on a rolling basis, and then ACE would evaluate submissions during 1 or 2 rounds in a year.\n",
