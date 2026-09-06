@@ -7,10 +7,10 @@
     "synced_hash": "d84a3eb15de956f59730e26ca1f3386b6f477ba2b34bd3d5a056718ad3825f4a"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-06T19:04:36.037863+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Nailing the basics - Theories of Change\n\nLink[https://forum.effectivealtruism.org/posts/9t7St3pfEEiDsQ2Tr/nailing-the-basics-theories-of-change](https://forum.effectivealtruism.org/posts/9t7St3pfEEiDsQ2Tr/nailing-the-basics-theories-of-change)\n\nNotes\n",

@@ -7,10 +7,10 @@
     "synced_hash": "bab619c52f16d598a1717a57371db70b551ae103dde172cb63d09990577fd140"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-06T19:04:36.037863+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Donor Participation Project\n\nFormatResource collection\n\nDetails\n\nAn initiative to encourage giving and conversations/resources around it.\n\nURL[https://joindpp.org/](https://joindpp.org/)\n\nURL [https://joindpp.org/](https://joindpp.org/)\n",

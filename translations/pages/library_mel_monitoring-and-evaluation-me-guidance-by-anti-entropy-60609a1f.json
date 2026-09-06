@@ -7,10 +7,10 @@
     "synced_hash": "d091884e4bf01146b6fa4cfaed6249e6ee39232930e29a66814272d7f9d2880f"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-06T19:04:36.037863+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Monitoring and Evaluation (M&E) Guidance by Anti Entropy\n\nLink[https://resourceportal.antientropy.org/docs/monitoring-and-evaluation-me-guidance](https://resourceportal.antientropy.org/docs/monitoring-and-evaluation-me-guidance)\n\nNotes\n",

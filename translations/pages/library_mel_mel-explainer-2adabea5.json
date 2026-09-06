@@ -7,10 +7,10 @@
     "synced_hash": "9e3c34dfc6d9e2db1926b8b080dd05d3f031868df019f3024cf717dae411190e"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-06T19:04:36.037863+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# MEL explainer\n\nLink[https://embed.kumu.io/6aab003ac164bfea5f65d9a1582c676f#me-universe/monitoring](https://embed.kumu.io/6aab003ac164bfea5f65d9a1582c676f#me-universe/monitoring)\n\nNotes\n",
