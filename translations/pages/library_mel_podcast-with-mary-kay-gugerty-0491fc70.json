@@ -7,10 +7,10 @@
     "synced_hash": "d02dfb82acb7e9406b566c68464830298c4ac1547833282ce8b1fe733c7704b5"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-07T19:03:50.306849+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Podcast with Mary Kay Gugerty\n\nLink[https://open.spotify.com/episode/3MnqBPOk7nmJ6964vTLqqR?si=380630298cd141e2&nd=1&dlsi=c5eae72555184ca6](https://open.spotify.com/episode/3MnqBPOk7nmJ6964vTLqqR?si=380630298cd141e2&nd=1&dlsi=c5eae72555184ca6)\n\nNotes\n",

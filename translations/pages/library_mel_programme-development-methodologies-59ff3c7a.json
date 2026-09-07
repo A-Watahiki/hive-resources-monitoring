@@ -7,10 +7,10 @@
     "synced_hash": "d936e2b6801ba16f2e3154f67fcd496f716f2df12976f6735a47241facd30771"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-07T19:03:50.306849+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Programme Development Methodologies\n\nLink[https://forum.effectivealtruism.org/s/h7L3RsEcYghgnJk2x/p/FAKhZDNF2sP7ZSzoD](https://forum.effectivealtruism.org/s/h7L3RsEcYghgnJk2x/p/FAKhZDNF2sP7ZSzoD)\n\nNotes\n",

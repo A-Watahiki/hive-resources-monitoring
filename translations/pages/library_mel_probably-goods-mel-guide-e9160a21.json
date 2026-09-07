@@ -7,10 +7,10 @@
     "synced_hash": "7331044c1f335ec20a8ee0f0f1ca8753f2ef96378328dc0e83be78f97bcbdaa7"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-07T19:03:50.306849+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Probably Good's MEL guide\n\nLink[https://probablygood.org/career-profiles/monitoring-and-evaluation/](https://probablygood.org/career-profiles/monitoring-and-evaluation/)\n\nNotes\n\nCareer Guide\n",

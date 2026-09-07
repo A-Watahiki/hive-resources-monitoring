@@ -7,10 +7,10 @@
     "synced_hash": "8fddc36fae96cb49cba0a6d8a3a51f10a320ba815e205e3c4876d167deb37b5b"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-07T19:03:50.306849+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Relative Value Estimations using Squiggle\n\nLink[https://forum.effectivealtruism.org/posts/EFEwBvuDrTLDndqCt/relative-value-functions-a-flexible-new-format-for-value](https://forum.effectivealtruism.org/posts/EFEwBvuDrTLDndqCt/relative-value-functions-a-flexible-new-format-for-value)\n\nNotes\n",
