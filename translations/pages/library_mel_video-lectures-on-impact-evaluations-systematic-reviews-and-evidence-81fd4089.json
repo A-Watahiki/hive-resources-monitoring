@@ -7,10 +7,10 @@
     "synced_hash": "6cf3010fbf09674e827e35ec568f7f275774ba76c8499ff9182690a9f1075004"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-08T19:03:56.033580+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Video lectures on impact evaluations, systematic reviews and evidence use by 3ie\n\nLink[https://www.3ieimpact.org/resources/video-lecture-series](https://www.3ieimpact.org/resources/video-lecture-series)\n\nNotes\n",

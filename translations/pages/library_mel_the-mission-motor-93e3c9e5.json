@@ -7,10 +7,10 @@
     "synced_hash": "06de7ece5a4fb9b4fc99cbaa6d87402163db9ed9f0b99c18e2403daeee21b9c1"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-08T19:03:56.033580+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# The Mission Motor\n\nLink[https://www.themissionmotor.org/](https://www.themissionmotor.org/)\n\nNotes\n\nOrganization\n",
