@@ -7,10 +7,10 @@
     "synced_hash": "21a128ad17a63359829048813e42ab964faa5641af47efbda5b7b732801166b1"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-09-09T19:04:19.985022+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# CBT toolkit\n\n1. [What could happen VS and what will happen](https://careinhand.co.uk/wp-content/uploads/2022/01/Worry-Exploration-Questions.pdf) (helps to remove the disaster thinking about worries)\n\n1. [Challenging anxious thoughts](https://www.therapistaid.com/worksheets/challenging-anxious-thoughts) (helps to calibrate your thinking to the likely outcome rather than the worst outcome)\n",
