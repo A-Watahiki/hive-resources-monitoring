@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3e0383bb-2c1b-8190-ada8-e1f3bfd43fae",
     "render_version": 5,
-    "synced_at": "2026-09-19T05:41:38.765694+00:00",
-    "synced_hash": null
+    "synced_at": "2026-09-20T06:00:44.181024+00:00",
+    "synced_hash": "01e76034df05c78158757867dd4fdbef1b92fadae605de54730e951cbeec1b25"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label and added missing separators between values; unified 能力開発→能力強化; translated grant size range values",
     "reviewed_at": "2026-09-19T19:04:40.483440+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label and added missing separators between values; unified 能力開発→能力強化; translated grant size range values"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# BluePerch\n\nFocusMovement buildingResearchCage-free workCapacity building\n\nGrant cycleYear round\n\nGrant size in USD (if applicable)> 25k10-25k1-10k> 100k\n\nURL[https://blueperch.org/](https://blueperch.org/)\n\nWhat you need to know\n\nNew, launched in September 2026. From their website: BluePerch is a fund that makes grants to high-impact farmed animal advocacy projects. We create cost-effective impact for farmed animals by making the grants that other funders cannot - small grants delivered early and fast - and using grants to generate evidence that guides the movement’s funding decisions. While we are interested in funding any high-impact farmed animal advocacy project, we have a particular interest in funding: • Early-stage projects • Time-sensitive policy windows • Organisations or projects that fall through the cracks of other animal funders **Grant applications opening mid-2027.**\n",
