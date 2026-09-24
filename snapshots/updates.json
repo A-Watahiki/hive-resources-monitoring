@@ -4,20 +4,6 @@
       "added": [],
       "changed": [
         {
-          "diff": "--- before\n+++ after\n@@ -25,3 +25,3 @@\n Virtual Option?\n Website\n-https://wildlifefertilitycontrol.org/europe-workshop/\n+https://wildlifefertilitycontrol.org/upcoming-events/#upcoming",
-          "diff_lines_omitted": 0,
-          "title": "Workshop on Wildlife Fertility Control",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/conferences/workshop-on-wildlife-fertility-control"
-        }
-      ],
-      "detected_at": "2026-08-12T02:22:00.285893+00:00",
-      "removed": []
-    },
-    {
-      "added": [],
-      "changed": [
-        {
           "diff": "--- before\n+++ after\n@@ -5,5 +5,5 @@\n Learn how to engage productively on Slack and read our general posting guidelines and policies.\n New Here? Read these!\n-WELCOME to the Hive Community!\n+Welcome to the Hive Community!\n 🎾\n Community Guidelines",
           "diff_lines_omitted": 0,
           "title": "Hive Community Homepage",
@@ -234,6 +220,25 @@
         }
       ],
       "detected_at": "2026-09-19T04:01:32.854969+00:00",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "title": "Karen Hoyland",
+          "url": "https://resources.joinhive.org/library/fundraising/fundraiser-professionals-database-in-alphabetical-order/karen-hoyland"
+        }
+      ],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -570,4 +570,17 @@\n Can discuss any fundraising topic\n Anything to do with fundraising - always happy to have a conversation. Can offer some pro-bono support to limited number of charities.\n+Karen Hoyland\n+karenjhoyland@gmail.com\n+First-time fundraisers\n+Experienced fundraisers\n+Can discuss any fundraising topic\n+Fundraising strategy\n+• Fundraising strategy and audits\n+• Monthly giving\n+• Supporter stewardship\n+• Major donors\n+• Trusts and foundations\n+• Flexible monthly support\n+• Interim fundraising management\n Sabine Panneau\n sabine@sabinefep.com",
+          "diff_lines_omitted": 0,
+          "title": "Fundraising Guide",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising"
+        }
+      ],
+      "detected_at": "2026-09-24T04:04:54.703021+00:00",
       "removed": []
     }
   ]
