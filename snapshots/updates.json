@@ -1,41 +1,6 @@
 {
   "entries": [
     {
-      "added": [],
-      "changed": [
-        {
-          "diff": "--- before\n+++ after\n@@ -5,5 +5,5 @@\n Learn how to engage productively on Slack and read our general posting guidelines and policies.\n New Here? Read these!\n-WELCOME to the Hive Community!\n+Welcome to the Hive Community!\n 🎾\n Community Guidelines",
-          "diff_lines_omitted": 0,
-          "title": "Hive Community Homepage",
-          "translation_pending": false,
-          "url": "https://resources.joinhive.org/"
-        },
-        {
-          "diff": "--- before\n+++ after\n@@ -141,5 +141,8 @@\n animalcharityevaluators.org\n Twice a year\n-Two rounds each year (as of 2026), opening in February and August.\n+August 2026 update, from the ACE Movement Grants webpage: We’ve temporarily paused our EOI submissions process while we take time for some movement analysis, and we expect to reopen in early 2027….if you’ve already submitted an EOI that’s under review, you’re in our system and will be considered in our Fall grant round. (Please read more here:\n+https://animalcharityevaluators.org/movement-grants/apply-for-funding/\n+)\n+Previous to this update, how the Movement Grant Fund was operating was that you could submit an Expression of Interest (EOI) on a rolling basis, and then ACE would evaluate submissions during 1 or 2 rounds in a year.\n Underfunded regions\n Capacity building",
-          "diff_lines_omitted": 0,
-          "title": "Fundraising Guide",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising"
-        },
-        {
-          "diff": "--- before\n+++ after\n@@ -19,5 +19,8 @@\n animalcharityevaluators.org\n Twice a year\n-Two rounds each year (as of 2026), opening in February and August.\n+August 2026 update, from the ACE Movement Grants webpage: We’ve temporarily paused our EOI submissions process while we take time for some movement analysis, and we expect to reopen in early 2027….if you’ve already submitted an EOI that’s under review, you’re in our system and will be considered in our Fall grant round. (Please read more here:\n+https://animalcharityevaluators.org/movement-grants/apply-for-funding/\n+)\n+Previous to this update, how the Movement Grant Fund was operating was that you could submit an Expression of Interest (EOI) on a rolling basis, and then ACE would evaluate submissions during 1 or 2 rounds in a year.\n Underfunded regions\n Capacity building",
-          "diff_lines_omitted": 0,
-          "title": "Grants and foundations",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations"
-        },
-        {
-          "diff": "--- before\n+++ after\n@@ -1,7 +1,7 @@\n-WELCOME to the Hive Community!\n+Welcome to the Hive Community!\n Hive Community Homepage\n /\n-WELCOME to the Hive Community!\n-WELCOME to the Hive Community!\n+Welcome to the Hive Community!\n+Welcome to the Hive Community!\n Click here\n to join the Slack - please use the same email you’ve just provided in the form\n@@ -9,6 +9,6 @@\n The mission of\n Hive\n-(formerly Impactful Animal Advocacy) is to\n-improve coordination and collaboration in the farmed animal advocacy movement by cultivating impact-focused communities.\n+is\n+to multiply the impact of farmed animal advocates by deepening global connection, collaboration, and coordination.\n As part of our community, you’ll gain access to:\n Our",
-          "diff_lines_omitted": 0,
-          "title": "Welcome to the Hive Community!",
-          "translation_pending": false,
-          "url": "https://resources.joinhive.org/welcome"
-        }
-      ],
-      "detected_at": "2026-08-20T01:32:19.931425+00:00",
-      "removed": []
-    },
-    {
       "added": [
         {
           "title": "Animal Law Conference",
@@ -240,6 +205,25 @@
       ],
       "detected_at": "2026-09-24T04:04:54.703021+00:00",
       "removed": []
+    },
+    {
+      "added": [],
+      "changed": [],
+      "detected_at": "2026-10-05T04:58:29.886085+00:00",
+      "removed": [
+        {
+          "title": "Mental Well-Being",
+          "url": "https://resources.joinhive.org/library/mental-well-being"
+        },
+        {
+          "title": "CBT toolkit",
+          "url": "https://resources.joinhive.org/library/mental-well-being/cbt-toolkit"
+        },
+        {
+          "title": "Memes & illustrations",
+          "url": "https://resources.joinhive.org/library/mental-well-being/memes-illustrations"
+        }
+      ]
     }
   ]
 }
