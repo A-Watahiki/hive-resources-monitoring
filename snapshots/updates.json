@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "added": [
-        {
-          "title": "Animal Law Conference",
-          "url": "https://resources.joinhive.org/library/conferences/pro-animal-conferences-database/animal-law-conference"
-        }
-      ],
-      "changed": [
-        {
-          "diff": "--- before\n+++ after\n@@ -564,4 +564,10 @@\n Prior Animal Alliance Asia Videos\n AACA is a virtual platform for animal justice advocates across Asia to learn new skills, exchange ideas, and grow the movement together.\n+Animal Law Conference\n+www.animallawconference.org\n+D.C.\n+US\n+Legal\n+Past Conferences\n Animal Liberation Conference\n www.animalliberationconference.com",
-          "diff_lines_omitted": 0,
-          "title": "Conferences Database: Farmed Animal Advocacy",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/conferences"
-        }
-      ],
-      "detected_at": "2026-08-26T01:42:17.877424+00:00",
-      "removed": []
-    },
-    {
       "added": [],
       "changed": [
         {
@@ -224,6 +205,25 @@
           "url": "https://resources.joinhive.org/library/mental-well-being/memes-illustrations"
         }
       ]
+    },
+    {
+      "added": [
+        {
+          "title": "Mental Well-Being",
+          "url": "https://resources.joinhive.org/library/mental-well-being"
+        },
+        {
+          "title": "CBT toolkit",
+          "url": "https://resources.joinhive.org/library/mental-well-being/cbt-toolkit"
+        },
+        {
+          "title": "Memes & illustrations",
+          "url": "https://resources.joinhive.org/library/mental-well-being/memes-illustrations"
+        }
+      ],
+      "changed": [],
+      "detected_at": "2026-10-06T05:47:15.448677+00:00",
+      "removed": []
     }
   ]
 }
