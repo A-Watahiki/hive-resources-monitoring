@@ -4,20 +4,6 @@
       "added": [],
       "changed": [
         {
-          "diff": "--- before\n+++ after\n@@ -84,4 +84,10 @@\n Prior Animal Alliance Asia Videos\n AACA is a virtual platform for animal justice advocates across Asia to learn new skills, exchange ideas, and grow the movement together.\n+Animal Law Conference\n+www.animallawconference.org\n+D.C.\n+US\n+Legal\n+Past Conferences\n Animal Liberation Conference\n www.animalliberationconference.com",
-          "diff_lines_omitted": 0,
-          "title": "Pro-Animal Conferences Database",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/conferences/pro-animal-conferences-database?v=e807a74183814721990570dfa1ee93a1"
-        }
-      ],
-      "detected_at": "2026-08-29T06:34:53.619985+00:00",
-      "removed": []
-    },
-    {
-      "added": [],
-      "changed": [
-        {
           "diff": "--- before\n+++ after\n@@ -465,5 +465,5 @@\n and ask a question in #help-requests.\n ‣\n-How to make the best out of a conference?\n+How to make the most out of a conference?\n Each conference is a big commitment on your resources so it’s important that you take full advantage of this opportunity. We recommend that you always\n take plenty of time to research the conference and prepare for it well.",
           "diff_lines_omitted": 0,
           "title": "Conferences Database: Farmed Animal Advocacy",
@@ -224,6 +210,32 @@
       "changed": [],
       "detected_at": "2026-10-06T05:47:15.448677+00:00",
       "removed": []
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -319,4 +319,14 @@\n Animal rights\n Capacity building\n+ProVeg Grants\n+proveg.org\n+Year round\n+Funds locally led organisations shifting food systems toward plant-based defaults, through work with retailers, public food services and hospitality, as well as narrative change and public policy. Grants are by invitation only, but expressions of interest are welcome. Since 2019 it has supported more than 750 organisations in over 90 countries.\n+Vegan food systems\n+Movement building\n+Systemic change\n+1-10k\n+10-25k\n+> 25k\n Strategic Animal Funding Circle\n www.animalfundingcircle.com\n@@ -413,12 +423,4 @@\n 1k seed grants to small, vegan projects.\n < 1k\n-[Inactive]\n-ProVeg Grants\n-proveg.org\n-Gives plant-based campaigns around the world quarterly.\n-Vegan food systems\n-1-10k\n-10-25k\n-> 25k\n [Inactive]\n Veg Fund",
+          "diff_lines_omitted": 0,
+          "title": "Fundraising Guide",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -199,4 +199,14 @@\n Animal rights\n Capacity building\n+ProVeg Grants\n+proveg.org\n+Year round\n+Funds locally led organisations shifting food systems toward plant-based defaults, through work with retailers, public food services and hospitality, as well as narrative change and public policy. Grants are by invitation only, but expressions of interest are welcome. Since 2019 it has supported more than 750 organisations in over 90 countries.\n+Vegan food systems\n+Movement building\n+Systemic change\n+1-10k\n+10-25k\n+> 25k\n Strategic Animal Funding Circle\n www.animalfundingcircle.com\n@@ -294,12 +304,4 @@\n < 1k\n [Inactive]\n-ProVeg Grants\n-proveg.org\n-Gives plant-based campaigns around the world quarterly.\n-Vegan food systems\n-1-10k\n-10-25k\n-> 25k\n-[Inactive]\n Veg Fund\n rancheradvocacy.org",
+          "diff_lines_omitted": 0,
+          "title": "Grants and foundations",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations"
+        }
+      ],
+      "detected_at": "2026-10-14T04:20:07.944406+00:00",
+      "removed": [
+        {
+          "title": "https://resources.joinhive.org/3dfb661e792480b59681f7ab98545e9d",
+          "url": "https://resources.joinhive.org/3dfb661e792480b59681f7ab98545e9d"
+        }
+      ]
     }
   ]
 }
