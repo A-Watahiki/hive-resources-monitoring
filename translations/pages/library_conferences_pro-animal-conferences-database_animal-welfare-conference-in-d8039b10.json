@@ -6,10 +6,10 @@
     "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-10-22T19:10:42.765526+00:00",
+    "reviewer": "claude",
+    "notes": "translated the untranslated City field; added missing separators and colon to the Topic field"
   },
   "schema_version": 6,
   "source_markdown": "# Animal Welfare Conference Indonesia 2026\n\nCityJakarta\n\nCountryIndonesia\n\nDate TBD\n\nDescription\n\n4-5 December 2026. From their website: **The 5th Animal Welfare Conference - Indonesia From Collective Action to Sustainable Impact: Shaping the Future of Animal Welfare in Indonesia** ”From Collective Action to Sustainable Impact: Shaping the Future of Animal Welfare in Indonesia” reminds us that true progress comes when collaboration evolves into lasting change. By uniting diverse voices and building shared responsibility, we aim to transform collective efforts into sustainable practices that secure a compassionate future for animals and communities alike.\n\nPast talks and takeaways\n\nTopicAnimal AdvocacyFundraisingLegalAsiaAnimal Welfare ScienceWild AnimalsWorking Animals\n\nVirtual Option?\n\nWebsite[https://animalwelfareconference.com/](https://animalwelfareconference.com/)\n",
@@ -17,8 +17,8 @@
   "target_lang": "JA",
   "title": "Animal Welfare Conference Indonesia 2026",
   "translated_at": "2026-10-22T05:52:43.174987+00:00",
-  "translated_markdown": "# 2026年インドネシア動物福祉会議\n\nCityJakarta\n\n国：インドネシア\n\n日程は未定\n\n説明\n\n2026年12月4日～5日。公式サイトより：「**第5回動物福祉会議 - インドネシア『集団的行動から持続可能な影響へ：インドネシアにおける動物福祉の未来を形作る**』『集団的行動から持続可能な影響へ： インドネシアにおける動物福祉の未来を形作る」は、協働が永続的な変化へと発展したときにこそ、真の進歩がもたらされることを私たちに思い出させてくれます。多様な声を結集し、共通の責任を築くことで、私たちは集団的な取り組みを、動物と地域社会の両方にとって思いやりに満ちた未来を保障する持続可能な実践へと変革することを目指しています。\n\n過去の講演と主なポイント\n\nトピック 動物の権利擁護 資金調達 法律 アジア 動物福祉科学 野生動物 作業用動物\n\nバーチャル・オプション？\n\nウェブサイト[https://animalwelfareconference.com/](https://animalwelfareconference.com/)\n",
-  "translated_text": "2026年インドネシア動物福祉会議\nCityJakarta\n国：インドネシア\n日程は未定\n説明\n2026年12月4日～5日。公式サイトより：「第5回動物福祉会議 - インドネシア『集団的行動から持続可能な影響へ：インドネシアにおける動物福祉の未来を形作る』『集団的行動から持続可能な影響へ： インドネシアにおける動物福祉の未来を形作る」は、協働が永続的な変化へと発展したときにこそ、真の進歩がもたらされることを私たちに思い出させてくれます。多様な声を結集し、共通の責任を築くことで、私たちは集団的な取り組みを、動物と地域社会の両方にとって思いやりに満ちた未来を保障する持続可能な実践へと変革することを目指しています。\n過去の講演と主なポイント\nトピック 動物の権利擁護 資金調達 法律 アジア 動物福祉科学 野生動物 作業用動物\nバーチャル・オプション？\nウェブサイトhttps://animalwelfareconference.com/",
+  "translated_markdown": "# 2026年インドネシア動物福祉会議\n\n都市：ジャカルタ\n\n国：インドネシア\n\n日程は未定\n\n説明\n\n2026年12月4日～5日。公式サイトより：「**第5回動物福祉会議 - インドネシア『集団的行動から持続可能な影響へ：インドネシアにおける動物福祉の未来を形作る**』『集団的行動から持続可能な影響へ： インドネシアにおける動物福祉の未来を形作る」は、協働が永続的な変化へと発展したときにこそ、真の進歩がもたらされることを私たちに思い出させてくれます。多様な声を結集し、共通の責任を築くことで、私たちは集団的な取り組みを、動物と地域社会の両方にとって思いやりに満ちた未来を保障する持続可能な実践へと変革することを目指しています。\n\n過去の講演と主なポイント\n\nトピック：動物の権利擁護、資金調達、法律、アジア、動物福祉科学、野生動物、作業用動物\n\nバーチャル・オプション？\n\nウェブサイト[https://animalwelfareconference.com/](https://animalwelfareconference.com/)\n",
+  "translated_text": "2026年インドネシア動物福祉会議\n都市：ジャカルタ\n国：インドネシア\n日程は未定\n説明\n2026年12月4日～5日。公式サイトより：「第5回動物福祉会議 - インドネシア『集団的行動から持続可能な影響へ：インドネシアにおける動物福祉の未来を形作る』『集団的行動から持続可能な影響へ： インドネシアにおける動物福祉の未来を形作る」は、協働が永続的な変化へと発展したときにこそ、真の進歩がもたらされることを私たちに思い出させてくれます。多様な声を結集し、共通の責任を築くことで、私たちは集団的な取り組みを、動物と地域社会の両方にとって思いやりに満ちた未来を保障する持続可能な実践へと変革することを目指しています。\n過去の講演と主なポイント\nトピック：動物の権利擁護、資金調達、法律、アジア、動物福祉科学、野生動物、作業用動物\nバーチャル・オプション？\nウェブサイトhttps://animalwelfareconference.com/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/pro-animal-conferences-database/animal-welfare-conference-indonesia-2026"
 }
