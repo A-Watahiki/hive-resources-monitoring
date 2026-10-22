@@ -1,37 +1,6 @@
 {
   "entries": [
     {
-      "added": [],
-      "changed": [
-        {
-          "diff": "--- before\n+++ after\n@@ -465,5 +465,5 @@\n and ask a question in #help-requests.\n ‣\n-How to make the best out of a conference?\n+How to make the most out of a conference?\n Each conference is a big commitment on your resources so it’s important that you take full advantage of this opportunity. We recommend that you always\n take plenty of time to research the conference and prepare for it well.",
-          "diff_lines_omitted": 0,
-          "title": "Conferences Database: Farmed Animal Advocacy",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/conferences"
-        }
-      ],
-      "detected_at": "2026-08-30T04:47:28.723670+00:00",
-      "removed": [
-        {
-          "title": "Eva Yoe",
-          "url": "https://resources.joinhive.org/library/fundraising/eva-yoe"
-        },
-        {
-          "title": "GiveButter webinars and videos",
-          "url": "https://resources.joinhive.org/library/fundraising/givebutter-webinars-and-videos"
-        },
-        {
-          "title": "The William and Charlotte Parks Foundation",
-          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/the-william-and-charlotte-parks-foundation"
-        },
-        {
-          "title": "NextAfter Institute",
-          "url": "https://resources.joinhive.org/library/fundraising/nextafter-institute"
-        }
-      ]
-    },
-    {
       "added": [
         {
           "title": "Eva Yoe",
@@ -236,6 +205,32 @@
           "url": "https://resources.joinhive.org/3dfb661e792480b59681f7ab98545e9d"
         }
       ]
+    },
+    {
+      "added": [
+        {
+          "title": "Animal Welfare Conference Indonesia 2026",
+          "url": "https://resources.joinhive.org/library/conferences/pro-animal-conferences-database/animal-welfare-conference-indonesia-2026"
+        }
+      ],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -617,10 +617,12 @@\n All 2023 Talks\n This conference is open to anyone who is interested in aquatic animal protection, regardless of sector.\n-Asia for Animals Conference\n+Asia for Animals Coalition Conference 2027\n www.asiaforanimals.com\n+Seoul\n+South Korea\n Animal Advocacy\n Asia\n Past videos\n-Since 2000, AfA Conferences have been co-hosted every two years by AfA member organizations. The AfA conference is Asia's longest-running animal advocacy gathering.\n+September 27 - October 1, 2027, in Seoul, South Korea. Since 2000, AfA Conferences have been co-hosted every two years by AfA member organizations. The AfA conference is Asia's longest-running animal advocacy gathering.\n This event creates opportunities for interaction and knowledge exchange among organizations in the Asian animal advocacy movement, offering delegates a chance to network, collaborate, and catalyze change moving forward. Through engaging panels, breakout sessions, and immersive workshops, participants explore strategies for overcoming challenges, transforming ideas into strategic priorities, and enhancing campaigns on key animal protection issues.\n Biennial Conference of the European Association for Critical Animal Studies\n@@ -878,2 +880,17 @@\n World Council of Fisheries Societies\n , every four years delegates from around the world meet to exchange ideas and perspectives about new research, emerging issues, scientific breakthroughs, and governance related to fisheries science, industry, conservation, and management.\n+Animal Welfare Conference Indonesia 2026\n+animalwelfareconference.com\n+Jakarta\n+Indonesia\n+Animal Advocacy\n+Fundraising\n+Legal\n+Asia\n+Animal Welfare Science\n+Wild Animals\n+Working Animals\n+4-5 December 2026. From their website:\n+The 5th Animal Welfare Conference - Indonesia\n+From Collective Action to Sustainable Impact: Shaping the Future of Animal Welfare in Indonesia\n+”From Collective Action to Sustainable Impact: Shaping the Future of Animal Welfare in Indonesia” reminds us that true progress comes when collaboration evolves into lasting change. By uniting diverse voices and building shared responsibility, we aim to transform collective efforts into sustainable practices that secure a compassionate future for animals and communities alike.",
+          "diff_lines_omitted": 0,
+          "title": "Conferences Database: Farmed Animal Advocacy",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/conferences"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -137,10 +137,12 @@\n All 2023 Talks\n This conference is open to anyone who is interested in aquatic animal protection, regardless of sector.\n-Asia for Animals Conference\n+Asia for Animals Coalition Conference 2027\n www.asiaforanimals.com\n+Seoul\n+South Korea\n Animal Advocacy\n Asia\n Past videos\n-Since 2000, AfA Conferences have been co-hosted every two years by AfA member organizations. The AfA conference is Asia's longest-running animal advocacy gathering.\n+September 27 - October 1, 2027, in Seoul, South Korea. Since 2000, AfA Conferences have been co-hosted every two years by AfA member organizations. The AfA conference is Asia's longest-running animal advocacy gathering.\n This event creates opportunities for interaction and knowledge exchange among organizations in the Asian animal advocacy movement, offering delegates a chance to network, collaborate, and catalyze change moving forward. Through engaging panels, breakout sessions, and immersive workshops, participants explore strategies for overcoming challenges, transforming ideas into strategic priorities, and enhancing campaigns on key animal protection issues.\n Biennial Conference of the European Association for Critical Animal Studies\n@@ -398,2 +400,17 @@\n World Council of Fisheries Societies\n , every four years delegates from around the world meet to exchange ideas and perspectives about new research, emerging issues, scientific breakthroughs, and governance related to fisheries science, industry, conservation, and management.\n+Animal Welfare Conference Indonesia 2026\n+animalwelfareconference.com\n+Jakarta\n+Indonesia\n+Animal Advocacy\n+Fundraising\n+Legal\n+Asia\n+Animal Welfare Science\n+Wild Animals\n+Working Animals\n+4-5 December 2026. From their website:\n+The 5th Animal Welfare Conference - Indonesia\n+From Collective Action to Sustainable Impact: Shaping the Future of Animal Welfare in Indonesia\n+”From Collective Action to Sustainable Impact: Shaping the Future of Animal Welfare in Indonesia” reminds us that true progress comes when collaboration evolves into lasting change. By uniting diverse voices and building shared responsibility, we aim to transform collective efforts into sustainable practices that secure a compassionate future for animals and communities alike.",
+          "diff_lines_omitted": 0,
+          "title": "Pro-Animal Conferences Database",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/conferences/pro-animal-conferences-database?v=e807a74183814721990570dfa1ee93a1"
+        }
+      ],
+      "detected_at": "2026-10-22T04:06:00.987421+00:00",
+      "removed": []
     }
   ]
 }
