@@ -4,13 +4,13 @@
     "page_id": "409383bb-2c1b-811d-9e56-fd4cf41b8524",
     "render_version": 5,
     "synced_at": "2026-10-30T07:01:17.523908+00:00",
-    "synced_hash": "5cecd39035d6bd667c9a9b65e23b5b10befbec66bf11b81a9e83617087293a9b"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-10-30T19:12:08.707265+00:00",
+    "reviewer": "claude",
+    "notes": "fixed Focus label and value (重点分野/ヴィーガン食料システム), added separators; aligned \"How to apply\" and \"Checked by\" field wording with the established site-wide convention"
   },
   "schema_version": 6,
   "source_markdown": "# Animal Alliance Asia – ReRoot Asia Fund\n\nStatusActive\n\nFocusVegan food systemsUnderfunded regionsMovement building\n\nURL[https://www.animalallianceasia.org/rerootasia](https://www.animalallianceasia.org/rerootasia)\n\nGrant size in USD (if applicable)< 1k1-10k\n\nGrant cycle\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nRegranting fund for mainly grassroots projects in Asia shifting diets or menus toward plant-based food (e.g. leafleting, food sampling, restaurant partnerships). Favours Global Majority and marginalized groups, women- and gender-minority-led groups, and less-supported regions; local languages accepted. Rounds ran in 2023, 2024 and 2026 (2026 round: $500–$5,000, closed 30 Jun 2026). No next round announced as of Oct 2026.\n\nWhere they post updates\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Animal Alliance Asia – ReRoot Asia Fund",
   "translated_at": "2026-10-30T06:54:40.332561+00:00",
-  "translated_markdown": "# アニマル・アライアンス・アジア – ReRoot Asia Fund\n\nステータス：アクティブ\n\n焦点：ヴィーガン食のシステム 資金不足の地域 運動の構築\n\nURL [https://www.animalallianceasia.org/rerootasia](https://www.animalallianceasia.org/rerootasia)\n\n助成金額（米ドル、該当する場合）1,000未満、1,000～10,000\n\n助成サイクル\n\n応募方法 応募手続き\n\n知っておくべきこと\n\nアジアにおける、食事やメニューを植物性食品へと転換させる草の根プロジェクト（例：チラシ配布、試食会、レストランとの提携など）を主な対象とする再助成基金。グローバル・マジョリティや周縁化されたグループ、女性やジェンダーのマイノリティが主導するグループ、支援が不十分な地域を優先し、現地語での申請も受け付けています。 2023年、2024年、2026年に公募を実施（2026年公募：500～5,000ドル、2026年6月30日締切）。2026年10月現在、次回の公募は発表されていない。\n\n更新情報が掲載される場所\n\n最終確認日：2026年10月29日\n\n校正者：\n",
-  "translated_text": "アニマル・アライアンス・アジア – ReRoot Asia Fund\nステータス：アクティブ\n焦点：ヴィーガン食のシステム 資金不足の地域 運動の構築\nURL https://www.animalallianceasia.org/rerootasia\n助成金額（米ドル、該当する場合）1,000未満、1,000～10,000\n助成サイクル\n応募方法 応募手続き\n知っておくべきこと\nアジアにおける、食事やメニューを植物性食品へと転換させる草の根プロジェクト（例：チラシ配布、試食会、レストランとの提携など）を主な対象とする再助成基金。グローバル・マジョリティや周縁化されたグループ、女性やジェンダーのマイノリティが主導するグループ、支援が不十分な地域を優先し、現地語での申請も受け付けています。 2023年、2024年、2026年に公募を実施（2026年公募：500～5,000ドル、2026年6月30日締切）。2026年10月現在、次回の公募は発表されていない。\n更新情報が掲載される場所\n最終確認日：2026年10月29日\n校正者：",
+  "translated_markdown": "# アニマル・アライアンス・アジア – ReRoot Asia Fund\n\nステータス：アクティブ\n\n重点分野：ヴィーガン食料システム、資金不足の地域、運動の構築\n\nURL [https://www.animalallianceasia.org/rerootasia](https://www.animalallianceasia.org/rerootasia)\n\n助成金額（米ドル、該当する場合）1,000未満、1,000～10,000\n\n助成サイクル\n\n応募方法：公募手続き\n\n知っておくべきこと\n\nアジアにおける、食事やメニューを植物性食品へと転換させる草の根プロジェクト（例：チラシ配布、試食会、レストランとの提携など）を主な対象とする再助成基金。グローバル・マジョリティや周縁化されたグループ、女性やジェンダーのマイノリティが主導するグループ、支援が不十分な地域を優先し、現地語での申請も受け付けています。 2023年、2024年、2026年に公募を実施（2026年公募：500～5,000ドル、2026年6月30日締切）。2026年10月現在、次回の公募は発表されていない。\n\n更新情報が掲載される場所\n\n最終確認日：2026年10月29日\n\n確認者：\n",
+  "translated_text": "アニマル・アライアンス・アジア – ReRoot Asia Fund\nステータス：アクティブ\n重点分野：ヴィーガン食料システム、資金不足の地域、運動の構築\nURL https://www.animalallianceasia.org/rerootasia\n助成金額（米ドル、該当する場合）1,000未満、1,000～10,000\n助成サイクル\n応募方法：公募手続き\n知っておくべきこと\nアジアにおける、食事やメニューを植物性食品へと転換させる草の根プロジェクト（例：チラシ配布、試食会、レストランとの提携など）を主な対象とする再助成基金。グローバル・マジョリティや周縁化されたグループ、女性やジェンダーのマイノリティが主導するグループ、支援が不十分な地域を優先し、現地語での申請も受け付けています。 2023年、2024年、2026年に公募を実施（2026年公募：500～5,000ドル、2026年6月30日締切）。2026年10月現在、次回の公募は発表されていない。\n更新情報が掲載される場所\n最終確認日：2026年10月29日\n確認者：",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/animal-alliance-asia-reroot-asia-fund"
 }

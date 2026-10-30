@@ -4,13 +4,13 @@
     "page_id": "409383bb-2c1b-8159-90d8-d609f89ba063",
     "render_version": 5,
     "synced_at": "2026-10-30T07:01:19.643613+00:00",
-    "synced_hash": "5f3cf9f2789aaf5c34b790561f64dd1db913ad79f0d76437701e588ce5ec278a"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-10-30T19:12:08.707265+00:00",
+    "reviewer": "claude",
+    "notes": "fixed Focus label and value (重点分野/能力強化); aligned \"How to apply\" and \"Checked by\" field wording with the established site-wide convention"
   },
   "schema_version": 6,
   "source_markdown": "# Claude Corps (Anthropic)\n\nStatusActive\n\nFocusCapacity building\n\nURL[https://anthropic.com/claude-corps/host](https://anthropic.com/claude-corps/host)\n\nGrant size in USD (if applicable)1-10k\n\nGrant cycle\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nHost nonprofits get a fully funded AI fellow working full time and in person for 12 months, plus a $10,000 implementation grant, Claude licenses, API credits and office hours. Hosts must name a supervisor and plan how to sustain the work. As of Oct 2026, host applications are open on a rolling basis for cohorts starting Oct 2026, Mar 2027 and Aug 2027. US focus; whether hosts must be US-based 501(c)(3)s is unconfirmed.\n\nWhere they post updates\n\n[https://anthropic.com/news/claude-corps](https://anthropic.com/news/claude-corps)\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Claude Corps (Anthropic)",
   "translated_at": "2026-10-30T06:54:40.332561+00:00",
-  "translated_markdown": "# クロード・コープス（Anthropic）\n\nステータス：アクティブ\n\nフォーカス：能力開発\n\nURL[https://anthropic.com/claude-corps/host](https://anthropic.com/claude-corps/host)\n\n助成金額（米ドル、該当する場合）：1千～1万\n\n助成サイクル\n\n応募方法 応募手続き\n\n知っておくべきこと\n\n受入非営利団体には、12か月間フルタイムで常駐する、全額資金提供を受けたAIフェローに加え、10,000ドルの実施助成金、Claudeライセンス、APIクレジット、およびオフィスアワーが提供されます。受入団体は、スーパーバイザーを指名し、業務を継続するための計画を立てる必要があります。 2026年10月現在、2026年10月、2027年3月、2027年8月に開始するコホート向けの受け入れ団体募集が随時受け付けられています。対象は主に米国ですが、受け入れ団体が米国に拠点を置く501(c)(3)団体である必要があるかどうかは未確認です。\n\n更新情報が掲載される場所\n\n[https://anthropic.com/news/claude-corps](https://anthropic.com/news/claude-corps)\n\n最終確認日：2026年10月29日\n\n校正者：\n",
-  "translated_text": "クロード・コープス（Anthropic）\nステータス：アクティブ\nフォーカス：能力開発\nURLhttps://anthropic.com/claude-corps/host\n助成金額（米ドル、該当する場合）：1千～1万\n助成サイクル\n応募方法 応募手続き\n知っておくべきこと\n受入非営利団体には、12か月間フルタイムで常駐する、全額資金提供を受けたAIフェローに加え、10,000ドルの実施助成金、Claudeライセンス、APIクレジット、およびオフィスアワーが提供されます。受入団体は、スーパーバイザーを指名し、業務を継続するための計画を立てる必要があります。 2026年10月現在、2026年10月、2027年3月、2027年8月に開始するコホート向けの受け入れ団体募集が随時受け付けられています。対象は主に米国ですが、受け入れ団体が米国に拠点を置く501(c)(3)団体である必要があるかどうかは未確認です。\n更新情報が掲載される場所\nhttps://anthropic.com/news/claude-corps\n最終確認日：2026年10月29日\n校正者：",
+  "translated_markdown": "# クロード・コープス（Anthropic）\n\nステータス：アクティブ\n\n重点分野：能力強化\n\nURL[https://anthropic.com/claude-corps/host](https://anthropic.com/claude-corps/host)\n\n助成金額（米ドル、該当する場合）：1千～1万\n\n助成サイクル\n\n応募方法：公募手続き\n\n知っておくべきこと\n\n受入非営利団体には、12か月間フルタイムで常駐する、全額資金提供を受けたAIフェローに加え、10,000ドルの実施助成金、Claudeライセンス、APIクレジット、およびオフィスアワーが提供されます。受入団体は、スーパーバイザーを指名し、業務を継続するための計画を立てる必要があります。 2026年10月現在、2026年10月、2027年3月、2027年8月に開始するコホート向けの受け入れ団体募集が随時受け付けられています。対象は主に米国ですが、受け入れ団体が米国に拠点を置く501(c)(3)団体である必要があるかどうかは未確認です。\n\n更新情報が掲載される場所\n\n[https://anthropic.com/news/claude-corps](https://anthropic.com/news/claude-corps)\n\n最終確認日：2026年10月29日\n\n確認者：\n",
+  "translated_text": "クロード・コープス（Anthropic）\nステータス：アクティブ\n重点分野：能力強化\nURLhttps://anthropic.com/claude-corps/host\n助成金額（米ドル、該当する場合）：1千～1万\n助成サイクル\n応募方法：公募手続き\n知っておくべきこと\n受入非営利団体には、12か月間フルタイムで常駐する、全額資金提供を受けたAIフェローに加え、10,000ドルの実施助成金、Claudeライセンス、APIクレジット、およびオフィスアワーが提供されます。受入団体は、スーパーバイザーを指名し、業務を継続するための計画を立てる必要があります。 2026年10月現在、2026年10月、2027年3月、2027年8月に開始するコホート向けの受け入れ団体募集が随時受け付けられています。対象は主に米国ですが、受け入れ団体が米国に拠点を置く501(c)(3)団体である必要があるかどうかは未確認です。\n更新情報が掲載される場所\nhttps://anthropic.com/news/claude-corps\n最終確認日：2026年10月29日\n確認者：",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/claude-corps-anthropic"
 }
