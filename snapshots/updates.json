@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "added": [
-        {
-          "title": "Eva Yoe",
-          "url": "https://resources.joinhive.org/library/fundraising/eva-yoe"
-        },
-        {
-          "title": "GiveButter webinars and videos",
-          "url": "https://resources.joinhive.org/library/fundraising/givebutter-webinars-and-videos"
-        },
-        {
-          "title": "The William and Charlotte Parks Foundation",
-          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/the-william-and-charlotte-parks-foundation"
-        },
-        {
-          "title": "NextAfter Institute",
-          "url": "https://resources.joinhive.org/library/fundraising/nextafter-institute"
-        }
-      ],
-      "changed": [],
-      "detected_at": "2026-08-31T04:47:50.882752+00:00",
-      "removed": []
-    },
-    {
       "added": [],
       "changed": [
         {
@@ -231,6 +208,134 @@
       ],
       "detected_at": "2026-10-22T04:06:00.987421+00:00",
       "removed": []
+    },
+    {
+      "added": [
+        {
+          "title": "Animal Alliance Asia – ReRoot Asia Fund",
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/animal-alliance-asia-reroot-asia-fund"
+        },
+        {
+          "title": "Claude Corps (Anthropic)",
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/claude-corps-anthropic"
+        },
+        {
+          "title": "Fish Welfare Initiative – India funding call",
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/fish-welfare-initiative-india-funding-call"
+        },
+        {
+          "title": "Fondation Droit Animal – Louis Schweitzer Law Prize",
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/fondation-droit-animal-louis-schweitzer-law-prize"
+        },
+        {
+          "title": "Journalismfund Europe – Invisible Life Grant Programme",
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/journalismfund-europe-invisible-life-grant-programme"
+        },
+        {
+          "title": "no hotdog – Grants Program",
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/no-hotdog-grants-program"
+        },
+        {
+          "title": "Nova Vista Foundation",
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/nova-vista-foundation"
+        },
+        {
+          "title": "Reporters for Animals International",
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/reporters-for-animals-international"
+        },
+        {
+          "title": "Science for Animal Welfare – Centenary Research Award",
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/science-for-animal-welfare-centenary-research-award"
+        },
+        {
+          "title": "Sentient Media – Food and Farming Storytelling Fund",
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/sentient-media-food-and-farming-storytelling-fund"
+        },
+        {
+          "title": "Spring Innovation Fund",
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/spring-innovation-fund"
+        },
+        {
+          "title": "The Hatchery Fund",
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/the-hatchery-fund"
+        },
+        {
+          "title": "Violet Studios (in-kind creative support)",
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/violet-studios-in-kind-creative-support"
+        },
+        {
+          "title": "We Animals – Subsidized Assignments",
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/we-animals-subsidized-assignments"
+        },
+        {
+          "title": "Welfare Matters – Farmed Animal Welfare Incubator",
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/welfare-matters-farmed-animal-welfare-incubator"
+        }
+      ],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -32,5 +32,5 @@\n Conferences Database: Farmed Animal Advocacy\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n 🚀\n Jobs and Careers",
+          "diff_lines_omitted": 0,
+          "title": "Hive Resource Library",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -1,3 +1,3 @@\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n Hive Community Homepage\n /\n@@ -6,7 +6,7 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n This resource guide is for animal advocates looking to get funding in the first 1-3 years of their work. It assumes that you already have an idea and a strategy for your charity. It covers the absolute basics and provides a list of opportunities and the contact details of some consultants who can provide some customized help. This doesn’t contain\n everything\n@@ -118,314 +118,596 @@\n ‣\n 📝Fundraising database\n-See in wide view\n If you’d like to make amendments or be removed from this list, please email hello@joinhive.org from your organization’s email address.\n Other databases you may want to check out:\n Animal Advocacy Africa: Funding Opportunities\n-(Relevant not only to Africa.)\n+(Relevant not only to Africa)\n Good Food Institute\n-(Grant opportunities for open-access alternative protein research.)\n+(Grant opportunities for open-access alternative protein research)\n Terra Viva\n-(Grant makers and programs for agriculture, energy, environment, and natural resources in developing countries.)\n+(Grant makers and programs for agriculture, energy, environment, and natural resources in developing countries)\n Farmed animal and food systems funding sources\n-(Nearly comprehensive but not always updated; last updated 2022.)\n+(Last updated 2022.)\n Grants and foundations\n+Table\n+2\n+views\n+Table\n+Gallery\n Name\n+Status\n+Focus\n URL\n+Grant size in USD (if applicable)\n Grant cycle\n+How to apply\n What you need to know\n-Focus\n-Grant size in USD (if applicable)\n+Where they post updates\n+Last checked\n+Checked by\n+ACE Movement Grants\n+Active\n+Underfunded regions\n+Capacity building\n+Systemic change\n+animalcharityevaluators.org\n+10-25k\n+> 25k\n+Twice a year\n+Open Application Process\n+As of Oct 2026: Round 12 ran 24 Sept – 18 Oct 2026 and has closed. To be eligible, meet at least one of: under 3 years old, budget under $500k, an incubator, or MEL work with an external consultant. ACE focuses on grants of $100k or less. Individuals working in the US can apply directly; others need a fiscal sponsor or should contact the Grants team. Not eligible: ACE Recommended Charities, organizations whose leadership has donated to ACE in the past 3 years, and organizations in US-sanctioned countries.\n+Blog:\n+https://animalcharityevaluators.org/blog/\n+and be sure to be signed up to ACE’s newsletters.\n+October 29, 2026\n+Megan\n+ACX Grant\n+Active\n+www.astralcodexten.com\n+1-10k\n+10-25k\n+> 25k\n+“I’m most interested in charities that pursue novel ways to change complex systems, either through technological breakthroughs, new social institutions, or targeted political change”. No open round as of Oct 2026; the Oct 2025 results post said the next round would “probably begin late 2026 or early 2027”. 2025 animal grants included a review of electrical stunning research for shrimp ($5k), fish-farmer welfare workshops in Nigeria ($10k), and work on the welfare of mice raised as snake food ($50k).\n+Astral Codex Ten (grant rounds announced here):\n+https://www.astralcodexten.com/\n+October 29, 2026\n+Megan\n+AIM (Ambitious Impact) – Charity Entrepreneurship Incubation Program\n+Active\n+www.ambitiousimpact.com\n+> 25k\n+> 100k\n+Charity Entrepreneurship is now AIM (Ambitious Impact); the old\n+charityentrepreneurship.com\n+domain redirects to\n+ambitiousimpact.com\n+. For incubated charities only: you need to apply and be accepted into the Incubation Program to be eligible for this funding, and this usually means building from an AIM-researched idea, as they are less excited about existing ideas.\n+Sign up to their newsletter at\n+ambitiousimpact.com\n+and follow them on LinkedIn and\n+https://ambitiousimpact.substack.com/\n+October 29, 2026\n+Megan\n+Animal Alliance Asia – ReRoot Asia Fund\n+Active\n+Vegan food systems\n+Underfunded regions\n+Movement building\n+www.animalallianceasia.org\n+< 1k\n+1-10k\n+Open Application Process\n+Regranting fund for mainly grassroots projects in Asia shifting diets or menus toward plant-based food (e.g. leafleting, food sampling, restaurant partnerships). Favours Global Majority and marginalized groups, women- and gender-minority-led groups, and less-supported regions; local languages accepted. Rounds ran in 2023, 2024 and 2026 (2026 round: $500–$5,000, closed 30 Jun 2026). No next round announced as of Oct 2026.\n+Follow them on LinkedIn\n+https://www.linkedin.com/company/animal-alliance-asia/\n+October 29, 2026\n+Megan\n+ASPCA Research Grants\n+Active\n+Research\n+www.aspcapro.org\n+1-10k\n+10-25k\n+> 25k\n+Yearly\n+Open Application Process\n+Funds research across a variety of disciplines and methods that has clear potential to benefit animals, either directly or through effecting systems-level change. The 2026 round ran 10 Apr – 10 Jul and has closed. Applicants must be US-based public or private entities; individuals can't apply. Canadian public universities and public bodies can apply only if the research can improve animal welfare in the US. Farm animal welfare grants are capped at $75k.\n+Suggest subscribing to their newsletter on their website\n+October 29, 2026\n+Megan\n BluePerch\n+Active\n+Movement building\n+Research\n+Cage-free work\n+Capacity building\n blueperch.org\n-Year round\n-New, launched in September 2026. From their website: BluePerch is a fund that makes grants to high-impact farmed animal advocacy projects.\n-We create cost-effective impact for farmed animals by making the grants that other funders cannot - small grants delivered early and fast - and using grants to generate evidence that guides the movement’s funding decisions.\n-While we are interested in funding any high-impact farmed animal advocacy project, we have a particular interest in funding:\n+1-10k\n+10-25k\n+> 25k\n+Expression of Interest Possible\n+New, launched in September 2026. From their website: BluePerch is a fund that makes grants to high-impact farmed animal advocacy projects. We create cost-effective impact for farmed animals by making the grants that other funders cannot - small grants delivered early and fast - and using grants to generate evidence that guides the movement’s funding decisions. While we are interested in funding any high-impact farmed animal advocacy project, we have a particular interest in funding:\n • Early-stage projects\n • Time-sensitive policy windows\n • Organisations or projects that fall through the cracks of other animal funders\n-Grant applications opening mid-2027.\n-Movement building\n-Research\n+As of Oct 2026: the Expression of Interest form is open now; grant applications open mid-2027 (tentative). Grants about $5k–100k. Doesn't fund: vegan/reduction promotion, alternative protein, direct care (including sanctuaries and shelters), political activity, pet welfare, conservation/habitat work, or projects based in China.\n+EA Forum launch post:\n+https://forum.effectivealtruism.org/posts/PLgTdS4vrD4yxgwBA/announcing-blueperch-a-new-animal-welfare-fund-eois-are-open\n+October 29, 2026\n+Megan\n+Center for Science In the Public Interest\n+Active\n+Systemic change\n+cspi.org\n+10-25k\n+> 100k\n+Open Application Process\n+Supports public health and nutrition policies that create equitable food systems, prioritizing projects that improve access to nutritious food, support healthier food environments, and reduce health disparities. Subgrant rounds are announced in CSPI's Stirring the Pot newsletter; not accepting proposals as of Oct 2026. The 2025 round had three tracks: Powerbuilding (about 10 grants of $20k, any US state), State & Local Policy (about 6 grants of up to $250k, 11 states plus DC) and Industry Accountability (about 4 grants of up to $200k). US only. Must be 501(c)(3) (or other tax-exempt) or fiscally sponsored; priority for budgets of $5M or less.\n+Email updates (subgrant rounds announced here):\n+https://act.cspinet.org/a/sign-up?ms=&sourceid=1128902\n+October 29, 2026\n+Megan\n+Challenge 22 (Animals Now)\n+Active\n+Vegan food systems\n+challenge22.com\n+1-10k\n+The grant can be used solely for running online vegan challenges focused on support groups. A larger grant can be approved in exceptional cases. Grants of up to $10k, available through the Challenge 22 community program (12 months of support for animal rights groups that make vegan retention a core priority).\n+October 29, 2026\n+China Vegan Society\n+Active\n+Vegan food systems\n+www.chinavegans.org\n+< 1k\n+1-10k\n+Year round\n+Open Application Process\n+Supports projects based in China that increase public awareness, acceptance, and practice of vegan and sustainable lifestyles. Rolling applications, reviewed in 2–4 weeks. Projects must be based in mainland China. Grants are 5,000–15,000 CNY; larger grants need a special application.\n+News:\n+https://www.chinavegans.org/news\n+October 29, 2026\n+Claude Corps\n+(Anthropic)\n+Active\n+Capacity building\n+anthropic.com\n+1-10k\n+Open Application Process\n+Host nonprofits get a fully funded AI fellow working full time and in person for 12 months, plus a $10,000 implementation grant, Claude licenses, API credits and office hours. Hosts must name a supervisor and plan how to sustain the work. As of Oct 2026, host applications are open on a rolling basis for cohorts starting Oct 2026, Mar 2027 and Aug 2027. US focus; whether hosts must be US-based 501(c)(3)s is unconfirmed.\n+https://anthropic.com/news/claude-corps\n+October 29, 2026\n+Coefficient Giving\n+(formerly Open Philanthropy)\n+Active\n+Underfunded regions\n Cage-free work\n-Capacity building\n-> 25k\n-10-25k",
+          "diff_lines_omitted": 666,
+          "title": "Hive’s Fundraising Guide for Farmed Animal Advocacy",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -6,304 +6,587 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Grants and foundations\n Grants and foundations\n+Table\n+2\n+views\n+Table\n+Gallery\n Name\n+Status\n+Focus\n URL\n+Grant size in USD (if applicable)\n Grant cycle\n+How to apply\n What you need to know\n-Focus\n-Grant size in USD (if applicable)\n+Where they post updates\n+Last checked\n+Checked by\n+ACE Movement Grants\n+Active\n+Underfunded regions\n+Capacity building\n+Systemic change\n+animalcharityevaluators.org\n+10-25k\n+> 25k\n+Twice a year\n+Open Application Process\n+As of Oct 2026: Round 12 ran 24 Sept – 18 Oct 2026 and has closed. To be eligible, meet at least one of: under 3 years old, budget under $500k, an incubator, or MEL work with an external consultant. ACE focuses on grants of $100k or less. Individuals working in the US can apply directly; others need a fiscal sponsor or should contact the Grants team. Not eligible: ACE Recommended Charities, organizations whose leadership has donated to ACE in the past 3 years, and organizations in US-sanctioned countries.\n+Blog:\n+https://animalcharityevaluators.org/blog/\n+and be sure to be signed up to ACE’s newsletters.\n+October 29, 2026\n+Megan\n+ACX Grant\n+Active\n+www.astralcodexten.com\n+1-10k\n+10-25k\n+> 25k\n+“I’m most interested in charities that pursue novel ways to change complex systems, either through technological breakthroughs, new social institutions, or targeted political change”. No open round as of Oct 2026; the Oct 2025 results post said the next round would “probably begin late 2026 or early 2027”. 2025 animal grants included a review of electrical stunning research for shrimp ($5k), fish-farmer welfare workshops in Nigeria ($10k), and work on the welfare of mice raised as snake food ($50k).\n+Astral Codex Ten (grant rounds announced here):\n+https://www.astralcodexten.com/\n+October 29, 2026\n+Megan\n+AIM (Ambitious Impact) – Charity Entrepreneurship Incubation Program\n+Active\n+www.ambitiousimpact.com\n+> 25k\n+> 100k\n+Charity Entrepreneurship is now AIM (Ambitious Impact); the old\n+charityentrepreneurship.com\n+domain redirects to\n+ambitiousimpact.com\n+. For incubated charities only: you need to apply and be accepted into the Incubation Program to be eligible for this funding, and this usually means building from an AIM-researched idea, as they are less excited about existing ideas.\n+Sign up to their newsletter at\n+ambitiousimpact.com\n+and follow them on LinkedIn and\n+https://ambitiousimpact.substack.com/\n+October 29, 2026\n+Megan\n+Animal Alliance Asia – ReRoot Asia Fund\n+Active\n+Vegan food systems\n+Underfunded regions\n+Movement building\n+www.animalallianceasia.org\n+< 1k\n+1-10k\n+Open Application Process\n+Regranting fund for mainly grassroots projects in Asia shifting diets or menus toward plant-based food (e.g. leafleting, food sampling, restaurant partnerships). Favours Global Majority and marginalized groups, women- and gender-minority-led groups, and less-supported regions; local languages accepted. Rounds ran in 2023, 2024 and 2026 (2026 round: $500–$5,000, closed 30 Jun 2026). No next round announced as of Oct 2026.\n+Follow them on LinkedIn\n+https://www.linkedin.com/company/animal-alliance-asia/\n+October 29, 2026\n+Megan\n+ASPCA Research Grants\n+Active\n+Research\n+www.aspcapro.org\n+1-10k\n+10-25k\n+> 25k\n+Yearly\n+Open Application Process\n+Funds research across a variety of disciplines and methods that has clear potential to benefit animals, either directly or through effecting systems-level change. The 2026 round ran 10 Apr – 10 Jul and has closed. Applicants must be US-based public or private entities; individuals can't apply. Canadian public universities and public bodies can apply only if the research can improve animal welfare in the US. Farm animal welfare grants are capped at $75k.\n+Suggest subscribing to their newsletter on their website\n+October 29, 2026\n+Megan\n BluePerch\n+Active\n+Movement building\n+Research\n+Cage-free work\n+Capacity building\n blueperch.org\n-Year round\n-New, launched in September 2026. From their website: BluePerch is a fund that makes grants to high-impact farmed animal advocacy projects.\n-We create cost-effective impact for farmed animals by making the grants that other funders cannot - small grants delivered early and fast - and using grants to generate evidence that guides the movement’s funding decisions.\n-While we are interested in funding any high-impact farmed animal advocacy project, we have a particular interest in funding:\n+1-10k\n+10-25k\n+> 25k\n+Expression of Interest Possible\n+New, launched in September 2026. From their website: BluePerch is a fund that makes grants to high-impact farmed animal advocacy projects. We create cost-effective impact for farmed animals by making the grants that other funders cannot - small grants delivered early and fast - and using grants to generate evidence that guides the movement’s funding decisions. While we are interested in funding any high-impact farmed animal advocacy project, we have a particular interest in funding:\n • Early-stage projects\n • Time-sensitive policy windows\n • Organisations or projects that fall through the cracks of other animal funders\n-Grant applications opening mid-2027.\n-Movement building\n-Research\n+As of Oct 2026: the Expression of Interest form is open now; grant applications open mid-2027 (tentative). Grants about $5k–100k. Doesn't fund: vegan/reduction promotion, alternative protein, direct care (including sanctuaries and shelters), political activity, pet welfare, conservation/habitat work, or projects based in China.\n+EA Forum launch post:\n+https://forum.effectivealtruism.org/posts/PLgTdS4vrD4yxgwBA/announcing-blueperch-a-new-animal-welfare-fund-eois-are-open\n+October 29, 2026\n+Megan\n+Center for Science In the Public Interest\n+Active\n+Systemic change\n+cspi.org\n+10-25k\n+> 100k\n+Open Application Process\n+Supports public health and nutrition policies that create equitable food systems, prioritizing projects that improve access to nutritious food, support healthier food environments, and reduce health disparities. Subgrant rounds are announced in CSPI's Stirring the Pot newsletter; not accepting proposals as of Oct 2026. The 2025 round had three tracks: Powerbuilding (about 10 grants of $20k, any US state), State & Local Policy (about 6 grants of up to $250k, 11 states plus DC) and Industry Accountability (about 4 grants of up to $200k). US only. Must be 501(c)(3) (or other tax-exempt) or fiscally sponsored; priority for budgets of $5M or less.\n+Email updates (subgrant rounds announced here):\n+https://act.cspinet.org/a/sign-up?ms=&sourceid=1128902\n+October 29, 2026\n+Megan\n+Challenge 22 (Animals Now)\n+Active\n+Vegan food systems\n+challenge22.com\n+1-10k\n+The grant can be used solely for running online vegan challenges focused on support groups. A larger grant can be approved in exceptional cases. Grants of up to $10k, available through the Challenge 22 community program (12 months of support for animal rights groups that make vegan retention a core priority).\n+October 29, 2026\n+China Vegan Society\n+Active\n+Vegan food systems\n+www.chinavegans.org\n+< 1k\n+1-10k\n+Year round\n+Open Application Process\n+Supports projects based in China that increase public awareness, acceptance, and practice of vegan and sustainable lifestyles. Rolling applications, reviewed in 2–4 weeks. Projects must be based in mainland China. Grants are 5,000–15,000 CNY; larger grants need a special application.\n+News:\n+https://www.chinavegans.org/news\n+October 29, 2026\n+Claude Corps\n+(Anthropic)\n+Active\n+Capacity building\n+anthropic.com\n+1-10k\n+Open Application Process\n+Host nonprofits get a fully funded AI fellow working full time and in person for 12 months, plus a $10,000 implementation grant, Claude licenses, API credits and office hours. Hosts must name a supervisor and plan how to sustain the work. As of Oct 2026, host applications are open on a rolling basis for cohorts starting Oct 2026, Mar 2027 and Aug 2027. US focus; whether hosts must be US-based 501(c)(3)s is unconfirmed.\n+https://anthropic.com/news/claude-corps\n+October 29, 2026\n+Coefficient Giving\n+(formerly Open Philanthropy)\n+Active\n+Underfunded regions\n Cage-free work\n-Capacity building\n-> 25k\n-10-25k\n-1-10k\n-> 100k\n-ACE Movement Grants\n-animalcharityevaluators.org\n+Alternative protein\n+coefficientgiving.org\n+> 25k\n+> 100k\n+Year round\n+Expression of Interest Possible\n+“We generally don't fund unsolicited proposals unless they are closely aligned with our strategic priorities.” Send a pitch email to\n+info@coefficientgiving.org\n+first; if there's a fit, they may invite a full application (two-year budget, past achievements, two-year goals). Applications are reviewed on a rolling basis; a decision can take up to 3 months after a full application. Grants usually run 2 years; experimental grants are capped at $300k. They also run occasional open RFPs (2026: humane fish slaughter and alternative protein R&D, both closed). To learn more about what they are interested in, check out their latest grants.\n+Farm animal welfare newsletter:\n+https://farmanimalwelfare.substack.com/\n+October 29, 2026\n+Cold Noses Foundation\n+Active\n+www.coldnosesfoundation.org\n+1-10k\n+Quarterly\n+Open Application Process\n+Under the farm animal focus, they support rescue, rehab, or sanctuaries. Average grant $2k–5k. One application window a year per region: January (Australia, Europe), April (Central and South America), July (North America), October (Africa, Asia). Annual income must be $200k or less. Spay/neuter grants suspended since April 2026; may return in 2027.\n+October 29, 2026\n+Megan\n+Craigslist Charitable Fund",
+          "diff_lines_omitted": 664,
+          "title": "Grants and foundations",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -6,17 +6,25 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n The Navigation Fund\n The Navigation Fund\n+Status\n+Active\n Focus\n Movement building\n Effective giving\n-Grant cycle\n-Grant size in USD (if applicable)\n URL\n https://www.navigation.org/\n+Grant size in USD (if applicable)\n+Grant cycle\n+How to apply\n+By Invitation Only\n What you need to know\n-Grant applications are by invitation only, but you can\n-introduce yourself\n-to the team.\n+Grant applications are by invitation only, but you can introduce yourself to the team through their “Introduce Yourself” form, which is reviewed quarterly. Rounds run Q2–Q4; most grants are funded in Q2 and Q3. Deployed $24M in 2025.\n+Where they post updates\n+Resources:\n+https://www.navigation.org/resources\n+Last checked\n+October 29, 2026\n+Checked by",
+          "diff_lines_omitted": 0,
+          "title": "The Navigation Fund",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/the-navigation-fund"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -6,19 +6,26 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Voiceless Grants\n Voiceless Grants\n+Status\n+Active\n Focus\n Capacity building\n Systemic change\n Movement building\n-Grant cycle\n-Year round\n+URL\n+https://voiceless.org.au/how-to-apply/\n Grant size in USD (if applicable)\n 1-10k\n-10-25k\n-URL\n-https://voiceless.org.au/about-the-voiceless-grants-program/\n+Grant cycle\n+Yearly\n+How to apply\n+Expression of Interest Possible\n What you need to know\n-Funds projects that address the root causes of animal exploitation and promote a vegan philosophy. Values strategic, intersectional (e.g. climate/environment), creative and solutions-based thinking. Special interest in Australia, Israel, and the Global South.\n+Funds projects that address the root causes of animal exploitation and promote a vegan philosophy. Values strategic, intersectional (e.g. climate/environment), creative and solutions-based thinking. Special interest in Australia, Israel, and the Global South; funding in Africa is limited to movement-building and capacity work. Yearly rounds: Expressions of Interest July–December, invited full applications 1 Feb – 1 May, decisions and payment in July. As of Oct 2026, the July 2026–June 2027 round is fully committed and EOIs are open for July 2027–June 2028. Impact Grants AUD 10k–15k; Seed and Booster Grants AUD 5k.\n+Where they post updates\n+Last checked\n+October 29, 2026\n+Checked by",
+          "diff_lines_omitted": 0,
+          "title": "Voiceless Grants",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/voiceless-grants"
+        }
+      ],
+      "detected_at": "2026-10-30T05:10:35.657611+00:00",
+      "removed": [
+        {
+          "title": "Foodity",
+          "url": "https://resources.joinhive.org/library/fundraising/foodity"
+        },
+        {
+          "title": "[Inactive] Awesome Foundation",
+          "url": "https://resources.joinhive.org/library/fundraising/inactive-awesome-foundation"
+        },
+        {
+          "title": "[Inactive] Veg Fund",
+          "url": "https://resources.joinhive.org/library/fundraising/inactive-veg-fund"
+        },
+        {
+          "title": "Manifund regranting",
+          "url": "https://resources.joinhive.org/library/fundraising/manifund-regranting"
+        },
+        {
+          "title": "Phauna",
+          "url": "https://resources.joinhive.org/library/fundraising/phauna"
+        },
+        {
+          "title": "Women Funders in Animal Rights",
+          "url": "https://resources.joinhive.org/library/fundraising/women-funders-in-animal-rights"
+        }
+      ]
     }
   ]
 }
