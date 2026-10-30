@@ -1,25 +1,25 @@
 {
-  "content_hash": "dd19a87deb2bd10a23cfefd83265b2998cc8f03643eae75f489cd4fedbfcab4c",
+  "content_hash": "12ab10816016837714d23789aa8df509c41ee95dad6ff05ff4005178ffe17506",
   "notion": {
     "page_id": "3a2383bb-2c1b-8123-a814-ed4eb9659125",
     "render_version": 5,
-    "synced_at": "2026-09-03T05:41:18.675648+00:00",
-    "synced_hash": "dd19a87deb2bd10a23cfefd83265b2998cc8f03643eae75f489cd4fedbfcab4c"
+    "synced_at": "2026-10-30T07:02:33.464379+00:00",
+    "synced_hash": "12ab10816016837714d23789aa8df509c41ee95dad6ff05ff4005178ffe17506"
   },
   "review": {
-    "notes": "fixed Focus label and added missing separators; unified 能力開発→能力強化 and 体系的な変革→構造的な変革; translated grant size range values",
-    "reviewed_at": "2026-09-02T19:05:06.068266+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Voiceless Grants\n\nFocusCapacity buildingSystemic changeMovement building\n\nGrant cycleYear round\n\nGrant size in USD (if applicable)1-10k10-25k\n\nURL[https://voiceless.org.au/about-the-voiceless-grants-program/](https://voiceless.org.au/about-the-voiceless-grants-program/)\n\nWhat you need to know\n\nFunds projects that address the root causes of animal exploitation and promote a vegan philosophy. Values strategic, intersectional (e.g. climate/environment), creative and solutions-based thinking. Special interest in Australia, Israel, and the Global South.\n",
-  "source_text": "Voiceless Grants\nFocusCapacity buildingSystemic changeMovement building\nGrant cycleYear round\nGrant size in USD (if applicable)1-10k10-25k\nURLhttps://voiceless.org.au/about-the-voiceless-grants-program/\nWhat you need to know\nFunds projects that address the root causes of animal exploitation and promote a vegan philosophy. Values strategic, intersectional (e.g. climate/environment), creative and solutions-based thinking. Special interest in Australia, Israel, and the Global South.",
+  "source_markdown": "# Voiceless Grants\n\nStatusActive\n\nFocusCapacity buildingSystemic changeMovement building\n\nURL[https://voiceless.org.au/how-to-apply/](https://voiceless.org.au/how-to-apply/)\n\nGrant size in USD (if applicable)1-10k\n\nGrant cycleYearly\n\nHow to applyExpression of Interest Possible\n\nWhat you need to know\n\nFunds projects that address the root causes of animal exploitation and promote a vegan philosophy. Values strategic, intersectional (e.g. climate/environment), creative and solutions-based thinking. Special interest in Australia, Israel, and the Global South; funding in Africa is limited to movement-building and capacity work. Yearly rounds: Expressions of Interest July–December, invited full applications 1 Feb – 1 May, decisions and payment in July. As of Oct 2026, the July 2026–June 2027 round is fully committed and EOIs are open for July 2027–June 2028. Impact Grants AUD 10k–15k; Seed and Booster Grants AUD 5k.\n\nWhere they post updates\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
+  "source_text": "Voiceless Grants\nStatusActive\nFocusCapacity buildingSystemic changeMovement building\nURLhttps://voiceless.org.au/how-to-apply/\nGrant size in USD (if applicable)1-10k\nGrant cycleYearly\nHow to applyExpression of Interest Possible\nWhat you need to know\nFunds projects that address the root causes of animal exploitation and promote a vegan philosophy. Values strategic, intersectional (e.g. climate/environment), creative and solutions-based thinking. Special interest in Australia, Israel, and the Global South; funding in Africa is limited to movement-building and capacity work. Yearly rounds: Expressions of Interest July–December, invited full applications 1 Feb – 1 May, decisions and payment in July. As of Oct 2026, the July 2026–June 2027 round is fully committed and EOIs are open for July 2027–June 2028. Impact Grants AUD 10k–15k; Seed and Booster Grants AUD 5k.\nWhere they post updates\nLast checkedOctober 29, 2026\nChecked by",
   "target_lang": "JA",
   "title": "Voiceless Grants",
-  "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "# ヴォイスレス・グラント\n\n重点分野：能力強化、構造的な変革、運動の構築\n\n助成サイクル：通年\n\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千\n\nURL[https://voiceless.org.au/about-the-voiceless-grants-program/](https://voiceless.org.au/about-the-voiceless-grants-program/)\n\n知っておくべきこと\n\n動物搾取の根本原因に取り組み、ヴィーガンの思想を推進するプロジェクトに資金を提供しています。戦略的かつ交差的な（例：気候・環境）、創造的かつ解決策志向の考え方を重視しています。特にオーストラリア、イスラエル、およびグローバル・サウスに重点を置いています。\n",
-  "translated_text": "ヴォイスレス・グラント\n重点分野：能力強化、構造的な変革、運動の構築\n助成サイクル：通年\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千\nURLhttps://voiceless.org.au/about-the-voiceless-grants-program/\n知っておくべきこと\n動物搾取の根本原因に取り組み、ヴィーガンの思想を推進するプロジェクトに資金を提供しています。戦略的かつ交差的な（例：気候・環境）、創造的かつ解決策志向の考え方を重視しています。特にオーストラリア、イスラエル、およびグローバル・サウスに重点を置いています。",
+  "translated_at": "2026-10-30T06:54:40.332561+00:00",
+  "translated_markdown": "# ヴォイスレス・グラント\n\nステータス：アクティブ\n\n重点分野：能力強化、構造的な変革、運動の構築\n\nURL[https://voiceless.org.au/how-to-apply/](https://voiceless.org.au/how-to-apply/)\n\n助成金額（米ドル、該当する場合）：1千～1万\n\n助成サイクル：年次\n\n応募方法 参加意向表明が可能\n\n知っておくべきこと\n\n動物搾取の根本原因に取り組み、ヴィーガンの理念を推進するプロジェクトに資金を提供します。戦略的、交差的（例：気候・環境）、創造的、そして解決策志向の考え方を重視しています。特にオーストラリア、イスラエル、およびグローバル・サウスに関心を寄せており、アフリカへの資金提供は、運動の構築と能力強化活動に限定されています。 年次募集スケジュール：関心表明（EOI）受付は7月～12月、招待制の正式申請受付は2月1日～5月1日、採択決定および助成金支払いは7月。 2026年10月現在、2026年7月～2027年6月の募集枠は満額となり、2027年7月～2028年6月の募集に向けて関心表明（EOI）の受付を開始しています。インパクト・グラントは1万～1万5千豪ドル、シード・グラントおよびブースター・グラントは5千豪ドルです。\n\n更新情報が掲載される場所\n\n最終確認日：2026年10月29日\n\n校正者：\n",
+  "translated_text": "ヴォイスレス・グラント\nステータス：アクティブ\n重点分野：能力強化、構造的な変革、運動の構築\nURLhttps://voiceless.org.au/how-to-apply/\n助成金額（米ドル、該当する場合）：1千～1万\n助成サイクル：年次\n応募方法 参加意向表明が可能\n知っておくべきこと\n動物搾取の根本原因に取り組み、ヴィーガンの理念を推進するプロジェクトに資金を提供します。戦略的、交差的（例：気候・環境）、創造的、そして解決策志向の考え方を重視しています。特にオーストラリア、イスラエル、およびグローバル・サウスに関心を寄せており、アフリカへの資金提供は、運動の構築と能力強化活動に限定されています。 年次募集スケジュール：関心表明（EOI）受付は7月～12月、招待制の正式申請受付は2月1日～5月1日、採択決定および助成金支払いは7月。 2026年10月現在、2026年7月～2027年6月の募集枠は満額となり、2027年7月～2028年6月の募集に向けて関心表明（EOI）の受付を開始しています。インパクト・グラントは1万～1万5千豪ドル、シード・グラントおよびブースター・グラントは5千豪ドルです。\n更新情報が掲載される場所\n最終確認日：2026年10月29日\n校正者：",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/voiceless-grants"
 }
