@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "409383bb-2c1b-81c9-ad67-f9d1e7734e15",
     "render_version": 5,
-    "synced_at": "2026-10-30T07:01:32.478984+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-01T07:21:32.904729+00:00",
+    "synced_hash": "03ca01a5319c02d7ee0138b19523915f1ee876d088faefbad3afca9eeeb47fd5"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label and added missing separator; aligned \"How to apply\" and \"Checked by\" field wording",
     "reviewed_at": "2026-10-31T19:09:56.404051+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label and added missing separator; aligned \"How to apply\" and \"Checked by\" field wording"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Nova Vista Foundation\n\nStatusActive\n\nFocusAlternative proteinSystemic change\n\nURL[https://novavistafoundation.org](https://novavistafoundation.org)\n\nGrant size in USD (if applicable)> 25k> 100k\n\nGrant cycleYearly\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nFamily foundation funding climate systems change, mainly public support for alternative proteins. Runs open rounds (Fall 2025, Fall 2026); outside them it doesn't accept unsolicited proposals. The Fall 2026 $10M RFP for alt-protein policy and market-shaping offered $100k–750k grants, mainly to 501(c)(3)s and equivalents abroad, and closed 15 Sep 2026. Doesn't prioritise direct science R&D.\n\nWhere they post updates\n\nLast checkedOctober 29, 2026\n\nChecked by\n",

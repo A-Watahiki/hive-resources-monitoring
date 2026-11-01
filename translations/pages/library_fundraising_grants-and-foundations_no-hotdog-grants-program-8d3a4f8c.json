@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "409383bb-2c1b-81b9-913d-e42eb6b9cd1a",
     "render_version": 5,
-    "synced_at": "2026-10-30T07:01:30.491560+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-01T07:21:14.167107+00:00",
+    "synced_hash": "431b346b65f5d6a7d78a65d2e0713e1f217fc9b866721d257182f522cdb2fd88"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label (特集→重点分野); aligned \"How to apply\" and \"Checked by\" field wording",
     "reviewed_at": "2026-10-31T19:09:56.404051+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label (特集→重点分野); aligned \"How to apply\" and \"Checked by\" field wording"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# no hotdog – Grants Program\n\nStatusActive\n\nFocusAnimal rights\n\nURL[https://nohotdog.love/grant](https://nohotdog.love/grant)\n\nGrant size in USD (if applicable)< 1k\n\nGrant cycle\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nMicrogrants of $100–$500 for nature and animal projects. Anyone with a no hotdog account can submit one project per round; members vote in the app and the project with the most votes wins. As of Oct 2026 no submission window is announced; new rounds are posted in the app.\n\nWhere they post updates\n\nLast checkedOctober 29, 2026\n\nChecked by\n",

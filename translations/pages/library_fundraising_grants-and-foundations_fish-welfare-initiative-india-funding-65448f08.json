@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "409383bb-2c1b-81f4-b4a5-d613d37a55ab",
     "render_version": 5,
-    "synced_at": "2026-10-30T07:01:21.632312+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-01T07:20:06.846577+00:00",
+    "synced_hash": "d0c56302739bb26f06b3548ebb964d6bf096d6403594cc0fe3cd320703a56253"
   },
   "review": {
-    "status": "fixed",
+    "notes": "aligned \"How to apply\" and \"Checked by\" field wording with the established site-wide convention",
     "reviewed_at": "2026-10-31T19:09:56.404051+00:00",
     "reviewer": "claude",
-    "notes": "aligned \"How to apply\" and \"Checked by\" field wording with the established site-wide convention"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Fish Welfare Initiative – India funding call\n\nStatusActive\n\nFocusResearchUnderfunded regions\n\nURL[https://www.fishwelfareinitiative.org/post/rfp-india](https://www.fishwelfareinitiative.org/post/rfp-india)\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nGrant cycle\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nOne-off call funding proof-of-concept and field testing of new ideas to improve farmed fish welfare in Indian aquaculture (field interventions, technology or applied research). Standard grants up to INR 10 lakh (about $10k), exceptional ones up to INR 50 lakh (about $50k). Open to universities, companies, nonprofits and individuals. As of Oct 2026: proposals due 18 Nov 2026, 18:00 IST.\n\nWhere they post updates\n\nBlog: [https://www.fishwelfareinitiative.org/blog](https://www.fishwelfareinitiative.org/blog)\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
