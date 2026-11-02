@@ -1,25 +1,25 @@
 {
-  "content_hash": "2852cf495c2c3a50958428370ddd1ed9b4d7809a1c719411f4e6b87b39042d0c",
+  "content_hash": "790262b3e89dd293f636abd587fec86be9d009f9feb2b756b36c1a52de7d0793",
   "notion": {
     "page_id": "3a2383bb-2c1b-81ac-b570-fcfd62e78a2d",
     "render_version": 5,
-    "synced_at": "2026-08-27T11:10:02.440525+00:00",
-    "synced_hash": "2852cf495c2c3a50958428370ddd1ed9b4d7809a1c719411f4e6b87b39042d0c"
+    "synced_at": "2026-11-02T07:35:29.167522+00:00",
+    "synced_hash": "790262b3e89dd293f636abd587fec86be9d009f9feb2b756b36c1a52de7d0793"
   },
   "review": {
-    "notes": "unified 焦点→重点分野; translated the untranslated grant size range values",
-    "reviewed_at": "2026-08-26T19:07:35.550665+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# The Shaw Family Charitable Trust\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)< 1k1-10k10-25k\n\nURL[https://www.shawfamilycharitable.org/](https://www.shawfamilycharitable.org/)\n\nWhat you need to know\n\nGrants for US 501c3s only; past grantees include farm sanctuaries. In 2026, applicants are encouraged to submit proposals up to $25,000.\n",
-  "source_text": "The Shaw Family Charitable Trust\nFocus\nGrant cycle\nGrant size in USD (if applicable)< 1k1-10k10-25k\nURLhttps://www.shawfamilycharitable.org/\nWhat you need to know\nGrants for US 501c3s only; past grantees include farm sanctuaries. In 2026, applicants are encouraged to submit proposals up to $25,000.",
+  "source_markdown": "# The Shaw Family Charitable Trust\n\nStatusActive\n\nFocus\n\nURL[https://www.shawfamilycharitable.org/](https://www.shawfamilycharitable.org/)\n\nGrant size in USD (if applicable)< 1k1-10k10-25k\n\nGrant cycle\n\nHow to apply\n\nWhat you need to know\n\nUS only. Funds nonprofit organizations in the United States that work to meaningfully improve the lives of animals; the site focuses on animal rescue and neglected animals. Not verified as of Oct 2026: a 501(c)(3) requirement, farm sanctuary grantees, and guidance to request up to $25k in 2026. Contact: [info@ShawFamilyCharitable.org](mailto:info@ShawFamilyCharitable.org).\n\nWhere they post updates\n\nLast checked\n\nChecked by\n",
+  "source_text": "The Shaw Family Charitable Trust\nStatusActive\nFocus\nURLhttps://www.shawfamilycharitable.org/\nGrant size in USD (if applicable)< 1k1-10k10-25k\nGrant cycle\nHow to apply\nWhat you need to know\nUS only. Funds nonprofit organizations in the United States that work to meaningfully improve the lives of animals; the site focuses on animal rescue and neglected animals. Not verified as of Oct 2026: a 501(c)(3) requirement, farm sanctuary grantees, and guidance to request up to $25k in 2026. Contact: info@ShawFamilyCharitable.org.\nWhere they post updates\nLast checked\nChecked by",
   "target_lang": "JA",
   "title": "The Shaw Family Charitable Trust",
-  "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# ショー・ファミリー慈善信託\n\n重点分野\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）：1千未満、1千～1万、1万～2万5千\n\nURL[https://www.shawfamilycharitable.org/](https://www.shawfamilycharitable.org/)\n\n知っておくべきこと\n\n助成対象は米国の501(c)(3)団体に限られます。過去の助成先には、農場型動物保護施設が含まれます。2026年は、申請者に対し、最大25,000ドルまでの助成提案の提出が推奨されています。\n",
-  "translated_text": "ショー・ファミリー慈善信託\n重点分野\n助成サイクル\n助成金額（米ドル、該当する場合）：1千未満、1千～1万、1万～2万5千\nURLhttps://www.shawfamilycharitable.org/\n知っておくべきこと\n助成対象は米国の501(c)(3)団体に限られます。過去の助成先には、農場型動物保護施設が含まれます。2026年は、申請者に対し、最大25,000ドルまでの助成提案の提出が推奨されています。",
+  "translated_at": "2026-11-02T07:29:44.897197+00:00",
+  "translated_markdown": "# ショー・ファミリー慈善信託\n\nステータス：アクティブ\n\n焦点\n\nURL[https://www.shawfamilycharitable.org/](https://www.shawfamilycharitable.org/)\n\n助成金額（米ドル、該当する場合）：1千未満、1千～1万、1万～2万5千\n\n助成サイクル\n\n応募方法\n\n知っておくべきこと\n\n米国限定。動物の生活を有意義に改善するために活動する米国内の非営利団体に資金を提供しています。当サイトは、動物の保護活動や放置された動物に焦点を当てています。 2026年10月時点では未確認：501(c)(3)の要件、農場サンクチュアリの助成対象団体、および2026年に最大25,000ドルの助成金を申請するための指針。連絡先：[info@ShawFamilyCharitable.org](mailto:info@ShawFamilyCharitable.org)。\n\n更新情報が掲載される場所\n\n最終確認日\n\n確認者\n",
+  "translated_text": "ショー・ファミリー慈善信託\nステータス：アクティブ\n焦点\nURLhttps://www.shawfamilycharitable.org/\n助成金額（米ドル、該当する場合）：1千未満、1千～1万、1万～2万5千\n助成サイクル\n応募方法\n知っておくべきこと\n米国限定。動物の生活を有意義に改善するために活動する米国内の非営利団体に資金を提供しています。当サイトは、動物の保護活動や放置された動物に焦点を当てています。 2026年10月時点では未確認：501(c)(3)の要件、農場サンクチュアリの助成対象団体、および2026年に最大25,000ドルの助成金を申請するための指針。連絡先：info@ShawFamilyCharitable.org。\n更新情報が掲載される場所\n最終確認日\n確認者",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/the-shaw-family-charitable-trust"
 }

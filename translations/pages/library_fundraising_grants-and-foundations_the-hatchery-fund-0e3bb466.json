@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "409383bb-2c1b-81d5-bf84-f4171280ec8a",
     "render_version": 5,
-    "synced_at": "2026-10-30T07:01:46.974711+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-02T07:35:20.618941+00:00",
+    "synced_hash": "00d5fd3a88440c16d22f7e0ca4b09c4710d0bf709b1988acfc4e37b058b5234b"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label (フォーカス→重点分野) and added separators; aligned \"How to apply\" and \"Checked by\" field wording",
     "reviewed_at": "2026-11-01T19:09:32.657637+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label (フォーカス→重点分野) and added separators; aligned \"How to apply\" and \"Checked by\" field wording"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# The Hatchery Fund\n\nStatusActive\n\nFocusMovement buildingAnimal rights\n\nURL[https://thechickencoup.substack.com/p/the-hatchery-fund](https://thechickencoup.substack.com/p/the-hatchery-fund)\n\nGrant size in USD (if applicable)< 1k\n\nGrant cycleYearly\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nMicrogrants of up to $1,000 for frontline animal activists testing new recruiting, community-building or campaign tactics; grantees publish their results. The first round ($5k total) closed 12 Jun 2026. As of Oct 2026 there's a sign-up for 2027 updates; a yearly cycle is likely but not confirmed.\n\nWhere they post updates\n\nLast checkedOctober 29, 2026\n\nChecked by\n",

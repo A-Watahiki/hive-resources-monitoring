@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "409383bb-2c1b-813f-a20f-da9422673ed9",
     "render_version": 5,
-    "synced_at": "2026-10-30T07:01:44.913745+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-02T07:35:04.724551+00:00",
+    "synced_hash": "0e80029cb720ea1cb9ecf3b607587a3790fa680e9cdc57a1afd2086c827f3486"
   },
   "review": {
-    "status": "fixed",
+    "notes": "added missing separator in \"How to apply\" field; aligned \"Checked by\" field wording",
     "reviewed_at": "2026-11-01T19:09:32.657637+00:00",
     "reviewer": "claude",
-    "notes": "added missing separator in \"How to apply\" field; aligned \"Checked by\" field wording"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Spring Innovation Fund\n\nStatusActive\n\nFocusSystemic change\n\nURL[https://springfund.com/for-eirs/](https://springfund.com/for-eirs/)\n\nGrant size in USD (if applicable)> 25k> 100k\n\nGrant cycle\n\nHow to applyExpression of Interest Possible\n\nWhat you need to know\n\nA nonprofit venture studio and fund (launched June 2026) for technology that improves farmed animal welfare, with a focus on neglected areas such as aquatic animals. Funds startups, not nonprofits: a paid three-month entrepreneur-in-residence program (selected founders get about $500k in starting funding), plus investment in existing companies (email [contact@springfund.com](mailto:contact@springfund.com)). Details from the founder's EA Forum post and AgFunderNews; Spring's own site couldn't be checked.\n\nWhere they post updates\n\nLast checkedOctober 29, 2026\n\nChecked by\n",

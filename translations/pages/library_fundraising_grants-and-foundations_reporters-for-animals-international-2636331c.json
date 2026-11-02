@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "409383bb-2c1b-81d9-91b4-fc86f8bb77ed",
     "render_version": 5,
-    "synced_at": "2026-10-30T07:01:34.496730+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-02T07:34:22.056826+00:00",
+    "synced_hash": "3f6c6fad6f70de93a39e94f10f131e1c010f927a1531f07ae43ea8afc9a036af"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label/value (重点分野/能力強化) and added separators; aligned \"How to apply\" and \"Checked by\" field wording",
     "reviewed_at": "2026-11-01T19:09:32.657637+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label/value (重点分野/能力強化) and added separators; aligned \"How to apply\" and \"Checked by\" field wording"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Reporters for Animals International\n\nStatusActive\n\nFocusAnimal rightsCapacity buildingResearch\n\nURL[https://www.reportersforanimals.org/](https://www.reportersforanimals.org/)\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nGrant cycleYearly\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nFunds animal investigations through two funds: the Vegan Investigations Fund ($5k–20k for investigative projects) and the Investigation Infrastructure Fund ($20k–40k for organizational support). The 2026/27 round closed 21 Sep 2026. Not yet verified on the funder's own site (details from Hive Highlights, Sept 2026); eligibility and next round unconfirmed.\n\nWhere they post updates\n\nLast checked\n\nChecked by\n",
