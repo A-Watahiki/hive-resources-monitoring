@@ -4,20 +4,6 @@
       "added": [],
       "changed": [
         {
-          "diff": "--- before\n+++ after\n@@ -121,6 +121,4 @@\n If you’d like to make amendments or be removed from this list, please email hello@joinhive.org from your organization’s email address.\n Other databases you may want to check out:\n-Food System Stewards\n-(Hosts a frequently updated list of funding opportunities, including some that aren’t publicly searchable.)\n Animal Advocacy Africa: Funding Opportunities\n (Relevant not only to Africa.)",
-          "diff_lines_omitted": 0,
-          "title": "Fundraising Guide",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising"
-        }
-      ],
-      "detected_at": "2026-09-02T03:52:33.514802+00:00",
-      "removed": []
-    },
-    {
-      "added": [],
-      "changed": [
-        {
           "diff": "--- before\n+++ after\n@@ -22,3 +22,6 @@\n https://animalcharityevaluators.org/movement-grants/\n What you need to know\n-Two rounds each year (as of 2026), opening in February and August.\n+August 2026 update, from the ACE Movement Grants webpage: We’ve temporarily paused our EOI submissions process while we take time for some movement analysis, and we expect to reopen in early 2027….if you’ve already submitted an EOI that’s under review, you’re in our system and will be considered in our Fall grant round. (Please read more here:\n+https://animalcharityevaluators.org/movement-grants/apply-for-funding/\n+)\n+Previous to this update, how the Movement Grant Fund was operating was that you could submit an Expression of Interest (EOI) on a rolling basis, and then ACE would evaluate submissions during 1 or 2 rounds in a year.",
           "diff_lines_omitted": 0,
           "title": "ACE Movement Grants",
@@ -336,6 +322,27 @@
           "url": "https://resources.joinhive.org/library/fundraising/women-funders-in-animal-rights"
         }
       ]
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Grants and foundations\n@@ -12,12 +12,20 @@\n The Shaw Family Charitable Trust\n The Shaw Family Charitable Trust\n+Status\n+Active\n Focus\n-Grant cycle\n+URL\n+https://www.shawfamilycharitable.org/\n Grant size in USD (if applicable)\n < 1k\n 1-10k\n 10-25k\n-URL\n-https://www.shawfamilycharitable.org/\n+Grant cycle\n+How to apply\n What you need to know\n-Grants for US 501c3s only; past grantees include farm sanctuaries.  In 2026, applicants are encouraged to submit proposals up to $25,000.\n+US only. Funds nonprofit organizations in the United States that work to meaningfully improve the lives of animals; the site focuses on animal rescue and neglected animals. Not verified as of Oct 2026: a 501(c)(3) requirement, farm sanctuary grantees, and guidance to request up to $25k in 2026. Contact:\n+info@ShawFamilyCharitable.org\n+.\n+Where they post updates\n+Last checked\n+Checked by",
+          "diff_lines_omitted": 0,
+          "title": "The Shaw Family Charitable Trust",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/the-shaw-family-charitable-trust"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -6,20 +6,31 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Coefficient Giving (formerly Open Philanthropy)\n Coefficient Giving (formerly Open Philanthropy)\n+Status\n+Active\n Focus\n Underfunded regions\n Cage-free work\n Alternative protein\n-Grant cycle\n+URL\n+https://coefficientgiving.org/funds/farm-animal-welfare/the-farm-animal-welfare-grantee-experience/\n Grant size in USD (if applicable)\n > 25k\n > 100k\n-URL\n-https://coefficientgiving.org/funds/farm-animal-welfare/\n+Grant cycle\n+Year round\n+How to apply\n+Expression of Interest Possible\n What you need to know\n-They accept very few unsolicited applications and are likely to approach you if they think your project is a good fit. You can be asked to be referred by another community member if you think your project might be considered. To learn more about what they are interested it, check out\n-their latest grants\n-.\n+“We generally don't fund unsolicited proposals unless they are closely aligned with our strategic priorities.” Send a pitch email to\n+info@coefficientgiving.org\n+first; if there's a fit, they may invite a full application (two-year budget, past achievements, two-year goals). Applications are reviewed on a rolling basis; a decision can take up to 3 months after a full application. Grants usually run 2 years; experimental grants are capped at $300k. They also run occasional open RFPs (2026: humane fish slaughter and alternative protein R&D, both closed). To learn more about what they are interested in, check out their latest grants.\n+Where they post updates\n+Farm animal welfare newsletter:\n+https://farmanimalwelfare.substack.com/\n+Last checked\n+October 29, 2026\n+Checked by",
+          "diff_lines_omitted": 0,
+          "title": "Coefficient Giving (formerly Open Philanthropy)",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/open-philanthropy"
+        }
+      ],
+      "detected_at": "2026-11-02T05:20:16.426756+00:00",
+      "removed": []
     }
   ]
 }
