@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-8178-bebd-d535acb72c18",
     "render_version": 5,
     "synced_at": "2026-10-30T07:02:22.136704+00:00",
-    "synced_hash": "291ee4fe803d079603cb0d209d74fd7f73eae5d0fe794787ec434bdeaa614c6f"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-11-03T19:10:41.851806+00:00",
+    "reviewer": "claude",
+    "notes": "aligned \"Checked by\" field wording with the established site-wide convention"
   },
   "schema_version": 6,
   "source_markdown": "# The Navigation Fund\n\nStatusActive\n\nFocusMovement buildingEffective giving\n\nURL[https://www.navigation.org/](https://www.navigation.org/)\n\nGrant size in USD (if applicable)\n\nGrant cycle\n\nHow to applyBy Invitation Only\n\nWhat you need to know\n\nGrant applications are by invitation only, but you can introduce yourself to the team through their “Introduce Yourself” form, which is reviewed quarterly. Rounds run Q2–Q4; most grants are funded in Q2 and Q3. Deployed $24M in 2025.\n\nWhere they post updates\n\nResources: [https://www.navigation.org/resources](https://www.navigation.org/resources)\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "The Navigation Fund",
   "translated_at": "2026-10-30T06:54:40.332561+00:00",
-  "translated_markdown": "# ナビゲーション・ファンド\n\nステータス：アクティブ\n\n重点分野：運動の構築、効果的な寄付\n\nURL [https://www.navigation.org/](https://www.navigation.org/)\n\n助成金額（米ドル）（該当する場合）\n\n助成サイクル\n\n応募方法：招待制のみ\n\n知っておくべきこと\n\n助成金の申請は招待制ですが、「自己紹介」フォームを通じてチームに自己紹介を行うことは可能です。このフォームは四半期ごとに審査されます。募集期間は第2四半期から第4四半期までで、助成金の大部分は第2四半期と第3四半期に交付されます。2025年には2,400万ドルを交付しました。\n\n更新情報が掲載される場所\n\n出典：[https://www.navigation.org/resources](https://www.navigation.org/resources)\n\n最終確認日：2026年10月29日\n\n校正者：\n",
-  "translated_text": "ナビゲーション・ファンド\nステータス：アクティブ\n重点分野：運動の構築、効果的な寄付\nURL https://www.navigation.org/\n助成金額（米ドル）（該当する場合）\n助成サイクル\n応募方法：招待制のみ\n知っておくべきこと\n助成金の申請は招待制ですが、「自己紹介」フォームを通じてチームに自己紹介を行うことは可能です。このフォームは四半期ごとに審査されます。募集期間は第2四半期から第4四半期までで、助成金の大部分は第2四半期と第3四半期に交付されます。2025年には2,400万ドルを交付しました。\n更新情報が掲載される場所\n出典：https://www.navigation.org/resources\n最終確認日：2026年10月29日\n校正者：",
+  "translated_markdown": "# ナビゲーション・ファンド\n\nステータス：アクティブ\n\n重点分野：運動の構築、効果的な寄付\n\nURL [https://www.navigation.org/](https://www.navigation.org/)\n\n助成金額（米ドル）（該当する場合）\n\n助成サイクル\n\n応募方法：招待制のみ\n\n知っておくべきこと\n\n助成金の申請は招待制ですが、「自己紹介」フォームを通じてチームに自己紹介を行うことは可能です。このフォームは四半期ごとに審査されます。募集期間は第2四半期から第4四半期までで、助成金の大部分は第2四半期と第3四半期に交付されます。2025年には2,400万ドルを交付しました。\n\n更新情報が掲載される場所\n\n出典：[https://www.navigation.org/resources](https://www.navigation.org/resources)\n\n最終確認日：2026年10月29日\n\n確認者：\n",
+  "translated_text": "ナビゲーション・ファンド\nステータス：アクティブ\n重点分野：運動の構築、効果的な寄付\nURL https://www.navigation.org/\n助成金額（米ドル）（該当する場合）\n助成サイクル\n応募方法：招待制のみ\n知っておくべきこと\n助成金の申請は招待制ですが、「自己紹介」フォームを通じてチームに自己紹介を行うことは可能です。このフォームは四半期ごとに審査されます。募集期間は第2四半期から第4四半期までで、助成金の大部分は第2四半期と第3四半期に交付されます。2025年には2,400万ドルを交付しました。\n更新情報が掲載される場所\n出典：https://www.navigation.org/resources\n最終確認日：2026年10月29日\n確認者：",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/the-navigation-fund"
 }
