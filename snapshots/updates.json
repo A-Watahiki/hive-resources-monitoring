@@ -4,41 +4,6 @@
       "added": [],
       "changed": [
         {
-          "diff": "--- before\n+++ after\n@@ -22,3 +22,6 @@\n https://animalcharityevaluators.org/movement-grants/\n What you need to know\n-Two rounds each year (as of 2026), opening in February and August.\n+August 2026 update, from the ACE Movement Grants webpage: We’ve temporarily paused our EOI submissions process while we take time for some movement analysis, and we expect to reopen in early 2027….if you’ve already submitted an EOI that’s under review, you’re in our system and will be considered in our Fall grant round. (Please read more here:\n+https://animalcharityevaluators.org/movement-grants/apply-for-funding/\n+)\n+Previous to this update, how the Movement Grant Fund was operating was that you could submit an Expression of Interest (EOI) on a rolling basis, and then ACE would evaluate submissions during 1 or 2 rounds in a year.",
-          "diff_lines_omitted": 0,
-          "title": "ACE Movement Grants",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising/ace-movement-grants"
-        },
-        {
-          "diff": "--- before\n+++ after\n@@ -16,2 +16,4 @@\n URL\n https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials\n+URL\n+https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials",
-          "diff_lines_omitted": 0,
-          "title": "Fundraising Essentials course by Anima International",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising/fundraising-essentials-course-by-anima-international"
-        },
-        {
-          "diff": "--- before\n+++ after\n@@ -16,2 +16,4 @@\n URL\n https://www.nonlinear.org/fundraising-tips.html\n+URL\n+https://www.nonlinear.org/fundraising-tips.html",
-          "diff_lines_omitted": 0,
-          "title": "Fundraising tips by Nonlinear",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising/fundraising-tips-by-nonlinear"
-        },
-        {
-          "diff": "--- before\n+++ after\n@@ -16,2 +16,4 @@\n URL\n https://www.givemomentum.com/about-us/about-us\n+URL\n+https://givemomentum.com/resources/blog/",
-          "diff_lines_omitted": 0,
-          "title": "Give Momentum",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising/give-momentum"
-        }
-      ],
-      "detected_at": "2026-09-05T03:50:23.138415+00:00",
-      "removed": []
-    },
-    {
-      "added": [],
-      "changed": [
-        {
           "diff": "--- before\n+++ after\n@@ -16,2 +16,4 @@\n URL\n https://joindpp.org/\n+URL\n+https://joindpp.org/",
           "diff_lines_omitted": 0,
           "title": "Donor Participation Project",
@@ -342,6 +307,27 @@
         }
       ],
       "detected_at": "2026-11-02T05:20:16.426756+00:00",
+      "removed": []
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Fundraising Essentials course by Anima International\n@@ -12,4 +12,5 @@\n Format\n Course\n+Cover\n Details\n Free, self-paced course.",
+          "diff_lines_omitted": 0,
+          "title": "Fundraising Essentials course by Anima International",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/fundraising-essentials-course-by-anima-international"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Grants and foundations\n@@ -12,4 +12,6 @@\n BluePerch\n BluePerch\n+Status\n+Active\n Focus\n Movement building\n@@ -17,19 +19,24 @@\n Cage-free work\n Capacity building\n-Grant cycle\n-Year round\n-Grant size in USD (if applicable)\n-> 25k\n-10-25k\n-1-10k\n-> 100k\n URL\n https://blueperch.org/\n+Grant size in USD (if applicable)\n+1-10k\n+10-25k\n+> 25k\n+Grant cycle\n+How to apply\n+Expression of Interest Possible\n What you need to know\n-New, launched in September 2026. From their website: BluePerch is a fund that makes grants to high-impact farmed animal advocacy projects.\n-We create cost-effective impact for farmed animals by making the grants that other funders cannot - small grants delivered early and fast - and using grants to generate evidence that guides the movement’s funding decisions.\n-While we are interested in funding any high-impact farmed animal advocacy project, we have a particular interest in funding:\n+New, launched in September 2026. From their website: BluePerch is a fund that makes grants to high-impact farmed animal advocacy projects. We create cost-effective impact for farmed animals by making the grants that other funders cannot - small grants delivered early and fast - and using grants to generate evidence that guides the movement’s funding decisions. While we are interested in funding any high-impact farmed animal advocacy project, we have a particular interest in funding:\n • Early-stage projects\n • Time-sensitive policy windows\n • Organisations or projects that fall through the cracks of other animal funders\n-Grant applications opening mid-2027.\n+As of Oct 2026: the Expression of Interest form is open now; grant applications open mid-2027 (tentative). Grants about $5k–100k. Doesn't fund: vegan/reduction promotion, alternative protein, direct care (including sanctuaries and shelters), political activity, pet welfare, conservation/habitat work, or projects based in China.\n+Where they post updates\n+EA Forum launch post:\n+https://forum.effectivealtruism.org/posts/PLgTdS4vrD4yxgwBA/announcing-blueperch-a-new-animal-welfare-fund-eois-are-open\n+Last checked\n+October 29, 2026\n+Checked by\n+Megan",
+          "diff_lines_omitted": 0,
+          "title": "BluePerch",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/blueperch"
+        }
+      ],
+      "detected_at": "2026-11-03T06:02:57.950814+00:00",
       "removed": []
     }
   ]
