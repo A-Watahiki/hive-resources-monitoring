@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "409383bb-2c1b-8157-9bc3-e7b02b263364",
     "render_version": 5,
-    "synced_at": "2026-10-30T07:01:54.645323+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-03T07:49:35.959323+00:00",
+    "synced_hash": "a7b07d235ecad64c7a770e01df06d2ad93fbbe5d597bd313100e541f46cae2b7"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed mistranslated org name in heading (福祉に関する話題→Welfare Matters), Focus label/separators, and \"How to apply\"/\"Checked by\" field wording",
     "reviewed_at": "2026-11-02T19:10:45.557766+00:00",
     "reviewer": "claude",
-    "notes": "fixed mistranslated org name in heading (福祉に関する話題→Welfare Matters), Focus label/separators, and \"How to apply\"/\"Checked by\" field wording"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Welfare Matters – Farmed Animal Welfare Incubator\n\nStatusActive\n\nFocusUnderfunded regionsCapacity building\n\nURL[https://www.welfarematters.org/incubation-programme](https://www.welfarematters.org/incubation-programme)\n\nGrant size in USD (if applicable)> 25k\n\nGrant cycleBiennial\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nIncubates new farmed animal welfare nonprofits in Southeast Asia (2026 focus: layer hens and farmed fish). For people from or based in Indonesia, Vietnam, the Philippines, Thailand or Malaysia, able to work full time in English. 12-week program with stipends, then up to about $50k seed funding. The 2026 round is closed; Welfare Matters says it will likely run every two years.\n\nWhere they post updates\n\nLast checkedOctober 29, 2026\n\nChecked by\n",

@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81ac-b570-fcfd62e78a2d",
     "render_version": 5,
-    "synced_at": "2026-11-02T07:35:29.167522+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-03T07:49:00.699466+00:00",
+    "synced_hash": "790262b3e89dd293f636abd587fec86be9d009f9feb2b756b36c1a52de7d0793"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus field label (焦点→重点分野)",
     "reviewed_at": "2026-11-02T19:10:45.557766+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus field label (焦点→重点分野)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# The Shaw Family Charitable Trust\n\nStatusActive\n\nFocus\n\nURL[https://www.shawfamilycharitable.org/](https://www.shawfamilycharitable.org/)\n\nGrant size in USD (if applicable)< 1k1-10k10-25k\n\nGrant cycle\n\nHow to apply\n\nWhat you need to know\n\nUS only. Funds nonprofit organizations in the United States that work to meaningfully improve the lives of animals; the site focuses on animal rescue and neglected animals. Not verified as of Oct 2026: a 501(c)(3) requirement, farm sanctuary grantees, and guidance to request up to $25k in 2026. Contact: [info@ShawFamilyCharitable.org](mailto:info@ShawFamilyCharitable.org).\n\nWhere they post updates\n\nLast checked\n\nChecked by\n",

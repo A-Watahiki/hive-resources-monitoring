@@ -1,25 +1,25 @@
 {
-  "content_hash": "d2cde921b44dacdb8e5704c33635094f3598cac8e11c79b7c4b5ab23883c8205",
+  "content_hash": "d0f042871406a22cb7f794cbd55cbb8b5ed45a52262c55727d0368bdad3a758f",
   "notion": {
     "page_id": "3a2383bb-2c1b-818c-9d81-d7e0a46e59c0",
     "render_version": 5,
-    "synced_at": "2026-09-05T05:32:27.011571+00:00",
-    "synced_hash": "d2cde921b44dacdb8e5704c33635094f3598cac8e11c79b7c4b5ab23883c8205"
+    "synced_at": "2026-11-03T07:48:40.353360+00:00",
+    "synced_hash": "d0f042871406a22cb7f794cbd55cbb8b5ed45a52262c55727d0368bdad3a758f"
   },
   "review": {
-    "status": "reviewed",
-    "reviewed_at": "2026-09-05T19:04:22.356193+00:00",
-    "reviewer": "claude",
-    "notes": "no issues found (re-reviewed after content update; prior fixes correctly carried forward via translation cache)"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Fundraising Essentials course by Anima International\n\nFormatCourse\n\nDetails\n\nFree, self-paced course.\n\nURL[https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials](https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials)\n\nURL [https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials](https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials)\n",
-  "source_text": "Fundraising Essentials course by Anima International\nFormatCourse\nDetails\nFree, self-paced course.\nURLhttps://animal-advocacy-center.thinkific.com/courses/fundraising-essentials\nURL https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials",
+  "source_markdown": "# Fundraising Essentials course by Anima International\n\nFormatCourse\n\nCover\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/24fb567f-380c-4256-90a2-c7c3bee7fbb0/hive-cover-course.svg)\n\nDetails\n\nFree, self-paced course.\n\nURL[https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials](https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials)\n\nURL [https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials](https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials)\n",
+  "source_text": "Fundraising Essentials course by Anima International\nFormatCourse\nCover\nDetails\nFree, self-paced course.\nURLhttps://animal-advocacy-center.thinkific.com/courses/fundraising-essentials\nURL https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials",
   "target_lang": "JA",
   "title": "Fundraising Essentials course by Anima International",
-  "translated_at": "2026-09-05T05:26:49.395675+00:00",
-  "translated_markdown": "# アニマ・インターナショナルによる「資金調達基礎講座」\n\n形式：コース\n\n詳細\n\n無料で、自分のペースで学べるコースです。\n\nURL[https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials](https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials)\n\nURL [https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials](https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials)\n",
-  "translated_text": "アニマ・インターナショナルによる「資金調達基礎講座」\n形式：コース\n詳細\n無料で、自分のペースで学べるコースです。\nURLhttps://animal-advocacy-center.thinkific.com/courses/fundraising-essentials\nURL https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials",
+  "translated_at": "2026-11-03T07:43:49.404743+00:00",
+  "translated_markdown": "# アニマ・インターナショナルによる「資金調達基礎講座」\n\n形式：コース\n\n表紙\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/24fb567f-380c-4256-90a2-c7c3bee7fbb0/hive-cover-course.svg)\n\n詳細\n\n無料で、自分のペースで学べるコースです。\n\nURL[https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials](https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials)\n\nURL [https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials](https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials)\n",
+  "translated_text": "アニマ・インターナショナルによる「資金調達基礎講座」\n形式：コース\n表紙\n詳細\n無料で、自分のペースで学べるコースです。\nURLhttps://animal-advocacy-center.thinkific.com/courses/fundraising-essentials\nURL https://animal-advocacy-center.thinkific.com/courses/fundraising-essentials",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/fundraising-essentials-course-by-anima-international"
 }

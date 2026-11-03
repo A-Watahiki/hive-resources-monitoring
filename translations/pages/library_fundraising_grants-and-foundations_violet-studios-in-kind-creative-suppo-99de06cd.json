@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "409383bb-2c1b-81f7-b05a-ff613dd600bf",
     "render_version": 5,
-    "synced_at": "2026-10-30T07:01:49.029149+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-03T07:49:12.350546+00:00",
+    "synced_hash": "cbc018eb79c29de9dd7abaf0dd8c9ce34303bbd8d4e20de258c9ca80139ae6ae"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus label and value (重点分野/能力強化); aligned \"How to apply\" and \"Checked by\" field wording",
     "reviewed_at": "2026-11-02T19:10:45.557766+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus label and value (重点分野/能力強化); aligned \"How to apply\" and \"Checked by\" field wording"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Violet Studios (in-kind creative support)\n\nStatusActive\n\nFocusCapacity building\n\nURL[https://www.violetstudios.org/support](https://www.violetstudios.org/support)\n\nGrant size in USD (if applicable)\n\nGrant cycleQuarterly\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nIn-kind support, not a cash grant: free branding (naming, strategy, logos, brand kits), website design, and communications and social media consultations, training and Canva templates. Sister organization of Vegan Hacktivists. For not-for-profit groups with animals at the core of their mission; official nonprofit status isn't required yet. Applications open in quarterly windows; as of Oct 2026 the next window is 15 Nov – 7 Dec for work in Q1 2027 (Jan–Mar).\n\nWhere they post updates\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
