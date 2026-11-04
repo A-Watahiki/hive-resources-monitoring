@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8178-bebd-d535acb72c18",
     "render_version": 5,
-    "synced_at": "2026-10-30T07:02:22.136704+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-04T07:26:34.414422+00:00",
+    "synced_hash": "291ee4fe803d079603cb0d209d74fd7f73eae5d0fe794787ec434bdeaa614c6f"
   },
   "review": {
-    "status": "fixed",
+    "notes": "aligned \"Checked by\" field wording with the established site-wide convention",
     "reviewed_at": "2026-11-03T19:10:41.851806+00:00",
     "reviewer": "claude",
-    "notes": "aligned \"Checked by\" field wording with the established site-wide convention"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# The Navigation Fund\n\nStatusActive\n\nFocusMovement buildingEffective giving\n\nURL[https://www.navigation.org/](https://www.navigation.org/)\n\nGrant size in USD (if applicable)\n\nGrant cycle\n\nHow to applyBy Invitation Only\n\nWhat you need to know\n\nGrant applications are by invitation only, but you can introduce yourself to the team through their “Introduce Yourself” form, which is reviewed quarterly. Rounds run Q2–Q4; most grants are funded in Q2 and Q3. Deployed $24M in 2025.\n\nWhere they post updates\n\nResources: [https://www.navigation.org/resources](https://www.navigation.org/resources)\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
