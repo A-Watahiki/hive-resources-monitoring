@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-81cf-ac6d-ffc8a0c03684",
     "render_version": 5,
     "synced_at": "2026-11-05T07:53:45.535597+00:00",
-    "synced_hash": "87e391e5c66c79330070e94bb4aa723bd4ae9b62b425aefa0a588c987f04ee1e"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-11-05T19:11:33.298031+00:00",
+    "reviewer": "claude",
+    "notes": "fixed markdown link formatting (stray period inside link text)"
   },
   "schema_version": 6,
   "source_markdown": "# ACE Movement Grants\n\nStatusActive\n\nFocusUnderfunded regionsCapacity buildingSystemic change\n\nURL[https://animalcharityevaluators.org/movement-grants/apply-for-funding/](https://animalcharityevaluators.org/movement-grants/apply-for-funding/)\n\nGrant size in USD (if applicable)10-25k> 25k\n\nGrant cycleTwice a year\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nAs of Oct 2026: Round 12 ran 24 Sept – 18 Oct 2026 and has closed. To be eligible, meet at least one of: under 3 years old, budget under $500k, an incubator, or MEL work with an external consultant. ACE focuses on grants of $100k or less. Individuals working in the US can apply directly; others need a fiscal sponsor or should contact the Grants team. Not eligible: ACE Recommended Charities, organizations whose leadership has donated to ACE in the past 3 years, and organizations in US-sanctioned countries.\n\nWhere they post updates\n\nBlog: [https://animalcharityevaluators.org/blog/](https://animalcharityevaluators.org/blog/) and be sure to be signed up to ACE’s newsletters.\n\nLast checkedOctober 29, 2026\n\nChecked byMegan\n",
@@ -18,7 +18,7 @@
   "target_lang": "JA",
   "title": "ACE Movement Grants",
   "translated_at": "2026-11-05T07:47:57.560977+00:00",
-  "translated_markdown": "# ACEムーブメント助成金\n\nステータス：アクティブ\n\n重点分野：資金不足の地域、能力強化、構造的な変革\n\nURL[https://animalcharityevaluators.org/movement-grants/apply-for-funding/](https://animalcharityevaluators.org/movement-grants/apply-for-funding/)\n\n助成金額（米ドル、該当する場合）：1万～2万5千、2万5千以上\n\n助成サイクル：年2回\n\n応募方法：公募手続き\n\n知っておくべきこと\n\n2026年10月現在：第12回募集は2026年9月24日から10月18日まで実施され、締め切られました。応募資格として、以下のいずれか1つを満たす必要があります：設立3年未満、予算が50万ドル未満、インキュベーターであること、または外部コンサルタントによるMEL（モニタリング・評価・学習）活動を行っていること。 ACEは10万ドル以下の助成金に重点を置いています。米国で活動している個人は直接申請できますが、それ以外の方は財政的スポンサーが必要か、助成金チームにお問い合わせください。対象外となるのは、ACE推奨慈善団体、過去3年間にACEへ寄付を行った役員がいる団体、および米国が制裁措置を講じている国に拠点を置く団体です。\n\n更新情報が掲載される場所\n\nブログ：[https://animalcharityevaluators.org/blog/。](https://animalcharityevaluators.org/blog/)また、ACEのニュースレターには必ず登録しておいてください。\n\n最終確認日：2026年10月29日\n\n確認者：Megan\n",
+  "translated_markdown": "# ACEムーブメント助成金\n\nステータス：アクティブ\n\n重点分野：資金不足の地域、能力強化、構造的な変革\n\nURL[https://animalcharityevaluators.org/movement-grants/apply-for-funding/](https://animalcharityevaluators.org/movement-grants/apply-for-funding/)\n\n助成金額（米ドル、該当する場合）：1万～2万5千、2万5千以上\n\n助成サイクル：年2回\n\n応募方法：公募手続き\n\n知っておくべきこと\n\n2026年10月現在：第12回募集は2026年9月24日から10月18日まで実施され、締め切られました。応募資格として、以下のいずれか1つを満たす必要があります：設立3年未満、予算が50万ドル未満、インキュベーターであること、または外部コンサルタントによるMEL（モニタリング・評価・学習）活動を行っていること。 ACEは10万ドル以下の助成金に重点を置いています。米国で活動している個人は直接申請できますが、それ以外の方は財政的スポンサーが必要か、助成金チームにお問い合わせください。対象外となるのは、ACE推奨慈善団体、過去3年間にACEへ寄付を行った役員がいる団体、および米国が制裁措置を講じている国に拠点を置く団体です。\n\n更新情報が掲載される場所\n\nブログ：[https://animalcharityevaluators.org/blog/](https://animalcharityevaluators.org/blog/)。また、ACEのニュースレターには必ず登録しておいてください。\n\n最終確認日：2026年10月29日\n\n確認者：Megan\n",
   "translated_text": "ACEムーブメント助成金\nステータス：アクティブ\n重点分野：資金不足の地域、能力強化、構造的な変革\nURLhttps://animalcharityevaluators.org/movement-grants/apply-for-funding/\n助成金額（米ドル、該当する場合）：1万～2万5千、2万5千以上\n助成サイクル：年2回\n応募方法：公募手続き\n知っておくべきこと\n2026年10月現在：第12回募集は2026年9月24日から10月18日まで実施され、締め切られました。応募資格として、以下のいずれか1つを満たす必要があります：設立3年未満、予算が50万ドル未満、インキュベーターであること、または外部コンサルタントによるMEL（モニタリング・評価・学習）活動を行っていること。 ACEは10万ドル以下の助成金に重点を置いています。米国で活動している個人は直接申請できますが、それ以外の方は財政的スポンサーが必要か、助成金チームにお問い合わせください。対象外となるのは、ACE推奨慈善団体、過去3年間にACEへ寄付を行った役員がいる団体、および米国が制裁措置を講じている国に拠点を置く団体です。\n更新情報が掲載される場所\nブログ：https://animalcharityevaluators.org/blog/。また、ACEのニュースレターには必ず登録しておいてください。\n最終確認日：2026年10月29日\n確認者：Megan",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/ace-movement-grants"

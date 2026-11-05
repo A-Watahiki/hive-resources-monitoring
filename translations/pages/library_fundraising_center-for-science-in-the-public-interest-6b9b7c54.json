@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-8146-b242-d93fa8654c7a",
     "render_version": 5,
     "synced_at": "2026-11-05T07:54:12.813293+00:00",
-    "synced_hash": "f349d1f1592935a95703c0c0d54f9579d47df429be713b3a6e9e4c46b7e54bfb"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-11-05T19:11:33.298031+00:00",
+    "reviewer": "claude",
+    "notes": "fixed untranslated grant-size field and field label wording"
   },
   "schema_version": 6,
   "source_markdown": "# Center for Science In the Public Interest\n\nStatusActive\n\nFocusSystemic change\n\nURL[https://cspi.org/grants/what-we-are-funding](https://cspi.org/grants/what-we-are-funding)\n\nGrant size in USD (if applicable)10-25k> 100k\n\nGrant cycle\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nSupports public health and nutrition policies that create equitable food systems, prioritizing projects that improve access to nutritious food, support healthier food environments, and reduce health disparities. Subgrant rounds are announced in CSPI's Stirring the Pot newsletter; not accepting proposals as of Oct 2026. The 2025 round had three tracks: Powerbuilding (about 10 grants of $20k, any US state), State & Local Policy (about 6 grants of up to $250k, 11 states plus DC) and Industry Accountability (about 4 grants of up to $200k). US only. Must be 501(c)(3) (or other tax-exempt) or fiscally sponsored; priority for budgets of $5M or less.\n\nWhere they post updates\n\nEmail updates (subgrant rounds announced here): [https://act.cspinet.org/a/sign-up?ms=&sourceid=1128902](https://act.cspinet.org/a/sign-up?ms=&sourceid=1128902)\n\nLast checkedOctober 29, 2026\n\nChecked byMegan\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Center for Science In the Public Interest",
   "translated_at": "2026-11-05T07:47:57.560977+00:00",
-  "translated_markdown": "# 公益科学センター\n\nステータス：アクティブ\n\n重点分野：構造的な変革\n\nURL[https://cspi.org/grants/what-we-are-funding](https://cspi.org/grants/what-we-are-funding)\n\n助成金の額（米ドル、該当する場合）10～25k> 100k\n\n助成サイクル\n\n応募方法：公募手続き\n\n知っておくべきこと\n\n公平な食料システムを構築する公衆衛生および栄養政策を支援し、栄養価の高い食品へのアクセスを改善し、より健康的な食環境を促進し、健康格差を縮小するプロジェクトを優先します。サブグラントの公募情報は、CSPIのニュースレター『Stirring the Pot』で発表されます。2026年10月現在、提案書の受付は行っていません。 2025年度の公募では、以下の3つのトラックが設けられました。「パワービルディング」（約10件、1件あたり2万ドル、全米どの州でも対象）、「州・地方政策」（約6件、最大25万ドル、11州およびワシントンD.C.）、「業界の説明責任」 （最大20万ドルの助成金を約4件）。対象は米国内のみ。501(c)(3)（またはその他の免税団体）であるか、財政的後援を受けている団体に限る。予算が500万ドル以下の団体を優先する。\n\n更新情報が掲載される場所\n\n最新情報のメール配信（サブグラントの募集要項はこちらで発表されます）：[https://act.cspinet.org/a/sign-up?ms=&sourceid=1128902](https://act.cspinet.org/a/sign-up?ms=&sourceid=1128902)\n\n最終確認日：2026年10月29日\n\n確認者：Megan\n",
-  "translated_text": "公益科学センター\nステータス：アクティブ\n重点分野：構造的な変革\nURLhttps://cspi.org/grants/what-we-are-funding\n助成金の額（米ドル、該当する場合）10～25k> 100k\n助成サイクル\n応募方法：公募手続き\n知っておくべきこと\n公平な食料システムを構築する公衆衛生および栄養政策を支援し、栄養価の高い食品へのアクセスを改善し、より健康的な食環境を促進し、健康格差を縮小するプロジェクトを優先します。サブグラントの公募情報は、CSPIのニュースレター『Stirring the Pot』で発表されます。2026年10月現在、提案書の受付は行っていません。 2025年度の公募では、以下の3つのトラックが設けられました。「パワービルディング」（約10件、1件あたり2万ドル、全米どの州でも対象）、「州・地方政策」（約6件、最大25万ドル、11州およびワシントンD.C.）、「業界の説明責任」 （最大20万ドルの助成金を約4件）。対象は米国内のみ。501(c)(3)（またはその他の免税団体）であるか、財政的後援を受けている団体に限る。予算が500万ドル以下の団体を優先する。\n更新情報が掲載される場所\n最新情報のメール配信（サブグラントの募集要項はこちらで発表されます）：https://act.cspinet.org/a/sign-up?ms=&sourceid=1128902\n最終確認日：2026年10月29日\n確認者：Megan",
+  "translated_markdown": "# 公益科学センター\n\nステータス：アクティブ\n\n重点分野：構造的な変革\n\nURL[https://cspi.org/grants/what-we-are-funding](https://cspi.org/grants/what-we-are-funding)\n\n助成金額（米ドル、該当する場合）：1万～2万5千、10万以上\n\n助成サイクル\n\n応募方法：公募手続き\n\n知っておくべきこと\n\n公平な食料システムを構築する公衆衛生および栄養政策を支援し、栄養価の高い食品へのアクセスを改善し、より健康的な食環境を促進し、健康格差を縮小するプロジェクトを優先します。サブグラントの公募情報は、CSPIのニュースレター『Stirring the Pot』で発表されます。2026年10月現在、提案書の受付は行っていません。 2025年度の公募では、以下の3つのトラックが設けられました。「パワービルディング」（約10件、1件あたり2万ドル、全米どの州でも対象）、「州・地方政策」（約6件、最大25万ドル、11州およびワシントンD.C.）、「業界の説明責任」 （最大20万ドルの助成金を約4件）。対象は米国内のみ。501(c)(3)（またはその他の免税団体）であるか、財政的後援を受けている団体に限る。予算が500万ドル以下の団体を優先する。\n\n更新情報が掲載される場所\n\n最新情報のメール配信（サブグラントの募集要項はこちらで発表されます）：[https://act.cspinet.org/a/sign-up?ms=&sourceid=1128902](https://act.cspinet.org/a/sign-up?ms=&sourceid=1128902)\n\n最終確認日：2026年10月29日\n\n確認者：Megan\n",
+  "translated_text": "公益科学センター\nステータス：アクティブ\n重点分野：構造的な変革\nURLhttps://cspi.org/grants/what-we-are-funding\n助成金額（米ドル、該当する場合）：1万～2万5千、10万以上\n助成サイクル\n応募方法：公募手続き\n知っておくべきこと\n公平な食料システムを構築する公衆衛生および栄養政策を支援し、栄養価の高い食品へのアクセスを改善し、より健康的な食環境を促進し、健康格差を縮小するプロジェクトを優先します。サブグラントの公募情報は、CSPIのニュースレター『Stirring the Pot』で発表されます。2026年10月現在、提案書の受付は行っていません。 2025年度の公募では、以下の3つのトラックが設けられました。「パワービルディング」（約10件、1件あたり2万ドル、全米どの州でも対象）、「州・地方政策」（約6件、最大25万ドル、11州およびワシントンD.C.）、「業界の説明責任」 （最大20万ドルの助成金を約4件）。対象は米国内のみ。501(c)(3)（またはその他の免税団体）であるか、財政的後援を受けている団体に限る。予算が500万ドル以下の団体を優先する。\n更新情報が掲載される場所\n最新情報のメール配信（サブグラントの募集要項はこちらで発表されます）：https://act.cspinet.org/a/sign-up?ms=&sourceid=1128902\n最終確認日：2026年10月29日\n確認者：Megan",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/center-for-science-in-the-public-interest"
 }
