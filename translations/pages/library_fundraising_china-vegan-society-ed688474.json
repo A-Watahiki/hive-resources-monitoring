@@ -1,25 +1,25 @@
 {
-  "content_hash": "701f2b0af8408d9202f3dea68a84d8bf73835cda7a91627a44e88c4b8f0092c2",
+  "content_hash": "df616868d93db040936dc0c9c82513247a1437ee7650b671eaee865e0f3696de",
   "notion": {
     "page_id": "3a2383bb-2c1b-815e-867f-e97abe9f05b9",
     "render_version": 5,
-    "synced_at": "2026-08-21T02:30:40.393134+00:00",
-    "synced_hash": "701f2b0af8408d9202f3dea68a84d8bf73835cda7a91627a44e88c4b8f0092c2"
+    "synced_at": "2026-11-05T07:54:30.911145+00:00",
+    "synced_hash": "df616868d93db040936dc0c9c82513247a1437ee7650b671eaee865e0f3696de"
   },
   "review": {
-    "notes": "fixed Focus label (特集→重点分野) and improved value phrasing; fixed grant size range that had incorrectly merged two distinct values (\"<1k\" and \"1-10k\") into one continuous range",
-    "reviewed_at": "2026-08-20T19:04:55.877105+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# China Vegan Society\n\nFocusVegan food systems\n\nGrant cycleYear round\n\nGrant size in USD (if applicable)< 1k1-10k\n\nURL[https://www.chinavegans.org/grant-program](https://www.chinavegans.org/grant-program)\n\nWhat you need to know\n\nSupports projects based in China that increase public awareness, acceptance, and practice of vegan and sustainable lifestyles.\n",
-  "source_text": "China Vegan Society\nFocusVegan food systems\nGrant cycleYear round\nGrant size in USD (if applicable)< 1k1-10k\nURLhttps://www.chinavegans.org/grant-program\nWhat you need to know\nSupports projects based in China that increase public awareness, acceptance, and practice of vegan and sustainable lifestyles.",
+  "source_markdown": "# China Vegan Society\n\nStatusActive\n\nFocusVegan food systems\n\nURL[https://www.chinavegans.org/grant-program](https://www.chinavegans.org/grant-program)\n\nGrant size in USD (if applicable)< 1k1-10k\n\nGrant cycleYear round\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nSupports projects based in China that increase public awareness, acceptance, and practice of vegan and sustainable lifestyles. Rolling applications, reviewed in 2–4 weeks. Projects must be based in mainland China. Grants are 5,000–15,000 CNY; larger grants need a special application.\n\nWhere they post updates\n\nNews: [https://www.chinavegans.org/news](https://www.chinavegans.org/news)\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
+  "source_text": "China Vegan Society\nStatusActive\nFocusVegan food systems\nURLhttps://www.chinavegans.org/grant-program\nGrant size in USD (if applicable)< 1k1-10k\nGrant cycleYear round\nHow to applyOpen Application Process\nWhat you need to know\nSupports projects based in China that increase public awareness, acceptance, and practice of vegan and sustainable lifestyles. Rolling applications, reviewed in 2–4 weeks. Projects must be based in mainland China. Grants are 5,000–15,000 CNY; larger grants need a special application.\nWhere they post updates\nNews: https://www.chinavegans.org/news\nLast checkedOctober 29, 2026\nChecked by",
   "target_lang": "JA",
   "title": "China Vegan Society",
-  "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# 中国ヴィーガン協会\n\n重点分野：ヴィーガン食料システム\n\n助成サイクル：通年\n\n助成金額（米ドル、該当する場合）1,000未満、1,000～10,000\n\nURL[https://www.chinavegans.org/grant-program](https://www.chinavegans.org/grant-program)\n\n知っておくべきこと\n\n中国を拠点とし、ヴィーガンや持続可能なライフスタイルに対する一般の認識、受容、実践を促進するプロジェクトを支援しています。\n",
-  "translated_text": "中国ヴィーガン協会\n重点分野：ヴィーガン食料システム\n助成サイクル：通年\n助成金額（米ドル、該当する場合）1,000未満、1,000～10,000\nURLhttps://www.chinavegans.org/grant-program\n知っておくべきこと\n中国を拠点とし、ヴィーガンや持続可能なライフスタイルに対する一般の認識、受容、実践を促進するプロジェクトを支援しています。",
+  "translated_at": "2026-11-05T07:47:57.560977+00:00",
+  "translated_markdown": "# 中国ヴィーガン協会\n\nステータス：アクティブ\n\n重点分野：ヴィーガン食料システム\n\nURL[https://www.chinavegans.org/grant-program](https://www.chinavegans.org/grant-program)\n\n助成金額（米ドル、該当する場合）1,000未満、1,000～10,000\n\n助成サイクル：通年\n\n応募方法：公募手続き\n\n知っておくべきこと\n\n中国を拠点とし、ヴィーガンや持続可能なライフスタイルに対する一般の認識、受容、実践を促進するプロジェクトを支援します。申請は随時受け付けており、審査には2～4週間かかります。プロジェクトは中国本土を拠点とする必要があります。助成金は5,000～15,000 CNYです。これ以上の金額の助成を希望する場合は、別途申請が必要です。\n\n更新情報が掲載される場所\n\nニュース：[https://www.chinavegans.org/news](https://www.chinavegans.org/news)\n\n最終確認日：2026年10月29日\n\n確認者\n",
+  "translated_text": "中国ヴィーガン協会\nステータス：アクティブ\n重点分野：ヴィーガン食料システム\nURLhttps://www.chinavegans.org/grant-program\n助成金額（米ドル、該当する場合）1,000未満、1,000～10,000\n助成サイクル：通年\n応募方法：公募手続き\n知っておくべきこと\n中国を拠点とし、ヴィーガンや持続可能なライフスタイルに対する一般の認識、受容、実践を促進するプロジェクトを支援します。申請は随時受け付けており、審査には2～4週間かかります。プロジェクトは中国本土を拠点とする必要があります。助成金は5,000～15,000 CNYです。これ以上の金額の助成を希望する場合は、別途申請が必要です。\n更新情報が掲載される場所\nニュース：https://www.chinavegans.org/news\n最終確認日：2026年10月29日\n確認者",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/china-vegan-society"
 }

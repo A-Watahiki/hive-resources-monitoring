@@ -1,25 +1,25 @@
 {
-  "content_hash": "f64839babca10d6e5610417c35de2da5d8950c8736a09b0650d08600805b49ce",
+  "content_hash": "b0890c7cef456820913a11a00d1d62299ce41d8ea4347ec80cf49f0a4f0f4dc6",
   "notion": {
     "page_id": "3a2383bb-2c1b-8123-b91b-d0e7e1d8c6f5",
     "render_version": 5,
-    "synced_at": "2026-08-21T02:30:29.175589+00:00",
-    "synced_hash": "f64839babca10d6e5610417c35de2da5d8950c8736a09b0650d08600805b49ce"
+    "synced_at": "2026-11-05T07:54:21.677432+00:00",
+    "synced_hash": "b0890c7cef456820913a11a00d1d62299ce41d8ea4347ec80cf49f0a4f0f4dc6"
   },
   "review": {
-    "notes": "unified 焦点→重点分野; translated the untranslated grant size range values and added missing separator",
-    "reviewed_at": "2026-08-20T19:04:55.877105+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Charity Entrepreneurship seed fund\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)> 25k> 100k\n\nURL[https://www.charityentrepreneurship.com/](https://www.charityentrepreneurship.com/)\n\nWhat you need to know\n\nFor incubated charities only: you need to apply and be accepted into the CE programme to be eligible for this funding and this usually means building from a CE-researched idea as they are less excited for existing ideas.\n",
-  "source_text": "Charity Entrepreneurship seed fund\nFocus\nGrant cycle\nGrant size in USD (if applicable)> 25k> 100k\nURLhttps://www.charityentrepreneurship.com/\nWhat you need to know\nFor incubated charities only: you need to apply and be accepted into the CE programme to be eligible for this funding and this usually means building from a CE-researched idea as they are less excited for existing ideas.",
+  "source_markdown": "# AIM (Ambitious Impact) – Charity Entrepreneurship Incubation Program\n\nStatusActive\n\nFocus\n\nURL[https://www.ambitiousimpact.com/](https://www.ambitiousimpact.com/)\n\nGrant size in USD (if applicable)> 25k> 100k\n\nGrant cycle\n\nHow to apply\n\nWhat you need to know\n\nCharity Entrepreneurship is now AIM (Ambitious Impact); the old [charityentrepreneurship.com](http://charityentrepreneurship.com) domain redirects to [ambitiousimpact.com](http://ambitiousimpact.com). For incubated charities only: you need to apply and be accepted into the Incubation Program to be eligible for this funding, and this usually means building from an AIM-researched idea, as they are less excited about existing ideas.\n\nWhere they post updates\n\nSign up to their newsletter at [ambitiousimpact.com](http://ambitiousimpact.com) and follow them on LinkedIn and [https://ambitiousimpact.substack.com/](https://ambitiousimpact.substack.com/)\n\nLast checkedOctober 29, 2026\n\nChecked byMegan\n",
+  "source_text": "AIM (Ambitious Impact) – Charity Entrepreneurship Incubation Program\nStatusActive\nFocus\nURLhttps://www.ambitiousimpact.com/\nGrant size in USD (if applicable)> 25k> 100k\nGrant cycle\nHow to apply\nWhat you need to know\nCharity Entrepreneurship is now AIM (Ambitious Impact); the old charityentrepreneurship.com domain redirects to ambitiousimpact.com. For incubated charities only: you need to apply and be accepted into the Incubation Program to be eligible for this funding, and this usually means building from an AIM-researched idea, as they are less excited about existing ideas.\nWhere they post updates\nSign up to their newsletter at ambitiousimpact.com and follow them on LinkedIn and https://ambitiousimpact.substack.com/\nLast checkedOctober 29, 2026\nChecked byMegan",
   "target_lang": "JA",
-  "title": "Charity Entrepreneurship seed fund",
-  "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# チャリティ・アントレプレナーシップ・シードファンド\n\n重点分野\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）2万5千以上、10万以上\n\nURL[https://www.charityentrepreneurship.com/](https://www.charityentrepreneurship.com/)\n\n知っておくべきこと\n\nインキュベーション対象の慈善団体のみに限ります：この助成金の対象となるには、CEプログラムに申請し、採択される必要があります。通常、既存のアイデアよりもCEが調査したアイデアを基に事業を構築することが求められます。\n",
-  "translated_text": "チャリティ・アントレプレナーシップ・シードファンド\n重点分野\n助成サイクル\n助成金額（米ドル、該当する場合）2万5千以上、10万以上\nURLhttps://www.charityentrepreneurship.com/\n知っておくべきこと\nインキュベーション対象の慈善団体のみに限ります：この助成金の対象となるには、CEプログラムに申請し、採択される必要があります。通常、既存のアイデアよりもCEが調査したアイデアを基に事業を構築することが求められます。",
+  "title": "AIM (Ambitious Impact) – Charity Entrepreneurship Incubation Program",
+  "translated_at": "2026-11-05T07:47:57.560977+00:00",
+  "translated_markdown": "# AIM（Ambitious Impact） – チャリティ・アントレプレナーシップ・インキュベーション・プログラム\n\nステータス：アクティブ\n\n焦点\n\nURL[https://www.ambitiousimpact.com/](https://www.ambitiousimpact.com/)\n\n助成金額（米ドル、該当する場合）2万5千以上、10万以上\n\n助成サイクル\n\n応募方法\n\n知っておくべきこと\n\n「Charity Entrepreneurship」は現在「AIM（Ambitious Impact）」となりました。旧ドメイン「[charityentrepreneurship.com](http://charityentrepreneurship.com)」は[「ambitiousimpact.com](http://ambitiousimpact.com)」にリダイレクトされます。 インキュベーション対象の慈善団体のみにご注意ください：この資金援助の対象となるには、インキュベーション・プログラムに申請し、採択される必要があります。通常、これはAIMが調査したアイデアに基づいて事業を構築することを意味します。既存のアイデアについては、AIMの関心はそれほど高くないためです。\n\n更新情報が掲載される場所\n\n[ambitiousimpact.com](http://ambitiousimpact.com) でニュースレターに登録し、LinkedIn や [https://ambitiousimpact.substack.com/](https://ambitiousimpact.substack.com/) をフォローしてください。\n\n最終確認日：2026年10月29日\n\n確認者：Megan\n",
+  "translated_text": "AIM（Ambitious Impact） – チャリティ・アントレプレナーシップ・インキュベーション・プログラム\nステータス：アクティブ\n焦点\nURLhttps://www.ambitiousimpact.com/\n助成金額（米ドル、該当する場合）2万5千以上、10万以上\n助成サイクル\n応募方法\n知っておくべきこと\n「Charity Entrepreneurship」は現在「AIM（Ambitious Impact）」となりました。旧ドメイン「charityentrepreneurship.com」は「ambitiousimpact.com」にリダイレクトされます。 インキュベーション対象の慈善団体のみにご注意ください：この資金援助の対象となるには、インキュベーション・プログラムに申請し、採択される必要があります。通常、これはAIMが調査したアイデアに基づいて事業を構築することを意味します。既存のアイデアについては、AIMの関心はそれほど高くないためです。\n更新情報が掲載される場所\nambitiousimpact.com でニュースレターに登録し、LinkedIn や https://ambitiousimpact.substack.com/ をフォローしてください。\n最終確認日：2026年10月29日\n確認者：Megan",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/charity-entrepreneurship-seed-fund"
 }

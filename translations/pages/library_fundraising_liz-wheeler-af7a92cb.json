@@ -1,23 +1,23 @@
 {
-  "content_hash": "299086283db6e11d4b92121cab958dd256413f3a40f8d17fb434b5da44892d25",
+  "content_hash": "c9ce271ecb29bdbe5d4f18431c8dca65898170a3670926350d280494866a88a8",
   "notion": {
     "page_id": "3a2383bb-2c1b-818b-9a4c-e3f2b7de74dc",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:38:24.721013+00:00",
-    "synced_hash": "299086283db6e11d4b92121cab958dd256413f3a40f8d17fb434b5da44892d25"
+    "synced_at": "2026-11-05T07:57:13.943214+00:00",
+    "synced_hash": "c9ce271ecb29bdbe5d4f18431c8dca65898170a3670926350d280494866a88a8"
   },
   "review": {
-    "status": "reviewed",
-    "reviewed_at": "2026-08-28T19:04:04.711819+00:00",
-    "reviewer": "claude",
-    "notes": "no issues found"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
   "source_markdown": "# Liz Wheeler\n\nTagsMentoringFirst-time fundraisers\n\nCan help with\n\nMentoring, first-time fundraisers\n\nEmail[liz@faunalytics.org](mailto:liz@faunalytics.org)\n",
   "source_text": "Liz Wheeler\nTagsMentoringFirst-time fundraisers\nCan help with\nMentoring, first-time fundraisers\nEmailliz@faunalytics.org",
   "target_lang": "JA",
   "title": "Liz Wheeler",
-  "translated_at": "2026-07-18T03:57:36.772252+00:00",
+  "translated_at": "2026-11-05T07:47:57.560977+00:00",
   "translated_markdown": "# リズ・ウィーラー\n\nタグ：メンタリング、初めて資金調達を行う方\n\n以下のことにお役立ていただけます\n\nメンタリング、初めて資金調達を行う方々\n\nEmail[liz@faunalytics.org](mailto:liz@faunalytics.org)\n",
   "translated_text": "リズ・ウィーラー\nタグ：メンタリング、初めて資金調達を行う方\n以下のことにお役立ていただけます\nメンタリング、初めて資金調達を行う方々\nEmailliz@faunalytics.org",
   "translator": "deepl",

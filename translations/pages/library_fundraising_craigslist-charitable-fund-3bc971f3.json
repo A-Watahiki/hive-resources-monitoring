@@ -1,25 +1,25 @@
 {
-  "content_hash": "f320772cd02b602737068b7fcdfceb05aea07c329047dd5b1b742485be083c24",
+  "content_hash": "44dc50be4b463f92daef12fbb96fbbca745eb2617cd0f314363a95a6481542f9",
   "notion": {
     "page_id": "3a2383bb-2c1b-81b6-b7ac-d05ee9297075",
     "render_version": 5,
-    "synced_at": "2026-08-22T02:22:33.854298+00:00",
-    "synced_hash": "f320772cd02b602737068b7fcdfceb05aea07c329047dd5b1b742485be083c24"
+    "synced_at": "2026-11-05T07:54:39.711766+00:00",
+    "synced_hash": "44dc50be4b463f92daef12fbb96fbbca745eb2617cd0f314363a95a6481542f9"
   },
   "review": {
-    "notes": "unified 焦点→重点分野; translated grant size range values and added missing separators",
-    "reviewed_at": "2026-08-21T19:04:13.440384+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Craigslist Charitable Fund\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nURL[https://www.craigslistfund.org/](https://www.craigslistfund.org/)\n\nWhat you need to know\n\nGives to a variety of initiatives that help farmed animals.\n",
-  "source_text": "Craigslist Charitable Fund\nFocus\nGrant cycle\nGrant size in USD (if applicable)1-10k10-25k> 25k\nURLhttps://www.craigslistfund.org/\nWhat you need to know\nGives to a variety of initiatives that help farmed animals.",
+  "source_markdown": "# Craigslist Charitable Fund\n\nStatusActive\n\nFocus\n\nURL[https://www.craigslistfund.org/funding-priorities](https://www.craigslistfund.org/funding-priorities)\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nGrant cycle\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nGives to a variety of initiatives that help farmed animals. Priorities include animal welfare, alternative proteins, diet change, investigations, ballot measures, policy reform, legal advocacy, grassroots activism and capacity building. Open to organizations worldwide, with or without 501(c)(3) status. Typically funds no more than 30% of an organization's annual budget. No deadlines listed; review can take up to 6 months. They don't accept unsolicited requests for calls.\n\nWhere they post updates\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
+  "source_text": "Craigslist Charitable Fund\nStatusActive\nFocus\nURLhttps://www.craigslistfund.org/funding-priorities\nGrant size in USD (if applicable)1-10k10-25k> 25k\nGrant cycle\nHow to applyOpen Application Process\nWhat you need to know\nGives to a variety of initiatives that help farmed animals. Priorities include animal welfare, alternative proteins, diet change, investigations, ballot measures, policy reform, legal advocacy, grassroots activism and capacity building. Open to organizations worldwide, with or without 501(c)(3) status. Typically funds no more than 30% of an organization's annual budget. No deadlines listed; review can take up to 6 months. They don't accept unsolicited requests for calls.\nWhere they post updates\nLast checkedOctober 29, 2026\nChecked by",
   "target_lang": "JA",
   "title": "Craigslist Charitable Fund",
-  "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# クレイグリスト慈善基金\n\n重点分野\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千、2万5千以上\n\nURL[https://www.craigslistfund.org/](https://www.craigslistfund.org/)\n\n知っておくべきこと\n\n家畜を支援するさまざまな取り組みに寄付を行っています。\n",
-  "translated_text": "クレイグリスト慈善基金\n重点分野\n助成サイクル\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千、2万5千以上\nURLhttps://www.craigslistfund.org/\n知っておくべきこと\n家畜を支援するさまざまな取り組みに寄付を行っています。",
+  "translated_at": "2026-11-05T07:47:57.560977+00:00",
+  "translated_markdown": "# クレイグリスト慈善基金\n\nステータス：アクティブ\n\n焦点\n\nURL[https://www.craigslistfund.org/funding-priorities](https://www.craigslistfund.org/funding-priorities)\n\n助成金額（米ドル、該当する場合）1千～1万、1万～2万5千、2万5千以上\n\n助成サイクル\n\n応募方法：公募手続き\n\n知っておくべきこと\n\n家畜を支援するさまざまな取り組みに助成を行っています。重点分野には、動物福祉、代替タンパク質、食生活の変化、調査、住民投票案件、政策改革、法的支援、草の根活動、能力強化などが含まれます。501(c)(3)の認定の有無を問わず、世界中の団体が対象となります。 通常、団体が申請する年間予算の30％を上限として助成を行います。申請締切日は明記されていませんが、審査には最大6ヶ月を要する場合があります。未依頼の助成申請は受け付けていません。\n\n更新情報が掲載される場所\n\n最終確認日：2026年10月29日\n\n確認者\n",
+  "translated_text": "クレイグリスト慈善基金\nステータス：アクティブ\n焦点\nURLhttps://www.craigslistfund.org/funding-priorities\n助成金額（米ドル、該当する場合）1千～1万、1万～2万5千、2万5千以上\n助成サイクル\n応募方法：公募手続き\n知っておくべきこと\n家畜を支援するさまざまな取り組みに助成を行っています。重点分野には、動物福祉、代替タンパク質、食生活の変化、調査、住民投票案件、政策改革、法的支援、草の根活動、能力強化などが含まれます。501(c)(3)の認定の有無を問わず、世界中の団体が対象となります。 通常、団体が申請する年間予算の30％を上限として助成を行います。申請締切日は明記されていませんが、審査には最大6ヶ月を要する場合があります。未依頼の助成申請は受け付けていません。\n更新情報が掲載される場所\n最終確認日：2026年10月29日\n確認者",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/craigslist-charitable-fund"
 }

@@ -1,25 +1,25 @@
 {
-  "content_hash": "c8f76ff5a4e79c3ede22f354854bc70c81c7afd188dbf22d51c1d6cbadc19554",
+  "content_hash": "fa78b87c30f0e22d55e9ecb498eb329e5b70e629c7954389d05c2407daa7a677",
   "notion": {
     "page_id": "3a2383bb-2c1b-81fc-8c2f-dc0ec4917957",
     "render_version": 5,
-    "synced_at": "2026-08-29T07:50:47.747031+00:00",
-    "synced_hash": "c8f76ff5a4e79c3ede22f354854bc70c81c7afd188dbf22d51c1d6cbadc19554"
+    "synced_at": "2026-11-05T07:57:31.417677+00:00",
+    "synced_hash": "fa78b87c30f0e22d55e9ecb498eb329e5b70e629c7954389d05c2407daa7a677"
   },
   "review": {
-    "notes": "fixed Focus label and added missing separator between values; translated the untranslated grant size range values",
-    "reviewed_at": "2026-08-28T19:04:04.711819+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Meta Charity Funders\n\nFocusEffective givingMovement building\n\nGrant cycleTwice a year\n\nGrant size in USD (if applicable)10-25k> 25k> 100k\n\nURL[https://www.metacharityfunders.com/](https://www.metacharityfunders.com/)\n\nWhat you need to know\n\nA funding circle for meta charities (charities that support other charities to succeed).\n",
-  "source_text": "Meta Charity Funders\nFocusEffective givingMovement building\nGrant cycleTwice a year\nGrant size in USD (if applicable)10-25k> 25k> 100k\nURLhttps://www.metacharityfunders.com/\nWhat you need to know\nA funding circle for meta charities (charities that support other charities to succeed).",
+  "source_markdown": "# Meta Charity Funders\n\nStatusActive\n\nFocusEffective givingMovement building\n\nURL[https://www.metacharityfunders.com/](https://www.metacharityfunders.com/)\n\nGrant size in USD (if applicable)10-25k> 25k> 100k\n\nGrant cycleTwice a year\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nA funding circle for meta charities (charities that support other charities to succeed). Open to individuals and nonprofits. No 2026 round found as of Oct 2026; the latest was Fall 2025 (small grants under $50k and midsize grants over $50k; priority for budgets well under $1M and organizations under 5 years old).\n\nWhere they post updates\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
+  "source_text": "Meta Charity Funders\nStatusActive\nFocusEffective givingMovement building\nURLhttps://www.metacharityfunders.com/\nGrant size in USD (if applicable)10-25k> 25k> 100k\nGrant cycleTwice a year\nHow to applyOpen Application Process\nWhat you need to know\nA funding circle for meta charities (charities that support other charities to succeed). Open to individuals and nonprofits. No 2026 round found as of Oct 2026; the latest was Fall 2025 (small grants under $50k and midsize grants over $50k; priority for budgets well under $1M and organizations under 5 years old).\nWhere they post updates\nLast checkedOctober 29, 2026\nChecked by",
   "target_lang": "JA",
   "title": "Meta Charity Funders",
-  "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "# メタ・チャリティ・ファンダーズ\n\n重点分野：効果的な寄付、運動の構築\n\n助成サイクル：年2回\n\n助成金額（米ドル、該当する場合）：1万～2万5千、2万5千以上、10万以上\n\nURL[https://www.metacharityfunders.com/](https://www.metacharityfunders.com/)\n\n知っておくべきこと\n\nメタ慈善団体（他の慈善団体の成功を支援する慈善団体）のための資金調達サークル。\n",
-  "translated_text": "メタ・チャリティ・ファンダーズ\n重点分野：効果的な寄付、運動の構築\n助成サイクル：年2回\n助成金額（米ドル、該当する場合）：1万～2万5千、2万5千以上、10万以上\nURLhttps://www.metacharityfunders.com/\n知っておくべきこと\nメタ慈善団体（他の慈善団体の成功を支援する慈善団体）のための資金調達サークル。",
+  "translated_at": "2026-11-05T07:47:57.560977+00:00",
+  "translated_markdown": "# メタ・チャリティ・ファンダーズ\n\nステータス：アクティブ\n\n重点分野：効果的な寄付、運動の構築\n\nURL[https://www.metacharityfunders.com/](https://www.metacharityfunders.com/)\n\n助成金額（米ドル、該当する場合）：1万～2万5千、2万5千以上、10万以上\n\n助成サイクル：年2回\n\n応募方法：公募手続き\n\n知っておくべきこと\n\nメタ慈善団体（他の慈善団体の成功を支援する慈善団体）のための資金提供サークル。個人および非営利団体が参加可能です。 2026年10月現在、2026年の助成ラウンドは見つかりませんでした。直近のラウンドは2025年秋でした（5万ドル未満の小規模助成金と5万ドル以上の中規模助成金。予算が100万ドルを大幅に下回る団体および設立5年未満の団体を優先）。\n\n更新情報が掲載される場所\n\n最終確認日：2026年10月29日\n\n確認者\n",
+  "translated_text": "メタ・チャリティ・ファンダーズ\nステータス：アクティブ\n重点分野：効果的な寄付、運動の構築\nURLhttps://www.metacharityfunders.com/\n助成金額（米ドル、該当する場合）：1万～2万5千、2万5千以上、10万以上\n助成サイクル：年2回\n応募方法：公募手続き\n知っておくべきこと\nメタ慈善団体（他の慈善団体の成功を支援する慈善団体）のための資金提供サークル。個人および非営利団体が参加可能です。 2026年10月現在、2026年の助成ラウンドは見つかりませんでした。直近のラウンドは2025年秋でした（5万ドル未満の小規模助成金と5万ドル以上の中規模助成金。予算が100万ドルを大幅に下回る団体および設立5年未満の団体を優先）。\n更新情報が掲載される場所\n最終確認日：2026年10月29日\n確認者",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/meta-charity-funders"
 }

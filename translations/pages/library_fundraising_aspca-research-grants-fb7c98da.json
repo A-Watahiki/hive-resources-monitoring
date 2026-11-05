@@ -1,25 +1,25 @@
 {
-  "content_hash": "a5a023d00127d78c5680f165d36969283a1b9545f4e772748ad2c95d6d9a67d3",
+  "content_hash": "39cc0f29cc20d008bb413f2c7b071da741afb1e7c966436894a335c6c0cd21e1",
   "notion": {
     "page_id": "3a2383bb-2c1b-817f-a179-ec53d02cb78c",
     "render_version": 5,
-    "synced_at": "2026-08-20T02:25:12.915451+00:00",
-    "synced_hash": "a5a023d00127d78c5680f165d36969283a1b9545f4e772748ad2c95d6d9a67d3"
+    "synced_at": "2026-11-05T07:54:03.875768+00:00",
+    "synced_hash": "39cc0f29cc20d008bb413f2c7b071da741afb1e7c966436894a335c6c0cd21e1"
   },
   "review": {
-    "notes": "translated the untranslated Focus field; fixed grant size range (1-10k was mistranslated as 1〜1万, missing the thousand multiplier) and added missing separators",
-    "reviewed_at": "2026-08-19T19:04:29.108354+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# ASPCA Research Grants\n\nFocusResearch\n\nGrant cycle\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nURL[https://www.aspcapro.org/grant/2025/03/17/2025-aspca-research-grants](https://www.aspcapro.org/grant/2025/03/17/2025-aspca-research-grants)\n\nWhat you need to know\n\nFunds research across a variety of disciplines and methods that has clear potential to benefit animals, either directly or through effecting systems-level change.\n",
-  "source_text": "ASPCA Research Grants\nFocusResearch\nGrant cycle\nGrant size in USD (if applicable)1-10k10-25k> 25k\nURLhttps://www.aspcapro.org/grant/2025/03/17/2025-aspca-research-grants\nWhat you need to know\nFunds research across a variety of disciplines and methods that has clear potential to benefit animals, either directly or through effecting systems-level change.",
+  "source_markdown": "# ASPCA Research Grants\n\nStatusActive\n\nFocusResearch\n\nURL[https://www.aspcapro.org/node/104818](https://www.aspcapro.org/node/104818)\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nGrant cycleYearly\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nFunds research across a variety of disciplines and methods that has clear potential to benefit animals, either directly or through effecting systems-level change. The 2026 round ran 10 Apr – 10 Jul and has closed. Applicants must be US-based public or private entities; individuals can't apply. Canadian public universities and public bodies can apply only if the research can improve animal welfare in the US. Farm animal welfare grants are capped at $75k.\n\nWhere they post updates\n\nSuggest subscribing to their newsletter on their website\n\nLast checkedOctober 29, 2026\n\nChecked byMegan\n",
+  "source_text": "ASPCA Research Grants\nStatusActive\nFocusResearch\nURLhttps://www.aspcapro.org/node/104818\nGrant size in USD (if applicable)1-10k10-25k> 25k\nGrant cycleYearly\nHow to applyOpen Application Process\nWhat you need to know\nFunds research across a variety of disciplines and methods that has clear potential to benefit animals, either directly or through effecting systems-level change. The 2026 round ran 10 Apr – 10 Jul and has closed. Applicants must be US-based public or private entities; individuals can't apply. Canadian public universities and public bodies can apply only if the research can improve animal welfare in the US. Farm animal welfare grants are capped at $75k.\nWhere they post updates\nSuggest subscribing to their newsletter on their website\nLast checkedOctober 29, 2026\nChecked byMegan",
   "target_lang": "JA",
   "title": "ASPCA Research Grants",
-  "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# ASPCA研究助成金\n\n重点分野：研究\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）1千～1万、1万～2万5千、2万5千以上\n\nURL[https://www.aspcapro.org/grant/2025/03/17/2025-aspca-research-grants](https://www.aspcapro.org/grant/2025/03/17/2025-aspca-research-grants)\n\n知っておくべきこと\n\n動物に直接的に、あるいはシステムレベルの変化をもたらすことを通じて、明らかに利益をもたらす可能性のある、多様な分野や手法にわたる研究に資金を提供します。\n",
-  "translated_text": "ASPCA研究助成金\n重点分野：研究\n助成サイクル\n助成金額（米ドル、該当する場合）1千～1万、1万～2万5千、2万5千以上\nURLhttps://www.aspcapro.org/grant/2025/03/17/2025-aspca-research-grants\n知っておくべきこと\n動物に直接的に、あるいはシステムレベルの変化をもたらすことを通じて、明らかに利益をもたらす可能性のある、多様な分野や手法にわたる研究に資金を提供します。",
+  "translated_at": "2026-11-05T07:47:57.560977+00:00",
+  "translated_markdown": "# ASPCA研究助成金\n\nステータス：アクティブ\n\n重点分野：研究\n\nURL [https://www.aspcapro.org/node/104818](https://www.aspcapro.org/node/104818)\n\n助成金額（米ドル、該当する場合）1千～1万、1万～2万5千、2万5千以上\n\n助成サイクル：年次\n\n応募方法：公募手続き\n\n知っておくべきこと\n\n動物に直接的に、あるいはシステムレベルの変革をもたらすことで間接的に利益をもたらす可能性が明確に見込まれる、多様な分野や手法にわたる研究に資金を提供します。2026年度の公募は4月10日から7月10日まで実施され、現在は締め切られています。申請者は米国に拠点を置く公的機関または民間団体でなければならず、個人は申請できません。 カナダの公立大学および公的機関は、その研究が米国内の動物福祉の向上に寄与する場合に限り申請可能です。家畜の福祉に関する助成金の上限は7万5千ドルです。\n\n更新情報が掲載される場所\n\nそのウェブサイトでニュースレターの購読を申し込むことをお勧めします\n\n最終確認日：2026年10月29日\n\n確認者：Megan\n",
+  "translated_text": "ASPCA研究助成金\nステータス：アクティブ\n重点分野：研究\nURL https://www.aspcapro.org/node/104818\n助成金額（米ドル、該当する場合）1千～1万、1万～2万5千、2万5千以上\n助成サイクル：年次\n応募方法：公募手続き\n知っておくべきこと\n動物に直接的に、あるいはシステムレベルの変革をもたらすことで間接的に利益をもたらす可能性が明確に見込まれる、多様な分野や手法にわたる研究に資金を提供します。2026年度の公募は4月10日から7月10日まで実施され、現在は締め切られています。申請者は米国に拠点を置く公的機関または民間団体でなければならず、個人は申請できません。 カナダの公立大学および公的機関は、その研究が米国内の動物福祉の向上に寄与する場合に限り申請可能です。家畜の福祉に関する助成金の上限は7万5千ドルです。\n更新情報が掲載される場所\nそのウェブサイトでニュースレターの購読を申し込むことをお勧めします\n最終確認日：2026年10月29日\n確認者：Megan",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/aspca-research-grants"
 }

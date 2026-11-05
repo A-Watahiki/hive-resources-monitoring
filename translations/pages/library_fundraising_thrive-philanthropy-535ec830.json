@@ -1,25 +1,25 @@
 {
-  "content_hash": "96b80f806fa8ee353c09f42ab1c7b0ced8dfa991a409efebe22fd41424017cdc",
+  "content_hash": "262e595081cfc439f834a8ba908e24b90a731885693dc05625a306a33273a0d3",
   "notion": {
     "page_id": "3a2383bb-2c1b-819a-b74d-c2d5fad2999f",
     "render_version": 5,
-    "synced_at": "2026-09-02T05:40:47.684644+00:00",
-    "synced_hash": "96b80f806fa8ee353c09f42ab1c7b0ced8dfa991a409efebe22fd41424017cdc"
+    "synced_at": "2026-11-05T07:58:06.775075+00:00",
+    "synced_hash": "262e595081cfc439f834a8ba908e24b90a731885693dc05625a306a33273a0d3"
   },
   "review": {
-    "notes": "fixed Focus label and value phrasing; translated grant size range values and added missing separators",
-    "reviewed_at": "2026-09-01T19:05:16.703142+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Thrive Philanthropy\n\nFocusVegan food systems\n\nGrant cycleQuarterly\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nURL[https://www.thrivephilanthropy.org/grants](https://www.thrivephilanthropy.org/grants)\n\nWhat you need to know\n\nGlobal grants, has two grants: a seed and a bigger Thrive grant. US organizations or international chapters of US organizations are not eligible.\n",
-  "source_text": "Thrive Philanthropy\nFocusVegan food systems\nGrant cycleQuarterly\nGrant size in USD (if applicable)1-10k10-25k> 25k\nURLhttps://www.thrivephilanthropy.org/grants\nWhat you need to know\nGlobal grants, has two grants: a seed and a bigger Thrive grant. US organizations or international chapters of US organizations are not eligible.",
+  "source_markdown": "# Thrive Philanthropy\n\nStatusActive\n\nFocusVegan food systems\n\nURL[https://www.thrivephilanthropy.org/grants](https://www.thrivephilanthropy.org/grants)\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nGrant cycleQuarterly\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nGlobal grants for non-US organizations, with two grants: the Thrive Grant ($10k–30k) and the Seed Grant (up to $5k, also open to individuals without nonprofit status). Quarterly deadlines: 1 Mar, 1 Jun, 1 Sep and 1 Dec (11:59pm GMT). US organizations and international chapters of US organizations are not eligible. Africa-based applicants need an invitation or a previous grant. Priority for budgets under $500k.\n\nWhere they post updates\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
+  "source_text": "Thrive Philanthropy\nStatusActive\nFocusVegan food systems\nURLhttps://www.thrivephilanthropy.org/grants\nGrant size in USD (if applicable)1-10k10-25k> 25k\nGrant cycleQuarterly\nHow to applyOpen Application Process\nWhat you need to know\nGlobal grants for non-US organizations, with two grants: the Thrive Grant ($10k–30k) and the Seed Grant (up to $5k, also open to individuals without nonprofit status). Quarterly deadlines: 1 Mar, 1 Jun, 1 Sep and 1 Dec (11:59pm GMT). US organizations and international chapters of US organizations are not eligible. Africa-based applicants need an invitation or a previous grant. Priority for budgets under $500k.\nWhere they post updates\nLast checkedOctober 29, 2026\nChecked by",
   "target_lang": "JA",
   "title": "Thrive Philanthropy",
-  "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "# スライブ・フィランソロピー\n\n重点分野：ヴィーガン食料システム\n\n助成サイクル：四半期ごと\n\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千、2万5千以上\n\nURL[https://www.thrivephilanthropy.org/grants](https://www.thrivephilanthropy.org/grants)\n\n知っておくべきこと\n\nグローバル・グラントには、「シード・グラント」と、より規模の大きい「スライヴ・グラント」の2種類があります。米国の団体、または米国の団体の海外支部は、申請資格がありません。\n",
-  "translated_text": "スライブ・フィランソロピー\n重点分野：ヴィーガン食料システム\n助成サイクル：四半期ごと\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千、2万5千以上\nURLhttps://www.thrivephilanthropy.org/grants\n知っておくべきこと\nグローバル・グラントには、「シード・グラント」と、より規模の大きい「スライヴ・グラント」の2種類があります。米国の団体、または米国の団体の海外支部は、申請資格がありません。",
+  "translated_at": "2026-11-05T07:47:57.560977+00:00",
+  "translated_markdown": "# スライブ・フィランソロピー\n\nステータス：アクティブ\n\n重点分野：ヴィーガン食料システム\n\nURL[https://www.thrivephilanthropy.org/grants](https://www.thrivephilanthropy.org/grants)\n\n助成金額（米ドル、該当する場合）1千～1万、1万～2万5千、2万5千以上\n\n助成サイクル：四半期ごと\n\n応募方法：公募手続き\n\n知っておくべきこと\n\n米国以外の団体を対象としたグローバル助成金には、「Thrive Grant」（1万～3万ドル）と「Seed Grant」（最大5千ドル、非営利団体の資格を持たない個人も応募可能）の2種類があります。 四半期ごとの締切：3月1日、6月1日、9月1日、12月1日（GMT午後11時59分）。米国の団体および米国団体の海外支部は対象外です。アフリカを拠点とする申請者は、招待状または過去の助成金受給実績が必要です。予算が50万ドル未満の案件を優先します。\n\n更新情報が掲載される場所\n\n最終確認日：2026年10月29日\n\n確認者\n",
+  "translated_text": "スライブ・フィランソロピー\nステータス：アクティブ\n重点分野：ヴィーガン食料システム\nURLhttps://www.thrivephilanthropy.org/grants\n助成金額（米ドル、該当する場合）1千～1万、1万～2万5千、2万5千以上\n助成サイクル：四半期ごと\n応募方法：公募手続き\n知っておくべきこと\n米国以外の団体を対象としたグローバル助成金には、「Thrive Grant」（1万～3万ドル）と「Seed Grant」（最大5千ドル、非営利団体の資格を持たない個人も応募可能）の2種類があります。 四半期ごとの締切：3月1日、6月1日、9月1日、12月1日（GMT午後11時59分）。米国の団体および米国団体の海外支部は対象外です。アフリカを拠点とする申請者は、招待状または過去の助成金受給実績が必要です。予算が50万ドル未満の案件を優先します。\n更新情報が掲載される場所\n最終確認日：2026年10月29日\n確認者",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/thrive-philanthropy"
 }

@@ -1,25 +1,25 @@
 {
-  "content_hash": "140e4d8ee4c97a0fcfd40b1ab57a1a715ec816d949cdc6624b87dc75889190b2",
+  "content_hash": "e5f45123031ed71cf10c7ff9ba13f140a8dbcb5f79a192b9e9672c436437a8d4",
   "notion": {
     "page_id": "3a2383bb-2c1b-81bc-8309-f933a7945590",
     "render_version": 5,
-    "synced_at": "2026-08-28T12:42:53.003852+00:00",
-    "synced_hash": "140e4d8ee4c97a0fcfd40b1ab57a1a715ec816d949cdc6624b87dc75889190b2"
+    "synced_at": "2026-11-05T07:56:48.703426+00:00",
+    "synced_hash": "e5f45123031ed71cf10c7ff9ba13f140a8dbcb5f79a192b9e9672c436437a8d4"
   },
   "review": {
-    "notes": "unified 焦点→重点分野 for terminology consistency",
-    "reviewed_at": "2026-08-27T19:04:30.981984+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Jeremy Coller Foundation\n\nFocus\n\nGrant cycle\n\nGrant size in USD (if applicable)\n\nURL[https://jeremycollerfoundation.org/](https://jeremycollerfoundation.org/)\n\nWhat you need to know\n\nInvests in the transition to a more sustainable food system.\n",
-  "source_text": "Jeremy Coller Foundation\nFocus\nGrant cycle\nGrant size in USD (if applicable)\nURLhttps://jeremycollerfoundation.org/\nWhat you need to know\nInvests in the transition to a more sustainable food system.",
+  "source_markdown": "# Jeremy Coller Foundation\n\nStatusActive\n\nFocus\n\nURL[https://jeremycollerfoundation.org/](https://jeremycollerfoundation.org/)\n\nGrant size in USD (if applicable)\n\nGrant cycle\n\nHow to apply\n\nWhat you need to know\n\nInvests in the transition to a more sustainable food system. No public application process for its general giving; contact [contact@jeremycollerfoundation.org](mailto:contact@jeremycollerfoundation.org). Its only public call is the Coller Dolittle Challenge, an animal communication research prize.\n\nWhere they post updates\n\nNews: [https://www.jeremycollerfoundation.org/news-and-insights](https://www.jeremycollerfoundation.org/news-and-insights)\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
+  "source_text": "Jeremy Coller Foundation\nStatusActive\nFocus\nURLhttps://jeremycollerfoundation.org/\nGrant size in USD (if applicable)\nGrant cycle\nHow to apply\nWhat you need to know\nInvests in the transition to a more sustainable food system. No public application process for its general giving; contact contact@jeremycollerfoundation.org. Its only public call is the Coller Dolittle Challenge, an animal communication research prize.\nWhere they post updates\nNews: https://www.jeremycollerfoundation.org/news-and-insights\nLast checkedOctober 29, 2026\nChecked by",
   "target_lang": "JA",
   "title": "Jeremy Coller Foundation",
-  "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# ジェレミー・コラー財団\n\n重点分野\n\n助成サイクル\n\n助成金額（米ドル）（該当する場合）\n\nURL[https://jeremycollerfoundation.org/](https://jeremycollerfoundation.org/)\n\n知っておくべきこと\n\nより持続可能な食料システムへの移行に投資する。\n",
-  "translated_text": "ジェレミー・コラー財団\n重点分野\n助成サイクル\n助成金額（米ドル）（該当する場合）\nURLhttps://jeremycollerfoundation.org/\n知っておくべきこと\nより持続可能な食料システムへの移行に投資する。",
+  "translated_at": "2026-11-05T07:47:57.560977+00:00",
+  "translated_markdown": "# ジェレミー・コラー財団\n\nステータス：アクティブ\n\n焦点\n\nURL[https://jeremycollerfoundation.org/](https://jeremycollerfoundation.org/)\n\n助成金額（米ドル）（該当する場合）\n\n助成サイクル\n\n応募方法\n\n知っておくべきこと\n\nより持続可能な食料システムへの移行を支援しています。一般的な助成については、一般公募は行っていません。お問い合わせは [contact@jeremycollerfoundation.org](mailto:contact@jeremycollerfoundation.org) まで。唯一の公募は、動物のコミュニケーションに関する研究賞である「コラー・ドリトル・チャレンジ」です。\n\n更新情報が掲載される場所\n\nニュース：[https://www.jeremycollerfoundation.org/news-and-insights](https://www.jeremycollerfoundation.org/news-and-insights)\n\n最終確認日：2026年10月29日\n\n確認者\n",
+  "translated_text": "ジェレミー・コラー財団\nステータス：アクティブ\n焦点\nURLhttps://jeremycollerfoundation.org/\n助成金額（米ドル）（該当する場合）\n助成サイクル\n応募方法\n知っておくべきこと\nより持続可能な食料システムへの移行を支援しています。一般的な助成については、一般公募は行っていません。お問い合わせは contact@jeremycollerfoundation.org まで。唯一の公募は、動物のコミュニケーションに関する研究賞である「コラー・ドリトル・チャレンジ」です。\n更新情報が掲載される場所\nニュース：https://www.jeremycollerfoundation.org/news-and-insights\n最終確認日：2026年10月29日\n確認者",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/jeremy-coller-foundation"
 }

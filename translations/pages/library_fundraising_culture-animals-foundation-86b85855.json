@@ -1,25 +1,25 @@
 {
-  "content_hash": "49ebda7fa3513be2935cd978725c63a7e35e42a0a3c1952a3f7d6a1cb1aa8fa0",
+  "content_hash": "e6c151f07789152f0ea363ada229cb0ed5c54549bfd7304efd2ac462e21b9510",
   "notion": {
     "page_id": "3a2383bb-2c1b-8124-9ee1-fe2cbc1e14c7",
     "render_version": 5,
-    "synced_at": "2026-08-22T02:22:44.556075+00:00",
-    "synced_hash": "49ebda7fa3513be2935cd978725c63a7e35e42a0a3c1952a3f7d6a1cb1aa8fa0"
+    "synced_at": "2026-11-05T07:54:48.438197+00:00",
+    "synced_hash": "e6c151f07789152f0ea363ada229cb0ed5c54549bfd7304efd2ac462e21b9510"
   },
   "review": {
-    "notes": "fixed Focus label mistranslated as a standalone tag (フォーカス) instead of a field label; fixed grant size range that had incorrectly merged two distinct values (\"<1k\" and \"1-10k\") into one continuous range",
-    "reviewed_at": "2026-08-21T19:04:13.440384+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Culture & Animals Foundation\n\nFocusResearchCreativity and Performance\n\nGrant cycle\n\nGrant size in USD (if applicable)< 1k1-10k\n\nURL[https://cultureandanimals.org/](https://cultureandanimals.org/)\n\nWhat you need to know\n\nSupports academic and artistic projects that raise public awareness about animal rights.\n",
-  "source_text": "Culture & Animals Foundation\nFocusResearchCreativity and Performance\nGrant cycle\nGrant size in USD (if applicable)< 1k1-10k\nURLhttps://cultureandanimals.org/\nWhat you need to know\nSupports academic and artistic projects that raise public awareness about animal rights.",
+  "source_markdown": "# Culture & Animals Foundation\n\nStatusActive\n\nFocusResearchCreativity and Performance\n\nURL[https://cultureandanimals.org/](https://cultureandanimals.org/)\n\nGrant size in USD (if applicable)< 1k1-10k\n\nGrant cycleYearly\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nSupports academic and artistic projects that raise public awareness about animal rights. Next application window: 4–21 Jan 2027, or until 200 applications arrive. Grants up to $5k, paid to the grantee, not to a university or institution. Applications must be in English.\n\nWhere they post updates\n\nNews: [https://cultureandanimals.org/](https://cultureandanimals.org/)\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
+  "source_text": "Culture & Animals Foundation\nStatusActive\nFocusResearchCreativity and Performance\nURLhttps://cultureandanimals.org/\nGrant size in USD (if applicable)< 1k1-10k\nGrant cycleYearly\nHow to applyOpen Application Process\nWhat you need to know\nSupports academic and artistic projects that raise public awareness about animal rights. Next application window: 4–21 Jan 2027, or until 200 applications arrive. Grants up to $5k, paid to the grantee, not to a university or institution. Applications must be in English.\nWhere they post updates\nNews: https://cultureandanimals.org/\nLast checkedOctober 29, 2026\nChecked by",
   "target_lang": "JA",
   "title": "Culture & Animals Foundation",
-  "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# 文化・動物財団\n\n重点分野：研究、創造性とパフォーマンス\n\n助成サイクル\n\n助成金額（米ドル、該当する場合）1,000未満、1,000～10,000\n\nURL[https://cultureandanimals.org/](https://cultureandanimals.org/)\n\n知っておくべきこと\n\n動物の権利に関する一般の認識を高める学術的・芸術的なプロジェクトを支援しています。\n",
-  "translated_text": "文化・動物財団\n重点分野：研究、創造性とパフォーマンス\n助成サイクル\n助成金額（米ドル、該当する場合）1,000未満、1,000～10,000\nURLhttps://cultureandanimals.org/\n知っておくべきこと\n動物の権利に関する一般の認識を高める学術的・芸術的なプロジェクトを支援しています。",
+  "translated_at": "2026-11-05T07:47:57.560977+00:00",
+  "translated_markdown": "# 文化・動物財団\n\nステータス：アクティブ\n\n重点分野：研究、創造性とパフォーマンス\n\nURL[https://cultureandanimals.org/](https://cultureandanimals.org/)\n\n助成金額（米ドル、該当する場合）1,000未満、1,000～10,000\n\n助成サイクル：年次\n\n応募方法：公募手続き\n\n知っておくべきこと\n\n動物の権利に関する一般の認識を高める学術的・芸術的なプロジェクトを支援します。次回の応募期間：2027年1月4日～21日、または応募件数が200件に達するまで。助成金は最大5,000ドルで、大学や機関ではなく、助成対象者に直接支払われます。申請書は英語で提出する必要があります。\n\n更新情報が掲載される場所\n\nニュース：[https://cultureandanimals.org/](https://cultureandanimals.org/)\n\n最終確認日：2026年10月29日\n\n確認者\n",
+  "translated_text": "文化・動物財団\nステータス：アクティブ\n重点分野：研究、創造性とパフォーマンス\nURLhttps://cultureandanimals.org/\n助成金額（米ドル、該当する場合）1,000未満、1,000～10,000\n助成サイクル：年次\n応募方法：公募手続き\n知っておくべきこと\n動物の権利に関する一般の認識を高める学術的・芸術的なプロジェクトを支援します。次回の応募期間：2027年1月4日～21日、または応募件数が200件に達するまで。助成金は最大5,000ドルで、大学や機関ではなく、助成対象者に直接支払われます。申請書は英語で提出する必要があります。\n更新情報が掲載される場所\nニュース：https://cultureandanimals.org/\n最終確認日：2026年10月29日\n確認者",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/culture-animals-foundation"
 }

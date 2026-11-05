@@ -1,25 +1,25 @@
 {
-  "content_hash": "40301044e412ef0edf14980bd018053e257d9117bdfc4a9313cc0bd1bedebdab",
+  "content_hash": "244e65b1c57ef52cf57bde44d1cf2cf8980e40108865f323ba1929e3d11a70be",
   "notion": {
     "page_id": "3a2383bb-2c1b-8132-8204-e4a2150a9bb8",
     "render_version": 5,
-    "synced_at": "2026-09-02T05:41:10.534440+00:00",
-    "synced_hash": "40301044e412ef0edf14980bd018053e257d9117bdfc4a9313cc0bd1bedebdab"
+    "synced_at": "2026-11-05T07:58:24.190747+00:00",
+    "synced_hash": "244e65b1c57ef52cf57bde44d1cf2cf8980e40108865f323ba1929e3d11a70be"
   },
   "review": {
-    "notes": "fixed Focus label and added missing separator between values; fixed grant size range missing thousand multiplier",
-    "reviewed_at": "2026-09-01T19:05:16.703142+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Veg Trust\n\nFocusVegan food systemsResearch\n\nGrant cycleYear round\n\nGrant size in USD (if applicable)1-10k\n\nURL[https://vegtrust.com/](https://vegtrust.com/)\n\nWhat you need to know\n\nOnly accepts UK applications from those not funded by Karuna/Vegan Grants within the last 12 months.\n",
-  "source_text": "Veg Trust\nFocusVegan food systemsResearch\nGrant cycleYear round\nGrant size in USD (if applicable)1-10k\nURLhttps://vegtrust.com/\nWhat you need to know\nOnly accepts UK applications from those not funded by Karuna/Vegan Grants within the last 12 months.",
+  "source_markdown": "# Veg Trust\n\nStatusActive\n\nFocusVegan food systemsResearch\n\nURL[https://vegtrust.com/](https://vegtrust.com/)\n\nGrant size in USD (if applicable)1-10k\n\nGrant cycleYear round\n\nHow to applyExpression of Interest Possible\n\nWhat you need to know\n\nUK only since 2025. Register interest first; you may be invited to submit a full application, with a reply in about 30 days. Initial grants are £1k–3k; larger grants are possible for experienced applicants.\n\nWhere they post updates\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
+  "source_text": "Veg Trust\nStatusActive\nFocusVegan food systemsResearch\nURLhttps://vegtrust.com/\nGrant size in USD (if applicable)1-10k\nGrant cycleYear round\nHow to applyExpression of Interest Possible\nWhat you need to know\nUK only since 2025. Register interest first; you may be invited to submit a full application, with a reply in about 30 days. Initial grants are £1k–3k; larger grants are possible for experienced applicants.\nWhere they post updates\nLast checkedOctober 29, 2026\nChecked by",
   "target_lang": "JA",
   "title": "Veg Trust",
-  "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "# ヴェグ・トラスト\n\n重点分野：ヴィーガン食料システム、研究\n\n助成サイクル：通年\n\n助成金額（米ドル、該当する場合）：1千～1万\n\nURL[https://vegtrust.com/](https://vegtrust.com/)\n\n知っておくべきこと\n\n過去12ヶ月以内にカルナ／ヴィーガン・グラントからの助成を受けていない英国在住者のみ応募可能です。\n",
-  "translated_text": "ヴェグ・トラスト\n重点分野：ヴィーガン食料システム、研究\n助成サイクル：通年\n助成金額（米ドル、該当する場合）：1千～1万\nURLhttps://vegtrust.com/\n知っておくべきこと\n過去12ヶ月以内にカルナ／ヴィーガン・グラントからの助成を受けていない英国在住者のみ応募可能です。",
+  "translated_at": "2026-11-05T07:47:57.560977+00:00",
+  "translated_markdown": "# ヴェグ・トラスト\n\nステータス：アクティブ\n\n重点分野：ヴィーガン食料システム、研究\n\nURL[https://vegtrust.com/](https://vegtrust.com/)\n\n助成金額（米ドル、該当する場合）：1千～1万\n\n助成サイクル：通年\n\n応募方法：参加意向表明が可能\n\n知っておくべきこと\n\n2025年以降は英国在住者に限定されます。まずは参加意向を登録してください。その後、正式な申請書の提出を依頼される場合があり、回答には約30日かかります。初回助成金は1,000～3,000ポンドですが、経験豊富な申請者にはより多額の助成金が支給される可能性があります。\n\n更新情報が掲載される場所\n\n最終確認日：2026年10月29日\n\n確認者\n",
+  "translated_text": "ヴェグ・トラスト\nステータス：アクティブ\n重点分野：ヴィーガン食料システム、研究\nURLhttps://vegtrust.com/\n助成金額（米ドル、該当する場合）：1千～1万\n助成サイクル：通年\n応募方法：参加意向表明が可能\n知っておくべきこと\n2025年以降は英国在住者に限定されます。まずは参加意向を登録してください。その後、正式な申請書の提出を依頼される場合があり、回答には約30日かかります。初回助成金は1,000～3,000ポンドですが、経験豊富な申請者にはより多額の助成金が支給される可能性があります。\n更新情報が掲載される場所\n最終確認日：2026年10月29日\n確認者",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/veg-trust"
 }
