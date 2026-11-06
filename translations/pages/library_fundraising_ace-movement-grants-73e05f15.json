@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81cf-ac6d-ffc8a0c03684",
     "render_version": 5,
-    "synced_at": "2026-11-05T07:53:45.535597+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-06T07:53:51.706721+00:00",
+    "synced_hash": "87e391e5c66c79330070e94bb4aa723bd4ae9b62b425aefa0a588c987f04ee1e"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed markdown link formatting (stray period inside link text)",
     "reviewed_at": "2026-11-05T19:11:33.298031+00:00",
     "reviewer": "claude",
-    "notes": "fixed markdown link formatting (stray period inside link text)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# ACE Movement Grants\n\nStatusActive\n\nFocusUnderfunded regionsCapacity buildingSystemic change\n\nURL[https://animalcharityevaluators.org/movement-grants/apply-for-funding/](https://animalcharityevaluators.org/movement-grants/apply-for-funding/)\n\nGrant size in USD (if applicable)10-25k> 25k\n\nGrant cycleTwice a year\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nAs of Oct 2026: Round 12 ran 24 Sept – 18 Oct 2026 and has closed. To be eligible, meet at least one of: under 3 years old, budget under $500k, an incubator, or MEL work with an external consultant. ACE focuses on grants of $100k or less. Individuals working in the US can apply directly; others need a fiscal sponsor or should contact the Grants team. Not eligible: ACE Recommended Charities, organizations whose leadership has donated to ACE in the past 3 years, and organizations in US-sanctioned countries.\n\nWhere they post updates\n\nBlog: [https://animalcharityevaluators.org/blog/](https://animalcharityevaluators.org/blog/) and be sure to be signed up to ACE’s newsletters.\n\nLast checkedOctober 29, 2026\n\nChecked byMegan\n",

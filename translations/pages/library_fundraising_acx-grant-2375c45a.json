@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81a0-acb4-e94232bc5efa",
     "render_version": 5,
-    "synced_at": "2026-11-05T07:53:54.351995+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-06T07:54:04.077465+00:00",
+    "synced_hash": "aadf546aef6c22c83a47985fc141f985d8bc3da2457e34b48247a02ca9cce1e9"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus field label (焦点→重点分野)",
     "reviewed_at": "2026-11-05T19:11:33.298031+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus field label (焦点→重点分野)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# ACX Grant\n\nStatusActive\n\nFocus\n\nURL[https://www.astralcodexten.com/p/acx-grants-results-2025](https://www.astralcodexten.com/p/acx-grants-results-2025)\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nGrant cycle\n\nHow to apply\n\nWhat you need to know\n\n“I’m most interested in charities that pursue novel ways to change complex systems, either through technological breakthroughs, new social institutions, or targeted political change”. No open round as of Oct 2026; the Oct 2025 results post said the next round would “probably begin late 2026 or early 2027”. 2025 animal grants included a review of electrical stunning research for shrimp ($5k), fish-farmer welfare workshops in Nigeria ($10k), and work on the welfare of mice raised as snake food ($50k).\n\nWhere they post updates\n\nAstral Codex Ten (grant rounds announced here): [https://www.astralcodexten.com/](https://www.astralcodexten.com/)\n\nLast checkedOctober 29, 2026\n\nChecked byMegan\n",

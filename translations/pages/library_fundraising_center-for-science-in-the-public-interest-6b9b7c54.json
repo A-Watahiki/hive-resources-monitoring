@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8146-b242-d93fa8654c7a",
     "render_version": 5,
-    "synced_at": "2026-11-05T07:54:12.813293+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-06T07:54:16.546932+00:00",
+    "synced_hash": "f349d1f1592935a95703c0c0d54f9579d47df429be713b3a6e9e4c46b7e54bfb"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed untranslated grant-size field and field label wording",
     "reviewed_at": "2026-11-05T19:11:33.298031+00:00",
     "reviewer": "claude",
-    "notes": "fixed untranslated grant-size field and field label wording"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Center for Science In the Public Interest\n\nStatusActive\n\nFocusSystemic change\n\nURL[https://cspi.org/grants/what-we-are-funding](https://cspi.org/grants/what-we-are-funding)\n\nGrant size in USD (if applicable)10-25k> 100k\n\nGrant cycle\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nSupports public health and nutrition policies that create equitable food systems, prioritizing projects that improve access to nutritious food, support healthier food environments, and reduce health disparities. Subgrant rounds are announced in CSPI's Stirring the Pot newsletter; not accepting proposals as of Oct 2026. The 2025 round had three tracks: Powerbuilding (about 10 grants of $20k, any US state), State & Local Policy (about 6 grants of up to $250k, 11 states plus DC) and Industry Accountability (about 4 grants of up to $200k). US only. Must be 501(c)(3) (or other tax-exempt) or fiscally sponsored; priority for budgets of $5M or less.\n\nWhere they post updates\n\nEmail updates (subgrant rounds announced here): [https://act.cspinet.org/a/sign-up?ms=&sourceid=1128902](https://act.cspinet.org/a/sign-up?ms=&sourceid=1128902)\n\nLast checkedOctober 29, 2026\n\nChecked byMegan\n",
