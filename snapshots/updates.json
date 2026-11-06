@@ -3,36 +3,6 @@
     {
       "added": [
         {
-          "title": "https://resources.joinhive.org/3dfb661e792480b59681f7ab98545e9d",
-          "url": "https://resources.joinhive.org/3dfb661e792480b59681f7ab98545e9d"
-        },
-        {
-          "title": "BluePerch",
-          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/blueperch"
-        }
-      ],
-      "changed": [
-        {
-          "diff": "--- before\n+++ after\n@@ -136,4 +136,22 @@\n Focus\n Grant size in USD (if applicable)\n+BluePerch\n+blueperch.org\n+Year round\n+New, launched in September 2026. From their website: BluePerch is a fund that makes grants to high-impact farmed animal advocacy projects.\n+We create cost-effective impact for farmed animals by making the grants that other funders cannot - small grants delivered early and fast - and using grants to generate evidence that guides the movement’s funding decisions.\n+While we are interested in funding any high-impact farmed animal advocacy project, we have a particular interest in funding:\n+• Early-stage projects\n+• Time-sensitive policy windows\n+• Organisations or projects that fall through the cracks of other animal funders\n+Grant applications opening mid-2027.\n+Movement building\n+Research\n+Cage-free work\n+Capacity building\n+> 25k\n+10-25k\n+1-10k\n+> 100k\n ACE Movement Grants\n animalcharityevaluators.org",
-          "diff_lines_omitted": 0,
-          "title": "Fundraising Guide",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising"
-        },
-        {
-          "diff": "--- before\n+++ after\n@@ -16,4 +16,22 @@\n Focus\n Grant size in USD (if applicable)\n+BluePerch\n+blueperch.org\n+Year round\n+New, launched in September 2026. From their website: BluePerch is a fund that makes grants to high-impact farmed animal advocacy projects.\n+We create cost-effective impact for farmed animals by making the grants that other funders cannot - small grants delivered early and fast - and using grants to generate evidence that guides the movement’s funding decisions.\n+While we are interested in funding any high-impact farmed animal advocacy project, we have a particular interest in funding:\n+• Early-stage projects\n+• Time-sensitive policy windows\n+• Organisations or projects that fall through the cracks of other animal funders\n+Grant applications opening mid-2027.\n+Movement building\n+Research\n+Cage-free work\n+Capacity building\n+> 25k\n+10-25k\n+1-10k\n+> 100k\n ACE Movement Grants\n animalcharityevaluators.org",
-          "diff_lines_omitted": 0,
-          "title": "Grants and foundations",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations"
-        }
-      ],
-      "detected_at": "2026-09-19T04:01:32.854969+00:00",
-      "removed": []
-    },
-    {
-      "added": [
-        {
           "title": "Karen Hoyland",
           "url": "https://resources.joinhive.org/library/fundraising/fundraiser-professionals-database-in-alphabetical-order/karen-hoyland"
         }
@@ -552,6 +522,20 @@
         }
       ],
       "detected_at": "2026-11-05T05:59:17.414098+00:00",
+      "removed": []
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Funding Dynamics in Farmed Animal Advocacy\n@@ -12,4 +12,5 @@\n Format\n Article\n+Cover\n Details\n URL",
+          "diff_lines_omitted": 0,
+          "title": "Funding Dynamics in Farmed Animal Advocacy",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/funding-dynamics-in-farmed-animal-advocacy"
+        }
+      ],
+      "detected_at": "2026-11-06T05:55:54.126504+00:00",
       "removed": []
     }
   ]
