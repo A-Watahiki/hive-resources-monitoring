@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "added": [
-        {
-          "title": "Karen Hoyland",
-          "url": "https://resources.joinhive.org/library/fundraising/fundraiser-professionals-database-in-alphabetical-order/karen-hoyland"
-        }
-      ],
-      "changed": [
-        {
-          "diff": "--- before\n+++ after\n@@ -570,4 +570,17 @@\n Can discuss any fundraising topic\n Anything to do with fundraising - always happy to have a conversation. Can offer some pro-bono support to limited number of charities.\n+Karen Hoyland\n+karenjhoyland@gmail.com\n+First-time fundraisers\n+Experienced fundraisers\n+Can discuss any fundraising topic\n+Fundraising strategy\n+• Fundraising strategy and audits\n+• Monthly giving\n+• Supporter stewardship\n+• Major donors\n+• Trusts and foundations\n+• Flexible monthly support\n+• Interim fundraising management\n Sabine Panneau\n sabine@sabinefep.com",
-          "diff_lines_omitted": 0,
-          "title": "Fundraising Guide",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising"
-        }
-      ],
-      "detected_at": "2026-09-24T04:04:54.703021+00:00",
-      "removed": []
-    },
-    {
       "added": [],
       "changed": [],
       "detected_at": "2026-10-05T04:58:29.886085+00:00",
@@ -536,6 +517,27 @@
         }
       ],
       "detected_at": "2026-11-06T05:55:54.126504+00:00",
+      "removed": []
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Development, Data, And The Psychology Of Giving\n@@ -12,4 +12,5 @@\n Format\n Article\n+Cover\n Details\n URL",
+          "diff_lines_omitted": 0,
+          "title": "Development, Data, And The Psychology Of Giving",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/development-data-and-the-psychology-of-giving"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Donorbox webinars\n@@ -12,4 +12,5 @@\n Format\n Webinar\n+Cover\n Details\n Donorbox is an online platform that facilitates online donations.",
+          "diff_lines_omitted": 0,
+          "title": "Donorbox webinars",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/donorbox-webinars"
+        }
+      ],
+      "detected_at": "2026-11-07T05:29:34.208755+00:00",
       "removed": []
     }
   ]
