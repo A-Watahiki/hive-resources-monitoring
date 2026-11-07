@@ -7,10 +7,10 @@
     "synced_hash": "3e3227332be5fa204e0ce77b0b1953ee993dd6b6658f00436412048b1ec0919b"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-11-07T19:08:59.225727+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Donorbox webinars\n\nFormatWebinar\n\nCover\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/50464d97-ac91-4e80-a860-2c1f63932276/hive-cover-webinar.svg)\n\nDetails\n\nDonorbox is an online platform that facilitates online donations.\n\nURL[https://www.youtube.com/@Donorbox/](https://www.youtube.com/@Donorbox/)\n\nURL [https://www.youtube.com/@Donorbox](https://www.youtube.com/@Donorbox)\n",

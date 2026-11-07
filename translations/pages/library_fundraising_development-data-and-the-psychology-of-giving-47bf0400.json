@@ -7,10 +7,10 @@
     "synced_hash": "dcbacff885b37bd132e188662afa7938da73a30995b803faea8e72339ce708d1"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-11-07T19:08:59.225727+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Development, Data, And The Psychology Of Giving\n\nFormatArticle\n\nCover\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/825caaaa-eb4d-491b-8eea-0d46543eb7b9/hive-cover-article.svg)\n\nDetails\n\nURL[https://faunalytics.org/development-data-and-the-psychology-of-giving/](https://faunalytics.org/development-data-and-the-psychology-of-giving/)\n\nURL [https://faunalytics.org/development-data-and-the-psychology-of-giving/](https://faunalytics.org/development-data-and-the-psychology-of-giving/)\n",

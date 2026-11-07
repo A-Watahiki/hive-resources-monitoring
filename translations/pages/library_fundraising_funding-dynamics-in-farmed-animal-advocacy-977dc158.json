@@ -7,10 +7,10 @@
     "synced_hash": "5ca85b5b6edab8e49979991327e15db325a9324932465d363f61676caf7c11ab"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-11-07T19:08:59.225727+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Funding Dynamics in Farmed Animal Advocacy\n\nFormatArticle\n\nCover\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/825caaaa-eb4d-491b-8eea-0d46543eb7b9/hive-cover-article.svg)\n\nDetails\n\nURL[https://faunalytics.org/funding-dynamics-in-farmed-animal-advocacy/](https://faunalytics.org/funding-dynamics-in-farmed-animal-advocacy/)\n\nURL [https://faunalytics.org/funding-dynamics-in-farmed-animal-advocacy/](https://faunalytics.org/funding-dynamics-in-farmed-animal-advocacy/)\n",
