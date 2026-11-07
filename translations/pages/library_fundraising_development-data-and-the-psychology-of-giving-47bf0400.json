@@ -1,25 +1,25 @@
 {
-  "content_hash": "479980761219bd6dc92385685cdeebd6bf9f940b4bdc1150549563587be86fd5",
+  "content_hash": "dcbacff885b37bd132e188662afa7938da73a30995b803faea8e72339ce708d1",
   "notion": {
     "page_id": "3a2383bb-2c1b-8127-b8ac-d5055b113c49",
     "render_version": 5,
-    "synced_at": "2026-08-22T02:22:52.845890+00:00",
-    "synced_hash": "479980761219bd6dc92385685cdeebd6bf9f940b4bdc1150549563587be86fd5"
+    "synced_at": "2026-11-07T07:00:11.629407+00:00",
+    "synced_hash": "dcbacff885b37bd132e188662afa7938da73a30995b803faea8e72339ce708d1"
   },
   "review": {
-    "notes": "translated the untranslated Format field",
-    "reviewed_at": "2026-08-21T19:04:13.440384+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Development, Data, And The Psychology Of Giving\n\nFormatArticle\n\nDetails\n\nURL[https://faunalytics.org/development-data-and-the-psychology-of-giving/](https://faunalytics.org/development-data-and-the-psychology-of-giving/)\n\nURL [https://faunalytics.org/development-data-and-the-psychology-of-giving/](https://faunalytics.org/development-data-and-the-psychology-of-giving/)\n",
-  "source_text": "Development, Data, And The Psychology Of Giving\nFormatArticle\nDetails\nURLhttps://faunalytics.org/development-data-and-the-psychology-of-giving/\nURL https://faunalytics.org/development-data-and-the-psychology-of-giving/",
+  "source_markdown": "# Development, Data, And The Psychology Of Giving\n\nFormatArticle\n\nCover\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/825caaaa-eb4d-491b-8eea-0d46543eb7b9/hive-cover-article.svg)\n\nDetails\n\nURL[https://faunalytics.org/development-data-and-the-psychology-of-giving/](https://faunalytics.org/development-data-and-the-psychology-of-giving/)\n\nURL [https://faunalytics.org/development-data-and-the-psychology-of-giving/](https://faunalytics.org/development-data-and-the-psychology-of-giving/)\n",
+  "source_text": "Development, Data, And The Psychology Of Giving\nFormatArticle\nCover\nDetails\nURLhttps://faunalytics.org/development-data-and-the-psychology-of-giving/\nURL https://faunalytics.org/development-data-and-the-psychology-of-giving/",
   "target_lang": "JA",
   "title": "Development, Data, And The Psychology Of Giving",
-  "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# 開発、データ、そして「与えること」の心理学\n\n形式：記事\n\n詳細\n\nURL[https://faunalytics.org/development-data-and-the-psychology-of-giving/](https://faunalytics.org/development-data-and-the-psychology-of-giving/)\n\nURL [https://faunalytics.org/development-data-and-the-psychology-of-giving/](https://faunalytics.org/development-data-and-the-psychology-of-giving/)\n",
-  "translated_text": "開発、データ、そして「与えること」の心理学\n形式：記事\n詳細\nURLhttps://faunalytics.org/development-data-and-the-psychology-of-giving/\nURL https://faunalytics.org/development-data-and-the-psychology-of-giving/",
+  "translated_at": "2026-11-07T06:55:33.765057+00:00",
+  "translated_markdown": "# 開発、データ、そして「与えること」の心理学\n\n形式：記事\n\n表紙\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/825caaaa-eb4d-491b-8eea-0d46543eb7b9/hive-cover-article.svg)\n\n詳細\n\nURL[https://faunalytics.org/development-data-and-the-psychology-of-giving/](https://faunalytics.org/development-data-and-the-psychology-of-giving/)\n\nURL [https://faunalytics.org/development-data-and-the-psychology-of-giving/](https://faunalytics.org/development-data-and-the-psychology-of-giving/)\n",
+  "translated_text": "開発、データ、そして「与えること」の心理学\n形式：記事\n表紙\n詳細\nURLhttps://faunalytics.org/development-data-and-the-psychology-of-giving/\nURL https://faunalytics.org/development-data-and-the-psychology-of-giving/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/development-data-and-the-psychology-of-giving"
 }

@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8123-b91b-d0e7e1d8c6f5",
     "render_version": 5,
-    "synced_at": "2026-11-05T07:54:21.677432+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-07T06:59:51.543724+00:00",
+    "synced_hash": "b0890c7cef456820913a11a00d1d62299ce41d8ea4347ec80cf49f0a4f0f4dc6"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus field label (焦点→重点分野), a garbled sentence (\"please note only to incubated charities\"→eligibility scope statement), and a malformed markdown link bracket",
     "reviewed_at": "2026-11-06T19:10:20.936402+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus field label (焦点→重点分野), a garbled sentence (\"please note only to incubated charities\"→eligibility scope statement), and a malformed markdown link bracket"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# AIM (Ambitious Impact) – Charity Entrepreneurship Incubation Program\n\nStatusActive\n\nFocus\n\nURL[https://www.ambitiousimpact.com/](https://www.ambitiousimpact.com/)\n\nGrant size in USD (if applicable)> 25k> 100k\n\nGrant cycle\n\nHow to apply\n\nWhat you need to know\n\nCharity Entrepreneurship is now AIM (Ambitious Impact); the old [charityentrepreneurship.com](http://charityentrepreneurship.com) domain redirects to [ambitiousimpact.com](http://ambitiousimpact.com). For incubated charities only: you need to apply and be accepted into the Incubation Program to be eligible for this funding, and this usually means building from an AIM-researched idea, as they are less excited about existing ideas.\n\nWhere they post updates\n\nSign up to their newsletter at [ambitiousimpact.com](http://ambitiousimpact.com) and follow them on LinkedIn and [https://ambitiousimpact.substack.com/](https://ambitiousimpact.substack.com/)\n\nLast checkedOctober 29, 2026\n\nChecked byMegan\n",

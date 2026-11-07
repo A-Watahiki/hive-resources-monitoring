@@ -1,25 +1,25 @@
 {
-  "content_hash": "d288fbfd06265bb467258b2631aef94344de5f956fe13396d453ccd5135556ff",
+  "content_hash": "3e3227332be5fa204e0ce77b0b1953ee993dd6b6658f00436412048b1ec0919b",
   "notion": {
     "page_id": "3a2383bb-2c1b-8182-bb6d-c2b03ebd07ce",
     "render_version": 5,
-    "synced_at": "2026-08-23T02:29:40.962352+00:00",
-    "synced_hash": "d288fbfd06265bb467258b2631aef94344de5f956fe13396d453ccd5135556ff"
+    "synced_at": "2026-11-07T07:00:19.406354+00:00",
+    "synced_hash": "3e3227332be5fa204e0ce77b0b1953ee993dd6b6658f00436412048b1ec0919b"
   },
   "review": {
-    "notes": "reordered Format field to match label:value convention (形式：ウェビナー)",
-    "reviewed_at": "2026-08-22T19:03:49.352732+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Donorbox webinars\n\nFormatWebinar\n\nDetails\n\nDonorbox is an online platform that facilitates online donations.\n\nURL[https://www.youtube.com/@Donorbox/](https://www.youtube.com/@Donorbox/)\n\nURL [https://www.youtube.com/@Donorbox](https://www.youtube.com/@Donorbox)\n",
-  "source_text": "Donorbox webinars\nFormatWebinar\nDetails\nDonorbox is an online platform that facilitates online donations.\nURLhttps://www.youtube.com/@Donorbox/\nURL https://www.youtube.com/@Donorbox",
+  "source_markdown": "# Donorbox webinars\n\nFormatWebinar\n\nCover\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/50464d97-ac91-4e80-a860-2c1f63932276/hive-cover-webinar.svg)\n\nDetails\n\nDonorbox is an online platform that facilitates online donations.\n\nURL[https://www.youtube.com/@Donorbox/](https://www.youtube.com/@Donorbox/)\n\nURL [https://www.youtube.com/@Donorbox](https://www.youtube.com/@Donorbox)\n",
+  "source_text": "Donorbox webinars\nFormatWebinar\nCover\nDetails\nDonorbox is an online platform that facilitates online donations.\nURLhttps://www.youtube.com/@Donorbox/\nURL https://www.youtube.com/@Donorbox",
   "target_lang": "JA",
   "title": "Donorbox webinars",
-  "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# Donorbox ウェビナー\n\n形式：ウェビナー\n\n詳細\n\nDonorboxは、オンラインでの寄付を容易にするオンラインプラットフォームです。\n\nURL[https://www.youtube.com/@Donorbox/](https://www.youtube.com/@Donorbox/)\n\nURL [https://www.youtube.com/@Donorbox](https://www.youtube.com/@Donorbox)\n",
-  "translated_text": "Donorbox ウェビナー\n形式：ウェビナー\n詳細\nDonorboxは、オンラインでの寄付を容易にするオンラインプラットフォームです。\nURLhttps://www.youtube.com/@Donorbox/\nURL https://www.youtube.com/@Donorbox",
+  "translated_at": "2026-11-07T06:55:33.765057+00:00",
+  "translated_markdown": "# Donorbox ウェビナー\n\n形式：ウェビナー\n\n表紙\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/50464d97-ac91-4e80-a860-2c1f63932276/hive-cover-webinar.svg)\n\n詳細\n\nDonorboxは、オンラインでの寄付を容易にするオンラインプラットフォームです。\n\nURL[https://www.youtube.com/@Donorbox/](https://www.youtube.com/@Donorbox/)\n\nURL [https://www.youtube.com/@Donorbox](https://www.youtube.com/@Donorbox)\n",
+  "translated_text": "Donorbox ウェビナー\n形式：ウェビナー\n表紙\n詳細\nDonorboxは、オンラインでの寄付を容易にするオンラインプラットフォームです。\nURLhttps://www.youtube.com/@Donorbox/\nURL https://www.youtube.com/@Donorbox",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/donorbox-webinars"
 }

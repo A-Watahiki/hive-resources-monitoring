@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-81b6-b7ac-d05ee9297075",
     "render_version": 5,
-    "synced_at": "2026-11-05T07:54:39.711766+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-07T07:00:04.673931+00:00",
+    "synced_hash": "44dc50be4b463f92daef12fbb96fbbca745eb2617cd0f314363a95a6481542f9"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus field label (焦点→重点分野)",
     "reviewed_at": "2026-11-06T19:10:20.936402+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus field label (焦点→重点分野)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Craigslist Charitable Fund\n\nStatusActive\n\nFocus\n\nURL[https://www.craigslistfund.org/funding-priorities](https://www.craigslistfund.org/funding-priorities)\n\nGrant size in USD (if applicable)1-10k10-25k> 25k\n\nGrant cycle\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nGives to a variety of initiatives that help farmed animals. Priorities include animal welfare, alternative proteins, diet change, investigations, ballot measures, policy reform, legal advocacy, grassroots activism and capacity building. Open to organizations worldwide, with or without 501(c)(3) status. Typically funds no more than 30% of an organization's annual budget. No deadlines listed; review can take up to 6 months. They don't accept unsolicited requests for calls.\n\nWhere they post updates\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
