@@ -6,10 +6,10 @@
     "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-11-08T19:12:07.790113+00:00",
+    "reviewer": "claude",
+    "notes": "fixed untranslated City field (CitySeoul→都市：ソウル)"
   },
   "schema_version": 6,
   "source_markdown": "# Asia for Animals Coalition Conference 2027\n\nCitySeoul\n\nCountrySouth Korea\n\nDate TBD\n\nDescription\n\nSeptember 27 - October 1, 2027, in Seoul, South Korea. Since 2000, AfA Conferences have been co-hosted every two years by AfA member organizations. The AfA conference is Asia's longest-running animal advocacy gathering. This event creates opportunities for interaction and knowledge exchange among organizations in the Asian animal advocacy movement, offering delegates a chance to network, collaborate, and catalyze change moving forward. Through engaging panels, breakout sessions, and immersive workshops, participants explore strategies for overcoming challenges, transforming ideas into strategic priorities, and enhancing campaigns on key animal protection issues.\n\nPast talks and takeaways\n\n[Past videos](https://www.youtube.com/@afacoalition/playlists)\n\nTopicAnimal AdvocacyAsia\n\nVirtual Option?\n\nWebsite[https://www.asiaforanimals.com/conference](https://www.asiaforanimals.com/conference)\n",
@@ -17,8 +17,8 @@
   "target_lang": "JA",
   "title": "Asia for Animals Coalition Conference 2027",
   "translated_at": "2026-11-08T07:02:30.832999+00:00",
-  "translated_markdown": "# 「アジア動物保護連合」会議 2027\n\nCitySeoul\n\n国：韓国\n\n日程は未定\n\n説明\n\n2027年9月27日～10月1日、韓国・ソウルにて開催。2000年以来、AfAカンファレンスはAfA加盟団体によって2年ごとに共同開催されています。AfAカンファレンスは、アジアで最も長い歴史を持つ動物保護活動家の集まりです。 このイベントは、アジアの動物保護運動に携わる団体間の交流と知識の共有の機会を創出し、参加者にネットワークを築き、協力し、今後の変革を促進するチャンスを提供します。参加者は、魅力的なパネルディスカッション、分科会、没入型のワークショップを通じて、課題を克服し、アイデアを戦略的優先事項へと転換し、主要な動物保護問題に関するキャンペーンを強化するための戦略を探求します。\n\n過去の講演と主なポイント\n\n[過去の動画](https://www.youtube.com/@afacoalition/playlists)\n\nトピック：動物保護、アジア\n\nバーチャル・オプション？\n\nウェブサイト[https://www.asiaforanimals.com/conference](https://www.asiaforanimals.com/conference)\n",
-  "translated_text": "「アジア動物保護連合」会議 2027\nCitySeoul\n国：韓国\n日程は未定\n説明\n2027年9月27日～10月1日、韓国・ソウルにて開催。2000年以来、AfAカンファレンスはAfA加盟団体によって2年ごとに共同開催されています。AfAカンファレンスは、アジアで最も長い歴史を持つ動物保護活動家の集まりです。 このイベントは、アジアの動物保護運動に携わる団体間の交流と知識の共有の機会を創出し、参加者にネットワークを築き、協力し、今後の変革を促進するチャンスを提供します。参加者は、魅力的なパネルディスカッション、分科会、没入型のワークショップを通じて、課題を克服し、アイデアを戦略的優先事項へと転換し、主要な動物保護問題に関するキャンペーンを強化するための戦略を探求します。\n過去の講演と主なポイント\n過去の動画\nトピック：動物保護、アジア\nバーチャル・オプション？\nウェブサイトhttps://www.asiaforanimals.com/conference",
+  "translated_markdown": "# 「アジア動物保護連合」会議 2027\n\n都市：ソウル\n\n国：韓国\n\n日程は未定\n\n説明\n\n2027年9月27日～10月1日、韓国・ソウルにて開催。2000年以来、AfAカンファレンスはAfA加盟団体によって2年ごとに共同開催されています。AfAカンファレンスは、アジアで最も長い歴史を持つ動物保護活動家の集まりです。 このイベントは、アジアの動物保護運動に携わる団体間の交流と知識の共有の機会を創出し、参加者にネットワークを築き、協力し、今後の変革を促進するチャンスを提供します。参加者は、魅力的なパネルディスカッション、分科会、没入型のワークショップを通じて、課題を克服し、アイデアを戦略的優先事項へと転換し、主要な動物保護問題に関するキャンペーンを強化するための戦略を探求します。\n\n過去の講演と主なポイント\n\n[過去の動画](https://www.youtube.com/@afacoalition/playlists)\n\nトピック：動物保護、アジア\n\nバーチャル・オプション？\n\nウェブサイト[https://www.asiaforanimals.com/conference](https://www.asiaforanimals.com/conference)\n",
+  "translated_text": "「アジア動物保護連合」会議 2027\n都市：ソウル\n国：韓国\n日程は未定\n説明\n2027年9月27日～10月1日、韓国・ソウルにて開催。2000年以来、AfAカンファレンスはAfA加盟団体によって2年ごとに共同開催されています。AfAカンファレンスは、アジアで最も長い歴史を持つ動物保護活動家の集まりです。 このイベントは、アジアの動物保護運動に携わる団体間の交流と知識の共有の機会を創出し、参加者にネットワークを築き、協力し、今後の変革を促進するチャンスを提供します。参加者は、魅力的なパネルディスカッション、分科会、没入型のワークショップを通じて、課題を克服し、アイデアを戦略的優先事項へと転換し、主要な動物保護問題に関するキャンペーンを強化するための戦略を探求します。\n過去の講演と主なポイント\n過去の動画\nトピック：動物保護、アジア\nバーチャル・オプション？\nウェブサイトhttps://www.asiaforanimals.com/conference",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/conferences/pro-animal-conferences-database/asia-for-animals-conference"
 }

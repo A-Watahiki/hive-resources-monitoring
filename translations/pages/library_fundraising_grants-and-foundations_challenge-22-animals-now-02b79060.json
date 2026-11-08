@@ -7,10 +7,10 @@
     "synced_hash": "ca20f0261e6fc73769849b26f55770d2f7b29403cb5ae1a41b423bd3387ef54f"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-11-08T19:12:07.790113+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Challenge 22 (Animals Now)\n\nStatusActive\n\nFocusVegan food systems\n\nURL[https://challenge22.com/community/](https://challenge22.com/community/)\n\nGrant size in USD (if applicable)1-10k\n\nGrant cycle\n\nHow to apply\n\nWhat you need to know\n\nThe grant can be used solely for running online vegan challenges focused on support groups. A larger grant can be approved in exceptional cases. Grants of up to $10k, available through the Challenge 22 community program (12 months of support for animal rights groups that make vegan retention a core priority).\n\nWhere they post updates\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
