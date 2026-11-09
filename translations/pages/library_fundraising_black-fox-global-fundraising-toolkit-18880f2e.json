@@ -7,10 +7,10 @@
     "synced_hash": "91522db687c6488d2a136e504995f87d43bd4e6c58d6d34a717294bfd1b6598a"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-11-09T19:11:00.653415+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Black Fox Global fundraising toolkit\n\nFormatArticle\n\nCover\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/825caaaa-eb4d-491b-8eea-0d46543eb7b9/hive-cover-article.svg)\n\nDetails\n\nA really comprehensive document with fundraising advice.\n\nURL[https://drive.google.com/file/d/1ZULyBrv9yURQiWbO1WCzauVRW_Deyr9M/view](https://drive.google.com/file/d/1ZULyBrv9yURQiWbO1WCzauVRW_Deyr9M/view)\n\nURL [https://drive.google.com/file/d/1ZULyBrv9yURQiWbO1WCzauVRW_Deyr9M/view](https://drive.google.com/file/d/1ZULyBrv9yURQiWbO1WCzauVRW_Deyr9M/view)\n",
