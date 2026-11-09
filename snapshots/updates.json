@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "added": [
-        {
-          "title": "Mental Well-Being",
-          "url": "https://resources.joinhive.org/library/mental-well-being"
-        },
-        {
-          "title": "CBT toolkit",
-          "url": "https://resources.joinhive.org/library/mental-well-being/cbt-toolkit"
-        },
-        {
-          "title": "Memes & illustrations",
-          "url": "https://resources.joinhive.org/library/mental-well-being/memes-illustrations"
-        }
-      ],
-      "changed": [],
-      "detected_at": "2026-10-06T05:47:15.448677+00:00",
-      "removed": []
-    },
-    {
       "added": [],
       "changed": [
         {
@@ -533,6 +514,48 @@
         }
       ],
       "detected_at": "2026-11-08T05:25:57.062250+00:00",
+      "removed": []
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Black Fox Global fundraising toolkit\n@@ -12,4 +12,5 @@\n Format\n Article\n+Cover\n Details\n A really comprehensive document with fundraising advice.",
+          "diff_lines_omitted": 0,
+          "title": "Black Fox Global fundraising toolkit",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/black-fox-global-fundraising-toolkit"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Donor Participation Project\n@@ -12,4 +12,5 @@\n Format\n Resource collection\n+Cover\n Details\n An initiative to encourage giving and conversations/resources around it.",
+          "diff_lines_omitted": 0,
+          "title": "Donor Participation Project",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/donor-participation-project"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n GiveButter webinars and videos\n@@ -12,4 +12,5 @@\n Format\n Webinar\n+Cover\n Details\n A giving platform that creates free resources for non-profits.",
+          "diff_lines_omitted": 0,
+          "title": "GiveButter webinars and videos",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/givebutter-webinars-and-videos"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Mission to Movements Podcast\n@@ -12,4 +12,5 @@\n Format\n Podcast\n+Cover\n Details\n Podcast on how to become a better fundraiser.",
+          "diff_lines_omitted": 0,
+          "title": "Mission to Movements Podcast",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/mission-to-movements-podcast"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Multiple videos on fundraising from the CARE conferences\n@@ -12,4 +12,5 @@\n Format\n Webinar\n+Cover\n Details\n URL",
+          "diff_lines_omitted": 0,
+          "title": "Multiple videos on fundraising from the CARE conferences",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/multiple-videos-on-fundraising-from-the-care-conferences"
+        }
+      ],
+      "detected_at": "2026-11-09T05:36:43.572456+00:00",
       "removed": []
     }
   ]
