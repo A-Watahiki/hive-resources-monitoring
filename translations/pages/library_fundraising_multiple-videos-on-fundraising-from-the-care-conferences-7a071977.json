@@ -1,25 +1,25 @@
 {
-  "content_hash": "a2850cf368356bf8713dd1ab7f9d5fd65daeb6101fbbada9c7ec5329df455fe1",
+  "content_hash": "d2506028e02028c2adaf083e78ceb8f3981a581afa0b8de5a73d40befb7e191f",
   "notion": {
     "page_id": "3a2383bb-2c1b-8125-afd8-f33409b44e7c",
     "render_version": 5,
-    "synced_at": "2026-08-30T06:28:14.930931+00:00",
-    "synced_hash": "a2850cf368356bf8713dd1ab7f9d5fd65daeb6101fbbada9c7ec5329df455fe1"
+    "synced_at": "2026-11-09T07:52:26.510274+00:00",
+    "synced_hash": "d2506028e02028c2adaf083e78ceb8f3981a581afa0b8de5a73d40befb7e191f"
   },
   "review": {
-    "notes": "reordered Format field; fixed broken markdown link syntax that split the URL text outside the link brackets",
-    "reviewed_at": "2026-08-29T19:04:37.941360+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Multiple videos on fundraising from the CARE conferences\n\nFormatWebinar\n\nDetails\n\nURL[https://www.youtube.com/@careconferenceonanimalrigh7431/search](https://www.youtube.com/@careconferenceonanimalrigh7431/search)\n\nURL [https://www.youtube.com/@careconferenceonanimalrigh7431/videos](https://www.youtube.com/@careconferenceonanimalrigh7431/videos)\n",
-  "source_text": "Multiple videos on fundraising from the CARE conferences\nFormatWebinar\nDetails\nURLhttps://www.youtube.com/@careconferenceonanimalrigh7431/search\nURL https://www.youtube.com/@careconferenceonanimalrigh7431/videos",
+  "source_markdown": "# Multiple videos on fundraising from the CARE conferences\n\nFormatWebinar\n\nCover\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/50464d97-ac91-4e80-a860-2c1f63932276/hive-cover-webinar.svg)\n\nDetails\n\nURL[https://www.youtube.com/@careconferenceonanimalrigh7431/search](https://www.youtube.com/@careconferenceonanimalrigh7431/search)\n\nURL [https://www.youtube.com/@careconferenceonanimalrigh7431/videos](https://www.youtube.com/@careconferenceonanimalrigh7431/videos)\n",
+  "source_text": "Multiple videos on fundraising from the CARE conferences\nFormatWebinar\nCover\nDetails\nURLhttps://www.youtube.com/@careconferenceonanimalrigh7431/search\nURL https://www.youtube.com/@careconferenceonanimalrigh7431/videos",
   "target_lang": "JA",
   "title": "Multiple videos on fundraising from the CARE conferences",
-  "translated_at": "2026-08-04T04:16:57.404499+00:00",
-  "translated_markdown": "# CAREカンファレンスで公開された、資金調達に関する複数の動画\n\n形式：ウェビナー\n\n詳細\n\nURL[https://www.youtube.com/@careconferenceonanimalrigh7431/search](https://www.youtube.com/@careconferenceonanimalrigh7431/search)\n\nURL [https://www.youtube.com/@careconferenceonanimalrigh7431/videos](https://www.youtube.com/@careconferenceonanimalrigh7431/videos)\n",
-  "translated_text": "CAREカンファレンスで公開された、資金調達に関する複数の動画\n形式：ウェビナー\n詳細\nURLhttps://www.youtube.com/@careconferenceonanimalrigh7431/search\nURL https://www.youtube.com/@careconferenceonanimalrigh7431/videos",
+  "translated_at": "2026-11-09T07:46:45.911810+00:00",
+  "translated_markdown": "# CAREカンファレンスで公開された、資金調達に関する複数の動画\n\n形式：ウェビナー\n\n表紙\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/50464d97-ac91-4e80-a860-2c1f63932276/hive-cover-webinar.svg)\n\n詳細\n\nURL[https://www.youtube.com/@careconferenceonanimalrigh7431/search](https://www.youtube.com/@careconferenceonanimalrigh7431/search)\n\nURL [https://www.youtube.com/@careconferenceonanimalrigh7431/videos](https://www.youtube.com/@careconferenceonanimalrigh7431/videos)\n",
+  "translated_text": "CAREカンファレンスで公開された、資金調達に関する複数の動画\n形式：ウェビナー\n表紙\n詳細\nURLhttps://www.youtube.com/@careconferenceonanimalrigh7431/search\nURL https://www.youtube.com/@careconferenceonanimalrigh7431/videos",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/multiple-videos-on-fundraising-from-the-care-conferences"
 }

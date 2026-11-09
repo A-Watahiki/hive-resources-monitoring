@@ -1,25 +1,25 @@
 {
-  "content_hash": "bab619c52f16d598a1717a57371db70b551ae103dde172cb63d09990577fd140",
+  "content_hash": "c819c5587df107477aa862b34ed0de1c5cc7caa6e72238f6afa2b5c47f3e4baa",
   "notion": {
     "page_id": "3a2383bb-2c1b-817b-a6bc-d9f9d25f7a50",
     "render_version": 5,
-    "synced_at": "2026-09-06T05:46:58.377941+00:00",
-    "synced_hash": "bab619c52f16d598a1717a57371db70b551ae103dde172cb63d09990577fd140"
+    "synced_at": "2026-11-09T07:51:49.639583+00:00",
+    "synced_hash": "c819c5587df107477aa862b34ed0de1c5cc7caa6e72238f6afa2b5c47f3e4baa"
   },
   "review": {
-    "status": "reviewed",
-    "reviewed_at": "2026-09-06T19:04:36.037863+00:00",
-    "reviewer": "claude",
-    "notes": "no issues found"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Donor Participation Project\n\nFormatResource collection\n\nDetails\n\nAn initiative to encourage giving and conversations/resources around it.\n\nURL[https://joindpp.org/](https://joindpp.org/)\n\nURL [https://joindpp.org/](https://joindpp.org/)\n",
-  "source_text": "Donor Participation Project\nFormatResource collection\nDetails\nAn initiative to encourage giving and conversations/resources around it.\nURLhttps://joindpp.org/\nURL https://joindpp.org/",
+  "source_markdown": "# Donor Participation Project\n\nFormatResource collection\n\nCover\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/aa9e5a75-4dc4-400d-a6b2-3a2cf8835afd/hive-cover-collection.svg)\n\nDetails\n\nAn initiative to encourage giving and conversations/resources around it.\n\nURL[https://joindpp.org/](https://joindpp.org/)\n\nURL [https://joindpp.org/](https://joindpp.org/)\n",
+  "source_text": "Donor Participation Project\nFormatResource collection\nCover\nDetails\nAn initiative to encourage giving and conversations/resources around it.\nURLhttps://joindpp.org/\nURL https://joindpp.org/",
   "target_lang": "JA",
   "title": "Donor Participation Project",
-  "translated_at": "2026-09-06T05:41:34.451787+00:00",
-  "translated_markdown": "# 寄付者参加プロジェクト\n\n形式：リソース集\n\n詳細\n\n寄付を促進し、それに関する対話や情報源を広めるための取り組み。\n\nURL[https://joindpp.org/](https://joindpp.org/)\n\nURL [https://joindpp.org/](https://joindpp.org/)\n",
-  "translated_text": "寄付者参加プロジェクト\n形式：リソース集\n詳細\n寄付を促進し、それに関する対話や情報源を広めるための取り組み。\nURLhttps://joindpp.org/\nURL https://joindpp.org/",
+  "translated_at": "2026-11-09T07:46:45.911810+00:00",
+  "translated_markdown": "# 寄付者参加プロジェクト\n\n形式：リソース集\n\n表紙\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/aa9e5a75-4dc4-400d-a6b2-3a2cf8835afd/hive-cover-collection.svg)\n\n詳細\n\n寄付を促進し、それに関する対話や情報源を広めるための取り組み。\n\nURL[https://joindpp.org/](https://joindpp.org/)\n\nURL [https://joindpp.org/](https://joindpp.org/)\n",
+  "translated_text": "寄付者参加プロジェクト\n形式：リソース集\n表紙\n詳細\n寄付を促進し、それに関する対話や情報源を広めるための取り組み。\nURLhttps://joindpp.org/\nURL https://joindpp.org/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/donor-participation-project"
 }

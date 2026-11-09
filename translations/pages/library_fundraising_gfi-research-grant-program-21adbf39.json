@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8129-9e7d-e465b8a622e5",
     "render_version": 5,
-    "synced_at": "2026-11-05T07:55:32.398983+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-09T07:52:01.479192+00:00",
+    "synced_hash": "8a3883b3b2c07d72e9077870ea16e0b8dd0c652e2c5e9b1133e6642d88b62b6d"
   },
   "review": {
-    "status": "fixed",
+    "notes": "converted grant-size value to the established Japanese convention (10万以上)",
     "reviewed_at": "2026-11-08T19:12:07.790113+00:00",
     "reviewer": "claude",
-    "notes": "converted grant-size value to the established Japanese convention (10万以上)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# GFI Research Grant Program\n\nStatusActive\n\nFocusAlternative proteinResearch\n\nURL[https://gfi.org/researchgrants/#research-grant-program](https://gfi.org/researchgrants/#research-grant-program)\n\nGrant size in USD (if applicable)> 100k\n\nGrant cycle\n\nHow to apply\n\nWhat you need to know\n\nSupports early to mid-stage research proposals aimed at tackling urgent scientific and technological challenges within the alternative protein industry. Between requests for proposals as of Oct 2026: the page says it is not currently accepting submissions and to check back later this year.\n\nWhere they post updates\n\nLast checkedOctober 29, 2026\n\nChecked by\n",

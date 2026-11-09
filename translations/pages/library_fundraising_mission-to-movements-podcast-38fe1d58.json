@@ -1,25 +1,25 @@
 {
-  "content_hash": "28b2d64d0d9fac25f245aa76d083630c6fb4e817f95c870ca10112b64a1f219d",
+  "content_hash": "b52c1a484bfc6a06aec51d0f1265273db7866d77c6c7ff17dac2cd10fda16cb6",
   "notion": {
     "page_id": "3a2383bb-2c1b-815a-995b-c2898944d5cb",
     "render_version": 5,
-    "synced_at": "2026-08-30T06:28:07.202520+00:00",
-    "synced_hash": "28b2d64d0d9fac25f245aa76d083630c6fb4e817f95c870ca10112b64a1f219d"
+    "synced_at": "2026-11-09T07:52:19.488090+00:00",
+    "synced_hash": "b52c1a484bfc6a06aec51d0f1265273db7866d77c6c7ff17dac2cd10fda16cb6"
   },
   "review": {
-    "notes": "reordered Format field to match label:value convention (形式：ポッドキャスト)",
-    "reviewed_at": "2026-08-29T19:04:37.941360+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Mission to Movements Podcast\n\nFormatPodcast\n\nDetails\n\nPodcast on how to become a better fundraiser.\n\nURL[https://positiveequation.com/podcast/](https://positiveequation.com/podcast/)\n\nURL [https://positiveequation.com/podcast/](https://positiveequation.com/podcast/)\n",
-  "source_text": "Mission to Movements Podcast\nFormatPodcast\nDetails\nPodcast on how to become a better fundraiser.\nURLhttps://positiveequation.com/podcast/\nURL https://positiveequation.com/podcast/",
+  "source_markdown": "# Mission to Movements Podcast\n\nFormatPodcast\n\nCover\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/c3fe3ea5-e6c3-4818-b7d8-5151d0f3b3f6/hive-cover-podcast.svg)\n\nDetails\n\nPodcast on how to become a better fundraiser.\n\nURL[https://positiveequation.com/podcast/](https://positiveequation.com/podcast/)\n\nURL [https://positiveequation.com/podcast/](https://positiveequation.com/podcast/)\n",
+  "source_text": "Mission to Movements Podcast\nFormatPodcast\nCover\nDetails\nPodcast on how to become a better fundraiser.\nURLhttps://positiveequation.com/podcast/\nURL https://positiveequation.com/podcast/",
   "target_lang": "JA",
   "title": "Mission to Movements Podcast",
-  "translated_at": "2026-08-11T03:05:43.890413+00:00",
-  "translated_markdown": "# 「Mission to Movements」ポッドキャスト\n\n形式：ポッドキャスト\n\n詳細\n\nより優れた資金調達担当者になるためのポッドキャスト。\n\nURL[https://positiveequation.com/podcast/](https://positiveequation.com/podcast/)\n\nURL [https://positiveequation.com/podcast/](https://positiveequation.com/podcast/)\n",
-  "translated_text": "「Mission to Movements」ポッドキャスト\n形式：ポッドキャスト\n詳細\nより優れた資金調達担当者になるためのポッドキャスト。\nURLhttps://positiveequation.com/podcast/\nURL https://positiveequation.com/podcast/",
+  "translated_at": "2026-11-09T07:46:45.911810+00:00",
+  "translated_markdown": "# 「Mission to Movements」ポッドキャスト\n\n形式：ポッドキャスト\n\n表紙\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/c3fe3ea5-e6c3-4818-b7d8-5151d0f3b3f6/hive-cover-podcast.svg)\n\n詳細\n\nより優れた資金調達担当者になるためのポッドキャスト。\n\nURL[https://positiveequation.com/podcast/](https://positiveequation.com/podcast/)\n\nURL [https://positiveequation.com/podcast/](https://positiveequation.com/podcast/)\n",
+  "translated_text": "「Mission to Movements」ポッドキャスト\n形式：ポッドキャスト\n表紙\n詳細\nより優れた資金調達担当者になるためのポッドキャスト。\nURLhttps://positiveequation.com/podcast/\nURL https://positiveequation.com/podcast/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/mission-to-movements-podcast"
 }
