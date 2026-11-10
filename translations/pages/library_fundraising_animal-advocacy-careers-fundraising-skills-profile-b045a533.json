@@ -1,25 +1,25 @@
 {
-  "content_hash": "7aae7263c17cb0efad879d5e5c0baf41f90d78edc2e351003e08f8456c2937f7",
+  "content_hash": "3a4461c59e062d48b66008b843f82bc0379be37a6f6f39d16f9f898771c8a680",
   "notion": {
     "page_id": "3a2383bb-2c1b-8122-890c-f40c15e9b203",
     "render_version": 5,
-    "synced_at": "2026-08-20T02:24:50.918051+00:00",
-    "synced_hash": "7aae7263c17cb0efad879d5e5c0baf41f90d78edc2e351003e08f8456c2937f7"
+    "synced_at": "2026-11-10T08:11:52.909147+00:00",
+    "synced_hash": "3a4461c59e062d48b66008b843f82bc0379be37a6f6f39d16f9f898771c8a680"
   },
   "review": {
-    "notes": "translated the untranslated Format field; fixed link text bracket placement",
-    "reviewed_at": "2026-08-19T19:04:29.108354+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Animal Advocacy Careers Fundraising Skills profile\n\nFormatResource collection\n\nDetails\n\nIncludes [a list of recommended resources](https://docs.google.com/spreadsheets/d/1Xj8CiPgeatwlE3E1t6xoLQQZUM4UtKRbcgOPaWDGXdY/edit#gid=1043339065) to develop skills as a fundraiser\n\nURL[https://www.animaladvocacycareers.org/skills-profiles-fundraising](https://www.animaladvocacycareers.org/skills-profiles-fundraising)\n\nURL [https://animaladvocacycareers.org/career-paths/fundraising/](https://animaladvocacycareers.org/career-paths/fundraising/)\n",
-  "source_text": "Animal Advocacy Careers Fundraising Skills profile\nFormatResource collection\nDetails\nIncludes a list of recommended resources to develop skills as a fundraiser\nURLhttps://www.animaladvocacycareers.org/skills-profiles-fundraising\nURL https://animaladvocacycareers.org/career-paths/fundraising/",
+  "source_markdown": "# Animal Advocacy Careers Fundraising Skills profile\n\nFormatResource collection\n\nCover\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/aa9e5a75-4dc4-400d-a6b2-3a2cf8835afd/hive-cover-collection.svg)\n\nDetails\n\nIncludes [a list of recommended resources](https://docs.google.com/spreadsheets/d/1Xj8CiPgeatwlE3E1t6xoLQQZUM4UtKRbcgOPaWDGXdY/edit#gid=1043339065) to develop skills as a fundraiser\n\nURL[https://www.animaladvocacycareers.org/skills-profiles-fundraising](https://www.animaladvocacycareers.org/skills-profiles-fundraising)\n\nURL [https://animaladvocacycareers.org/career-paths/fundraising/](https://animaladvocacycareers.org/career-paths/fundraising/)\n",
+  "source_text": "Animal Advocacy Careers Fundraising Skills profile\nFormatResource collection\nCover\nDetails\nIncludes a list of recommended resources to develop skills as a fundraiser\nURLhttps://www.animaladvocacycareers.org/skills-profiles-fundraising\nURL https://animaladvocacycareers.org/career-paths/fundraising/",
   "target_lang": "JA",
   "title": "Animal Advocacy Careers Fundraising Skills profile",
-  "translated_at": "2026-07-18T03:57:36.772252+00:00",
-  "translated_markdown": "# 動物保護分野のキャリア 資金調達スキル概要\n\n形式：リソース集\n\n詳細\n\n資金調達担当者としてのスキルを磨くための、[おすすめの資料一覧を](https://docs.google.com/spreadsheets/d/1Xj8CiPgeatwlE3E1t6xoLQQZUM4UtKRbcgOPaWDGXdY/edit#gid=1043339065)掲載しています\n\nURL[https://www.animaladvocacycareers.org/skills-profiles-fundraising](https://www.animaladvocacycareers.org/skills-profiles-fundraising)\n\nURL [https://animaladvocacycareers.org/career-paths/fundraising/](https://animaladvocacycareers.org/career-paths/fundraising/)\n",
-  "translated_text": "動物保護分野のキャリア 資金調達スキル概要\n形式：リソース集\n詳細\n資金調達担当者としてのスキルを磨くための、おすすめの資料一覧を掲載しています\nURLhttps://www.animaladvocacycareers.org/skills-profiles-fundraising\nURL https://animaladvocacycareers.org/career-paths/fundraising/",
+  "translated_at": "2026-11-10T08:07:09.638993+00:00",
+  "translated_markdown": "# 動物保護分野のキャリア 資金調達スキル概要\n\n形式：リソース集\n\n表紙\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/aa9e5a75-4dc4-400d-a6b2-3a2cf8835afd/hive-cover-collection.svg)\n\n詳細\n\n資金調達担当者としてのスキルを磨くための[、おすすめの資料一覧を](https://docs.google.com/spreadsheets/d/1Xj8CiPgeatwlE3E1t6xoLQQZUM4UtKRbcgOPaWDGXdY/edit#gid=1043339065)掲載しています\n\nURL[https://www.animaladvocacycareers.org/skills-profiles-fundraising](https://www.animaladvocacycareers.org/skills-profiles-fundraising)\n\nURL [https://animaladvocacycareers.org/career-paths/fundraising/](https://animaladvocacycareers.org/career-paths/fundraising/)\n",
+  "translated_text": "動物保護分野のキャリア 資金調達スキル概要\n形式：リソース集\n表紙\n詳細\n資金調達担当者としてのスキルを磨くための、おすすめの資料一覧を掲載しています\nURLhttps://www.animaladvocacycareers.org/skills-profiles-fundraising\nURL https://animaladvocacycareers.org/career-paths/fundraising/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/animal-advocacy-careers-fundraising-skills-profile"
 }
