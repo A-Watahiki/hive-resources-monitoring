@@ -7,10 +7,10 @@
     "synced_hash": "26d44d3ef8e8fddde894d0e93bd60c95f888ee81788e21f8b82a08ca16977569"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-11-10T19:13:24.739196+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Chronicle of Philanthropy\n\nFormatArticle\n\nCover\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/825caaaa-eb4d-491b-8eea-0d46543eb7b9/hive-cover-article.svg)\n\nDetails\n\nA magazine and digital platform that covers the world of philanthropy.\n\nURL[https://www.google.com/url?q=https://www.philanthropy.com/&sa=D&source=docs&ust=1707361460924761&usg=AOvVaw3BSQtpwu1hsxaMdqQunMza](https://www.google.com/url?q=https://www.philanthropy.com/&sa=D&source=docs&ust=1707361460924761&usg=AOvVaw3BSQtpwu1hsxaMdqQunMza)\n\nURL [https://www.philanthropy.com/fundraising/](https://www.philanthropy.com/fundraising/)\n",

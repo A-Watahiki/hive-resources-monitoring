@@ -7,10 +7,10 @@
     "synced_hash": "3a4461c59e062d48b66008b843f82bc0379be37a6f6f39d16f9f898771c8a680"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-11-10T19:13:24.739196+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Animal Advocacy Careers Fundraising Skills profile\n\nFormatResource collection\n\nCover\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/aa9e5a75-4dc4-400d-a6b2-3a2cf8835afd/hive-cover-collection.svg)\n\nDetails\n\nIncludes [a list of recommended resources](https://docs.google.com/spreadsheets/d/1Xj8CiPgeatwlE3E1t6xoLQQZUM4UtKRbcgOPaWDGXdY/edit#gid=1043339065) to develop skills as a fundraiser\n\nURL[https://www.animaladvocacycareers.org/skills-profiles-fundraising](https://www.animaladvocacycareers.org/skills-profiles-fundraising)\n\nURL [https://animaladvocacycareers.org/career-paths/fundraising/](https://animaladvocacycareers.org/career-paths/fundraising/)\n",
