@@ -7,10 +7,10 @@
     "synced_hash": "c9ce271ecb29bdbe5d4f18431c8dca65898170a3670926350d280494866a88a8"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-11-11T19:10:34.039119+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Liz Wheeler\n\nTagsMentoringFirst-time fundraisers\n\nCan help with\n\nMentoring, first-time fundraisers\n\nEmail[liz@faunalytics.org](mailto:liz@faunalytics.org)\n",
