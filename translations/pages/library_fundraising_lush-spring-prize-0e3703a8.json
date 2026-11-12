@@ -4,13 +4,13 @@
     "page_id": "3a2383bb-2c1b-8142-96cd-e83320434d34",
     "render_version": 5,
     "synced_at": "2026-11-05T07:57:22.439977+00:00",
-    "synced_hash": "f94fe1dfe6120f76896f279d56bd795af9b7daad41976c41f5e3acfad845358a"
+    "synced_hash": null
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "fixed",
+    "reviewed_at": "2026-11-12T19:11:07.015857+00:00",
+    "reviewer": "claude",
+    "notes": "fixed Focus field label (焦点→重点分野)"
   },
   "schema_version": 6,
   "source_markdown": "# Lush Spring Prize\n\nStatusActive\n\nFocus\n\nURL[https://springprize.org/](https://springprize.org/)\n\nGrant size in USD (if applicable)1-10k10-25k\n\nGrant cycleBiennial\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nFunds projects that contribute to social and environmental regeneration. Biennial £250k prize. The 2025 cycle was by self-nomination and closed 27 Sept 2024; the next cycle is likely 2027 (not yet confirmed). Not the same as the separate Lush Prize.\n\nWhere they post updates\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
@@ -18,8 +18,8 @@
   "target_lang": "JA",
   "title": "Lush Spring Prize",
   "translated_at": "2026-11-05T07:47:57.560977+00:00",
-  "translated_markdown": "# 「Lush Spring」賞\n\nステータス：アクティブ\n\n焦点\n\nURL[https://springprize.org/](https://springprize.org/)\n\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千\n\n助成サイクル：2年ごと\n\n応募方法：公募手続き\n\n知っておくべきこと\n\n社会および環境の再生に寄与するプロジェクトに資金を提供する。2年ごとに25万ポンドの賞金が授与される。2025年度の募集は自己推薦制で、2024年9月27日に締め切られた。次回の募集は2027年になる見込み（未確定）。別の「ラッシュ・プライズ」とは異なる。\n\n更新情報が掲載される場所\n\n最終確認日：2026年10月29日\n\n確認者\n",
-  "translated_text": "「Lush Spring」賞\nステータス：アクティブ\n焦点\nURLhttps://springprize.org/\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千\n助成サイクル：2年ごと\n応募方法：公募手続き\n知っておくべきこと\n社会および環境の再生に寄与するプロジェクトに資金を提供する。2年ごとに25万ポンドの賞金が授与される。2025年度の募集は自己推薦制で、2024年9月27日に締め切られた。次回の募集は2027年になる見込み（未確定）。別の「ラッシュ・プライズ」とは異なる。\n更新情報が掲載される場所\n最終確認日：2026年10月29日\n確認者",
+  "translated_markdown": "# 「Lush Spring」賞\n\nステータス：アクティブ\n\n重点分野\n\nURL[https://springprize.org/](https://springprize.org/)\n\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千\n\n助成サイクル：2年ごと\n\n応募方法：公募手続き\n\n知っておくべきこと\n\n社会および環境の再生に寄与するプロジェクトに資金を提供する。2年ごとに25万ポンドの賞金が授与される。2025年度の募集は自己推薦制で、2024年9月27日に締め切られた。次回の募集は2027年になる見込み（未確定）。別の「ラッシュ・プライズ」とは異なる。\n\n更新情報が掲載される場所\n\n最終確認日：2026年10月29日\n\n確認者\n",
+  "translated_text": "「Lush Spring」賞\nステータス：アクティブ\n重点分野\nURLhttps://springprize.org/\n助成金額（米ドル、該当する場合）：1千～1万、1万～2万5千\n助成サイクル：2年ごと\n応募方法：公募手続き\n知っておくべきこと\n社会および環境の再生に寄与するプロジェクトに資金を提供する。2年ごとに25万ポンドの賞金が授与される。2025年度の募集は自己推薦制で、2024年9月27日に締め切られた。次回の募集は2027年になる見込み（未確定）。別の「ラッシュ・プライズ」とは異なる。\n更新情報が掲載される場所\n最終確認日：2026年10月29日\n確認者",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/lush-spring-prize"
 }
