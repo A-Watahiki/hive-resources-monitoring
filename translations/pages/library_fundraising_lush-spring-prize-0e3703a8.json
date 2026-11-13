@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8142-96cd-e83320434d34",
     "render_version": 5,
-    "synced_at": "2026-11-05T07:57:22.439977+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-13T07:48:26.687660+00:00",
+    "synced_hash": "f94fe1dfe6120f76896f279d56bd795af9b7daad41976c41f5e3acfad845358a"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus field label (焦点→重点分野)",
     "reviewed_at": "2026-11-12T19:11:07.015857+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus field label (焦点→重点分野)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Lush Spring Prize\n\nStatusActive\n\nFocus\n\nURL[https://springprize.org/](https://springprize.org/)\n\nGrant size in USD (if applicable)1-10k10-25k\n\nGrant cycleBiennial\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nFunds projects that contribute to social and environmental regeneration. Biennial £250k prize. The 2025 cycle was by self-nomination and closed 27 Sept 2024; the next cycle is likely 2027 (not yet confirmed). Not the same as the separate Lush Prize.\n\nWhere they post updates\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
