@@ -7,10 +7,10 @@
     "synced_hash": "d2506028e02028c2adaf083e78ceb8f3981a581afa0b8de5a73d40befb7e191f"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-11-13T19:10:56.428640+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Multiple videos on fundraising from the CARE conferences\n\nFormatWebinar\n\nCover\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/50464d97-ac91-4e80-a860-2c1f63932276/hive-cover-webinar.svg)\n\nDetails\n\nURL[https://www.youtube.com/@careconferenceonanimalrigh7431/search](https://www.youtube.com/@careconferenceonanimalrigh7431/search)\n\nURL [https://www.youtube.com/@careconferenceonanimalrigh7431/videos](https://www.youtube.com/@careconferenceonanimalrigh7431/videos)\n",

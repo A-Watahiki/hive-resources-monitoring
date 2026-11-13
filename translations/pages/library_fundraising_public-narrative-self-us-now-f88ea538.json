@@ -7,10 +7,10 @@
     "synced_hash": "cb09021314196d05e4335f94a1f6b505583c688c83419b8b87bd2a98f6df6c6c"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-11-13T19:10:56.428640+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Public narrative: Self, us, now\n\nFormatArticle\n\nCover\n\n![image](https://super-site-assets.s3.eu-central-003.backblazeb2.com/859efb58-1a88-4b95-b922-9e137bc700aa/images/825caaaa-eb4d-491b-8eea-0d46543eb7b9/hive-cover-article.svg)\n\nDetails\n\nAn article from HBR about better storytelling.\n\nURL[https://dash.harvard.edu/bitstream/handle/1/30760283/Public-Narrative-Worksheet-Fall-2013-.pdf?sequence=1&isAllowed=y](https://dash.harvard.edu/bitstream/handle/1/30760283/Public-Narrative-Worksheet-Fall-2013-.pdf?sequence=1&isAllowed=y)\n\nURL [https://dash.harvard.edu/server/api/core/bitstreams/7312037d-c817-6bd4-e053-0100007fdf3b/content](https://dash.harvard.edu/server/api/core/bitstreams/7312037d-c817-6bd4-e053-0100007fdf3b/content)\n",
