@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8184-bb82-f70365c4bc94",
     "render_version": 5,
-    "synced_at": "2026-11-05T07:57:49.176413+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-14T07:33:20.467309+00:00",
+    "synced_hash": "abfe8dbfcf83268e71354241a14b20944dc3a102b3c0244d12fb9140e1f36718"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus field label (焦点→重点分野)",
     "reviewed_at": "2026-11-13T19:10:56.428640+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus field label (焦点→重点分野)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# Strategic Animal Funding Circle\n\nStatusActive\n\nFocus\n\nURL[https://www.animalfundingcircle.com/](https://www.animalfundingcircle.com/)\n\nGrant size in USD (if applicable)\n\nGrant cycleTwice a year\n\nHow to applyOpen Application Process\n\nWhat you need to know\n\nA project of Senterra Funders and AIM (Ambitious Impact), founded in 2024, supporting promising animal-focused nonprofits with strategic funding. Two rounds a year; the current round's deadline is 1 Nov 2026 (11:59pm PST), with decisions by early December. Must be a registered nonprofit or fiscally sponsored. Prefers organizations under 4 years old or with budgets under $500k, and requests under $200k (preferences, not strict limits).\n\nWhere they post updates\n\nEA Forum: [https://forum.effectivealtruism.org/topics/strategic-animal-funding-circle](https://forum.effectivealtruism.org/topics/strategic-animal-funding-circle)\n\nLast checkedOctober 29, 2026\n\nChecked by\n",
