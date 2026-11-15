@@ -4,27 +4,6 @@
       "added": [],
       "changed": [
         {
-          "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Grants and foundations\n@@ -12,12 +12,20 @@\n The Shaw Family Charitable Trust\n The Shaw Family Charitable Trust\n+Status\n+Active\n Focus\n-Grant cycle\n+URL\n+https://www.shawfamilycharitable.org/\n Grant size in USD (if applicable)\n < 1k\n 1-10k\n 10-25k\n-URL\n-https://www.shawfamilycharitable.org/\n+Grant cycle\n+How to apply\n What you need to know\n-Grants for US 501c3s only; past grantees include farm sanctuaries.  In 2026, applicants are encouraged to submit proposals up to $25,000.\n+US only. Funds nonprofit organizations in the United States that work to meaningfully improve the lives of animals; the site focuses on animal rescue and neglected animals. Not verified as of Oct 2026: a 501(c)(3) requirement, farm sanctuary grantees, and guidance to request up to $25k in 2026. Contact:\n+info@ShawFamilyCharitable.org\n+.\n+Where they post updates\n+Last checked\n+Checked by",
-          "diff_lines_omitted": 0,
-          "title": "The Shaw Family Charitable Trust",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/the-shaw-family-charitable-trust"
-        },
-        {
-          "diff": "--- before\n+++ after\n@@ -6,20 +6,31 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Coefficient Giving (formerly Open Philanthropy)\n Coefficient Giving (formerly Open Philanthropy)\n+Status\n+Active\n Focus\n Underfunded regions\n Cage-free work\n Alternative protein\n-Grant cycle\n+URL\n+https://coefficientgiving.org/funds/farm-animal-welfare/the-farm-animal-welfare-grantee-experience/\n Grant size in USD (if applicable)\n > 25k\n > 100k\n-URL\n-https://coefficientgiving.org/funds/farm-animal-welfare/\n+Grant cycle\n+Year round\n+How to apply\n+Expression of Interest Possible\n What you need to know\n-They accept very few unsolicited applications and are likely to approach you if they think your project is a good fit. You can be asked to be referred by another community member if you think your project might be considered. To learn more about what they are interested it, check out\n-their latest grants\n-.\n+“We generally don't fund unsolicited proposals unless they are closely aligned with our strategic priorities.” Send a pitch email to\n+info@coefficientgiving.org\n+first; if there's a fit, they may invite a full application (two-year budget, past achievements, two-year goals). Applications are reviewed on a rolling basis; a decision can take up to 3 months after a full application. Grants usually run 2 years; experimental grants are capped at $300k. They also run occasional open RFPs (2026: humane fish slaughter and alternative protein R&D, both closed). To learn more about what they are interested in, check out their latest grants.\n+Where they post updates\n+Farm animal welfare newsletter:\n+https://farmanimalwelfare.substack.com/\n+Last checked\n+October 29, 2026\n+Checked by",
-          "diff_lines_omitted": 0,
-          "title": "Coefficient Giving (formerly Open Philanthropy)",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising/open-philanthropy"
-        }
-      ],
-      "detected_at": "2026-11-02T05:20:16.426756+00:00",
-      "removed": []
-    },
-    {
-      "added": [],
-      "changed": [
-        {
           "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Fundraising Essentials course by Anima International\n@@ -12,4 +12,5 @@\n Format\n Course\n+Cover\n Details\n Free, self-paced course.",
           "diff_lines_omitted": 0,
           "title": "Fundraising Essentials course by Anima International",
@@ -446,6 +425,20 @@
         }
       ],
       "detected_at": "2026-11-13T05:58:48.149214+00:00",
+      "removed": []
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Professional development courses for fundraisers (EA Forum resource collection)\n@@ -12,4 +12,5 @@\n Format\n Resource collection\n+Cover\n Details\n A list of free online fundraising resources from Candid Learning.",
+          "diff_lines_omitted": 0,
+          "title": "Professional development courses for fundraisers (EA Forum resource collection)",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/professional-development-courses-for-fundraisers-ea-forum-resource-collection"
+        }
+      ],
+      "detected_at": "2026-11-15T05:45:48.162467+00:00",
       "removed": []
     }
   ]
