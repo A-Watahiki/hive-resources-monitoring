@@ -4,20 +4,6 @@
       "added": [],
       "changed": [
         {
-          "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Funding Dynamics in Farmed Animal Advocacy\n@@ -12,4 +12,5 @@\n Format\n Article\n+Cover\n Details\n URL",
-          "diff_lines_omitted": 0,
-          "title": "Funding Dynamics in Farmed Animal Advocacy",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising/funding-dynamics-in-farmed-animal-advocacy"
-        }
-      ],
-      "detected_at": "2026-11-06T05:55:54.126504+00:00",
-      "removed": []
-    },
-    {
-      "added": [],
-      "changed": [
-        {
           "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Development, Data, And The Psychology Of Giving\n@@ -12,4 +12,5 @@\n Format\n Article\n+Cover\n Details\n URL",
           "diff_lines_omitted": 0,
           "title": "Development, Data, And The Psychology Of Giving",
@@ -201,6 +187,27 @@
         }
       ],
       "detected_at": "2026-11-18T06:47:09.390597+00:00",
+      "removed": []
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -27,8 +27,12 @@\n . For incubated charities only: you need to apply and be accepted into the Incubation Program to be eligible for this funding, and this usually means building from an AIM-researched idea, as they are less excited about existing ideas.\n Where they post updates\n-Sign up to their newsletter at\n+Newsletter:\n ambitiousimpact.com\n-and follow them on LinkedIn and\n-https://ambitiousimpact.substack.com/\n+; Substack: h\n+ttps://ambitiousimpact.substack.com/\n+; LinkedIn:\n+https://www.linkedin.com/company/ambitiousimpact/posts/\n+; EA Forum:\n+https://forum.effectivealtruism.org/users/ambitious-impact?from=search_autocomplete\n Last checked\n October 29, 2026",
+          "diff_lines_omitted": 0,
+          "title": "AIM (Ambitious Impact) – Charity Entrepreneurship Incubation Program",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/charity-entrepreneurship-seed-fund"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -29,6 +29,7 @@\n Regranting fund for mainly grassroots projects in Asia shifting diets or menus toward plant-based food (e.g. leafleting, food sampling, restaurant partnerships). Favours Global Majority and marginalized groups, women- and gender-minority-led groups, and less-supported regions; local languages accepted. Rounds ran in 2023, 2024 and 2026 (2026 round: $500–$5,000, closed 30 Jun 2026). No next round announced as of Oct 2026.\n Where they post updates\n-Follow them on LinkedIn\n+LinkedIn\n https://www.linkedin.com/company/animal-alliance-asia/\n+Website:\n Last checked\n October 29, 2026",
+          "diff_lines_omitted": 0,
+          "title": "Animal Alliance Asia – ReRoot Asia Fund",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/grants-and-foundations/animal-alliance-asia-reroot-asia-fund"
+        }
+      ],
+      "detected_at": "2026-11-19T06:48:39.751229+00:00",
       "removed": []
     }
   ]
