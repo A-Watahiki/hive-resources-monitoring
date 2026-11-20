@@ -1,25 +1,25 @@
 {
-  "content_hash": "1f2cdda01d5f43a589d4a20566e161bff8c72a2200b9140ed1b38568f72b211e",
+  "content_hash": "2c7789117c13062faf1cd8a5c5c6e64f29766c8b96acdf5c8a33ee9c7f3a0095",
   "notion": {
     "page_id": "3a2383bb-2c1b-81bb-8080-ec9b7a43a4dc",
     "render_version": 5,
-    "synced_at": "2026-08-30T06:28:33.780853+00:00",
-    "synced_hash": "1f2cdda01d5f43a589d4a20566e161bff8c72a2200b9140ed1b38568f72b211e"
+    "synced_at": "2026-11-20T08:20:42.353739+00:00",
+    "synced_hash": "2c7789117c13062faf1cd8a5c5c6e64f29766c8b96acdf5c8a33ee9c7f3a0095"
   },
   "review": {
-    "notes": "fixed brand name \"Nonprofit Tech for Good\" mistranslated as generic phrase 社会貢献を目的とした非営利のテクノロジー in the body heading; translated the untranslated Format field",
-    "reviewed_at": "2026-08-29T19:04:37.941360+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Nonprofit Tech for Good\n\nFormatResource collection\n\nDetails\n\nA website for digital fundraising professionals, covering topics like how to optimise your website for fundraising and running digital campaigns.\n\nURL[https://bit.ly/38rKPKu](https://bit.ly/38rKPKu)\n\nURL [https://www.nptechforgood.com/](https://www.nptechforgood.com/)\n",
-  "source_text": "Nonprofit Tech for Good\nFormatResource collection\nDetails\nA website for digital fundraising professionals, covering topics like how to optimise your website for fundraising and running digital campaigns.\nURLhttps://bit.ly/38rKPKu\nURL https://www.nptechforgood.com/",
+  "source_markdown": "# Nonprofit Tech for Good\n\nFormatResource collection\n\nCover\n\n![image](https://assets.super.so/859efb58-1a88-4b95-b922-9e137bc700aa/images/aa9e5a75-4dc4-400d-a6b2-3a2cf8835afd/hive-cover-collection.svg)\n\nDetails\n\nA website for digital fundraising professionals, covering topics like how to optimise your website for fundraising and running digital campaigns.\n\nURL[https://bit.ly/38rKPKu](https://bit.ly/38rKPKu)\n\nURL [https://www.nptechforgood.com/](https://www.nptechforgood.com/)\n",
+  "source_text": "Nonprofit Tech for Good\nFormatResource collection\nCover\nDetails\nA website for digital fundraising professionals, covering topics like how to optimise your website for fundraising and running digital campaigns.\nURLhttps://bit.ly/38rKPKu\nURL https://www.nptechforgood.com/",
   "target_lang": "JA",
   "title": "Nonprofit Tech for Good",
-  "translated_at": "2026-07-19T04:23:46.700581+00:00",
-  "translated_markdown": "# Nonprofit Tech for Good\n\n形式：リソース集\n\n詳細\n\nデジタル資金調達に携わる専門家向けのウェブサイトで、資金調達に向けたウェブサイトの最適化方法やデジタルキャンペーンの実施方法などのトピックを取り上げています。\n\nURL[https://bit.ly/38rKPKu](https://bit.ly/38rKPKu)\n\nURL [https://www.nptechforgood.com/](https://www.nptechforgood.com/)\n",
-  "translated_text": "Nonprofit Tech for Good\n形式：リソース集\n詳細\nデジタル資金調達に携わる専門家向けのウェブサイトで、資金調達に向けたウェブサイトの最適化方法やデジタルキャンペーンの実施方法などのトピックを取り上げています。\nURLhttps://bit.ly/38rKPKu\nURL https://www.nptechforgood.com/",
+  "translated_at": "2026-11-20T08:14:10.183064+00:00",
+  "translated_markdown": "# Nonprofit Tech for Good\n\n形式：リソース集\n\n表紙\n\n![image](https://assets.super.so/859efb58-1a88-4b95-b922-9e137bc700aa/images/aa9e5a75-4dc4-400d-a6b2-3a2cf8835afd/hive-cover-collection.svg)\n\n詳細\n\nデジタル資金調達に携わる専門家向けのウェブサイトで、資金調達に向けたウェブサイトの最適化方法やデジタルキャンペーンの実施方法などのトピックを取り上げています。\n\nURL[https://bit.ly/38rKPKu](https://bit.ly/38rKPKu)\n\nURL [https://www.nptechforgood.com/](https://www.nptechforgood.com/)\n",
+  "translated_text": "Nonprofit Tech for Good\n形式：リソース集\n表紙\n詳細\nデジタル資金調達に携わる専門家向けのウェブサイトで、資金調達に向けたウェブサイトの最適化方法やデジタルキャンペーンの実施方法などのトピックを取り上げています。\nURLhttps://bit.ly/38rKPKu\nURL https://www.nptechforgood.com/",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/nonprofit-tech-for-good"
 }

@@ -3,14 +3,14 @@
   "notion": {
     "page_id": "3a2383bb-2c1b-8123-b91b-d0e7e1d8c6f5",
     "render_version": 5,
-    "synced_at": "2026-11-19T08:36:59.133129+00:00",
-    "synced_hash": null
+    "synced_at": "2026-11-20T08:20:27.703331+00:00",
+    "synced_hash": "9e1ff2f17279fd0df21751169a124dfa0657e8617a39c8eb20758f91a2cda29c"
   },
   "review": {
-    "status": "fixed",
+    "notes": "fixed Focus field label (焦点→重点分野), a garbled sentence, and a malformed markdown link bracket (all had regressed from a previous fix after re-translation)",
     "reviewed_at": "2026-11-19T19:09:12.611914+00:00",
     "reviewer": "claude",
-    "notes": "fixed Focus field label (焦点→重点分野), a garbled sentence, and a malformed markdown link bracket (all had regressed from a previous fix after re-translation)"
+    "status": "fixed"
   },
   "schema_version": 6,
   "source_markdown": "# AIM (Ambitious Impact) – Charity Entrepreneurship Incubation Program\n\nStatusActive\n\nFocus\n\nURL[https://www.ambitiousimpact.com/](https://www.ambitiousimpact.com/)\n\nGrant size in USD (if applicable)> 25k> 100k\n\nGrant cycle\n\nHow to apply\n\nWhat you need to know\n\nCharity Entrepreneurship is now AIM (Ambitious Impact); the old [charityentrepreneurship.com](http://charityentrepreneurship.com) domain redirects to [ambitiousimpact.com](http://ambitiousimpact.com). For incubated charities only: you need to apply and be accepted into the Incubation Program to be eligible for this funding, and this usually means building from an AIM-researched idea, as they are less excited about existing ideas.\n\nWhere they post updates\n\nNewsletter: [ambitiousimpact.com](http://ambitiousimpact.com); Substack: h[ttps://ambitiousimpact.substack.com/](https://ambitiousimpact.substack.com/); LinkedIn: [https://www.linkedin.com/company/ambitiousimpact/posts/](https://www.linkedin.com/company/ambitiousimpact/posts/); EA Forum: [https://forum.effectivealtruism.org/users/ambitious-impact?from=search_autocomplete](https://forum.effectivealtruism.org/users/ambitious-impact?from=search_autocomplete)\n\nLast checkedOctober 29, 2026\n\nChecked byMegan\n",

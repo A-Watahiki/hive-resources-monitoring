@@ -1,25 +1,25 @@
 {
-  "content_hash": "42b71a5ffd12700662d0f2fe513ca23a4f56d0830b7b8d77b5d5081899a4faa9",
+  "content_hash": "09c082d4140160e5601987c132dedba11712416d54e57683d4a79f0411c0f84b",
   "notion": {
     "page_id": "3a2383bb-2c1b-816f-8c16-e47b54bed326",
     "render_version": 5,
-    "synced_at": "2026-08-25T02:24:38.222852+00:00",
-    "synced_hash": "42b71a5ffd12700662d0f2fe513ca23a4f56d0830b7b8d77b5d5081899a4faa9"
+    "synced_at": "2026-11-20T08:20:34.556488+00:00",
+    "synced_hash": "09c082d4140160e5601987c132dedba11712416d54e57683d4a79f0411c0f84b"
   },
   "review": {
-    "notes": "reordered Format field to match label:value convention (形式：ウェビナー)",
-    "reviewed_at": "2026-08-24T19:04:12.427392+00:00",
-    "reviewer": "claude",
-    "status": "fixed"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
-  "source_markdown": "# Fundraising Training Series (multiple videos)\n\nFormatWebinar\n\nDetails\n\nURL[https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H](https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H)\n\nURL [https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H](https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H)\n",
-  "source_text": "Fundraising Training Series (multiple videos)\nFormatWebinar\nDetails\nURLhttps://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H\nURL https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H",
+  "source_markdown": "# Fundraising Training Series (multiple videos)\n\nFormatWebinar\n\nCover\n\n![image](https://assets.super.so/859efb58-1a88-4b95-b922-9e137bc700aa/images/50464d97-ac91-4e80-a860-2c1f63932276/hive-cover-webinar.svg)\n\nDetails\n\nURL[https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H](https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H)\n\nURL [https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H](https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H)\n",
+  "source_text": "Fundraising Training Series (multiple videos)\nFormatWebinar\nCover\nDetails\nURLhttps://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H\nURL https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H",
   "target_lang": "JA",
   "title": "Fundraising Training Series (multiple videos)",
-  "translated_at": "2026-08-10T03:13:01.055592+00:00",
-  "translated_markdown": "# 資金調達トレーニングシリーズ（複数の動画）\n\n形式：ウェビナー\n\n詳細\n\nURL[https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H](https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H)\n\nURL [https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H](https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H)\n",
-  "translated_text": "資金調達トレーニングシリーズ（複数の動画）\n形式：ウェビナー\n詳細\nURLhttps://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H\nURL https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H",
+  "translated_at": "2026-11-20T08:14:10.183064+00:00",
+  "translated_markdown": "# 資金調達トレーニングシリーズ（複数の動画）\n\n形式：ウェビナー\n\n表紙\n\n![image](https://assets.super.so/859efb58-1a88-4b95-b922-9e137bc700aa/images/50464d97-ac91-4e80-a860-2c1f63932276/hive-cover-webinar.svg)\n\n詳細\n\nURL[https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H](https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H)\n\nURL [https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H](https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H)\n",
+  "translated_text": "資金調達トレーニングシリーズ（複数の動画）\n形式：ウェビナー\n表紙\n詳細\nURLhttps://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H\nURL https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H",
   "translator": "deepl",
   "url": "https://resources.joinhive.org/library/fundraising/fundraising-training-series-multiple-videos"
 }
