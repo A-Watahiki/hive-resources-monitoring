@@ -4,27 +4,6 @@
       "added": [],
       "changed": [
         {
-          "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Development, Data, And The Psychology Of Giving\n@@ -12,4 +12,5 @@\n Format\n Article\n+Cover\n Details\n URL",
-          "diff_lines_omitted": 0,
-          "title": "Development, Data, And The Psychology Of Giving",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising/development-data-and-the-psychology-of-giving"
-        },
-        {
-          "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Donorbox webinars\n@@ -12,4 +12,5 @@\n Format\n Webinar\n+Cover\n Details\n Donorbox is an online platform that facilitates online donations.",
-          "diff_lines_omitted": 0,
-          "title": "Donorbox webinars",
-          "translation_pending": true,
-          "url": "https://resources.joinhive.org/library/fundraising/donorbox-webinars"
-        }
-      ],
-      "detected_at": "2026-11-07T05:29:34.208755+00:00",
-      "removed": []
-    },
-    {
-      "added": [],
-      "changed": [
-        {
           "diff": "--- before\n+++ after\n@@ -1,3 +1,3 @@\n-Asia for Animals Conference\n+Asia for Animals Coalition Conference 2027\n Hive Community Homepage\n /\n@@ -11,11 +11,13 @@\n Pro-Animal Conferences Database\n /\n-Asia for Animals Conference\n-Asia for Animals Conference\n+Asia for Animals Coalition Conference 2027\n+Asia for Animals Coalition Conference 2027\n City\n+Seoul\n Country\n+South Korea\n Date TBD\n Description\n-Since 2000, AfA Conferences have been co-hosted every two years by AfA member organizations. The AfA conference is Asia's longest-running animal advocacy gathering.\n+September 27 - October 1, 2027, in Seoul, South Korea. Since 2000, AfA Conferences have been co-hosted every two years by AfA member organizations. The AfA conference is Asia's longest-running animal advocacy gathering.\n This event creates opportunities for interaction and knowledge exchange among organizations in the Asian animal advocacy movement, offering delegates a chance to network, collaborate, and catalyze change moving forward. Through engaging panels, breakout sessions, and immersive workshops, participants explore strategies for overcoming challenges, transforming ideas into strategic priorities, and enhancing campaigns on key animal protection issues.\n Past talks and takeaways",
           "diff_lines_omitted": 0,
           "title": "Asia for Animals Coalition Conference 2027",
@@ -208,6 +187,48 @@
         }
       ],
       "detected_at": "2026-11-19T06:48:39.751229+00:00",
+      "removed": []
+    },
+    {
+      "added": [],
+      "changed": [
+        {
+          "diff": "--- before\n+++ after\n@@ -501,5 +501,5 @@\n 🐓\n All Conferences\n-9\n+10\n views\n 🐓\n@@ -507,4 +507,6 @@\n 🐓\n Calendar\n+🐓\n+Timeline\n 🐓\n Alt Protein",
+          "diff_lines_omitted": 0,
+          "title": "Conferences Database: Farmed Animal Advocacy",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/conferences"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -21,5 +21,5 @@\n 🐓\n All Conferences\n-9\n+10\n views\n 🐓\n@@ -27,4 +27,6 @@\n 🐓\n Calendar\n+🐓\n+Timeline\n 🐓\n Alt Protein",
+          "diff_lines_omitted": 0,
+          "title": "Pro-Animal Conferences Database",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/conferences/pro-animal-conferences-database?v=e807a74183814721990570dfa1ee93a1"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -27,5 +27,6 @@\n Funds research across a variety of disciplines and methods that has clear potential to benefit animals, either directly or through effecting systems-level change. The 2026 round ran 10 Apr – 10 Jul and has closed. Applicants must be US-based public or private entities; individuals can't apply. Canadian public universities and public bodies can apply only if the research can improve animal welfare in the US. Farm animal welfare grants are capped at $75k.\n Where they post updates\n-Suggest subscribing to their newsletter on their website\n+Sign up for updates on their website:\n+https://www.aspcapro.org/grant/2025/03/17/2026-aspca-research-grants\n Last checked\n October 29, 2026",
+          "diff_lines_omitted": 0,
+          "title": "ASPCA Research Grants",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/aspca-research-grants"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Fundraising Training Series (multiple videos)\n@@ -12,4 +12,5 @@\n Format\n Webinar\n+Cover\n Details\n URL",
+          "diff_lines_omitted": 0,
+          "title": "Fundraising Training Series (multiple videos)",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/fundraising-training-series-multiple-videos"
+        },
+        {
+          "diff": "--- before\n+++ after\n@@ -6,5 +6,5 @@\n /\n 💰\n-Fundraising Guide\n+Hive’s Fundraising Guide for Farmed Animal Advocacy\n /\n Nonprofit Tech for Good\n@@ -12,4 +12,5 @@\n Format\n Resource collection\n+Cover\n Details\n A website for digital fundraising professionals, covering topics like how to optimise your website for fundraising and running digital campaigns.",
+          "diff_lines_omitted": 0,
+          "title": "Nonprofit Tech for Good",
+          "translation_pending": true,
+          "url": "https://resources.joinhive.org/library/fundraising/nonprofit-tech-for-good"
+        }
+      ],
+      "detected_at": "2026-11-20T06:36:50.995435+00:00",
       "removed": []
     }
   ]
