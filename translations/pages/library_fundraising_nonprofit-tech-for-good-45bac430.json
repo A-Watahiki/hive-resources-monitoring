@@ -7,10 +7,10 @@
     "synced_hash": "2c7789117c13062faf1cd8a5c5c6e64f29766c8b96acdf5c8a33ee9c7f3a0095"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-11-20T19:08:55.321494+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found; brand name correctly kept in English"
   },
   "schema_version": 6,
   "source_markdown": "# Nonprofit Tech for Good\n\nFormatResource collection\n\nCover\n\n![image](https://assets.super.so/859efb58-1a88-4b95-b922-9e137bc700aa/images/aa9e5a75-4dc4-400d-a6b2-3a2cf8835afd/hive-cover-collection.svg)\n\nDetails\n\nA website for digital fundraising professionals, covering topics like how to optimise your website for fundraising and running digital campaigns.\n\nURL[https://bit.ly/38rKPKu](https://bit.ly/38rKPKu)\n\nURL [https://www.nptechforgood.com/](https://www.nptechforgood.com/)\n",

@@ -7,10 +7,10 @@
     "synced_hash": "09c082d4140160e5601987c132dedba11712416d54e57683d4a79f0411c0f84b"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-11-20T19:08:55.321494+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Fundraising Training Series (multiple videos)\n\nFormatWebinar\n\nCover\n\n![image](https://assets.super.so/859efb58-1a88-4b95-b922-9e137bc700aa/images/50464d97-ac91-4e80-a860-2c1f63932276/hive-cover-webinar.svg)\n\nDetails\n\nURL[https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H](https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H)\n\nURL [https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H](https://www.youtube.com/playlist?list=PL7Aqf8_O2-KH-iko_WLpYlXBIJ1oUTa0H)\n",
