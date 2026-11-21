@@ -7,10 +7,10 @@
     "synced_hash": "8f0fee37e92c10d440ff4819dabebdd4589338fc616a6b41f0df23bab01aa429"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-11-21T19:08:47.238597+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found; brand name correctly kept in English"
   },
   "schema_version": 6,
   "source_markdown": "# Give Momentum\n\nFormatResource collection\n\nCover\n\n![image](https://assets.super.so/859efb58-1a88-4b95-b922-9e137bc700aa/images/aa9e5a75-4dc4-400d-a6b2-3a2cf8835afd/hive-cover-collection.svg)\n\nDetails\n\n“\\[…\\] we're creating tools designed around the way charities want to communicate with their donors, so they can spend more time on what matters”\n\nURL[https://www.givemomentum.com/about-us/about-us](https://www.givemomentum.com/about-us/about-us)\n\nURL [https://givemomentum.com/resources/blog/](https://givemomentum.com/resources/blog/)\n",
