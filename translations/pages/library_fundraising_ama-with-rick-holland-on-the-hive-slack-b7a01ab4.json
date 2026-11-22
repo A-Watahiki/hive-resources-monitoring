@@ -7,10 +7,10 @@
     "synced_hash": "1ca3ba332ac2355ba2aedf4866fc874563dcc783ee82c7309bc5176a563ec8c0"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-11-22T19:09:01.798113+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# AMA with Rick Holland (on the Hive Slack)\n\nFormatArticle\n\nCover\n\n![image](https://assets.super.so/859efb58-1a88-4b95-b922-9e137bc700aa/images/825caaaa-eb4d-491b-8eea-0d46543eb7b9/hive-cover-article.svg)\n\nDetails\n\nFundraising expert Rick Holland answered the community questions about fundraising on the Hive Slack.\n\nURL[https://impactfulanimal.slack.com/archives/C05KQ0JST6D/p1695896871519029](https://impactfulanimal.slack.com/archives/C05KQ0JST6D/p1695896871519029)\n\nURL [https://join-hive.slack.com/archives/C05KQ0JST6D/p1695896871519029](https://join-hive.slack.com/archives/C05KQ0JST6D/p1695896871519029)\n",

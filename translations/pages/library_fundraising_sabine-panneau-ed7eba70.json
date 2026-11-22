@@ -7,10 +7,10 @@
     "synced_hash": "d5a1fbe4daa00eb7361718579d282205d0833d833cdbf5b60d4e817da0a48ad8"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-11-22T19:09:01.798113+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Sabine Panneau\n\nTagsMentoringFirst-time fundraisersFundraising strategy\n\nCan help with\n\nStrategy, proposals, CRM, email marketing, online fundraising, mindset etc.\n\nEmail[sabine@sabinefep.com](mailto:sabine@sabinefep.com)\n",
