@@ -7,10 +7,10 @@
     "synced_hash": "b417358518232fd442b6d0d7ccd0c23bb522239cf1feecb3d8b8cef3d6f6d4b6"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-11-23T19:09:34.097352+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Eva Yoe\n\nTagsFundraising strategy\n\nCan help with\n\nCan help with fundraising and development strategy, organization restructuring, outreach, campaign and program creation\n\nEmail[evahnyoe@gmail.com](mailto:evahnyoe@gmail.com)\n",
