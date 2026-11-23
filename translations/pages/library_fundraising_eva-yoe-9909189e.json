@@ -1,23 +1,23 @@
 {
-  "content_hash": "ed6cf0326c9424ba637f2a4338a359dc5c4bf854818f87f81e7888ab96df81e3",
+  "content_hash": "b417358518232fd442b6d0d7ccd0c23bb522239cf1feecb3d8b8cef3d6f6d4b6",
   "notion": {
     "page_id": "3a2383bb-2c1b-81a8-918c-cc9a5c5457f8",
     "render_version": 5,
-    "synced_at": "2026-07-19T23:37:17.998251+00:00",
-    "synced_hash": "ed6cf0326c9424ba637f2a4338a359dc5c4bf854818f87f81e7888ab96df81e3"
+    "synced_at": "2026-11-23T08:49:38.740633+00:00",
+    "synced_hash": "b417358518232fd442b6d0d7ccd0c23bb522239cf1feecb3d8b8cef3d6f6d4b6"
   },
   "review": {
-    "status": "reviewed",
-    "reviewed_at": "2026-08-22T19:03:49.352732+00:00",
-    "reviewer": "claude",
-    "notes": "no issues found"
+    "notes": "",
+    "reviewed_at": null,
+    "reviewer": null,
+    "status": "unreviewed"
   },
   "schema_version": 6,
   "source_markdown": "# Eva Yoe\n\nTagsFundraising strategy\n\nCan help with\n\nCan help with fundraising and development strategy, organization restructuring, outreach, campaign and program creation\n\nEmail[evahnyoe@gmail.com](mailto:evahnyoe@gmail.com)\n",
   "source_text": "Eva Yoe\nTagsFundraising strategy\nCan help with\nCan help with fundraising and development strategy, organization restructuring, outreach, campaign and program creation\nEmailevahnyoe@gmail.com",
   "target_lang": "JA",
   "title": "Eva Yoe",
-  "translated_at": "2026-07-18T03:57:36.772252+00:00",
+  "translated_at": "2026-11-23T08:45:28.010440+00:00",
   "translated_markdown": "# エヴァ・ヨー\n\nタグ：資金調達戦略\n\n以下のことにお役立ていただけます\n\n資金調達や事業開発戦略、組織再編、広報活動、キャンペーンやプログラムの策定を支援できます\n\nEmail[evahnyoe@gmail.com](mailto:evahnyoe@gmail.com)\n",
   "translated_text": "エヴァ・ヨー\nタグ：資金調達戦略\n以下のことにお役立ていただけます\n資金調達や事業開発戦略、組織再編、広報活動、キャンペーンやプログラムの策定を支援できます\nEmailevahnyoe@gmail.com",
   "translator": "deepl",
