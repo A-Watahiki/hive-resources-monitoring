@@ -7,10 +7,10 @@
     "synced_hash": "d026c1aeb236ba4a1a8fee8a87a688efb95a5428f5ff4ceeee85bda6068292e9"
   },
   "review": {
-    "notes": "",
-    "reviewed_at": null,
-    "reviewer": null,
-    "status": "unreviewed"
+    "status": "reviewed",
+    "reviewed_at": "2026-11-27T19:09:27.104889+00:00",
+    "reviewer": "claude",
+    "notes": "no issues found"
   },
   "schema_version": 6,
   "source_markdown": "# Rick Holland\n\nTagsMentoringFirst-time fundraisersExperienced fundraisersCan discuss any fundraising topic\n\nCan help with\n\nAnything to do with fundraising - always happy to have a conversation. Can offer some pro-bono support to limited number of charities.\n\nEmail[rick.holland@confidentphilanthropy.co.uk](mailto:rick.holland@confidentphilanthropy.co.uk)\n",
